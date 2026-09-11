@@ -17,7 +17,7 @@ on:
         default: 'both'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -55,10 +55,25 @@ jobs:
         run: |
           python main.py --channel ${{ inputs.channel || 'both' }} --exam ${{ inputs.exam || 'all' }} --save-html daily_digest.html
 
-      - name: Prepare Pages folder
+      - name: Archive today's digest and rebuild manifest
         run: |
-          mkdir -p docs
-          cp daily_digest.html docs/index.html
+          mkdir -p docs/archive
+          DATE=$(date -u +%F)
+          cp daily_digest.html "docs/archive/${DATE}.html"
+          python3 -c "
+          import os, json
+          files = sorted(f[:-5] for f in os.listdir('docs/archive') if f.endswith('.html'))
+          with open('docs/archive/manifest.json', 'w') as fh:
+              json.dump(files, fh)
+          "
+
+      - name: Commit archive back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/archive
+          git diff --cached --quiet || git commit -m "Archive digest for $(date -u +%F)"
+          git push
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
