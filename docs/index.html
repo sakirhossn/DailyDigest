@@ -41,50 +41,170 @@
     color:var(--slate);
     font-size:13px;
   }
-  /* Laptop / desktop: drop the heading entirely, keep just the control bar */
   @media (min-width:700px){
     header h1, header p{display:none;}
-    header{padding:14px clamp(20px,3vw,40px);}
+    header{display:none;}
   }
 
-  .controls{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    flex-wrap:wrap;
-    padding:14px clamp(14px,3vw,40px);
+  .layout{
+    display:grid;
+    grid-template-columns:1fr;
+    min-height:100vh;
+  }
+  @media (min-width:700px){
+    .layout{grid-template-columns:250px 1fr;}
+  }
+
+  /* --- Sidebar / date picker --- */
+  .sidebar{
     border-bottom:1px solid var(--border);
+    padding:12px clamp(14px,3vw,20px);
     background:var(--bg);
   }
-  .controls label{
+  @media (min-width:700px){
+    .sidebar{
+      border-bottom:none;
+      border-right:1px solid var(--border);
+      padding:20px 18px;
+    }
+  }
+
+  .toggle-btn{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:var(--panel);
+    border:1px solid var(--border);
+    color:var(--ink);
+    padding:9px 12px;
+    border-radius:6px;
+    font-size:13px;
+    font-family:inherit;
+    cursor:pointer;
+  }
+  .toggle-btn:hover{border-color:var(--gold);}
+  .toggle-btn .caret{transition:transform .15s ease;color:var(--slate);}
+  .toggle-btn.open .caret{transform:rotate(180deg);}
+  @media (min-width:700px){
+    .toggle-btn{display:none;}
+  }
+
+  .cal-panel{
+    display:none;
+    margin-top:10px;
+  }
+  .cal-panel.open{display:block;}
+  @media (min-width:700px){
+    .cal-panel{display:block;margin-top:0;}
+  }
+
+  .sidebar-label{
+    display:none;
     font-size:13px;
     color:var(--slate);
+    margin-bottom:10px;
   }
-  .controls input[type="date"]{
-    font-family:inherit;
+  @media (min-width:700px){
+    .sidebar-label{display:block;}
+  }
+
+  .month-nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:10px;
+  }
+  .month-nav button{
+    background:var(--panel);
+    border:1px solid var(--border);
+    color:var(--ink);
+    width:26px;height:26px;
+    border-radius:4px;
+    cursor:pointer;
+    font-size:14px;
+    line-height:1;
+    padding:0;
+  }
+  .month-nav button:hover{border-color:var(--gold);}
+  .month-nav button:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
+  .month-nav button:disabled{opacity:0.3;cursor:default;}
+  .month-label{
+    font-family:"Source Serif 4",Georgia,serif;
     font-size:14px;
     color:var(--ink);
-    background:var(--panel);
-    border:1px solid var(--border);
-    border-radius:5px;
-    padding:7px 10px;
   }
-  .controls input[type="date"]:focus-visible{outline:2px solid var(--gold);outline-offset:1px;}
+  .weekdays,.days{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    gap:3px;
+  }
+  .weekdays{
+    margin-bottom:4px;
+    color:var(--slate);
+    font-size:10px;
+  }
+  .weekdays div{text-align:center;padding:2px 0;}
+  .day-cell{
+    height:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:2px;
+    border-radius:4px;
+    background:transparent;
+    border:1px solid transparent;
+    color:var(--slate);
+    font-size:12px;
+    font-family:"Source Serif 4",Georgia,serif;
+    cursor:default;
+  }
+  .day-cell.empty{visibility:hidden;}
+  .day-cell.available{
+    color:var(--ink);
+    cursor:pointer;
+    border-color:var(--border);
+    background:var(--panel);
+  }
+  .day-cell.available:hover{border-color:var(--gold);}
+  .day-cell.available:focus-visible{outline:2px solid var(--gold);outline-offset:1px;}
+  .day-cell .dot{
+    width:3px;height:3px;border-radius:50%;
+    background:var(--border);
+  }
+  .day-cell.available .dot{background:var(--gold);}
+  .day-cell.selected{
+    background:var(--gold-soft);
+    color:var(--ink);
+    border-color:var(--gold);
+  }
+  .day-cell.selected .dot{background:var(--gold);}
+  .day-cell.today:not(.selected){border-color:var(--slate);}
+
+  .legend{
+    margin-top:10px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+    color:var(--slate);
+    font-size:11px;
+  }
+  .legend .dot{width:3px;height:3px;border-radius:50%;background:var(--gold);}
+
   .jump-latest{
+    margin-top:10px;
+    width:100%;
     background:var(--panel);
     border:1px solid var(--border);
     color:var(--ink);
-    padding:7px 12px;
+    padding:7px 10px;
     border-radius:5px;
-    font-size:13px;
+    font-size:12px;
     cursor:pointer;
     font-family:inherit;
   }
   .jump-latest:hover{border-color:var(--gold);}
-  .avail-note{
-    font-size:12px;
-    color:var(--slate);
-  }
 
   /* --- Content --- */
   .content-col{
@@ -94,7 +214,7 @@
     background:var(--bg);
   }
   .content-head{
-    padding:14px clamp(14px,3vw,40px);
+    padding:14px clamp(14px,3vw,32px);
     border-bottom:1px solid var(--border);
     display:flex;
     align-items:baseline;
@@ -123,8 +243,8 @@
     background:#fff;
     display:block;
   }
-  @media (max-width:700px){
-    iframe{min-height:75vh;}
+  @media (max-width:699px){
+    iframe{min-height:65vh;}
   }
   .empty-state{
     flex:1;
@@ -151,15 +271,32 @@
   <p>UPSC · Bank · SSC · RRB — archive of every day's bulletin</p>
 </header>
 
-<div class="controls">
-  <label for="datePick">Choose date</label>
-  <input type="date" id="datePick">
-  <button class="jump-latest" id="jumpLatest">Jump to latest</button>
-  <span class="avail-note" id="availNote"></span>
-</div>
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-label">Choose date</div>
+    <button class="toggle-btn" id="toggleBtn">
+      <span id="toggleLabel">Choose date</span>
+      <span class="caret">▾</span>
+    </button>
 
-<div class="content-col" id="contentCol">
-  <!-- filled by JS -->
+    <div class="cal-panel" id="calPanel">
+      <div class="month-nav">
+        <button id="prevMonth" aria-label="Previous month">‹</button>
+        <span class="month-label" id="monthLabel"></span>
+        <button id="nextMonth" aria-label="Next month">›</button>
+      </div>
+      <div class="weekdays">
+        <div>Su</div><div>Mo</div><div>Tu</div><div>We</div><div>Th</div><div>Fr</div><div>Sa</div>
+      </div>
+      <div class="days" id="daysGrid"></div>
+      <div class="legend"><span class="dot"></span> digest available</div>
+      <button class="jump-latest" id="jumpLatest">Jump to latest</button>
+    </div>
+  </div>
+
+  <div class="content-col" id="contentCol">
+    <!-- filled by JS -->
+  </div>
 </div>
 
 <script>
@@ -167,13 +304,23 @@
   const WEEKDAY_NAMES = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   const MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
-  let availableDates = [];   // sorted ["2026-09-10", ...]
+  let availableDates = [];
   let availableSet = new Set();
+  let viewYear, viewMonth;
+  let selectedDate = null;
+  const isDesktop = () => window.matchMedia('(min-width:700px)').matches;
 
-  const datePick = document.getElementById('datePick');
+  const daysGrid = document.getElementById('daysGrid');
+  const monthLabel = document.getElementById('monthLabel');
   const contentCol = document.getElementById('contentCol');
+  const prevBtn = document.getElementById('prevMonth');
+  const nextBtn = document.getElementById('nextMonth');
   const jumpLatestBtn = document.getElementById('jumpLatest');
-  const availNote = document.getElementById('availNote');
+  const toggleBtn = document.getElementById('toggleBtn');
+  const toggleLabel = document.getElementById('toggleLabel');
+  const calPanel = document.getElementById('calPanel');
+
+  function pad(n){ return n < 10 ? '0' + n : '' + n; }
 
   function fetchManifest(){
     return fetch('archive/manifest.json', {cache:'no-store'})
@@ -181,26 +328,64 @@
       .catch(() => []);
   }
 
-  function nearestAvailable(iso){
-    if(!availableDates.length) return null;
-    if(availableSet.has(iso)) return iso;
-    let best = availableDates[0];
-    let bestDiff = Infinity;
-    const target = new Date(iso).getTime();
-    for(const d of availableDates){
-      const diff = Math.abs(new Date(d).getTime() - target);
-      if(diff < bestDiff){ bestDiff = diff; best = d; }
+  function renderCalendar(){
+    monthLabel.textContent = MONTH_NAMES[viewMonth] + ' ' + viewYear;
+    daysGrid.innerHTML = '';
+
+    const firstOfMonth = new Date(viewYear, viewMonth, 1);
+    const startOffset = firstOfMonth.getDay();
+    const daysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();
+    const todayStr = todayISO();
+
+    for(let i = 0; i < startOffset; i++){
+      const cell = document.createElement('div');
+      cell.className = 'day-cell empty';
+      daysGrid.appendChild(cell);
     }
-    return best;
+
+    for(let d = 1; d <= daysInMonth; d++){
+      const iso = viewYear + '-' + pad(viewMonth+1) + '-' + pad(d);
+      const cell = document.createElement('div');
+      const isAvailable = availableSet.has(iso);
+      cell.className = 'day-cell' + (isAvailable ? ' available' : '') + (iso === selectedDate ? ' selected' : '') + (iso === todayStr ? ' today' : '');
+      cell.tabIndex = isAvailable ? 0 : -1;
+      cell.innerHTML = '<span>' + d + '</span><span class="dot"></span>';
+      if(isAvailable){
+        cell.addEventListener('click', () => selectDate(iso));
+        cell.addEventListener('keydown', (e) => { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); selectDate(iso); } });
+      }
+      daysGrid.appendChild(cell);
+    }
+
+    const hasPrevAvailable = availableDates.some(d => d < viewYear + '-' + pad(viewMonth+1) + '-01');
+    const hasNextAvailable = availableDates.some(d => d > viewYear + '-' + pad(viewMonth+1) + '-' + pad(daysInMonth));
+    prevBtn.disabled = availableDates.length > 0 && !hasPrevAvailable;
+    nextBtn.disabled = availableDates.length > 0 && !hasNextAvailable;
   }
 
-  function selectDate(iso, opts){
-    opts = opts || {};
-    const resolved = availableSet.has(iso) ? iso : nearestAvailable(iso);
-    if(!resolved){ renderEmpty(); return; }
-    datePick.value = resolved;
-    availNote.textContent = (resolved !== iso && !opts.silent) ? 'No digest for that date — showing nearest available' : '';
-    renderContent(resolved);
+  function todayISO(){
+    const t = new Date();
+    return t.getFullYear() + '-' + pad(t.getMonth()+1) + '-' + pad(t.getDate());
+  }
+
+  function prettyLabel(iso){
+    const [y,m,d] = iso.split('-').map(Number);
+    return MONTH_NAMES[m-1].slice(0,3) + ' ' + d + ', ' + y;
+  }
+
+  function selectDate(iso){
+    selectedDate = iso;
+    const [y,m,d] = iso.split('-').map(Number);
+    if(y !== viewYear || (m-1) !== viewMonth){
+      viewYear = y; viewMonth = m - 1;
+    }
+    renderCalendar();
+    renderContent(iso);
+    toggleLabel.textContent = prettyLabel(iso);
+    if(!isDesktop()){
+      calPanel.classList.remove('open');
+      toggleBtn.classList.remove('open');
+    }
   }
 
   function renderContent(iso){
@@ -225,8 +410,19 @@
       '</div>';
   }
 
-  datePick.addEventListener('change', () => {
-    if(datePick.value) selectDate(datePick.value);
+  toggleBtn.addEventListener('click', () => {
+    calPanel.classList.toggle('open');
+    toggleBtn.classList.toggle('open');
+  });
+  prevBtn.addEventListener('click', () => {
+    viewMonth--;
+    if(viewMonth < 0){ viewMonth = 11; viewYear--; }
+    renderCalendar();
+  });
+  nextBtn.addEventListener('click', () => {
+    viewMonth++;
+    if(viewMonth > 11){ viewMonth = 0; viewYear++; }
+    renderCalendar();
   });
   jumpLatestBtn.addEventListener('click', () => {
     if(availableDates.length) selectDate(availableDates[availableDates.length - 1]);
@@ -236,11 +432,18 @@
     availableDates = (dates || []).slice().sort();
     availableSet = new Set(availableDates);
 
-    if(availableDates.length){
-      datePick.min = availableDates[0];
-      datePick.max = availableDates[availableDates.length - 1];
-      selectDate(availableDates[availableDates.length - 1], {silent:true});
+    const latest = availableDates.length ? availableDates[availableDates.length - 1] : null;
+    const now = new Date();
+    viewYear = now.getFullYear();
+    viewMonth = now.getMonth();
+
+    if(latest){
+      const [y,m] = latest.split('-').map(Number);
+      viewYear = y; viewMonth = m - 1;
+      renderCalendar();
+      selectDate(latest);
     } else {
+      renderCalendar();
       renderEmpty();
     }
   });
