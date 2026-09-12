@@ -21,10 +21,14 @@ def format_telegram_chunks(bulletin: Dict) -> List[str]:
     chunks = []
 
     # Chunk 1: Header + Executive Summary
+    source = bulletin.get("content_source", "unknown")
+    source_label = "🤖 Gemini AI" if source == "gemini" else ("⚠️ Fallback Engine" if source == "fallback" else "Unknown")
+
     header_msg = (
         f"🎯 *DAILY CURRENT AFFAIRS BULLETIN*\n"
         f"📅 *Date:* {date}\n"
         f"📚 *Target Focus:* {exam} (SSC / RRB / Bank / UPSC)\n"
+        f"🔎 *Content Source:* {source_label}\n"
         f"{'='*34}\n\n"
         f"⚡ *Executive Briefing:*\n_{headline}_\n\n"
         f"📌 *Sections Included:*\n"
@@ -78,60 +82,58 @@ def format_telegram_chunks(bulletin: Dict) -> List[str]:
     if current_chunk.strip():
         chunks.append(current_chunk.strip())
 
-    # Chunk: Vocab Word / Idiom of the Day & Static GK Booster
-    vocab = bulletin.get("vocab_word")
-    idiom = bulletin.get("idiom_of_the_day")
-    booster = bulletin.get("static_gk_booster")
-    if vocab or idiom or booster:
-        extra_msg = ""
-        if vocab:
+    # Chunk(s): Vocab Words / Idioms of the Day & Static GK Boosters (5 each)
+    vocab_list = bulletin.get("vocab_words") or ([bulletin["vocab_word"]] if bulletin.get("vocab_word") else [])
+    idiom_list = bulletin.get("idioms_of_the_day") or ([bulletin["idiom_of_the_day"]] if bulletin.get("idiom_of_the_day") else [])
+    booster_list = bulletin.get("static_gk_boosters") or ([bulletin["static_gk_booster"]] if bulletin.get("static_gk_booster") else [])
+
+    if vocab_list:
+        vocab_msg = f"📖 *VOCABULARY WORDS OF THE DAY (SSC & Banking)*\n{'='*34}\n\n"
+        for n, vocab in enumerate(vocab_list, 1):
             w = vocab.get("word", "").upper()
             pos = vocab.get("part_of_speech", "")
             meaning = vocab.get("meaning", "")
             syns = ", ".join(vocab.get("synonyms", []))
             ants = ", ".join(vocab.get("antonyms", []))
             ex = vocab.get("example_sentence", "")
-            extra_msg += (
-                f"📖 *VOCABULARY WORD OF THE DAY (SSC & Banking)*\n"
-                f"{'-'*34}\n"
-                f"🔤 *{w}* _{f'({pos})' if pos else ''}_\n"
+            vocab_msg += (
+                f"🔤 *{n}. {w}* _{f'({pos})' if pos else ''}_\n"
                 f"• *Meaning:* {meaning}\n"
             )
             if syns:
-                extra_msg += f"• *Synonyms:* {syns}\n"
+                vocab_msg += f"• *Synonyms:* {syns}\n"
             if ants:
-                extra_msg += f"• *Antonyms:* {ants}\n"
+                vocab_msg += f"• *Antonyms:* {ants}\n"
             if ex:
-                extra_msg += f"• *Exam Usage:* _{ex}_\n"
-            extra_msg += "\n"
+                vocab_msg += f"• *Exam Usage:* _{ex}_\n"
+            vocab_msg += "\n"
+        chunks.append(vocab_msg.strip())
 
-        if idiom:
+    if idiom_list:
+        idiom_msg = f"🗣️ *IDIOMS OF THE DAY*\n{'='*34}\n\n"
+        for n, idiom in enumerate(idiom_list, 1):
             i_text = idiom.get("idiom", "")
             i_meaning = idiom.get("meaning", "")
             i_ex = idiom.get("example_sentence", "")
-            extra_msg += (
-                f"🗣️ *IDIOM OF THE DAY*\n"
-                f"{'-'*34}\n"
-                f"💬 *{i_text}*\n"
+            idiom_msg += (
+                f"💬 *{n}. {i_text}*\n"
                 f"• *Meaning:* {i_meaning}\n"
             )
             if i_ex:
-                extra_msg += f"• *Usage:* _{i_ex}_\n"
-            extra_msg += "\n"
+                idiom_msg += f"• *Usage:* _{i_ex}_\n"
+            idiom_msg += "\n"
+        chunks.append(idiom_msg.strip())
 
-        if booster:
+    if booster_list:
+        booster_msg = f"🏛️ *STATIC GK BOOSTERS*\n{'='*34}\n\n"
+        for n, booster in enumerate(booster_list, 1):
             btitle = booster.get("title", "")
             bbullets = booster.get("bullets", [])
-            extra_msg += (
-                f"🏛️ *STATIC GK BOOSTER*\n"
-                f"{'-'*34}\n"
-                f"📌 *{btitle}*\n"
-            )
+            booster_msg += f"📌 *{n}. {btitle}*\n"
             for b in bbullets:
-                extra_msg += f"• {b}\n"
-
-        if extra_msg.strip():
-            chunks.append(extra_msg.strip())
+                booster_msg += f"• {b}\n"
+            booster_msg += "\n"
+        chunks.append(booster_msg.strip())
 
     # Chunk: Daily Practice Quiz
     if quiz:
@@ -168,6 +170,14 @@ def format_gmail_html(bulletin: Dict) -> str:
     headline = bulletin.get("headline_summary", "")
     categories = bulletin.get("categories", [])
     quiz = bulletin.get("daily_quiz", [])
+
+    source = bulletin.get("content_source", "unknown")
+    if source == "gemini":
+        source_label, source_bg = "🤖 Gemini AI", "rgba(255, 255, 255, 0.2)"
+    elif source == "fallback":
+        source_label, source_bg = "⚠️ Fallback Engine", "rgba(251, 191, 36, 0.35)"
+    else:
+        source_label, source_bg = "Unknown Source", "rgba(255, 255, 255, 0.2)"
 
     categories_html = ""
     for cat in categories:
@@ -254,23 +264,20 @@ def format_gmail_html(bulletin: Dict) -> str:
         </div>
         """
 
-    # Vocab Word of the Day
-    vocab = bulletin.get("vocab_word")
+    # Vocab Words of the Day (up to 5)
+    vocab_list = bulletin.get("vocab_words") or ([bulletin["vocab_word"]] if bulletin.get("vocab_word") else [])
     vocab_html = ""
-    if vocab:
-        w = vocab.get("word", "").upper()
-        pos = vocab.get("part_of_speech", "")
-        meaning = vocab.get("meaning", "")
-        syns = ", ".join(vocab.get("synonyms", []))
-        ants = ", ".join(vocab.get("antonyms", []))
-        ex = vocab.get("example_sentence", "")
-        vocab_html = f"""
-        <div style="background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%); border: 1px solid #f0abfc; border-radius: 12px; padding: 18px; margin-bottom: 24px;">
-            <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                <span style="font-size: 18px; margin-right: 8px;">📖</span>
-                <h3 style="margin: 0; color: #86198f; font-size: 16px;">Editorial Vocab Word of the Day (SSC & Banking)</h3>
-            </div>
-            <div style="background: #ffffff; border-radius: 8px; padding: 14px; border: 1px solid #f5d0fe;">
+    if vocab_list:
+        vocab_cards = ""
+        for vocab in vocab_list:
+            w = vocab.get("word", "").upper()
+            pos = vocab.get("part_of_speech", "")
+            meaning = vocab.get("meaning", "")
+            syns = ", ".join(vocab.get("synonyms", []))
+            ants = ", ".join(vocab.get("antonyms", []))
+            ex = vocab.get("example_sentence", "")
+            vocab_cards += f"""
+            <div style="background: #ffffff; border-radius: 8px; padding: 14px; border: 1px solid #f5d0fe; margin-bottom: 10px;">
                 <div style="margin-bottom: 6px;">
                     <strong style="font-size: 18px; color: #701a75; letter-spacing: 0.5px;">{w}</strong>
                     <span style="background: #fdf2f8; color: #be185d; padding: 2px 8px; border-radius: 10px; font-size: 11px; margin-left: 8px; font-weight: 600;">{pos}</span>
@@ -280,50 +287,68 @@ def format_gmail_html(bulletin: Dict) -> str:
                 {f'<p style="margin: 0 0 6px 0; font-size: 13px; color: #4b5563;"><strong>Antonyms:</strong> {ants}</p>' if ants else ''}
                 {f'<p style="margin: 0; font-size: 13px; color: #6b7280; font-style: italic;"><strong>Exam Usage:</strong> "{ex}"</p>' if ex else ''}
             </div>
+            """
+        vocab_html = f"""
+        <div style="background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%); border: 1px solid #f0abfc; border-radius: 12px; padding: 18px; margin-bottom: 24px;">
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <span style="font-size: 18px; margin-right: 8px;">📖</span>
+                <h3 style="margin: 0; color: #86198f; font-size: 16px;">Editorial Vocab Words of the Day (SSC & Banking)</h3>
+            </div>
+            {vocab_cards}
         </div>
         """
 
-    # Idiom of the Day (same layout as Vocab card, amber theme to visually distinguish it)
-    idiom = bulletin.get("idiom_of_the_day")
+    # Idioms of the Day (up to 5, same layout family as Vocab cards, amber theme)
+    idiom_list = bulletin.get("idioms_of_the_day") or ([bulletin["idiom_of_the_day"]] if bulletin.get("idiom_of_the_day") else [])
     idiom_html = ""
-    if idiom:
-        i_text = idiom.get("idiom", "")
-        i_meaning = idiom.get("meaning", "")
-        i_ex = idiom.get("example_sentence", "")
-        idiom_html = f"""
-        <div style="background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; padding: 18px; margin-bottom: 24px;">
-            <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                <span style="font-size: 18px; margin-right: 8px;">🗣️</span>
-                <h3 style="margin: 0; color: #92400e; font-size: 16px;">Idiom of the Day</h3>
-            </div>
-            <div style="background: #ffffff; border-radius: 8px; padding: 14px; border: 1px solid #fde68a;">
+    if idiom_list:
+        idiom_cards = ""
+        for idiom in idiom_list:
+            i_text = idiom.get("idiom", "")
+            i_meaning = idiom.get("meaning", "")
+            i_ex = idiom.get("example_sentence", "")
+            idiom_cards += f"""
+            <div style="background: #ffffff; border-radius: 8px; padding: 14px; border: 1px solid #fde68a; margin-bottom: 10px;">
                 <div style="margin-bottom: 6px;">
                     <strong style="font-size: 18px; color: #78350f; letter-spacing: 0.3px;">{i_text}</strong>
                 </div>
                 <p style="margin: 0 0 8px 0; color: #374151; font-size: 14px; line-height: 1.5;"><strong>Meaning:</strong> {i_meaning}</p>
                 {f'<p style="margin: 0; font-size: 13px; color: #6b7280; font-style: italic;"><strong>Usage:</strong> "{i_ex}"</p>' if i_ex else ''}
             </div>
+            """
+        idiom_html = f"""
+        <div style="background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; padding: 18px; margin-bottom: 24px;">
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <span style="font-size: 18px; margin-right: 8px;">🗣️</span>
+                <h3 style="margin: 0; color: #92400e; font-size: 16px;">Idioms of the Day</h3>
+            </div>
+            {idiom_cards}
         </div>
         """
 
-    # Static GK Booster
-    booster = bulletin.get("static_gk_booster")
+    # Static GK Boosters (up to 5)
+    booster_list = bulletin.get("static_gk_boosters") or ([bulletin["static_gk_booster"]] if bulletin.get("static_gk_booster") else [])
     booster_html = ""
-    if booster:
-        btitle = booster.get("title", "")
-        bbullets = "".join([f"<li style='margin-bottom: 6px;'>{b}</li>" for b in booster.get("bullets", [])])
-        booster_html = f"""
-        <div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #a7f3d0; border-radius: 12px; padding: 18px; margin-bottom: 24px;">
-            <div style="display: flex; align-items: center; margin-bottom: 10px;">
-                <span style="font-size: 18px; margin-right: 8px;">🏛️</span>
-                <h3 style="margin: 0; color: #065f46; font-size: 16px;">Daily Static GK Booster</h3>
-            </div>
-            <div style="background: #ffffff; border-radius: 8px; padding: 14px; border: 1px solid #a7f3d0;">
+    if booster_list:
+        booster_cards = ""
+        for booster in booster_list:
+            btitle = booster.get("title", "")
+            bbullets = "".join([f"<li style='margin-bottom: 6px;'>{b}</li>" for b in booster.get("bullets", [])])
+            booster_cards += f"""
+            <div style="background: #ffffff; border-radius: 8px; padding: 14px; border: 1px solid #a7f3d0; margin-bottom: 10px;">
                 <h4 style="margin: 0 0 8px 0; font-size: 15px; color: #047857;">📌 {btitle}</h4>
                 <ul style="margin: 0; padding-left: 20px; color: #374151; font-size: 13.5px; line-height: 1.5;">
                     {bbullets}
                 </ul>
             </div>
+            """
+        booster_html = f"""
+        <div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border: 1px solid #a7f3d0; border-radius: 12px; padding: 18px; margin-bottom: 24px;">
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <span style="font-size: 18px; margin-right: 8px;">🏛️</span>
+                <h3 style="margin: 0; color: #065f46; font-size: 16px;">Daily Static GK Boosters</h3>
+            </div>
+            {booster_cards}
         </div>
         """
 
@@ -339,8 +364,11 @@ def format_gmail_html(bulletin: Dict) -> str:
         
         <!-- Header Banner -->
         <div style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); border-radius: 14px; padding: 24px; text-align: center; color: #ffffff; margin-bottom: 24px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
-            <div style="display: inline-block; background-color: rgba(255, 255, 255, 0.2); padding: 4px 12px; border-radius: 16px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 8px;">
+            <div style="display: inline-block; background-color: rgba(255, 255, 255, 0.2); padding: 4px 12px; border-radius: 16px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 8px; margin-right: 6px;">
                 EXAM FOCUS: {exam}
+            </div>
+            <div style="display: inline-block; background-color: {source_bg}; padding: 4px 12px; border-radius: 16px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 8px;">
+                {source_label}
             </div>
             <h1 style="margin: 0 0 6px 0; font-size: 24px; font-weight: 700;">Daily Current Affairs Digest</h1>
             <p style="margin: 0; font-size: 14px; opacity: 0.9;">📅 {date} | Tailored for SSC, RRB, Banking & UPSC</p>
@@ -389,9 +417,13 @@ def format_plain_text(bulletin: Dict) -> str:
     categories = bulletin.get("categories", [])
     quiz = bulletin.get("daily_quiz", [])
 
+    source = bulletin.get("content_source", "unknown")
+    source_label = "Gemini AI" if source == "gemini" else ("Fallback Engine" if source == "fallback" else "Unknown")
+
     lines = [
         f"DAILY CURRENT AFFAIRS BULLETIN - {date}",
         f"Focus: {exam}",
+        f"Content Source: {source_label}",
         "=" * 60,
         f"BRIEFING: {headline}",
         "=" * 60,
@@ -422,37 +454,43 @@ def format_plain_text(bulletin: Dict) -> str:
             if item.get("link"):
                 lines.append(f"   Source: {item.get('link')}")
 
-    vocab = bulletin.get("vocab_word")
-    if vocab:
-        w = vocab.get("word", "").upper()
-        pos = vocab.get("part_of_speech", "")
+    vocab_list = bulletin.get("vocab_words") or ([bulletin["vocab_word"]] if bulletin.get("vocab_word") else [])
+    if vocab_list:
         lines.append("\n" + "=" * 60)
-        lines.append(f"VOCABULARY WORD OF THE DAY: {w} ({pos})")
+        lines.append("VOCABULARY WORDS OF THE DAY")
         lines.append("=" * 60)
-        lines.append(f"Meaning: {vocab.get('meaning', '')}")
-        if vocab.get("synonyms"):
-            lines.append(f"Synonyms: {', '.join(vocab.get('synonyms'))}")
-        if vocab.get("antonyms"):
-            lines.append(f"Antonyms: {', '.join(vocab.get('antonyms'))}")
-        if vocab.get("example_sentence"):
-            lines.append(f"Usage: {vocab.get('example_sentence')}")
+        for n, vocab in enumerate(vocab_list, 1):
+            w = vocab.get("word", "").upper()
+            pos = vocab.get("part_of_speech", "")
+            lines.append(f"\n{n}. {w} ({pos})")
+            lines.append(f"   Meaning: {vocab.get('meaning', '')}")
+            if vocab.get("synonyms"):
+                lines.append(f"   Synonyms: {', '.join(vocab.get('synonyms'))}")
+            if vocab.get("antonyms"):
+                lines.append(f"   Antonyms: {', '.join(vocab.get('antonyms'))}")
+            if vocab.get("example_sentence"):
+                lines.append(f"   Usage: {vocab.get('example_sentence')}")
 
-    idiom = bulletin.get("idiom_of_the_day")
-    if idiom:
+    idiom_list = bulletin.get("idioms_of_the_day") or ([bulletin["idiom_of_the_day"]] if bulletin.get("idiom_of_the_day") else [])
+    if idiom_list:
         lines.append("\n" + "=" * 60)
-        lines.append(f"IDIOM OF THE DAY: {idiom.get('idiom', '')}")
+        lines.append("IDIOMS OF THE DAY")
         lines.append("=" * 60)
-        lines.append(f"Meaning: {idiom.get('meaning', '')}")
-        if idiom.get("example_sentence"):
-            lines.append(f"Usage: {idiom.get('example_sentence')}")
+        for n, idiom in enumerate(idiom_list, 1):
+            lines.append(f"\n{n}. {idiom.get('idiom', '')}")
+            lines.append(f"   Meaning: {idiom.get('meaning', '')}")
+            if idiom.get("example_sentence"):
+                lines.append(f"   Usage: {idiom.get('example_sentence')}")
 
-    booster = bulletin.get("static_gk_booster")
-    if booster:
+    booster_list = bulletin.get("static_gk_boosters") or ([bulletin["static_gk_booster"]] if bulletin.get("static_gk_booster") else [])
+    if booster_list:
         lines.append("\n" + "=" * 60)
-        lines.append(f"STATIC GK BOOSTER: {booster.get('title', '')}")
+        lines.append("STATIC GK BOOSTERS")
         lines.append("=" * 60)
-        for b in booster.get("bullets", []):
-            lines.append(f"- {b}")
+        for n, booster in enumerate(booster_list, 1):
+            lines.append(f"\n{n}. {booster.get('title', '')}")
+            for b in booster.get("bullets", []):
+                lines.append(f"   - {b}")
 
     if quiz:
         lines.append("\n" + "=" * 60)

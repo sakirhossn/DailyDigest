@@ -101,27 +101,33 @@ Produce a strictly valid JSON object matching this schema:
       ]
     }}
   ],
-  "vocab_word": {{
-    "word": "EXAM_VOCAB_WORD (high-frequency editorial word relevant for SSC & Bank English, must be different from commonly overused examples like 'exigency')",
-    "part_of_speech": "Adjective/Noun/Verb",
-    "meaning": "Clear, concise definition",
-    "synonyms": ["synonym 1", "synonym 2", "synonym 3"],
-    "antonyms": ["antonym 1", "antonym 2"],
-    "example_sentence": "An exam-grade sentence demonstrating its usage."
-  }},
-  "idiom_of_the_day": {{
-    "idiom": "A commonly tested English idiom or phrase, different each day",
-    "meaning": "Clear, concise meaning of the idiom",
-    "example_sentence": "An exam-grade sentence using the idiom naturally."
-  }},
-  "static_gk_booster": {{
-    "title": "Topic in Today's News (e.g. Kaziranga National Park / Monetary Policy Committee / Election Commission / Ramsar Sites)",
-    "bullets": [
-      "Key constitutional / legal basis or founding year",
-      "Geographical location, associated river, or institutional headquarters",
-      "Important exam trivia frequently asked in SSC/Banking/UPSC"
-    ]
-  }},
+  "vocab_words": [
+    {{
+      "word": "EXAM_VOCAB_WORD (high-frequency editorial word relevant for SSC & Bank English, must be different from commonly overused examples like 'exigency')",
+      "part_of_speech": "Adjective/Noun/Verb",
+      "meaning": "Clear, concise definition",
+      "synonyms": ["synonym 1", "synonym 2", "synonym 3"],
+      "antonyms": ["antonym 1", "antonym 2"],
+      "example_sentence": "An exam-grade sentence demonstrating its usage."
+    }}
+  ],
+  "idioms_of_the_day": [
+    {{
+      "idiom": "A commonly tested English idiom or phrase, different each day",
+      "meaning": "Clear, concise meaning of the idiom",
+      "example_sentence": "An exam-grade sentence using the idiom naturally."
+    }}
+  ],
+  "static_gk_boosters": [
+    {{
+      "title": "Topic in Today's News (e.g. Kaziranga National Park / Monetary Policy Committee / Election Commission / Ramsar Sites)",
+      "bullets": [
+        "Key constitutional / legal basis or founding year",
+        "Geographical location, associated river, or institutional headquarters",
+        "Important exam trivia frequently asked in SSC/Banking/UPSC"
+      ]
+    }}
+  ],
   "daily_quiz": [
     {{
       "question": "Exam-level multiple choice question based on today's news",
@@ -138,9 +144,9 @@ Produce a strictly valid JSON object matching this schema:
 }}
 
 Provide 4 to 6 categories with 2-3 high-yield items each.
-Provide exactly 1 high-yield vocab_word (rotate topics daily, avoid repeating recent words).
-Provide exactly 1 idiom_of_the_day (rotate idioms daily, avoid repeating recent idioms).
-Provide exactly 1 static_gk_booster.
+Provide exactly 5 high-yield vocab_words (rotate topics daily, avoid repeating recent words, no duplicates within the same day).
+Provide exactly 5 idioms_of_the_day (rotate idioms daily, avoid repeating recent idioms, no duplicates within the same day).
+Provide exactly 5 static_gk_boosters, each on a different topic drawn from today's news where possible.
 Provide exactly 5 high-quality exam MCQs in daily_quiz.
 Respond ONLY with the JSON object. Do not include markdown code backticks around the json if possible, or use standard ```json ... ```.
 """
@@ -167,6 +173,7 @@ def curate_news_with_gemini(articles: List[Dict], exam_type: str, api_key: str) 
             response_text = re.sub(r"\n```$", "", response_text)
 
         bulletin_data = json.loads(response_text)
+        bulletin_data["content_source"] = "gemini"
         logger.info(f"Successfully generated Gemini bulletin with {len(bulletin_data.get('categories', []))} categories and {len(bulletin_data.get('daily_quiz', []))} MCQs.")
         return bulletin_data
 
@@ -238,6 +245,20 @@ VOCAB_BANK = [
         "antonyms": ["worsen", "aggravate"],
         "example_sentence": "The new subsidy scheme is expected to ameliorate rural farmers' financial distress.",
     },
+    {
+        "word": "SCRUTINIZE", "part_of_speech": "Verb",
+        "meaning": "To examine or inspect something closely and thoroughly.",
+        "synonyms": ["examine", "inspect", "analyze"],
+        "antonyms": ["overlook", "ignore"],
+        "example_sentence": "The parliamentary panel scrutinized the budget allocations line by line.",
+    },
+    {
+        "word": "UNPRECEDENTED", "part_of_speech": "Adjective",
+        "meaning": "Never done or known before.",
+        "synonyms": ["unparalleled", "unmatched", "novel"],
+        "antonyms": ["usual", "common"],
+        "example_sentence": "The heatwave triggered unprecedented demand for power across northern states.",
+    },
 ]
 
 IDIOM_BANK = [
@@ -280,6 +301,16 @@ IDIOM_BANK = [
         "idiom": "Under the weather",
         "meaning": "Feeling slightly ill.",
         "example_sentence": "Though feeling under the weather, the minister still attended the parliamentary session.",
+    },
+    {
+        "idiom": "Get the ball rolling",
+        "meaning": "To start something or set a process in motion.",
+        "example_sentence": "The ministry got the ball rolling on the new skill development scheme this week.",
+    },
+    {
+        "idiom": "Read between the lines",
+        "meaning": "To understand a hidden or implied meaning beyond what is directly stated.",
+        "example_sentence": "Analysts had to read between the lines of the RBI governor's cautious statement.",
     },
 ]
 
@@ -332,14 +363,33 @@ GK_BOOSTER_BANK = [
             "Principal bench is located in New Delhi, with regional benches across India.",
         ],
     },
+    {
+        "title": "Finance Commission of India",
+        "bullets": [
+            "Constituted under Article 280 of the Constitution, typically every five years.",
+            "Recommends the distribution of tax revenues between the Union and the States.",
+            "Headed by a Chairman appointed by the President of India.",
+        ],
+    },
+    {
+        "title": "National Human Rights Commission (NHRC)",
+        "bullets": [
+            "Established under the Protection of Human Rights Act, 1993.",
+            "A statutory (not constitutional) body headquartered in New Delhi.",
+            "Typically headed by a retired Chief Justice of India.",
+        ],
+    },
 ]
 
 
-def _rotating_pick(bank: List[Dict]) -> Dict:
-    """Deterministically rotates through a content bank based on day-of-year, so
-    fallback output changes daily instead of always returning the same entry."""
+def _rotating_group(bank: List[Dict], n: int = 5) -> List[Dict]:
+    """Deterministically rotates a WINDOW of n items through a content bank based on
+    day-of-year, so fallback output changes daily instead of always returning the
+    same entries. Wraps around the bank circularly."""
     day_of_year = datetime.date.today().timetuple().tm_yday
-    return bank[day_of_year % len(bank)]
+    size = len(bank)
+    start = day_of_year % size
+    return [bank[(start + i) % size] for i in range(min(n, size))]
 
 
 def curate_news_heuristic(articles: List[Dict], exam_type: str) -> Dict:
@@ -434,20 +484,21 @@ def curate_news_heuristic(articles: List[Dict], exam_type: str) -> Dict:
             "explanation": f"Based on the official release: {a['summary'][:160]}..."
         })
 
-    # Rotating fallback Vocab / Idiom / GK Booster (changes daily even without Gemini)
-    sample_vocab = _rotating_pick(VOCAB_BANK)
-    sample_idiom = _rotating_pick(IDIOM_BANK)
-    sample_booster = _rotating_pick(GK_BOOSTER_BANK)
+    # Rotating fallback Vocab / Idiom / GK Booster groups (changes daily even without Gemini)
+    vocab_group = _rotating_group(VOCAB_BANK, 5)
+    idiom_group = _rotating_group(IDIOM_BANK, 5)
+    booster_group = _rotating_group(GK_BOOSTER_BANK, 5)
 
     return {
         "date": today_str,
         "exam_type": exam_type,
         "headline_summary": f"Daily Current Affairs Digest curated specifically for {exam_type} aspirants covering key national, economic, and scientific developments.",
         "categories": bulletin_categories,
-        "vocab_word": sample_vocab,
-        "idiom_of_the_day": sample_idiom,
-        "static_gk_booster": sample_booster,
-        "daily_quiz": quiz
+        "vocab_words": vocab_group,
+        "idioms_of_the_day": idiom_group,
+        "static_gk_boosters": booster_group,
+        "daily_quiz": quiz,
+        "content_source": "fallback"
     }
 
 
