@@ -78,10 +78,11 @@ def format_telegram_chunks(bulletin: Dict) -> List[str]:
     if current_chunk.strip():
         chunks.append(current_chunk.strip())
 
-    # Chunk: Vocab Word of the Day & Static GK Booster
+    # Chunk: Vocab Word / Idiom of the Day & Static GK Booster
     vocab = bulletin.get("vocab_word")
+    idiom = bulletin.get("idiom_of_the_day")
     booster = bulletin.get("static_gk_booster")
-    if vocab or booster:
+    if vocab or idiom or booster:
         extra_msg = ""
         if vocab:
             w = vocab.get("word", "").upper()
@@ -102,6 +103,20 @@ def format_telegram_chunks(bulletin: Dict) -> List[str]:
                 extra_msg += f"• *Antonyms:* {ants}\n"
             if ex:
                 extra_msg += f"• *Exam Usage:* _{ex}_\n"
+            extra_msg += "\n"
+
+        if idiom:
+            i_text = idiom.get("idiom", "")
+            i_meaning = idiom.get("meaning", "")
+            i_ex = idiom.get("example_sentence", "")
+            extra_msg += (
+                f"🗣️ *IDIOM OF THE DAY*\n"
+                f"{'-'*34}\n"
+                f"💬 *{i_text}*\n"
+                f"• *Meaning:* {i_meaning}\n"
+            )
+            if i_ex:
+                extra_msg += f"• *Usage:* _{i_ex}_\n"
             extra_msg += "\n"
 
         if booster:
@@ -268,6 +283,29 @@ def format_gmail_html(bulletin: Dict) -> str:
         </div>
         """
 
+    # Idiom of the Day (same layout as Vocab card, amber theme to visually distinguish it)
+    idiom = bulletin.get("idiom_of_the_day")
+    idiom_html = ""
+    if idiom:
+        i_text = idiom.get("idiom", "")
+        i_meaning = idiom.get("meaning", "")
+        i_ex = idiom.get("example_sentence", "")
+        idiom_html = f"""
+        <div style="background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border: 1px solid #fde68a; border-radius: 12px; padding: 18px; margin-bottom: 24px;">
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                <span style="font-size: 18px; margin-right: 8px;">🗣️</span>
+                <h3 style="margin: 0; color: #92400e; font-size: 16px;">Idiom of the Day</h3>
+            </div>
+            <div style="background: #ffffff; border-radius: 8px; padding: 14px; border: 1px solid #fde68a;">
+                <div style="margin-bottom: 6px;">
+                    <strong style="font-size: 18px; color: #78350f; letter-spacing: 0.3px;">{i_text}</strong>
+                </div>
+                <p style="margin: 0 0 8px 0; color: #374151; font-size: 14px; line-height: 1.5;"><strong>Meaning:</strong> {i_meaning}</p>
+                {f'<p style="margin: 0; font-size: 13px; color: #6b7280; font-style: italic;"><strong>Usage:</strong> "{i_ex}"</p>' if i_ex else ''}
+            </div>
+        </div>
+        """
+
     # Static GK Booster
     booster = bulletin.get("static_gk_booster")
     booster_html = ""
@@ -321,6 +359,9 @@ def format_gmail_html(bulletin: Dict) -> str:
 
         <!-- Vocab Word of the Day -->
         {vocab_html}
+
+        <!-- Idiom of the Day -->
+        {idiom_html}
 
         <!-- Static GK Booster -->
         {booster_html}
@@ -395,6 +436,15 @@ def format_plain_text(bulletin: Dict) -> str:
             lines.append(f"Antonyms: {', '.join(vocab.get('antonyms'))}")
         if vocab.get("example_sentence"):
             lines.append(f"Usage: {vocab.get('example_sentence')}")
+
+    idiom = bulletin.get("idiom_of_the_day")
+    if idiom:
+        lines.append("\n" + "=" * 60)
+        lines.append(f"IDIOM OF THE DAY: {idiom.get('idiom', '')}")
+        lines.append("=" * 60)
+        lines.append(f"Meaning: {idiom.get('meaning', '')}")
+        if idiom.get("example_sentence"):
+            lines.append(f"Usage: {idiom.get('example_sentence')}")
 
     booster = bulletin.get("static_gk_booster")
     if booster:

@@ -101,22 +101,27 @@ Produce a strictly valid JSON object matching this schema:
       ]
     }}
   ],
-  "vocab_word": {
-    "word": "EXAM_VOCAB_WORD (high-frequency editorial word relevant for SSC & Bank English)",
+  "vocab_word": {{
+    "word": "EXAM_VOCAB_WORD (high-frequency editorial word relevant for SSC & Bank English, must be different from commonly overused examples like 'exigency')",
     "part_of_speech": "Adjective/Noun/Verb",
     "meaning": "Clear, concise definition",
     "synonyms": ["synonym 1", "synonym 2", "synonym 3"],
     "antonyms": ["antonym 1", "antonym 2"],
     "example_sentence": "An exam-grade sentence demonstrating its usage."
-  },
-  "static_gk_booster": {
+  }},
+  "idiom_of_the_day": {{
+    "idiom": "A commonly tested English idiom or phrase, different each day",
+    "meaning": "Clear, concise meaning of the idiom",
+    "example_sentence": "An exam-grade sentence using the idiom naturally."
+  }},
+  "static_gk_booster": {{
     "title": "Topic in Today's News (e.g. Kaziranga National Park / Monetary Policy Committee / Election Commission / Ramsar Sites)",
     "bullets": [
       "Key constitutional / legal basis or founding year",
       "Geographical location, associated river, or institutional headquarters",
       "Important exam trivia frequently asked in SSC/Banking/UPSC"
     ]
-  },
+  }},
   "daily_quiz": [
     {{
       "question": "Exam-level multiple choice question based on today's news",
@@ -133,7 +138,8 @@ Produce a strictly valid JSON object matching this schema:
 }}
 
 Provide 4 to 6 categories with 2-3 high-yield items each.
-Provide exactly 1 high-yield vocab_word.
+Provide exactly 1 high-yield vocab_word (rotate topics daily, avoid repeating recent words).
+Provide exactly 1 idiom_of_the_day (rotate idioms daily, avoid repeating recent idioms).
 Provide exactly 1 static_gk_booster.
 Provide exactly 5 high-quality exam MCQs in daily_quiz.
 Respond ONLY with the JSON object. Do not include markdown code backticks around the json if possible, or use standard ```json ... ```.
@@ -167,6 +173,173 @@ def curate_news_with_gemini(articles: List[Dict], exam_type: str, api_key: str) 
     except Exception as e:
         logger.error(f"Gemini curation failed: {e}. Falling back to heuristic engine.")
         return None
+
+
+# ---------------------------------------------------------------------------
+# Rotating fallback content banks (used only if Gemini is unavailable/fails).
+# Rotated by day-of-year so repeated fallback days still show fresh content,
+# instead of the same word/idiom/booster appearing every time.
+# ---------------------------------------------------------------------------
+
+VOCAB_BANK = [
+    {
+        "word": "EXIGENCY", "part_of_speech": "Noun",
+        "meaning": "An urgent need or demand; an emergency situation requiring immediate action.",
+        "synonyms": ["necessity", "urgency", "crisis", "predicament"],
+        "antonyms": ["unimportance", "ease", "calm"],
+        "example_sentence": "The economic exigency compelled the Finance Ministry to introduce targeted fiscal reforms.",
+    },
+    {
+        "word": "ACQUIESCE", "part_of_speech": "Verb",
+        "meaning": "To accept or agree to something without protest, often reluctantly.",
+        "synonyms": ["comply", "consent", "yield", "concur"],
+        "antonyms": ["object", "resist", "dissent"],
+        "example_sentence": "Several member states reluctantly acquiesced to the revised trade agreement.",
+    },
+    {
+        "word": "CATALYST", "part_of_speech": "Noun",
+        "meaning": "A person or event that quickly causes significant change or action.",
+        "synonyms": ["trigger", "spur", "impetus", "stimulus"],
+        "antonyms": ["hindrance", "deterrent"],
+        "example_sentence": "The new policy acted as a catalyst for foreign investment in the manufacturing sector.",
+    },
+    {
+        "word": "PRAGMATIC", "part_of_speech": "Adjective",
+        "meaning": "Dealing with problems in a sensible, practical way rather than through theory.",
+        "synonyms": ["practical", "realistic", "sensible"],
+        "antonyms": ["idealistic", "impractical"],
+        "example_sentence": "Economists praised the government's pragmatic approach to managing inflation.",
+    },
+    {
+        "word": "CONSOLIDATE", "part_of_speech": "Verb",
+        "meaning": "To combine or strengthen into a more effective or coherent whole.",
+        "synonyms": ["strengthen", "unify", "merge", "solidify"],
+        "antonyms": ["weaken", "fragment", "divide"],
+        "example_sentence": "The merger aims to consolidate the bank's position in the retail lending market.",
+    },
+    {
+        "word": "DIVERGENT", "part_of_speech": "Adjective",
+        "meaning": "Tending to develop differently or move in different directions.",
+        "synonyms": ["differing", "varying", "conflicting"],
+        "antonyms": ["convergent", "similar", "uniform"],
+        "example_sentence": "The committee members held divergent views on the proposed constitutional amendment.",
+    },
+    {
+        "word": "MANDATE", "part_of_speech": "Noun",
+        "meaning": "An official order or authorization to act in a particular way on a public issue.",
+        "synonyms": ["authorization", "directive", "sanction"],
+        "antonyms": ["prohibition", "refusal"],
+        "example_sentence": "The commission was given a fresh mandate to review electoral reforms.",
+    },
+    {
+        "word": "AMELIORATE", "part_of_speech": "Verb",
+        "meaning": "To make a bad or unsatisfactory situation better.",
+        "synonyms": ["improve", "enhance", "alleviate"],
+        "antonyms": ["worsen", "aggravate"],
+        "example_sentence": "The new subsidy scheme is expected to ameliorate rural farmers' financial distress.",
+    },
+]
+
+IDIOM_BANK = [
+    {
+        "idiom": "A drop in the ocean",
+        "meaning": "A very small amount compared to what is needed; negligible in comparison.",
+        "example_sentence": "The relief fund, though welcome, was a drop in the ocean compared to the flood damage.",
+    },
+    {
+        "idiom": "Back to the drawing board",
+        "meaning": "To start a task or plan again because the previous attempt failed.",
+        "example_sentence": "After the bill was rejected in the assembly, the committee went back to the drawing board.",
+    },
+    {
+        "idiom": "Cut corners",
+        "meaning": "To do something in the easiest or cheapest way, often sacrificing quality.",
+        "example_sentence": "Auditors found the contractor had cut corners on the highway's safety standards.",
+    },
+    {
+        "idiom": "On the same page",
+        "meaning": "In agreement; having the same understanding of a situation.",
+        "example_sentence": "All coalition partners were finally on the same page regarding the disaster relief bill.",
+    },
+    {
+        "idiom": "A blessing in disguise",
+        "meaning": "Something that seems bad or unlucky at first but results in something good.",
+        "example_sentence": "The delayed monsoon turned out to be a blessing in disguise for the reservoir levels.",
+    },
+    {
+        "idiom": "Bite the bullet",
+        "meaning": "To face a difficult or unpleasant situation with courage.",
+        "example_sentence": "The finance ministry finally bit the bullet and raised fuel taxes to curb the deficit.",
+    },
+    {
+        "idiom": "Turn the tide",
+        "meaning": "To reverse a trend or change the course of events significantly.",
+        "example_sentence": "The vaccination drive helped turn the tide against the outbreak in rural districts.",
+    },
+    {
+        "idiom": "Under the weather",
+        "meaning": "Feeling slightly ill.",
+        "example_sentence": "Though feeling under the weather, the minister still attended the parliamentary session.",
+    },
+]
+
+GK_BOOSTER_BANK = [
+    {
+        "title": "Monetary Policy Committee (MPC) & RBI Basics",
+        "bullets": [
+            "Constituted under Section 45ZB of the Reserve Bank of India Act, 1934.",
+            "Consists of 6 members: 3 from RBI (including RBI Governor as ex-officio Chairperson) and 3 external members appointed by the Government.",
+            "Each member has one vote; the Governor has a casting vote in case of a tie.",
+        ],
+    },
+    {
+        "title": "Election Commission of India (ECI)",
+        "bullets": [
+            "Established on 25 January 1950 under Article 324 of the Constitution.",
+            "A permanent constitutional body responsible for administering elections at the Union and State level.",
+            "Headed by the Chief Election Commissioner, headquartered in New Delhi.",
+        ],
+    },
+    {
+        "title": "Ramsar Sites & Wetlands in India",
+        "bullets": [
+            "Ramsar Convention (1971) is an international treaty for the conservation of wetlands.",
+            "India has one of the largest networks of Ramsar sites in Asia, spread across multiple states.",
+            "Wetlands act as natural water purifiers and are critical for migratory bird habitats.",
+        ],
+    },
+    {
+        "title": "ISRO & Space Missions Basics",
+        "bullets": [
+            "Indian Space Research Organisation (ISRO) was established in 1969, headquartered in Bengaluru.",
+            "Operates under the Department of Space, directly overseen by the Prime Minister's Office.",
+            "Known for cost-effective missions including lunar, solar, and Mars exploration programs.",
+        ],
+    },
+    {
+        "title": "Goods and Services Tax (GST) Council",
+        "bullets": [
+            "Constituted under Article 279A of the Constitution via the 101st Constitutional Amendment Act, 2016.",
+            "Chaired by the Union Finance Minister, with state finance ministers as members.",
+            "Responsible for recommending GST rates, exemptions, and dispute resolution mechanisms.",
+        ],
+    },
+    {
+        "title": "National Green Tribunal (NGT)",
+        "bullets": [
+            "Established in 2010 under the National Green Tribunal Act for effective environmental dispute resolution.",
+            "Has original jurisdiction over substantial questions relating to the environment.",
+            "Principal bench is located in New Delhi, with regional benches across India.",
+        ],
+    },
+]
+
+
+def _rotating_pick(bank: List[Dict]) -> Dict:
+    """Deterministically rotates through a content bank based on day-of-year, so
+    fallback output changes daily instead of always returning the same entry."""
+    day_of_year = datetime.date.today().timetuple().tm_yday
+    return bank[day_of_year % len(bank)]
 
 
 def curate_news_heuristic(articles: List[Dict], exam_type: str) -> Dict:
@@ -261,25 +434,10 @@ def curate_news_heuristic(articles: List[Dict], exam_type: str) -> Dict:
             "explanation": f"Based on the official release: {a['summary'][:160]}..."
         })
 
-    # Fallback Vocab Word of the Day (high frequency editorial words)
-    sample_vocab = {
-        "word": "EXIGENCY",
-        "part_of_speech": "Noun",
-        "meaning": "An urgent need or demand; an emergency situation requiring immediate action.",
-        "synonyms": ["necessity", "urgency", "crisis", "predicament"],
-        "antonyms": ["unimportance", "ease", "calm"],
-        "example_sentence": "The economic exigency compelled the Finance Ministry to introduce targeted fiscal reforms."
-    }
-
-    # Fallback Static GK Booster
-    sample_booster = {
-        "title": "Monetary Policy Committee (MPC) & RBI Basics",
-        "bullets": [
-            "Constituted under Section 45ZB of the Reserve Bank of India Act, 1934.",
-            "Consists of 6 members: 3 from RBI (including RBI Governor as ex-officio Chairperson) and 3 external members appointed by the Government.",
-            "Each member has one vote; the Governor has a casting vote in case of a tie."
-        ]
-    }
+    # Rotating fallback Vocab / Idiom / GK Booster (changes daily even without Gemini)
+    sample_vocab = _rotating_pick(VOCAB_BANK)
+    sample_idiom = _rotating_pick(IDIOM_BANK)
+    sample_booster = _rotating_pick(GK_BOOSTER_BANK)
 
     return {
         "date": today_str,
@@ -287,6 +445,7 @@ def curate_news_heuristic(articles: List[Dict], exam_type: str) -> Dict:
         "headline_summary": f"Daily Current Affairs Digest curated specifically for {exam_type} aspirants covering key national, economic, and scientific developments.",
         "categories": bulletin_categories,
         "vocab_word": sample_vocab,
+        "idiom_of_the_day": sample_idiom,
         "static_gk_booster": sample_booster,
         "daily_quiz": quiz
     }
