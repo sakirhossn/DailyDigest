@@ -36,10 +36,10 @@ GMAIL_TO = [
 
 # AI Intelligence (Gemini API)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash").strip()
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash").strip()
 
 # Scheduling
-SCHEDULE_TIME = os.getenv("SCHEDULE_TIME", "07:30").strip()
+SCHEDULE_TIME = os.getenv("SCHEDULE_TIME", "09:37").strip()
 
 # Verified RSS Feeds for Exam Topics
 RSS_FEEDS = {
