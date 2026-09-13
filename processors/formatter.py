@@ -504,3 +504,174 @@ def format_plain_text(bulletin: Dict) -> str:
             lines.append(f"  Explanation: {q.get('explanation')}")
 
     return "\n".join(lines)
+
+
+def format_revision_digest_html(entries: List[Dict], start_date: str, end_date: str) -> str:
+    """
+    Compiles the last N days of vocab words, idioms, and static GK boosters
+    (from processors/curator.py's revision_log.json) into a single HTML email,
+    grouped by day, reusing the same card styles as the daily digest.
+    """
+    days_html = ""
+    for entry in entries:
+        day_date = entry.get("date", "")
+        vocab_list = entry.get("vocab_words", [])
+        idiom_list = entry.get("idioms_of_the_day", [])
+        booster_list = entry.get("static_gk_boosters", [])
+
+        vocab_cards = "".join([f"""
+            <div style="background: #ffffff; border-radius: 8px; padding: 12px; border: 1px solid #f5d0fe; margin-bottom: 8px;">
+                <strong style="font-size: 15px; color: #701a75;">{v.get('word','').upper()}</strong>
+                <span style="background: #fdf2f8; color: #be185d; padding: 2px 6px; border-radius: 8px; font-size: 10px; margin-left: 6px; font-weight: 600;">{v.get('part_of_speech','')}</span>
+                <p style="margin: 4px 0 0 0; color: #374151; font-size: 13px; line-height: 1.4;">{v.get('meaning','')}</p>
+            </div>
+        """ for v in vocab_list])
+
+        idiom_cards = "".join([f"""
+            <div style="background: #ffffff; border-radius: 8px; padding: 12px; border: 1px solid #fde68a; margin-bottom: 8px;">
+                <strong style="font-size: 15px; color: #78350f;">{i.get('idiom','')}</strong>
+                <p style="margin: 4px 0 0 0; color: #374151; font-size: 13px; line-height: 1.4;">{i.get('meaning','')}</p>
+            </div>
+        """ for i in idiom_list])
+
+        booster_cards = "".join([f"""
+            <div style="background: #ffffff; border-radius: 8px; padding: 12px; border: 1px solid #a7f3d0; margin-bottom: 8px;">
+                <strong style="font-size: 14px; color: #047857;">📌 {b.get('title','')}</strong>
+                <ul style="margin: 4px 0 0 0; padding-left: 18px; color: #374151; font-size: 12.5px; line-height: 1.4;">
+                    {"".join([f"<li>{bullet}</li>" for bullet in b.get('bullets', [])])}
+                </ul>
+            </div>
+        """ for b in booster_list])
+
+        days_html += f"""
+        <div style="margin-bottom: 26px;">
+            <h3 style="font-size: 14px; color: #1e293b; border-bottom: 2px solid #cbd5e1; padding-bottom: 6px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">
+                🗓️ {day_date}
+            </h3>
+            {vocab_cards}
+            {idiom_cards}
+            {booster_cards}
+        </div>
+        """
+
+    full_html = f"""<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>10-Day Revision Digest</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b;">
+    <div style="max-width: 680px; margin: 0 auto; padding: 24px 16px;">
+
+        <div style="background: linear-gradient(135deg, #6d28d9 0%, #a855f7 100%); border-radius: 14px; padding: 24px; text-align: center; color: #ffffff; margin-bottom: 28px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+            <div style="display: inline-block; background-color: rgba(255, 255, 255, 0.2); padding: 4px 12px; border-radius: 16px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 8px;">
+                10-DAY REVISION CHECKPOINT
+            </div>
+            <h1 style="margin: 0 0 6px 0; font-size: 22px; font-weight: 700;">Vocab, Idioms &amp; Static GK Revision</h1>
+            <p style="margin: 0; font-size: 13px; opacity: 0.9;">📅 {start_date} &rarr; {end_date}</p>
+        </div>
+
+        {days_html}
+
+        <div style="text-align: center; margin-top: 30px; padding-top: 18px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8;">
+            <p style="margin: 0;">✨ <em>"Revision is where retention actually happens — review these before moving on."</em></p>
+        </div>
+    </div>
+</body>
+</html>
+"""
+    return full_html
+
+
+def format_revision_digest_plain(entries: List[Dict], start_date: str, end_date: str) -> str:
+    """Plain-text fallback version of the 10-day revision digest."""
+    lines = [
+        f"10-DAY REVISION DIGEST: {start_date} to {end_date}",
+        "=" * 60,
+        ""
+    ]
+    for entry in entries:
+        lines.append(f"\n[{entry.get('date', '')}]")
+        lines.append("-" * 40)
+        for v in entry.get("vocab_words", []):
+            lines.append(f"  VOCAB: {v.get('word','').upper()} ({v.get('part_of_speech','')}) - {v.get('meaning','')}")
+        for i in entry.get("idioms_of_the_day", []):
+            lines.append(f"  IDIOM: {i.get('idiom','')} - {i.get('meaning','')}")
+        for b in entry.get("static_gk_boosters", []):
+            lines.append(f"  GK: {b.get('title','')}")
+            for bullet in b.get("bullets", []):
+                lines.append(f"      - {bullet}")
+
+    return "\n".join(lines)
+
+
+def format_revision_digest_pdf_html(entries: List[Dict], start_date: str, end_date: str) -> str:
+    """
+    A SIMPLIFIED HTML template for the 10-day revision digest, used only for PDF
+    generation via xhtml2pdf. Avoids CSS gradients/flexbox/box-shadow, which
+    xhtml2pdf's ReportLab-based renderer does not support well — uses solid
+    colors and simple block/table layout instead so the PDF renders cleanly.
+    The email BODY still uses format_revision_digest_html() (full styling);
+    this one is only for the PDF attachment.
+    """
+    days_html = ""
+    for entry in entries:
+        day_date = entry.get("date", "")
+        vocab_list = entry.get("vocab_words", [])
+        idiom_list = entry.get("idioms_of_the_day", [])
+        booster_list = entry.get("static_gk_boosters", [])
+
+        vocab_rows = "".join([f"""
+            <div style="background-color: #fdf4ff; border: 1px solid #e9a8f2; padding: 10px; margin-bottom: 6px;">
+                <b style="color: #701a75; font-size: 13px;">{v.get('word','').upper()}</b>
+                <span style="color: #be185d; font-size: 10px;"> ({v.get('part_of_speech','')})</span><br/>
+                <span style="color: #374151; font-size: 11px;">{v.get('meaning','')}</span>
+            </div>
+        """ for v in vocab_list])
+
+        idiom_rows = "".join([f"""
+            <div style="background-color: #fffbeb; border: 1px solid #f5cf6b; padding: 10px; margin-bottom: 6px;">
+                <b style="color: #78350f; font-size: 13px;">{i.get('idiom','')}</b><br/>
+                <span style="color: #374151; font-size: 11px;">{i.get('meaning','')}</span>
+            </div>
+        """ for i in idiom_list])
+
+        booster_rows = "".join([f"""
+            <div style="background-color: #ecfdf5; border: 1px solid #86e0b8; padding: 10px; margin-bottom: 6px;">
+                <b style="color: #047857; font-size: 12px;">{b.get('title','')}</b>
+                <ul style="margin: 4px 0 0 0; padding-left: 16px; color: #374151; font-size: 10.5px;">
+                    {"".join([f"<li>{bullet}</li>" for bullet in b.get('bullets', [])])}
+                </ul>
+            </div>
+        """ for b in booster_list])
+
+        days_html += f"""
+        <div style="margin-bottom: 18px;">
+            <div style="background-color: #e2e8f0; padding: 6px 10px; font-size: 12px; font-weight: bold; color: #1e293b; margin-bottom: 8px;">
+                {day_date}
+            </div>
+            {vocab_rows}
+            {idiom_rows}
+            {booster_rows}
+        </div>
+        """
+
+    return f"""<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+    body {{ font-family: Helvetica, Arial, sans-serif; color: #1e293b; }}
+</style>
+</head>
+<body>
+    <div style="background-color: #6d28d9; padding: 16px; text-align: center; color: #ffffff; margin-bottom: 20px;">
+        <div style="font-size: 11px; letter-spacing: 1px;">10-DAY REVISION CHECKPOINT</div>
+        <div style="font-size: 18px; font-weight: bold; margin-top: 6px;">Vocab, Idioms &amp; Static GK Revision</div>
+        <div style="font-size: 11px; margin-top: 4px;">{start_date} to {end_date}</div>
+    </div>
+    {days_html}
+</body>
+</html>
+"""

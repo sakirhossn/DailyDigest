@@ -17,6 +17,86 @@ from config import GEMINI_API_KEY, GEMINI_MODEL, TARGET_EXAM
 
 logger = logging.getLogger(__name__)
 
+# ---------------------------------------------------------------------------
+# Cross-run "recently used" tracking, so vocab/idioms/GK boosters don't repeat
+# day to day. Stored alongside the committed docs/archive/ folder so it
+# persists across workflow runs (the workflow already commits that folder).
+# ---------------------------------------------------------------------------
+USED_CONTENT_PATH = Path(__file__).resolve().parent.parent / "docs" / "archive" / "used_content.json"
+USED_CONTENT_CAP = 60  # keep roughly the last ~2 months of history per category
+
+# Full daily vocab/idiom/GK content (not just identifiers) for the 10-day revision digest.
+REVISION_LOG_PATH = Path(__file__).resolve().parent.parent / "docs" / "archive" / "revision_log.json"
+REVISION_LOG_CAP = 200  # keep plenty of history; revision_digest.py only reads the last 10
+
+
+def load_used_content() -> Dict[str, List[str]]:
+    """Loads the rolling history of recently used vocab/idiom/GK identifiers."""
+    try:
+        if USED_CONTENT_PATH.exists():
+            with open(USED_CONTENT_PATH, "r", encoding="utf-8") as fh:
+                data = json.load(fh)
+                return {
+                    "vocab": data.get("vocab", []),
+                    "idiom": data.get("idiom", []),
+                    "gk_booster": data.get("gk_booster", []),
+                }
+    except Exception as e:
+        logger.warning(f"Could not load used_content.json, starting fresh: {e}")
+    return {"vocab": [], "idiom": [], "gk_booster": []}
+
+
+def save_used_content(used: Dict[str, List[str]]) -> None:
+    """Persists the (capped) rolling history back to disk."""
+    try:
+        USED_CONTENT_PATH.parent.mkdir(parents=True, exist_ok=True)
+        capped = {k: v[-USED_CONTENT_CAP:] for k, v in used.items()}
+        with open(USED_CONTENT_PATH, "w", encoding="utf-8") as fh:
+            json.dump(capped, fh, indent=2)
+    except Exception as e:
+        logger.warning(f"Could not save used_content.json: {e}")
+
+
+def append_revision_log(bulletin: Dict) -> None:
+    """Appends today's FULL vocab/idiom/GK content (not just identifiers) to the
+    revision log, used later by revision_digest.py to compile a 10-day summary."""
+    try:
+        log = []
+        if REVISION_LOG_PATH.exists():
+            with open(REVISION_LOG_PATH, "r", encoding="utf-8") as fh:
+                log = json.load(fh)
+
+        log.append({
+            "date": bulletin.get("date", ""),
+            "vocab_words": bulletin.get("vocab_words", []),
+            "idioms_of_the_day": bulletin.get("idioms_of_the_day", []),
+            "static_gk_boosters": bulletin.get("static_gk_boosters", []),
+        })
+        log = log[-REVISION_LOG_CAP:]
+
+        REVISION_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with open(REVISION_LOG_PATH, "w", encoding="utf-8") as fh:
+            json.dump(log, fh, indent=2)
+    except Exception as e:
+        logger.warning(f"Could not update revision_log.json: {e}")
+
+
+def _record_used(used: Dict[str, List[str]], bulletin: Dict) -> Dict[str, List[str]]:
+    """Appends today's vocab/idiom/GK identifiers onto the rolling history."""
+    for v in bulletin.get("vocab_words", []) or []:
+        word = (v.get("word") or "").strip().upper()
+        if word and word not in used["vocab"]:
+            used["vocab"].append(word)
+    for i in bulletin.get("idioms_of_the_day", []) or []:
+        idiom = (i.get("idiom") or "").strip()
+        if idiom and idiom not in used["idiom"]:
+            used["idiom"].append(idiom)
+    for b in bulletin.get("static_gk_boosters", []) or []:
+        title = (b.get("title") or "").strip()
+        if title and title not in used["gk_booster"]:
+            used["gk_booster"].append(title)
+    return used
+
 EXAM_INSTRUCTIONS = {
     "UPSC": (
         "Focus on Civil Services (CSE) syllabus: GS-1 (Geography, History, Society), "
@@ -53,9 +133,27 @@ EXAM_INSTRUCTIONS = {
 }
 
 
-def build_gemini_prompt(articles: List[Dict], exam_type: str, today_str: str) -> str:
+def build_gemini_prompt(
+    articles: List[Dict],
+    exam_type: str,
+    today_str: str,
+    recent_vocab: Optional[List[str]] = None,
+    recent_idioms: Optional[List[str]] = None,
+    recent_gk_topics: Optional[List[str]] = None,
+) -> str:
     """Builds a structured prompt for Gemini to process current affairs."""
     exam_guide = EXAM_INSTRUCTIONS.get(exam_type, EXAM_INSTRUCTIONS["ALL"])
+
+    avoid_section = ""
+    if recent_vocab or recent_idioms or recent_gk_topics:
+        avoid_section = "\nIMPORTANT - AVOID REPETITION FROM RECENT DAYS:\n"
+        if recent_vocab:
+            avoid_section += f"- Do NOT reuse these recently used vocab words: {', '.join(recent_vocab[-30:])}\n"
+        if recent_idioms:
+            avoid_section += f"- Do NOT reuse these recently used idioms: {', '.join(recent_idioms[-30:])}\n"
+        if recent_gk_topics:
+            avoid_section += f"- Do NOT reuse these recently covered GK booster topics: {', '.join(recent_gk_topics[-30:])}\n"
+        avoid_section += "Choose genuinely different words/idioms/topics from the ones listed above.\n"
 
     # Prepare top 25 candidate news items for context
     news_corpus = []
@@ -75,7 +173,7 @@ Guideline for this Exam: {exam_guide}
 
 Here are today's verified news articles:
 {news_text}
-
+{avoid_section}
 Analyze, filter, and curate the most exam-relevant stories into a structured JSON response.
 Do NOT include fluff, local crime, or purely political campaign squabbles. Focus strictly on topics tested in government exams.
 
@@ -152,13 +250,24 @@ Respond ONLY with the JSON object. Do not include markdown code backticks around
 """
 
 
-def curate_news_with_gemini(articles: List[Dict], exam_type: str, api_key: str) -> Optional[Dict]:
+def curate_news_with_gemini(
+    articles: List[Dict],
+    exam_type: str,
+    api_key: str,
+    used_content: Optional[Dict[str, List[str]]] = None,
+) -> Optional[Dict]:
     """Uses Google GenAI SDK to curate and structure current affairs."""
+    used_content = used_content or {"vocab": [], "idiom": [], "gk_booster": []}
     try:
         from google import genai
         client = genai.Client(api_key=api_key)
         today_str = datetime.date.today().strftime("%d %B %Y")
-        prompt = build_gemini_prompt(articles, exam_type, today_str)
+        prompt = build_gemini_prompt(
+            articles, exam_type, today_str,
+            recent_vocab=used_content.get("vocab", []),
+            recent_idioms=used_content.get("idiom", []),
+            recent_gk_topics=used_content.get("gk_booster", []),
+        )
 
         logger.info(f"Calling Gemini ({GEMINI_MODEL}) for {exam_type} curation...")
         response = client.models.generate_content(
@@ -382,21 +491,37 @@ GK_BOOSTER_BANK = [
 ]
 
 
-def _rotating_group(bank: List[Dict], n: int = 5) -> List[Dict]:
-    """Deterministically rotates a WINDOW of n items through a content bank based on
-    day-of-year, so fallback output changes daily instead of always returning the
-    same entries. Wraps around the bank circularly."""
+def _rotating_group(
+    bank: List[Dict],
+    key_field: str,
+    avoid: Optional[List[str]] = None,
+    n: int = 5,
+) -> List[Dict]:
+    """Rotates a WINDOW of n items through a content bank based on day-of-year,
+    preferring items whose key_field value is NOT in the avoid list (recently used).
+    Falls back to the full bank if avoiding everything would leave too few items
+    (i.e. the bank is smaller than the recent-history window)."""
+    avoid_set = set(a.strip().upper() for a in (avoid or []))
+    candidates = [item for item in bank if str(item.get(key_field, "")).strip().upper() not in avoid_set]
+    if len(candidates) < n:
+        candidates = bank  # bank exhausted by history; best effort, accept a repeat
+
     day_of_year = datetime.date.today().timetuple().tm_yday
-    size = len(bank)
+    size = len(candidates)
     start = day_of_year % size
-    return [bank[(start + i) % size] for i in range(min(n, size))]
+    return [candidates[(start + i) % size] for i in range(min(n, size))]
 
 
-def curate_news_heuristic(articles: List[Dict], exam_type: str) -> Dict:
+def curate_news_heuristic(
+    articles: List[Dict],
+    exam_type: str,
+    used_content: Optional[Dict[str, List[str]]] = None,
+) -> Dict:
     """
     Intelligent rule-based fallback when Gemini API key is not supplied or offline.
     Categorizes news based on domain keywords and generates practice MCQs.
     """
+    used_content = used_content or {"vocab": [], "idiom": [], "gk_booster": []}
     today_str = datetime.date.today().strftime("%d %B %Y")
     logger.info(f"Using heuristic curator for exam type: {exam_type}")
 
@@ -484,10 +609,10 @@ def curate_news_heuristic(articles: List[Dict], exam_type: str) -> Dict:
             "explanation": f"Based on the official release: {a['summary'][:160]}..."
         })
 
-    # Rotating fallback Vocab / Idiom / GK Booster groups (changes daily even without Gemini)
-    vocab_group = _rotating_group(VOCAB_BANK, 5)
-    idiom_group = _rotating_group(IDIOM_BANK, 5)
-    booster_group = _rotating_group(GK_BOOSTER_BANK, 5)
+    # Rotating fallback Vocab / Idiom / GK Booster groups, skipping recently used ones
+    vocab_group = _rotating_group(VOCAB_BANK, "word", used_content.get("vocab", []), 5)
+    idiom_group = _rotating_group(IDIOM_BANK, "idiom", used_content.get("idiom", []), 5)
+    booster_group = _rotating_group(GK_BOOSTER_BANK, "title", used_content.get("gk_booster", []), 5)
 
     return {
         "date": today_str,
@@ -503,10 +628,19 @@ def curate_news_heuristic(articles: List[Dict], exam_type: str) -> Dict:
 
 
 def curate_daily_bulletin(articles: List[Dict], exam_type: str = TARGET_EXAM, api_key: str = GEMINI_API_KEY) -> Dict:
-    """Main curation entry point: tries Gemini first, falls back to Heuristic engine."""
-    if api_key:
-        result = curate_news_with_gemini(articles, exam_type, api_key)
-        if result:
-            return result
+    """Main curation entry point: tries Gemini first, falls back to Heuristic engine.
+    Tracks recently used vocab/idioms/GK topics across runs so content doesn't repeat."""
+    used_content = load_used_content()
 
-    return curate_news_heuristic(articles, exam_type)
+    result = None
+    if api_key:
+        result = curate_news_with_gemini(articles, exam_type, api_key, used_content)
+
+    if not result:
+        result = curate_news_heuristic(articles, exam_type, used_content)
+
+    used_content = _record_used(used_content, result)
+    save_used_content(used_content)
+    append_revision_log(result)
+
+    return result
