@@ -75,6 +75,14 @@ jobs:
           git diff --cached --quiet || git commit -m "Archive digest for $(date -u +%F)"
           git push
 
+      - name: Check and send 10-day revision digest
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_TO: ${{ secrets.GMAIL_TO }}
+        run: |
+          python revision_digest.py
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
