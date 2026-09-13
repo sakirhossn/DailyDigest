@@ -28,7 +28,7 @@ The agent works immediately out of the box with zero setup for previewing!
 
 ```powershell
 # Navigate to project folder
-cd ".gemini\antigravity\scratch\exam-current-affairs-agent"
+cd "\exam-current-affairs-agent"
 
 # Run dry-run preview in console and save HTML digest locally
 .\.venv\Scripts\python.exe main.py --exam all --channel preview --save-html daily_digest.html
@@ -49,8 +49,8 @@ TARGET_EXAM=ALL
 # Delivery Channel: telegram | gmail | both | preview
 DISPATCH_CHANNEL=both
 
-# Daily Morning Schedule Time (24-hour format)
-SCHEDULE_TIME=09:17
+# Daily Morning Schedule Time (24-hour format|GMT)
+SCHEDULE_TIME=21:47
 
 # Telegram Bot (Optional, needed for Telegram)
 TELEGRAM_BOT_TOKEN=your_bot_token_from_botfather
@@ -105,7 +105,7 @@ GEMINI_API_KEY=your_gemini_api_key
 # 4. Run for SSC / RRB and send to both
 .\.venv\Scripts\python.exe main.py --exam ssc --channel both
 
-# 5. Keep running the background scheduler (runs daily at 09:17 AM)
+# 5. Keep running the background scheduler (runs daily at 02:17 AM)
 .\.venv\Scripts\python.exe main.py --daemon
 ```
 
@@ -117,10 +117,10 @@ GEMINI_API_KEY=your_gemini_api_key
 1. Push this repository to a private GitHub repository.
 2. Go to **Settings > Secrets and variables > Actions > Repository secrets**.
 3. Add the secrets: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `GMAIL_USER`, `GMAIL_APP_PASSWORD`, `GEMINI_API_KEY`.
-4. The workflow in `.github/workflows/daily_digest.yml` will automatically execute every morning at 09:17 AM IST.
+4. The workflow in `.github/workflows/daily_digest.yml` will automatically execute every morning at 02:17 AM IST.
 
 ### Option 2: Windows Task Scheduler (Runs on your PC)
-Run this command in PowerShell to create a daily 09:17 AM scheduled task on Windows:
+Run this command in PowerShell to create a daily 02:17 AM scheduled task on Windows:
 
 ```powershell
 $action = New-ScheduledTaskAction -Execute ".gemini\antigravity\scratch\exam-current-affairs-agent\.venv\Scripts\python.exe" -Argument "main.py --channel both" -WorkingDirectory ".gemini\antigravity\scratch\exam-current-affairs-agent"
