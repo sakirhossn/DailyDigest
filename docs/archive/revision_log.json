@@ -147,5 +147,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "13 September 2026",
+    "vocab_words": [
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make something bad or unsatisfactory better; to improve.",
+        "synonyms": [
+          "enhance",
+          "alleviate",
+          "mitigate"
+        ],
+        "antonyms": [
+          "exacerbate",
+          "worsen",
+          "aggravate"
+        ],
+        "example_sentence": "Digital assessments at RSETIs are designed to ameliorate operational delays in credit disbursement for rural entrepreneurs."
+      },
+      {
+        "word": "TANTAMOUNT",
+        "part_of_speech": "Adjective",
+        "meaning": "Equivalent in seriousness, value, or effect to something.",
+        "synonyms": [
+          "equivalent",
+          "commensurate",
+          "synonymous"
+        ],
+        "antonyms": [
+          "different",
+          "opposite",
+          "unrelated"
+        ],
+        "example_sentence": "Disregarding regional environmental concerns during ESA notifications is tantamount to ignoring sustainable development principles."
+      },
+      {
+        "word": "CONCILIATORY",
+        "part_of_speech": "Adjective",
+        "meaning": "Intended or likely to placate, pacify, or overcome animosity.",
+        "synonyms": [
+          "appeasing",
+          "pacifying",
+          "mollifying"
+        ],
+        "antonyms": [
+          "antagonistic",
+          "belligerent",
+          "confrontational"
+        ],
+        "example_sentence": "The foreign minister adopted a conciliatory tone to facilitate diplomatic dialogue between the neighboring nations."
+      },
+      {
+        "word": "IMPASSE",
+        "part_of_speech": "Noun",
+        "meaning": "A situation in which no progress is possible; a deadlock or stalemate.",
+        "synonyms": [
+          "deadlock",
+          "stalemate",
+          "gridlock"
+        ],
+        "antonyms": [
+          "breakthrough",
+          "resolution",
+          "progress"
+        ],
+        "example_sentence": "Bilateral trade negotiations reached an impasse over disagreement regarding tariff reductions on agricultural imports."
+      },
+      {
+        "word": "TEMERITY",
+        "part_of_speech": "Noun",
+        "meaning": "Excessive confidence or boldness; audacity.",
+        "synonyms": [
+          "audacity",
+          "effrontery",
+          "presumption"
+        ],
+        "antonyms": [
+          "timidity",
+          "modesty",
+          "diffidence"
+        ],
+        "example_sentence": "The chief analyst had the temerity to challenge the central bank's inflation projections during the monetary policy presser."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove tension, doubts, or misunderstandings between people by discussing them openly.",
+        "example_sentence": "The bilateral meeting between the two heads of state helped clear the air regarding recent maritime border disputes."
+      },
+      {
+        "idiom": "Throw down the gauntlet",
+        "meaning": "To issue a challenge or provocation to someone.",
+        "example_sentence": "The central government threw down the gauntlet to states by linking infrastructure grants to fiscal reform milestones."
+      },
+      {
+        "idiom": "At loggerheads",
+        "meaning": "In strong disagreement or dispute with someone.",
+        "example_sentence": "The union and management remain at loggerheads over the proposed revision of pension benefits."
+      },
+      {
+        "idiom": "Keep at bay",
+        "meaning": "To prevent something harmful or undesirable from approaching or affecting one.",
+        "example_sentence": "Prudent monetary intervention by the central bank helped keep runaway retail inflation at bay."
+      },
+      {
+        "idiom": "Hit the nail on the head",
+        "meaning": "To describe precisely what is causing a situation or problem.",
+        "example_sentence": "The Governor's speech hit the nail on the head regarding structural weaknesses in supply chain logistics."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Kasturirangan Committee on Western Ghats",
+        "bullets": [
+          "Constituted in 2012 as a High-Level Working Group (HLWG) to review the earlier Madhav Gadgil Commission report on the Western Ghats.",
+          "Recommended designating approximately 37% (around 60,000 sq km) of the Western Ghats as Ecologically Sensitive Area (ESA).",
+          "Categorized activities into prohibited (mining, thermal power plants, heavy construction) and regulated categories across six states."
+        ]
+      },
+      {
+        "title": "Rural Self Employment Training Institutes (RSETIs)",
+        "bullets": [
+          "Institutional framework established jointly by the Ministry of Rural Development (MoRD), State Governments, and Lead Banks.",
+          "Aims to provide short-term skill development training and facilitate credit linkage for rural youth to establish micro-enterprises.",
+          "Operates under the umbrella of Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM)."
+        ]
+      },
+      {
+        "title": "Chabahar Port & Strategic Significance",
+        "bullets": [
+          "Located in southeastern Iran in the Gulf of Oman; comprises two main ports: Shahid Kalantari and Shahid Beheshti.",
+          "India signed a long-term main contract with Iran's Ports and Maritime Organisation (PMO) through India Ports Global Limited (IPGL).",
+          "Serves as the key oceanic port facilitating direct trade bypass around Pakistan into Afghanistan and Central Asia."
+        ]
+      },
+      {
+        "title": "International Monetary Fund (IMF)",
+        "bullets": [
+          "Established in 1944 at the Bretton Woods Conference; headquartered in Washington, D.C., USA.",
+          "Primary objective is ensuring global monetary stability, facilitating international trade, and providing financial assistance via SDR quotas.",
+          "Publishes flagship reports including the World Economic Outlook (WEO) and Global Financial Stability Report (GFSR)."
+        ]
+      },
+      {
+        "title": "Freedom of Peaceful Assembly (Article 19(1)(b))",
+        "bullets": [
+          "Guarantees all citizens the fundamental right to assemble peaceably and without arms under Part III of the Constitution.",
+          "Subject to reasonable restrictions under Article 19(3) on grounds of the sovereignty and integrity of India, or public order.",
+          "State authorities enforce regulatory measures (e.g., Section 144 of CrPC / Section 163 of BNSS) to regulate designated protest sites."
+        ]
+      }
+    ]
   }
 ]
