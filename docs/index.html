@@ -5,293 +5,250 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Daily Current Affairs — Archive</title>
 <style>
-  :root{
-    --bg:#F7F5F1;
-    --panel:#FFFFFF;
-    --border:#E3DFD6;
-    --ink:#1E2530;
-    --slate:#7A7267;
-    --gold:#B9812B;
-    --gold-soft:#F1E2C4;
-  }
-  *{box-sizing:border-box;}
-  html,body{margin:0;padding:0;}
-  body{
-    background:var(--bg);
-    color:var(--ink);
-    font-family:"IBM Plex Sans","Segoe UI",system-ui,-apple-system,sans-serif;
-    min-height:100vh;
-  }
+    * { box-sizing: border-box; }
 
-  header{
-    padding:16px clamp(14px,3vw,40px) 10px;
-    border-bottom:1px solid var(--border);
-    background:var(--bg);
-  }
-  header h1{
-    font-family:"Source Serif 4",Georgia,"Times New Roman",serif;
-    font-weight:600;
-    font-size:clamp(19px,2.6vw,24px);
-    margin:0 0 2px;
-    letter-spacing:0.2px;
-    color:var(--ink);
-  }
-  header p{
-    margin:0;
-    color:var(--slate);
-    font-size:13px;
-  }
-  @media (min-width:700px){
-    header h1, header p{display:none;}
-    header{display:none;}
-  }
-
-  .layout{
-    display:grid;
-    grid-template-columns:1fr;
-    min-height:100vh;
-  }
-  @media (min-width:700px){
-    .layout{grid-template-columns:250px 1fr;}
-  }
-
-  /* --- Sidebar / date picker --- */
-  .sidebar{
-    border-bottom:1px solid var(--border);
-    padding:12px clamp(14px,3vw,20px);
-    background:var(--bg);
-  }
-  @media (min-width:700px){
-    .sidebar{
-      border-bottom:none;
-      border-right:1px solid var(--border);
-      padding:20px 18px;
+    body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #e9edf5;
     }
-  }
 
-  .toggle-btn{
-    width:100%;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    background:var(--panel);
-    border:1px solid var(--border);
-    color:var(--ink);
-    padding:9px 12px;
-    border-radius:6px;
-    font-size:13px;
-    font-family:inherit;
-    cursor:pointer;
-  }
-  .toggle-btn:hover{border-color:var(--gold);}
-  .toggle-btn .caret{transition:transform .15s ease;color:var(--slate);}
-  .toggle-btn.open .caret{transform:rotate(180deg);}
-  @media (min-width:700px){
-    .toggle-btn{display:none;}
-  }
+    /* ================= PAGE LAYOUT ================= */
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+    }
+    @media (min-width: 700px) {
+        .layout { grid-template-columns: 260px 1fr; }
+    }
 
-  .cal-panel{
-    display:none;
-    margin-top:10px;
-  }
-  .cal-panel.open{display:block;}
-  @media (min-width:700px){
-    .cal-panel{display:block;margin-top:0;}
-  }
+    .picker-col {
+        border-bottom: 1px solid #d7dbe6;
+        padding: 20px;
+        background: #e9edf5;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    @media (min-width: 700px) {
+        .picker-col {
+            border-bottom: none;
+            border-right: 1px solid #d7dbe6;
+            align-items: stretch;
+        }
+    }
 
-  .sidebar-label{
-    display:none;
-    font-size:13px;
-    color:var(--slate);
-    margin-bottom:10px;
-  }
-  @media (min-width:700px){
-    .sidebar-label{display:block;}
-  }
+    /* ================= PICK DATE BUTTON ================= */
+    .date-picker-btn {
+        background: #344cc4;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 14px 24px;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: 0.2s;
+        width: 100%;
+        text-align: left;
+    }
+    .date-picker-btn:hover {
+        background: #293eaa;
+        transform: translateY(-1px);
+    }
 
-  .month-nav{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    margin-bottom:10px;
-  }
-  .month-nav button{
-    background:var(--panel);
-    border:1px solid var(--border);
-    color:var(--ink);
-    width:26px;height:26px;
-    border-radius:4px;
-    cursor:pointer;
-    font-size:14px;
-    line-height:1;
-    padding:0;
-  }
-  .month-nav button:hover{border-color:var(--gold);}
-  .month-nav button:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
-  .month-nav button:disabled{opacity:0.3;cursor:default;}
-  .month-label{
-    font-family:"Source Serif 4",Georgia,serif;
-    font-size:14px;
-    color:var(--ink);
-  }
-  .weekdays,.days{
-    display:grid;
-    grid-template-columns:repeat(7,1fr);
-    gap:3px;
-  }
-  .weekdays{
-    margin-bottom:4px;
-    color:var(--slate);
-    font-size:10px;
-  }
-  .weekdays div{text-align:center;padding:2px 0;}
-  .day-cell{
-    height:30px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    gap:2px;
-    border-radius:4px;
-    background:transparent;
-    border:1px solid transparent;
-    color:var(--slate);
-    font-size:12px;
-    font-family:"Source Serif 4",Georgia,serif;
-    cursor:default;
-  }
-  .day-cell.empty{visibility:hidden;}
-  .day-cell.available{
-    color:var(--ink);
-    cursor:pointer;
-    border-color:var(--border);
-    background:var(--panel);
-  }
-  .day-cell.available:hover{border-color:var(--gold);}
-  .day-cell.available:focus-visible{outline:2px solid var(--gold);outline-offset:1px;}
-  .day-cell .dot{
-    width:3px;height:3px;border-radius:50%;
-    background:var(--border);
-  }
-  .day-cell.available .dot{background:var(--gold);}
-  .day-cell.selected{
-    background:var(--gold-soft);
-    color:var(--ink);
-    border-color:var(--gold);
-  }
-  .day-cell.selected .dot{background:var(--gold);}
-  .day-cell.today:not(.selected){border-color:var(--slate);}
+    .latest-btn {
+        background: #ffffff;
+        color: #344cc4;
+        border: 1px solid #c7cdea;
+        border-radius: 8px;
+        padding: 10px 16px;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+    }
+    .latest-btn:hover { background: #f1f3fb; }
 
-  .legend{
-    margin-top:10px;
-    display:flex;
-    align-items:center;
-    gap:6px;
-    color:var(--slate);
-    font-size:11px;
-  }
-  .legend .dot{width:3px;height:3px;border-radius:50%;background:var(--gold);}
+    /* ================= OVERLAY ================= */
+    .calendar-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.25);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+    }
+    .calendar-overlay.active { display: flex; }
 
-  .jump-latest{
-    margin-top:10px;
-    width:100%;
-    background:var(--panel);
-    border:1px solid var(--border);
-    color:var(--ink);
-    padding:7px 10px;
-    border-radius:5px;
-    font-size:12px;
-    cursor:pointer;
-    font-family:inherit;
-  }
-  .jump-latest:hover{border-color:var(--gold);}
+    /* ================= CALENDAR BOX ================= */
+    .calendar-box {
+        width: 430px;
+        max-width: 94vw;
+        background: #f4f4f4;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 15px 45px rgba(0, 0, 0, 0.30);
+        animation: calendarOpen 0.2s ease;
+    }
+    @keyframes calendarOpen {
+        from { opacity: 0; transform: scale(0.95); }
+        to { opacity: 1; transform: scale(1); }
+    }
 
-  /* --- Content --- */
-  .content-col{
-    display:flex;
-    flex-direction:column;
-    min-height:400px;
-    background:var(--bg);
-  }
-  .content-head{
-    padding:14px clamp(14px,3vw,32px);
-    border-bottom:1px solid var(--border);
-    display:flex;
-    align-items:baseline;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    gap:6px;
-  }
-  .content-head .date-big{
-    font-family:"Source Serif 4",Georgia,serif;
-    font-size:18px;
-    color:var(--ink);
-  }
-  .content-head .weekday-small{
-    color:var(--slate);
-    font-size:12px;
-  }
-  .frame-wrap{
-    flex:1;
-    position:relative;
-    background:var(--panel);
-  }
-  iframe{
-    width:100%;height:100%;
-    min-height:600px;
-    border:0;
-    background:#fff;
-    display:block;
-  }
-  @media (max-width:699px){
-    iframe{min-height:65vh;}
-  }
-  .empty-state{
-    flex:1;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    gap:8px;
-    color:var(--slate);
-    padding:32px 16px;
-    text-align:center;
-  }
-  .empty-state .big{
-    font-family:"Source Serif 4",Georgia,serif;
-    font-size:17px;
-    color:var(--ink);
-  }
+    .month-header {
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    .month-title {
+        font-size: 17px;
+        font-weight: 600;
+        color: #222;
+        text-align: center;
+    }
+    .month-arrow {
+        border: none;
+        background: transparent;
+        font-size: 25px;
+        color: #222;
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    .month-arrow:hover { background: #dedede; }
+    .month-arrow:disabled { opacity: 0.3; cursor: default; background: none; }
+
+    .week-days {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .week-day {
+        font-size: 11px;
+        font-weight: bold;
+        color: #253c91;
+        padding: 8px 0;
+    }
+
+    .days {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        row-gap: 5px;
+    }
+    .day {
+        width: 38px;
+        height: 38px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        border-radius: 50%;
+        font-size: 13px;
+        color: #b9bdc8;
+        cursor: default;
+        transition: 0.15s;
+    }
+    .day .dot { width: 3px; height: 3px; border-radius: 50%; background: transparent; }
+
+    .day.available { color: #333; cursor: pointer; }
+    .day.available:hover { background: #d9ddec; }
+    .day.available .dot { background: #344cc4; }
+
+    .day.other-month { color: #c6c6c6; cursor: default; visibility: hidden; }
+    .day.other-month:hover { background: transparent; }
+
+    .day.today { background: #bfc7e5; color: white; }
+    .day.today .dot { background: #fff; }
+
+    .day.selected { background: #243fba; color: white; font-weight: bold; }
+    .day.selected .dot { background: #fff; }
+    .day.today.selected { background: #243fba; color: white; }
+
+    .selected-info {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 12px;
+        color: #555;
+        min-height: 18px;
+    }
+
+    .calendar-footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 12px;
+    }
+    .close-calendar {
+        border: none;
+        background: transparent;
+        color: #344cc4;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 7px 10px;
+        border-radius: 5px;
+    }
+    .close-calendar:hover { background: #e0e3f2; }
+
+    @media (max-width: 500px) {
+        .calendar-box { width: 94vw; padding: 14px; }
+        .month-header { padding: 0 5px; }
+        .month-title { font-size: 16px; }
+        .day { width: 34px; height: 34px; font-size: 12px; }
+        .week-day { font-size: 10px; }
+    }
+
+    /* ================= CONTENT ================= */
+    .content-col {
+        display: flex;
+        flex-direction: column;
+        min-height: 400px;
+        background: #e9edf5;
+    }
+    .content-head {
+        padding: 14px clamp(14px,3vw,32px);
+        border-bottom: 1px solid #d7dbe6;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 6px;
+        background: #f4f6fb;
+    }
+    .content-head .date-big { font-size: 18px; font-weight: 700; color: #222; }
+    .content-head .weekday-small { color: #7a7f92; font-size: 12px; }
+    .frame-wrap { flex: 1; position: relative; background: #fff; }
+    iframe { width: 100%; height: 100%; min-height: 600px; border: 0; background: #fff; display: block; }
+    @media (max-width: 699px) { iframe { min-height: 65vh; } }
+    .empty-state {
+        flex: 1; display: flex; align-items: center; justify-content: center;
+        flex-direction: column; gap: 8px; color: #7a7f92; padding: 32px 16px; text-align: center;
+    }
+    .empty-state .big { font-size: 17px; color: #222; font-weight: 600; }
 </style>
 </head>
 <body>
 
-<header>
-  <h1>Daily Current Affairs</h1>
-  <p>UPSC · Bank · SSC · RRB — archive of every day's bulletin</p>
-</header>
-
 <div class="layout">
-  <div class="sidebar">
-    <div class="sidebar-label">Choose date</div>
-    <button class="toggle-btn" id="toggleBtn">
-      <span id="toggleLabel">Choose date</span>
-      <span class="caret">▾</span>
-    </button>
-
-    <div class="cal-panel" id="calPanel">
-      <div class="month-nav">
-        <button id="prevMonth" aria-label="Previous month">‹</button>
-        <span class="month-label" id="monthLabel"></span>
-        <button id="nextMonth" aria-label="Next month">›</button>
-      </div>
-      <div class="weekdays">
-        <div>Su</div><div>Mo</div><div>Tu</div><div>We</div><div>Th</div><div>Fr</div><div>Sa</div>
-      </div>
-      <div class="days" id="daysGrid"></div>
-      <div class="legend"><span class="dot"></span> digest available</div>
-      <button class="jump-latest" id="jumpLatest">Jump to latest</button>
-    </div>
+  <div class="picker-col">
+    <button class="date-picker-btn" id="openCalendar">📅 Pick a Date</button>
+    <button class="latest-btn" id="jumpLatest">Jump to latest</button>
   </div>
 
   <div class="content-col" id="contentCol">
@@ -299,155 +256,246 @@
   </div>
 </div>
 
+<div class="calendar-overlay" id="calendarOverlay">
+  <div class="calendar-box" id="calendarBox">
+
+    <div class="month-header">
+      <button class="month-arrow" id="prevMonth" aria-label="Previous month">‹</button>
+      <div class="month-title" id="monthTitle">February 2025</div>
+      <button class="month-arrow" id="nextMonth" aria-label="Next month">›</button>
+    </div>
+
+    <div class="week-days">
+      <div class="week-day">SUN</div>
+      <div class="week-day">MON</div>
+      <div class="week-day">TUE</div>
+      <div class="week-day">WED</div>
+      <div class="week-day">THU</div>
+      <div class="week-day">FRI</div>
+      <div class="week-day">SAT</div>
+    </div>
+
+    <div class="days" id="calendarDays"></div>
+
+    <div class="selected-info" id="selectedInfo">Select a date</div>
+
+    <div class="calendar-footer">
+      <button class="close-calendar" id="closeCalendar">Close</button>
+    </div>
+
+  </div>
+</div>
+
 <script>
-(function(){
-  const WEEKDAY_NAMES = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-  const MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    const openCalendar = document.getElementById("openCalendar");
+    const closeCalendar = document.getElementById("closeCalendar");
+    const calendarOverlay = document.getElementById("calendarOverlay");
+    const calendarDays = document.getElementById("calendarDays");
+    const monthTitle = document.getElementById("monthTitle");
+    const prevMonth = document.getElementById("prevMonth");
+    const nextMonth = document.getElementById("nextMonth");
+    const selectedInfo = document.getElementById("selectedInfo");
+    const jumpLatestBtn = document.getElementById("jumpLatest");
+    const contentCol = document.getElementById("contentCol");
 
-  let availableDates = [];
-  let availableSet = new Set();
-  let viewYear, viewMonth;
-  let selectedDate = null;
-  const isDesktop = () => window.matchMedia('(min-width:700px)').matches;
+    let currentDate = new Date();
+    let selectedDate = null;
 
-  const daysGrid = document.getElementById('daysGrid');
-  const monthLabel = document.getElementById('monthLabel');
-  const contentCol = document.getElementById('contentCol');
-  const prevBtn = document.getElementById('prevMonth');
-  const nextBtn = document.getElementById('nextMonth');
-  const jumpLatestBtn = document.getElementById('jumpLatest');
-  const toggleBtn = document.getElementById('toggleBtn');
-  const toggleLabel = document.getElementById('toggleLabel');
-  const calPanel = document.getElementById('calPanel');
+    let availableDates = [];      // ["2026-09-10", ...]
+    let availableSet = new Set();
 
-  function pad(n){ return n < 10 ? '0' + n : '' + n; }
+    const monthNames = [
+        "January","February","March","April","May","June",
+        "July","August","September","October","November","December"
+    ];
+    const weekdayNames = [
+        "Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
+    ];
 
-  function fetchManifest(){
-    return fetch('archive/manifest.json', {cache:'no-store'})
-      .then(r => { if(!r.ok) throw new Error('no manifest'); return r.json(); })
-      .catch(() => []);
-  }
+    function pad(n){ return n < 10 ? '0' + n : '' + n; }
+    function isoOf(y,m,d){ return y + '-' + pad(m+1) + '-' + pad(d); }
 
-  function renderCalendar(){
-    monthLabel.textContent = MONTH_NAMES[viewMonth] + ' ' + viewYear;
-    daysGrid.innerHTML = '';
-
-    const firstOfMonth = new Date(viewYear, viewMonth, 1);
-    const startOffset = firstOfMonth.getDay();
-    const daysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();
-    const todayStr = todayISO();
-
-    for(let i = 0; i < startOffset; i++){
-      const cell = document.createElement('div');
-      cell.className = 'day-cell empty';
-      daysGrid.appendChild(cell);
+    function fetchManifest(){
+      return fetch('archive/manifest.json', {cache:'no-store'})
+        .then(r => { if(!r.ok) throw new Error('no manifest'); return r.json(); })
+        .catch(() => []);
     }
 
-    for(let d = 1; d <= daysInMonth; d++){
-      const iso = viewYear + '-' + pad(viewMonth+1) + '-' + pad(d);
-      const cell = document.createElement('div');
-      const isAvailable = availableSet.has(iso);
-      cell.className = 'day-cell' + (isAvailable ? ' available' : '') + (iso === selectedDate ? ' selected' : '') + (iso === todayStr ? ' today' : '');
-      cell.tabIndex = isAvailable ? 0 : -1;
-      cell.innerHTML = '<span>' + d + '</span><span class="dot"></span>';
-      if(isAvailable){
-        cell.addEventListener('click', () => selectDate(iso));
-        cell.addEventListener('keydown', (e) => { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); selectDate(iso); } });
-      }
-      daysGrid.appendChild(cell);
+    /* ================= OPEN / CLOSE ================= */
+    openCalendar.addEventListener("click", function () {
+        calendarOverlay.classList.add("active");
+        renderCalendar();
+    });
+
+    closeCalendar.addEventListener("click", function () {
+        calendarOverlay.classList.remove("active");
+    });
+
+    calendarOverlay.addEventListener("click", function (event) {
+        if (event.target === calendarOverlay) {
+            calendarOverlay.classList.remove("active");
+        }
+    });
+
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+            calendarOverlay.classList.remove("active");
+        }
+    });
+
+    prevMonth.addEventListener("click", function () {
+        currentDate.setMonth(currentDate.getMonth() - 1);
+        renderCalendar();
+    });
+
+    nextMonth.addEventListener("click", function () {
+        currentDate.setMonth(currentDate.getMonth() + 1);
+        renderCalendar();
+    });
+
+    jumpLatestBtn.addEventListener("click", function () {
+        if (!availableDates.length) return;
+        const latest = availableDates[availableDates.length - 1];
+        const [y,m,d] = latest.split('-').map(Number);
+        currentDate = new Date(y, m - 1, d);
+        selectedDate = currentDate;
+        renderCalendar();
+        updateSelectedDate();
+        loadDigest(latest);
+    });
+
+    /* ================= RENDER CALENDAR ================= */
+    function renderCalendar() {
+        calendarDays.innerHTML = "";
+
+        const year = currentDate.getFullYear();
+        const month = currentDate.getMonth();
+
+        monthTitle.innerText = monthNames[month] + " " + year;
+
+        const firstDay = new Date(year, month, 1).getDay();
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+        const daysInPreviousMonth = new Date(year, month, 0).getDate();
+
+        for (let i = firstDay - 1; i >= 0; i--) {
+            const dayNumber = daysInPreviousMonth - i;
+            const dayElement = document.createElement("div");
+            dayElement.className = "day other-month";
+            dayElement.innerText = dayNumber;
+            calendarDays.appendChild(dayElement);
+        }
+
+        const today = new Date();
+
+        for (let dayNumber = 1; dayNumber <= daysInMonth; dayNumber++) {
+            const iso = isoOf(year, month, dayNumber);
+            const isAvailable = availableSet.has(iso);
+
+            const dayElement = document.createElement("div");
+            dayElement.className = "day" + (isAvailable ? " available" : "");
+            dayElement.innerHTML = "<span>" + dayNumber + "</span><span class='dot'></span>";
+
+            if (
+                dayNumber === today.getDate() &&
+                month === today.getMonth() &&
+                year === today.getFullYear()
+            ) {
+                dayElement.classList.add("today");
+            }
+
+            if (
+                selectedDate &&
+                dayNumber === selectedDate.getDate() &&
+                month === selectedDate.getMonth() &&
+                year === selectedDate.getFullYear()
+            ) {
+                dayElement.classList.add("selected");
+            }
+
+            if (isAvailable) {
+                dayElement.addEventListener("click", function () {
+                    selectedDate = new Date(year, month, dayNumber);
+                    renderCalendar();
+                    updateSelectedDate();
+                    loadDigest(iso);
+
+                    setTimeout(function () {
+                        calendarOverlay.classList.remove("active");
+                    }, 250);
+                });
+            }
+
+            calendarDays.appendChild(dayElement);
+        }
+
+        const totalCells = firstDay + daysInMonth;
+        const remainingCells = Math.ceil(totalCells / 7) * 7 - totalCells;
+
+        for (let dayNumber = 1; dayNumber <= remainingCells; dayNumber++) {
+            const dayElement = document.createElement("div");
+            dayElement.className = "day other-month";
+            dayElement.innerText = dayNumber;
+            calendarDays.appendChild(dayElement);
+        }
+
+        const hasPrev = availableDates.some(d => d < isoOf(year, month, 1));
+        const hasNext = availableDates.some(d => d > isoOf(year, month, daysInMonth));
+        prevMonth.disabled = availableDates.length > 0 && !hasPrev;
+        nextMonth.disabled = availableDates.length > 0 && !hasNext;
     }
 
-    const hasPrevAvailable = availableDates.some(d => d < viewYear + '-' + pad(viewMonth+1) + '-01');
-    const hasNextAvailable = availableDates.some(d => d > viewYear + '-' + pad(viewMonth+1) + '-' + pad(daysInMonth));
-    prevBtn.disabled = availableDates.length > 0 && !hasPrevAvailable;
-    nextBtn.disabled = availableDates.length > 0 && !hasNextAvailable;
-  }
-
-  function todayISO(){
-    const t = new Date();
-    return t.getFullYear() + '-' + pad(t.getMonth()+1) + '-' + pad(t.getDate());
-  }
-
-  function prettyLabel(iso){
-    const [y,m,d] = iso.split('-').map(Number);
-    return MONTH_NAMES[m-1].slice(0,3) + ' ' + d + ', ' + y;
-  }
-
-  function selectDate(iso){
-    selectedDate = iso;
-    const [y,m,d] = iso.split('-').map(Number);
-    if(y !== viewYear || (m-1) !== viewMonth){
-      viewYear = y; viewMonth = m - 1;
+    function updateSelectedDate() {
+        if (!selectedDate) {
+            selectedInfo.innerText = "Select a date";
+            return;
+        }
+        const formattedDate = selectedDate.toLocaleDateString("en-GB", {
+            day: "2-digit", month: "short", year: "numeric"
+        });
+        selectedInfo.innerText = formattedDate;
+        openCalendar.innerText = "📅 " + formattedDate;
     }
-    renderCalendar();
-    renderContent(iso);
-    toggleLabel.textContent = prettyLabel(iso);
-    if(!isDesktop()){
-      calPanel.classList.remove('open');
-      toggleBtn.classList.remove('open');
+
+    /* ================= CONTENT PANE ================= */
+    function loadDigest(iso) {
+        const [y,m,d] = iso.split('-').map(Number);
+        const dateObj = new Date(y, m-1, d);
+        const weekday = weekdayNames[dateObj.getDay()];
+        const pretty = monthNames[m-1] + ' ' + d + ', ' + y;
+
+        contentCol.innerHTML =
+            '<div class="content-head">' +
+                '<span class="date-big">' + pretty + '</span>' +
+                '<span class="weekday-small">' + weekday + '</span>' +
+            '</div>' +
+            '<div class="frame-wrap"><iframe src="archive/' + iso + '.html" title="Digest for ' + iso + '"></iframe></div>';
     }
-  }
 
-  function renderContent(iso){
-    const [y,m,d] = iso.split('-').map(Number);
-    const dateObj = new Date(y, m-1, d);
-    const weekday = WEEKDAY_NAMES[dateObj.getDay()];
-    const pretty = MONTH_NAMES[m-1] + ' ' + d + ', ' + y;
-
-    contentCol.innerHTML =
-      '<div class="content-head">' +
-        '<span class="date-big">' + pretty + '</span>' +
-        '<span class="weekday-small">' + weekday + '</span>' +
-      '</div>' +
-      '<div class="frame-wrap"><iframe src="archive/' + iso + '.html" title="Digest for ' + iso + '"></iframe></div>';
-  }
-
-  function renderEmpty(){
-    contentCol.innerHTML =
-      '<div class="empty-state">' +
-        '<div class="big">No digest archived yet</div>' +
-        '<div>Once the daily workflow runs, dates will appear here.</div>' +
-      '</div>';
-  }
-
-  toggleBtn.addEventListener('click', () => {
-    calPanel.classList.toggle('open');
-    toggleBtn.classList.toggle('open');
-  });
-  prevBtn.addEventListener('click', () => {
-    viewMonth--;
-    if(viewMonth < 0){ viewMonth = 11; viewYear--; }
-    renderCalendar();
-  });
-  nextBtn.addEventListener('click', () => {
-    viewMonth++;
-    if(viewMonth > 11){ viewMonth = 0; viewYear++; }
-    renderCalendar();
-  });
-  jumpLatestBtn.addEventListener('click', () => {
-    if(availableDates.length) selectDate(availableDates[availableDates.length - 1]);
-  });
-
-  fetchManifest().then(dates => {
-    availableDates = (dates || []).slice().sort();
-    availableSet = new Set(availableDates);
-
-    const latest = availableDates.length ? availableDates[availableDates.length - 1] : null;
-    const now = new Date();
-    viewYear = now.getFullYear();
-    viewMonth = now.getMonth();
-
-    if(latest){
-      const [y,m] = latest.split('-').map(Number);
-      viewYear = y; viewMonth = m - 1;
-      renderCalendar();
-      selectDate(latest);
-    } else {
-      renderCalendar();
-      renderEmpty();
+    function renderEmptyState() {
+        contentCol.innerHTML =
+            '<div class="empty-state">' +
+                '<div class="big">No digest archived yet</div>' +
+                '<div>Once the daily workflow runs, dates will appear here.</div>' +
+            '</div>';
     }
-  });
-})();
+
+    /* ================= INIT ================= */
+    fetchManifest().then(dates => {
+        availableDates = (dates || []).slice().sort();
+        availableSet = new Set(availableDates);
+
+        if (availableDates.length) {
+            const latest = availableDates[availableDates.length - 1];
+            const [y,m,d] = latest.split('-').map(Number);
+            currentDate = new Date(y, m - 1, d);
+            selectedDate = currentDate;
+            updateSelectedDate();
+            loadDigest(latest);
+        } else {
+            renderEmptyState();
+        }
+        renderCalendar();
+    });
 </script>
 
 </body>
