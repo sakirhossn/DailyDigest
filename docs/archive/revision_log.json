@@ -1,0 +1,151 @@
+[
+  {
+    "date": "13 September 2026",
+    "vocab_words": [
+      {
+        "word": "Recalcitrant",
+        "part_of_speech": "Adjective",
+        "meaning": "Having an obstinately uncooperative attitude toward authority or discipline.",
+        "synonyms": [
+          "refractory",
+          "intractable",
+          "defiant"
+        ],
+        "antonyms": [
+          "compliant",
+          "docile"
+        ],
+        "example_sentence": "The international community urged recalcitrant non-state actors to abide by global safety protocols."
+      },
+      {
+        "word": "Propinquity",
+        "part_of_speech": "Noun",
+        "meaning": "Nearness in place, time, or relationship.",
+        "synonyms": [
+          "proximity",
+          "closeness",
+          "adjacency"
+        ],
+        "antonyms": [
+          "remoteness",
+          "distance"
+        ],
+        "example_sentence": "The geographical propinquity of the two neighboring nations mandates strong bilateral economic ties."
+      },
+      {
+        "word": "Obviate",
+        "part_of_speech": "Verb",
+        "meaning": "To remove or prevent a difficulty, problem, or need.",
+        "synonyms": [
+          "preclude",
+          "avert",
+          "forestall"
+        ],
+        "antonyms": [
+          "necessitate",
+          "foster"
+        ],
+        "example_sentence": "The expansion of the Dedicated Freight Corridor will obviate logistics delays for heavy cargo."
+      },
+      {
+        "word": "Tenable",
+        "part_of_speech": "Adjective",
+        "meaning": "Able to be maintained or defended against attack or objection.",
+        "synonyms": [
+          "defensible",
+          "supportable",
+          "justifiable"
+        ],
+        "antonyms": [
+          "untenable",
+          "indefensible"
+        ],
+        "example_sentence": "Without empirical data on social benefits, maintaining direct cash doles becomes economically untenable."
+      },
+      {
+        "word": "Puerile",
+        "part_of_speech": "Adjective",
+        "meaning": "Silly and childishly immature.",
+        "synonyms": [
+          "juvenile",
+          "infantile",
+          "frivolous"
+        ],
+        "antonyms": [
+          "mature",
+          "sensible"
+        ],
+        "example_sentence": "Engaging in puerile political spats during international summits undermines diplomatic decorum."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To steal a march on",
+        "meaning": "To gain an advantage over someone secretly or unexpectedly.",
+        "example_sentence": "By heavily investing in deep-tech startups, India hopes to steal a march on global competitors in emerging fields."
+      },
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work or study late into the night.",
+        "example_sentence": "Diplomats burned the midnight oil to finalize the joint declaration before the summit concluded."
+      },
+      {
+        "idiom": "In the offing",
+        "meaning": "Likely to happen or appear in the near future.",
+        "example_sentence": "A comprehensive overhaul of national economic base-year data is reported to be in the offing."
+      },
+      {
+        "idiom": "Fly in the ointment",
+        "meaning": "A minor drawback or difficulty that spoils something that would otherwise be pleasant or successful.",
+        "example_sentence": "The lack of unified digital payment infrastructure proved to be the main fly in the ointment during cross-border transactions."
+      },
+      {
+        "idiom": "On the fence",
+        "meaning": "Undecided or neutral regarding a particular issue.",
+        "example_sentence": "Several member nations remained on the fence regarding the creation of a unified trade currency."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Dedicated Freight Corridor Corporation of India (DFCCIL)",
+        "bullets": [
+          "Established in October 2006 under the Companies Act 1956 as a Special Purpose Vehicle owned by the Ministry of Railways.",
+          "Responsible for planning, construction, maintenance, and operation of two major corridors: Eastern DFC (Ludhiana to Dankuni) and Western DFC (Dadri to JNPT).",
+          "Headquartered in New Delhi."
+        ]
+      },
+      {
+        "title": "National Commission for Protection of Child Rights (NCPCR)",
+        "bullets": [
+          "Statutory body constituted in March 2007 under the Commission for Protection of Child Rights (CPCR) Act, 2005.",
+          "Operates under the administrative control of the Ministry of Women and Child Development.",
+          "Ensures all laws, policies, and administrative mechanisms align with child rights perspectives as per the Indian Constitution and UN Convention on the Rights of the Child."
+        ]
+      },
+      {
+        "title": "BRICS & New Development Bank (NDB)",
+        "bullets": [
+          "BRIC term was coined in 2001 by Jim O'Neill; first formal summit held in Yekaterinburg, Russia in 2009.",
+          "New Development Bank (NDB) was set up during the 6th BRICS Summit in Fortaleza (2014) with equal voting rights among founding members.",
+          "NDB is headquartered in Shanghai, China."
+        ]
+      },
+      {
+        "title": "National Statistical Office (NSO)",
+        "bullets": [
+          "Formed by merging the Central Statistics Office (CSO) and National Sample Survey Office (NSSO) under MoSPI.",
+          "Responsible for publishing key national indicators including Gross Domestic Product (GDP), Index of Industrial Production (IIP), and Consumer Price Index (CPI).",
+          "Current base year for GDP calculation in India is 2011-12."
+        ]
+      },
+      {
+        "title": "Asian Cricket Council (ACC)",
+        "bullets": [
+          "Established in 1983 as the Asian Cricket Conference to foster and develop cricket across the continent.",
+          "Headquartered in Colombo, Sri Lanka.",
+          "Organizes the biennial Asian Cup tournament for both Men's and Women's national cricket teams."
+        ]
+      }
+    ]
+  }
+]
