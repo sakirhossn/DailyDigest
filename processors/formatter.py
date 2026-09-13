@@ -138,7 +138,7 @@ def format_telegram_chunks(bulletin: Dict) -> List[str]:
     # Chunk: Daily Practice Quiz
     if quiz:
         quiz_msg = (
-            f"❓ *DAILY EXAM PRACTICE QUIZ (5 MCQs)*\n"
+            f"🤔 *DAILY EXAM PRACTICE QUIZ (5 MCQs)*\n"
             f"Test your retention from today's current affairs!\n"
             f"{'='*34}\n\n"
         )
