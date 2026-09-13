@@ -2,9 +2,9 @@ name: Daily Current Affairs Dispatch
 
 on:
   schedule:
-    # Runs every morning at 03:47 UTC (~09:17 AM IST)
+    # Runs every morning at 21:47 UTC (~02:17 AM IST)
     # (Off the top-of-hour minute to avoid GitHub's busiest queue slot)
-    - cron: '47 3 * * *'
+    - cron: '47 21 * * *'
   workflow_dispatch:
     inputs:
       exam:
