@@ -301,5 +301,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "14 September 2026",
+    "vocab_words": [
+      {
+        "word": "VOLATILITY",
+        "part_of_speech": "Noun",
+        "meaning": "Liability to change rapidly and unpredictably, especially for the worse.",
+        "synonyms": [
+          "instability",
+          "fluctuation",
+          "capriciousness"
+        ],
+        "antonyms": [
+          "stability",
+          "constancy"
+        ],
+        "example_sentence": "The sudden spike in crude oil prices increased market volatility across Asian stock exchanges."
+      },
+      {
+        "word": "TARIFF",
+        "part_of_speech": "Noun",
+        "meaning": "A tax or duty to be paid on a particular class of imports or exports.",
+        "synonyms": [
+          "duty",
+          "levy",
+          "customs clearance fee"
+        ],
+        "antonyms": [
+          "subsidy",
+          "rebate"
+        ],
+        "example_sentence": "Leaders at the summit called for a reduction in non-tariff barriers to facilitate smoother international trade."
+      },
+      {
+        "word": "IMPETUS",
+        "part_of_speech": "Noun",
+        "meaning": "Something that makes a process or activity happen or happen more quickly.",
+        "synonyms": [
+          "momentum",
+          "catalyst",
+          "incentive"
+        ],
+        "antonyms": [
+          "hindrance",
+          "deterrent"
+        ],
+        "example_sentence": "The expansion of dedicated freight corridors provided a major impetus to industrial logistics."
+      },
+      {
+        "word": "UNILATERAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Action performed by or affecting only one person, group, or country without the agreement of others.",
+        "synonyms": [
+          "one-sided",
+          "independent",
+          "autonomous"
+        ],
+        "antonyms": [
+          "bilateral",
+          "multilateral"
+        ],
+        "example_sentence": "Unilateral trade sanctions often disrupt international maritime trade routes."
+      },
+      {
+        "word": "COGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Clear, logical, and convincing in argument.",
+        "synonyms": [
+          "compelling",
+          "persuasive",
+          "lucid"
+        ],
+        "antonyms": [
+          "unconvincing",
+          "weak"
+        ],
+        "example_sentence": "The economist presented a cogent argument for shifting social welfare focus toward measurable educational outcomes."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To read between the lines",
+        "meaning": "To understand the hidden or implicit meaning that is not expressed directly.",
+        "example_sentence": "Financial analysts had to read between the lines of the central bank's statement to predict future interest rate moves."
+      },
+      {
+        "idiom": "At a crossroads",
+        "meaning": "At a point where a crucial decision must be made that will affect the future.",
+        "example_sentence": "With energy prices surging worldwide, developing economies find themselves at a policy crossroads."
+      },
+      {
+        "idiom": "Through thick and thin",
+        "meaning": "Under all circumstances, no matter how difficult or challenging.",
+        "example_sentence": "India has maintained steadfast diplomatic and trade ties with its key global partners through thick and thin."
+      },
+      {
+        "idiom": "To turn the tide",
+        "meaning": "To reverse the direction of a trend or course of events.",
+        "example_sentence": "A robust rise in export demand helped turn the tide for the manufacturing sector this quarter."
+      },
+      {
+        "idiom": "A double-edged sword",
+        "meaning": "A course of action or decision that has both positive and negative consequences.",
+        "example_sentence": "High commodity prices can benefit resource-exporting nations but act as a double-edged sword by driving local inflation."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Foreign Exchange Reserves of India",
+        "bullets": [
+          "Managed by the Reserve Bank of India (RBI) under the Reserve Bank of India Act, 1934, and Foreign Exchange Management Act (FEMA), 1999.",
+          "Consists of four components: Foreign Currency Assets (FCA), Gold, Special Drawing Rights (SDRs), and Reserve Tranche Position (RTP) in the IMF.",
+          "Foreign Currency Assets (FCA) form the largest portion and are expressed in terms of US dollars, accounting for exchange rate fluctuations of non-US currencies."
+        ]
+      },
+      {
+        "title": "Strait of Hormuz",
+        "bullets": [
+          "A narrow maritime passage located between the Persian Gulf and the Gulf of Oman, separating Iran to the north from Oman and the UAE to the south.",
+          "Recognized as the world's most critical oil chokepoint, through which approximately 20% to 30% of global petroleum production flows daily.",
+          "Crucial for India's energy security, as over 60% of India's crude oil imports originate from West Asian suppliers using this route."
+        ]
+      },
+      {
+        "title": "Monetary Policy Committee (MPC)",
+        "bullets": [
+          "Constituted under Section 45ZB of the Reserve Bank of India Act, 1934, following the 2016 statutory amendment.",
+          "Comprises 6 members: the RBI Governor (Ex-officio Chairperson), Deputy Governor in charge of monetary policy, one RBI officer, and 3 external members appointed by the Central Government.",
+          "Operates under a Flexible Inflation Targeting framework, mandated to maintain Consumer Price Index (CPI) inflation at 4% with an allowable tolerance band of +/- 2%."
+        ]
+      },
+      {
+        "title": "Gross Domestic Product (GDP) Measurement in India",
+        "bullets": [
+          "Real GDP measures total economic output at constant base year prices to eliminate inflation effects, whereas Nominal GDP measures output at current market prices.",
+          "The current official base year for GDP calculation in India is 2011-12, maintained by the Ministry of Statistics and Programme Implementation (MoSPI).",
+          "Gross Value Added (GVA) reflects sector-wise supply dynamics; GDP is derived as GVA plus product taxes minus product subsidies."
+        ]
+      },
+      {
+        "title": "Direct Benefit Transfer (DBT) System",
+        "bullets": [
+          "Launched by the Government of India on 1st January 2013 to transfer welfare benefits directly into bank accounts, eliminating intermediaries and leakage.",
+          "Powered by the 'JAM Trinity'\u2014Jan Dhan bank accounts, Aadhaar unique identity, and Mobile connectivity.",
+          "Managed by the DBT Mission, which functions under the Cabinet Secretariat to coordinate implementation across central and state ministries."
+        ]
+      }
+    ]
   }
 ]
