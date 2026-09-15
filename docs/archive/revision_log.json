@@ -450,5 +450,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "15 September 2026",
+    "vocab_words": [
+      {
+        "word": "PERMEATE",
+        "part_of_speech": "Verb",
+        "meaning": "To spread throughout every part of a substance, system, or society.",
+        "synonyms": [
+          "pervade",
+          "saturate",
+          "suffuse"
+        ],
+        "antonyms": [
+          "evaporate",
+          "exude"
+        ],
+        "example_sentence": "Inflationary pressures have begun to permeate the manufacturing sector, raising operational costs."
+      },
+      {
+        "word": "ASSERTION",
+        "part_of_speech": "Noun",
+        "meaning": "A confident and forceful statement of fact or belief.",
+        "synonyms": [
+          "declaration",
+          "affirmation",
+          "contention"
+        ],
+        "antonyms": [
+          "denial",
+          "disavowal"
+        ],
+        "example_sentence": "The ministry challenged the company's assertion that the operational delay was purely accidental."
+      },
+      {
+        "word": "EXACERBATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a problem, bad situation, or negative feeling worse.",
+        "synonyms": [
+          "aggravate",
+          "worsen",
+          "compound"
+        ],
+        "antonyms": [
+          "mitigate",
+          "assuage"
+        ],
+        "example_sentence": "Geopolitical tensions in West Asia threaten to exacerbate global crude oil supply disruptions."
+      },
+      {
+        "word": "SURMOUNT",
+        "part_of_speech": "Verb",
+        "meaning": "To overcome a difficulty, obstacle, or hurdle successfully.",
+        "synonyms": [
+          "overcome",
+          "conquer",
+          "master"
+        ],
+        "antonyms": [
+          "succumb",
+          "yield"
+        ],
+        "example_sentence": "Policymakers must surmount structural bottlenecks in skilling to translate economic growth into employment."
+      },
+      {
+        "word": "OVERSIGHT",
+        "part_of_speech": "Noun",
+        "meaning": "Regulatory supervision, or an unintentional failure to notice something.",
+        "synonyms": [
+          "supervision",
+          "surveillance",
+          "omission"
+        ],
+        "antonyms": [
+          "inattention",
+          "negligence"
+        ],
+        "example_sentence": "The aviation authority instituted stricter oversight procedures to prevent security lapses at major transit hubs."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To take with a pinch of salt",
+        "meaning": "To view a statement with skepticism or doubt.",
+        "example_sentence": "Investors should take short-term quarterly projections with a pinch of salt during volatile macroeconomic conditions."
+      },
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To face a difficult situation courageously and take an inevitable tough decision.",
+        "example_sentence": "Central banks may have to bite the bullet and raise repo rates if headline inflation remains persistently high."
+      },
+      {
+        "idiom": "In the pipeline",
+        "meaning": "In the process of being planned, developed, or produced.",
+        "example_sentence": "Several bilateral infrastructure and green energy projects are currently in the pipeline between India and Nepal."
+      },
+      {
+        "idiom": "At the eleventh hour",
+        "meaning": "At the last possible moment, right before a deadline.",
+        "example_sentence": "The emergency response team was mobilized at the eleventh hour to prevent flood damage in West Sikkim."
+      },
+      {
+        "idiom": "Spill the beans",
+        "meaning": "To reveal confidential or secret information prematurely.",
+        "example_sentence": "Trade negotiators refused to spill the beans about tariff concessions until the final agreement was signed."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Payment and Settlement Systems Act, 2007",
+        "bullets": [
+          "Enacted to provide for the regulation and supervision of payment systems in India.",
+          "Designates the Reserve Bank of India (RBI) as the sole authority to regulate payment systems.",
+          "Empowers RBI to frame regulations regarding Merchant Discount Rate (MDR) and zero-charge frameworks for digital payments like UPI and RuPay."
+        ]
+      },
+      {
+        "title": "Sashastra Seema Bal (SSB)",
+        "bullets": [
+          "Established in 1963 as Special Service Bureau following the 1962 Indo-China War; renamed Sashastra Seema Bal in 2003.",
+          "Functions under the administrative control of the Ministry of Home Affairs (MHA).",
+          "Mandated to guard India's open international borders with Nepal (1,751 km) and Bhutan (699 km)."
+        ]
+      },
+      {
+        "title": "Wholesale Price Index (WPI) vs Consumer Price Index (CPI)",
+        "bullets": [
+          "WPI measures inflation at the producer/wholesale level, published by DPIIT (Base Year: 2011-12) with no services basket.",
+          "CPI measures inflation at the retail consumer level, published by NSO (Base Year: 2012) and includes services.",
+          "The RBI officially adopted CPI as its primary inflation metric for monetary policy formulation in 2014 based on the Urjit Patel Committee recommendations."
+        ]
+      },
+      {
+        "title": "Open Court Principle & Article 145 of the Indian Constitution",
+        "bullets": [
+          "Article 145(4) explicitly mandates that no judgment shall be delivered by the Supreme Court save in open court.",
+          "Open court justice ensures public transparency, judicial accountability, and public trust in legal proceedings.",
+          "Constitutional Bench exceptions exist for in-camera trials under specific statutory provisions like family law or national security."
+        ]
+      },
+      {
+        "title": "73rd Constitutional Amendment Act, 1992",
+        "bullets": [
+          "Inserted Part IX (Articles 243 to 243O) and the 11th Schedule into the Constitution of India.",
+          "Gave constitutional status to Panchayati Raj Institutions (PRIs) creating a 3-tier system: Gram, Intermediate, and District Panchayats.",
+          "11th Schedule contains 29 functional items allocated to Panchayats, including education, libraries, and rural infrastructure."
+        ]
+      }
+    ]
   }
 ]
