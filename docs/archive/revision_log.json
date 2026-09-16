@@ -599,5 +599,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "16 September 2026",
+    "vocab_words": [
+      {
+        "word": "DISPARAGEMENT",
+        "part_of_speech": "Noun",
+        "meaning": "The act of speaking about someone or something in a derogatory or belittling manner.",
+        "synonyms": [
+          "denigration",
+          "belittlement",
+          "depreciation"
+        ],
+        "antonyms": [
+          "praise",
+          "acclaim",
+          "laudation"
+        ],
+        "example_sentence": "The court expressed Chagrin at the disparagement directed toward the independent expert committee before it began its work."
+      },
+      {
+        "word": "DESUETUDE",
+        "part_of_speech": "Noun",
+        "meaning": "A state of disuse, inactivity, or neglect.",
+        "synonyms": [
+          "disuse",
+          "inactivity",
+          "obsolescence"
+        ],
+        "antonyms": [
+          "use",
+          "custom",
+          "prevalence"
+        ],
+        "example_sentence": "Several outdated regulatory provisions fell into desuetude following the comprehensive economic reforms."
+      },
+      {
+        "word": "PERNICIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having a subtle, gradual, or highly harmful and destructive effect.",
+        "synonyms": [
+          "deleterious",
+          "insidious",
+          "detrimental"
+        ],
+        "antonyms": [
+          "beneficial",
+          "salutary",
+          "harmless"
+        ],
+        "example_sentence": "Unregulated cosmetic products containing toxic metals pose a pernicious threat to consumer health."
+      },
+      {
+        "word": "PROSCRIPTION",
+        "part_of_speech": "Noun",
+        "meaning": "An official ban, prohibition, or condemnation of a practice or group.",
+        "synonyms": [
+          "prohibition",
+          "embargo",
+          "interdict"
+        ],
+        "antonyms": [
+          "sanction",
+          "allowance",
+          "authorization"
+        ],
+        "example_sentence": "The statutory proscription against registering disputed land titles is governed under Section 22A of the Registration Act."
+      },
+      {
+        "word": "DISQUIET",
+        "part_of_speech": "Noun",
+        "meaning": "A feeling of anxiety, unease, or worry.",
+        "synonyms": [
+          "apprehension",
+          "uneasiness",
+          "consternation"
+        ],
+        "antonyms": [
+          "tranquility",
+          "serenity",
+          "calmness"
+        ],
+        "example_sentence": "The sudden escalation in regional crude oil prices generated widespread disquiet among global central bankers."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To lock horns",
+        "meaning": "To engage in a severe dispute, conflict, or confrontation with someone.",
+        "example_sentence": "Industry regulatory bodies and retail federations locked horns over the implementation of zero MDR charges."
+      },
+      {
+        "idiom": "Through the grapevine",
+        "meaning": "To hear news, rumors, or information through informal communication channels.",
+        "example_sentence": "Market analysts heard through the grapevine that the central bank might consider a rate hike next month."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To exhaust one's health or resources by working or staying active late at night and early in the morning.",
+        "example_sentence": "Aspirants preparing for competitive exams often burn the candle at both ends to cover the expansive syllabus."
+      },
+      {
+        "idiom": "To throw cold water on",
+        "meaning": "To discourage, dampen enthusiasm for, or express disapproval of a plan or idea.",
+        "example_sentence": "Rising inflation numbers threw cold water on market hopes for an early reduction in benchmark interest rates."
+      },
+      {
+        "idiom": "Barking up the wrong tree",
+        "meaning": "Pursuing a mistaken line of thought, investigation, or course of action.",
+        "example_sentence": "Focusing solely on supply-side incentives without addressing labor demand means policymakers may be barking up the wrong tree."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Central Drugs Standard Control Organization (CDSCO)",
+        "bullets": [
+          "Nodal Agency: Statutory body under the Directorate General of Health Services, Ministry of Health & Family Welfare.",
+          "Governing Act: Enforces regulations under the Drugs and Cosmetics Act, 1940 and Rules, 1945.",
+          "Key Functionary: Headed by the Drugs Controller General of India (DCGI); headquartered in New Delhi."
+        ]
+      },
+      {
+        "title": "World Trade Organization (WTO)",
+        "bullets": [
+          "Formation: Established on January 1, 1995, as a result of the 1994 Marrakesh Agreement, replacing the 1947 GATT.",
+          "Headquarters: Geneva, Switzerland; current membership stands at 164 member states.",
+          "Highest Body: The Ministerial Conference, which meets biennially to make major decisions regarding multilateral trade agreements."
+        ]
+      },
+      {
+        "title": "Section 22A of the Registration Act, 1908",
+        "bullets": [
+          "Legal Mandate: Empowers state governments to prohibit registration of documents relating to transfer of public, endowment, or protected lands.",
+          "Objective: Prevents fraudulent alienation of government properties and ceiling surplus land.",
+          "Constitutional Context: 'Land' and 'Rights in or over land' fall under List II (State List) of the Seventh Schedule of the Indian Constitution."
+        ]
+      },
+      {
+        "title": "India-Nepal Energy Cooperation Framework",
+        "bullets": [
+          "Foundational Agreement: Power Exchange Agreement signed between India and Nepal in 1971.",
+          "Transmission Asset: The 400 kV Dhalkebar-Muzaffarpur cross-border line acts as the primary transmission artery for high-capacity trade.",
+          "Nodal Entities: Grid Controller of India Limited (Grid-India) and Nepal Electricity Authority (NEA)."
+        ]
+      },
+      {
+        "title": "El Ni\u00f1o-Southern Oscillation (ENSO)",
+        "bullets": [
+          "Mechanism: Periodic warming of Sea Surface Temperatures (SST) in the central and eastern tropical Pacific Ocean.",
+          "Impact on India: Weakens the pressure gradient required for monsoon winds, frequently resulting in below-normal rainfall in South Asia.",
+          "Opposite Phase: La Ni\u00f1a, characterized by cooling SSTs in the Pacific, typically correlates with strong monsoon rainfall in India."
+        ]
+      }
+    ]
   }
 ]
