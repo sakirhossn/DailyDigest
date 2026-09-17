@@ -753,5 +753,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "17 September 2026",
+    "vocab_words": [
+      {
+        "word": "OBFUSCATE",
+        "part_of_speech": "Verb",
+        "meaning": "To render obscure, unclear, or unintelligible, often deliberately.",
+        "synonyms": [
+          "befog",
+          "muddle",
+          "cloud"
+        ],
+        "antonyms": [
+          "clarify",
+          "elucidate",
+          "illuminate"
+        ],
+        "example_sentence": "Complex financial jargon is often used by dishonest firms to obfuscate risk factors from investors."
+      },
+      {
+        "word": "SQUANDER",
+        "part_of_speech": "Verb",
+        "meaning": "To waste money, time, or opportunity in a reckless and foolish manner.",
+        "synonyms": [
+          "dissipate",
+          "fritter away",
+          "lavish"
+        ],
+        "antonyms": [
+          "hoard",
+          "conserve",
+          "husband"
+        ],
+        "example_sentence": "Developing nations cannot afford to squander fiscal resources on non-productive subsidies."
+      },
+      {
+        "word": "INNOCUOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Not harmful or offensive; harmless in effect.",
+        "synonyms": [
+          "innoxious",
+          "benign",
+          "safe"
+        ],
+        "antonyms": [
+          "deleterious",
+          "pernicious",
+          "noxious"
+        ],
+        "example_sentence": "What appeared to be an innocuous regulatory filing actually triggered a major market reaction."
+      },
+      {
+        "word": "PARSIMONIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Extremely unwilling to spend money or use resources; excessively frugal.",
+        "synonyms": [
+          "penurious",
+          "stingy",
+          "miserly"
+        ],
+        "antonyms": [
+          "extravagant",
+          "generous",
+          "profligate"
+        ],
+        "example_sentence": "The ministry's parsimonious allocation for capital expenditure slowed infrastructure development."
+      },
+      {
+        "word": "EXCORIATE",
+        "part_of_speech": "Verb",
+        "meaning": "To criticize or censure someone or something severely.",
+        "synonyms": [
+          "chastise",
+          "castigate",
+          "upbraid"
+        ],
+        "antonyms": [
+          "extol",
+          "laud",
+          "commend"
+        ],
+        "example_sentence": "The legislative committee members excoriated executive officials for systemic compliance failures."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To bury the hatchet",
+        "meaning": "To end a quarrel or conflict and settle differences peacefully.",
+        "example_sentence": "The two neighboring countries finally decided to bury the hatchet and sign a landmark bilateral trade pact."
+      },
+      {
+        "idiom": "To weather the storm",
+        "meaning": "To successfully survive a difficult period, crisis, or challenge.",
+        "example_sentence": "Thanks to strong foreign currency reserves, the economy managed to weather the global financial storm."
+      },
+      {
+        "idiom": "Burn the bridge",
+        "meaning": "To commit an act that irreversibly destroys a relationship, position, or option.",
+        "example_sentence": "By publicly criticizing his former regulatory employer, the analyst burnt his bridges in corporate governance consulting."
+      },
+      {
+        "idiom": "Add fuel to the fire",
+        "meaning": "To take an action that exacerbates an already volatile or dangerous situation.",
+        "example_sentence": "Unsubstantiated rumors regarding bank illiquidity only added fuel to the financial panic."
+      },
+      {
+        "idiom": "Spanner in the works",
+        "meaning": "An event or action that disrupts a planned process or causes a system to malfunction.",
+        "example_sentence": "Unanticipated tariff policy changes threw a serious spanner in the works of the export consortium."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Employees' Provident Fund Organisation (EPFO)",
+        "bullets": [
+          "Established under the Employees' Provident Funds and Miscellaneous Provisions Act, 1952; functions under the Ministry of Labour and Employment.",
+          "Administered by the Central Board of Trustees (CBT), a tripartite body comprising representatives from Government, Employers, and Employees.",
+          "Headquartered in New Delhi; manages three major schemes: EPF Scheme 1952, EPS (Pension Scheme) 1995, and EDLI (Insurance Scheme) 1976."
+        ]
+      },
+      {
+        "title": "Foreign Currency Non-Resident (Bank) Deposit Scheme - FCNR(B)",
+        "bullets": [
+          "Introduced to allow Non-Resident Indians (NRIs) and Persons of Indian Origin (PIOs) to maintain term deposits in foreign currencies in India.",
+          "Deposits are fully repatriable (both principal and interest), and exchange rate risk is entirely borne by the commercial bank, not the depositor.",
+          "Exempt from Indian income tax and wealth tax, serving as an important source of foreign exchange inflow during external current account deficits."
+        ]
+      },
+      {
+        "title": "Meenakshi Amman Temple & Dravidian Architecture",
+        "bullets": [
+          "Located in Madurai, Tamil Nadu, on the southern banks of the Vaigai River.",
+          "Renowned for its towering Gopurams (monumental entrance towers), golden lotus tank (Porthamarai Kulam), and Hall of Thousand Pillars.",
+          "Key structural expansions were carried out during the reign of the Nayak Dynasty (notably King Thirumalai Nayak) in the 16th\u201317th centuries."
+        ]
+      },
+      {
+        "title": "Outer Space Treaty of 1967",
+        "bullets": [
+          "Formal title: Treaty on Principles Governing the Activities of States in the Exploration and Use of Outer Space, including the Moon and Other Celestial Bodies.",
+          "Forms the foundational framework of international space law under the auspices of the United Nations Committee on the Peaceful Uses of Outer Space (COPUOS).",
+          "Explicitly bans placing weapons of mass destruction (WMDs) in orbit, on the Moon, or on any other celestial body, reserving space for peaceful activities."
+        ]
+      },
+      {
+        "title": "Operation Polo & Article 371(J) (Kalyana-Karnataka)",
+        "bullets": [
+          "Operation Polo was the military action conducted in September 1948 by the Indian Armed Forces to integrate the princely state of Hyderabad into the Union of India.",
+          "September 17 is celebrated annually as Liberation Day across the region (Kalyana-Karnataka).",
+          "Article 371(J) was added to the Constitution via the 98th Constitutional Amendment Act, 2012, to provide special developmental provisions and reservation quotas for six backward districts of the region."
+        ]
+      }
+    ]
   }
 ]
