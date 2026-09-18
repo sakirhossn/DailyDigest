@@ -907,5 +907,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "18 September 2026",
+    "vocab_words": [
+      {
+        "word": "BURGEONING",
+        "part_of_speech": "Adjective",
+        "meaning": "Beginning to grow or develop rapidly; flourishing.",
+        "synonyms": [
+          "mushrooming",
+          "proliferating",
+          "expanding"
+        ],
+        "antonyms": [
+          "dwindling",
+          "shrinking"
+        ],
+        "example_sentence": "The burgeoning digital payments ecosystem has transformed retail trade across rural and urban India."
+      },
+      {
+        "word": "IMPRIMATUR",
+        "part_of_speech": "Noun",
+        "meaning": "Official approval, endorsement, or sanction.",
+        "synonyms": [
+          "sanction",
+          "endorsement",
+          "authorization"
+        ],
+        "antonyms": [
+          "prohibition",
+          "disapproval"
+        ],
+        "example_sentence": "The infrastructure project proceeded smoothly after receiving the official imprimatur of the Union Environment Ministry."
+      },
+      {
+        "word": "ATTENUATE",
+        "part_of_speech": "Verb",
+        "meaning": "To reduce the force, intensity, effect, or value of something.",
+        "synonyms": [
+          "mitigate",
+          "weaken",
+          "diminish"
+        ],
+        "antonyms": [
+          "amplify",
+          "intensify"
+        ],
+        "example_sentence": "Strategic petroleum reserves are designed to attenuate severe supply disruptions during geopolitical crises."
+      },
+      {
+        "word": "SANCTIMONIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Making a hypocritical show of moral superiority or righteousness.",
+        "synonyms": [
+          "self-righteous",
+          "pious",
+          "hypocritical"
+        ],
+        "antonyms": [
+          "humble",
+          "modest"
+        ],
+        "example_sentence": "Diplomats criticized the sanctimonious tone of foreign unilateral trade measures imposed without multilateral dialogue."
+      },
+      {
+        "word": "SOPHISTIC",
+        "part_of_speech": "Adjective",
+        "meaning": "Plausible but fallacious or misleading in reasoning.",
+        "synonyms": [
+          "specious",
+          "fallacious",
+          "deceptive"
+        ],
+        "antonyms": [
+          "valid",
+          "sound"
+        ],
+        "example_sentence": "Economists dismissed the sophistic arguments blaming digital infrastructure fees for broad inflationary trends."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To cut the Gordian knot",
+        "meaning": "To solve a highly complex or intractable problem in a quick, bold, and decisive manner.",
+        "example_sentence": "By introducing direct e-auctions for mineral blocks, the ministry cut the Gordian knot of discretionary natural resource allocations."
+      },
+      {
+        "idiom": "To tilt at windmills",
+        "meaning": "To waste energy fighting imaginary enemies or pursuing impractical, unrealistic goals.",
+        "example_sentence": "Attempting to completely ban commercial digital transactions in a modern economy is merely tilting at windmills."
+      },
+      {
+        "idiom": "In the doldrums",
+        "meaning": "In a state of stagnation, inactivity, low morale, or depression.",
+        "example_sentence": "The commercial real estate sector remained in the doldrums until government asset monetization drives injected fresh market liquidity."
+      },
+      {
+        "idiom": "To keep one's ear to the ground",
+        "meaning": "To pay careful attention to upcoming trends, public opinions, and developments.",
+        "example_sentence": "Central bank policymakers must keep their ear to the ground to anticipate sudden fluctuations in global commodity pricing."
+      },
+      {
+        "idiom": "To strain at a gnat and swallow a camel",
+        "meaning": "To fuss excessively over trivial flaws while overlooking much larger and more serious problems.",
+        "example_sentence": "Focusing heavily on minor paperwork errors while ignoring massive systemic audit deficits is straining at a gnat and swallowing a camel."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Public Accounts Committee (PAC)",
+        "bullets": [
+          "First set up in 1921 under the provisions of the Government of India Act, 1919; currently consists of 22 members (15 Lok Sabha, 7 Rajya Sabha).",
+          "Members are elected annually from among Parliament members according to the principle of proportional representation by means of a single transferable vote.",
+          "Examines the annual audit reports submitted by the CAG under Article 151 of the Constitution to ensure administrative accountability."
+        ]
+      },
+      {
+        "title": "National Land Monetization Corporation (NLMC)",
+        "bullets": [
+          "Established in March 2022 as a wholly owned Government of India company under the Ministry of Finance.",
+          "Initial authorized share capital stands at \u20b915,000 crore, with a paid-up share capital of \u20b9150 crore.",
+          "Mandated to undertake monetization of surplus, unused, or underused non-core land and building assets of CPSEs and government agencies."
+        ]
+      },
+      {
+        "title": "National Quantum Mission (NQM)",
+        "bullets": [
+          "Approved by the Union Cabinet in April 2023 with an outlay of \u20b96,003 crore for the period 2023-31.",
+          "Nodal Agency: Department of Science & Technology (DST), Ministry of Science and Technology.",
+          "Focuses on developing intermediate-scale quantum computers (50-1000 physical qubits) and secure Quantum Key Distribution (QKD) systems."
+        ]
+      },
+      {
+        "title": "Ethanol Blending Programme (EBP) in India",
+        "bullets": [
+          "Launched in 2003 by the Ministry of Petroleum and Natural Gas (MoPNG) to reduce import dependency and carbon footprint.",
+          "Targeted 20% ethanol blending in petrol (E20) moved forward from 2030 to 2025-26 under the updated National Policy on Biofuels.",
+          "Ethanol is an ethyl alcohol ($C_2H_5OH$) produced mainly by fermenting sugar derived from sugarcane molasses, corn, broken rice, and damaged food grains."
+        ]
+      },
+      {
+        "title": "Merchant Discount Rate (MDR)",
+        "bullets": [
+          "MDR is the charge payable by a merchant to the bank accepting card/digital payments to cover transaction handling costs.",
+          "The fee is typically split among the issuing bank, acquiring bank, and payment network processor (e.g., NPCI, Visa, Mastercard).",
+          "Zero-MDR policy was mandated by the Government from January 1, 2020, for UPI and RuPay debit card transactions to boost digital adoption."
+        ]
+      }
+    ]
   }
 ]
