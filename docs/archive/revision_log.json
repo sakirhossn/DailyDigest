@@ -1056,5 +1056,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "19 September 2026",
+    "vocab_words": [
+      {
+        "word": "PROCLIVITY",
+        "part_of_speech": "Noun",
+        "meaning": "A natural inclination or tendency to choose or act in a particular way.",
+        "synonyms": [
+          "propensity",
+          "penchant",
+          "predisposition"
+        ],
+        "antonyms": [
+          "aversion",
+          "disinclination"
+        ],
+        "example_sentence": "Institutional investors showed a clear proclivity toward high-yield green bonds during the latest capital market surge."
+      },
+      {
+        "word": "CAPRICIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Given to sudden, unpredictable changes in mood, behavior, or policy.",
+        "synonyms": [
+          "fickle",
+          "unpredictable",
+          "whimsical"
+        ],
+        "antonyms": [
+          "consistent",
+          "steadfast"
+        ],
+        "example_sentence": "Capricious regulatory changes in international trade routes often disrupt established supply chain schedules."
+      },
+      {
+        "word": "OBDURATE",
+        "part_of_speech": "Adjective",
+        "meaning": "Stubbornly refusing to change one's opinion or course of action.",
+        "synonyms": [
+          "adamant",
+          "intransigent",
+          "unyielding"
+        ],
+        "antonyms": [
+          "flexible",
+          "pliant"
+        ],
+        "example_sentence": "Despite heavy criticism, the regulatory board remained obdurate regarding compliance deadlines for financial institutions."
+      },
+      {
+        "word": "EQUANIMITY",
+        "part_of_speech": "Noun",
+        "meaning": "Mental calmness, composure, and evenness of temper, especially in a difficult situation.",
+        "synonyms": [
+          "poise",
+          "serenity",
+          "sangfroid"
+        ],
+        "antonyms": [
+          "agitation",
+          "alarm"
+        ],
+        "example_sentence": "The central bank governor addressed the economic slowdown with notable equanimity during the press conference."
+      },
+      {
+        "word": "PURVEYOR",
+        "part_of_speech": "Noun",
+        "meaning": "A person, group, or entity that promotes, spreads, or supplies particular goods or ideas.",
+        "synonyms": [
+          "supplier",
+          "vendor",
+          "disseminator"
+        ],
+        "antonyms": [
+          "consumer",
+          "receiver"
+        ],
+        "example_sentence": "The public sector enterprise has long served as a key purveyor of industrial technological innovations in India."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To steer clear of",
+        "meaning": "To deliberately avoid a person, topic, or situation.",
+        "example_sentence": "Conservative portfolio managers preferred to steer clear of volatile derivative products during market downturns."
+      },
+      {
+        "idiom": "To make ends meet",
+        "meaning": "To earn just enough money to pay for basic living expenses.",
+        "example_sentence": "Subsidized food grain schemes help low-income households make ends meet during periods of food inflation."
+      },
+      {
+        "idiom": "On a wing and a prayer",
+        "meaning": "Doing something with very little plan or resource, relying entirely on luck and hope.",
+        "example_sentence": "The startup expanded its overseas operations on a wing and a prayer before securing Series-A funding."
+      },
+      {
+        "idiom": "To burn the midnight oil",
+        "meaning": "To work late into the night.",
+        "example_sentence": "The parliamentary committee burned the midnight oil to submit its draft recommendations before the session concluded."
+      },
+      {
+        "idiom": "In the teeth of",
+        "meaning": "In direct opposition to, or despite strong difficulties and opposition.",
+        "example_sentence": "The fiscal reforms were successfully implemented in the teeth of widespread public criticism."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Foreign Contribution (Regulation) Act (FCRA)",
+        "bullets": [
+          "Enacted originally in 1976 and heavily amended in 2010 and 2020, FCRA regulates foreign donations to individuals and associations.",
+          "Statutory administration rests under the Ministry of Home Affairs (MHA), requiring mandatory registration and maintenance of an FCRA account at SBI Main Branch, New Delhi.",
+          "FCRA registration remains valid for 5 years and must be renewed 6 months before expiry."
+        ]
+      },
+      {
+        "title": "Hindustan Aeronautics Limited (HAL)",
+        "bullets": [
+          "Founded originally as Hindustan Aircraft in 1940 by Walchand Hirachand; re-constituted as HAL in 1964 under the Ministry of Defence.",
+          "Headquartered in Bengaluru, Karnataka, it is categorized as a Navratna Public Sector Undertaking.",
+          "Key indigenous developments include LCA Tejas, Advanced Light Helicopter (ALH Dhruv), Light Combat Helicopter (Prachand), and HTT-40."
+        ]
+      },
+      {
+        "title": "National Mineral Development Corporation (NMDC)",
+        "bullets": [
+          "Established in 1958 as a premier public sector enterprise, headquartered in Hyderabad, Telangana.",
+          "Functions under the administrative control of the Union Ministry of Steel as India's largest iron ore producer.",
+          "Operates major mechanised iron ore mines at Bailadila (Chhattisgarh) and Donimalai (Karnataka)."
+        ]
+      },
+      {
+        "title": "Central Board of Direct Taxes (CBDT)",
+        "bullets": [
+          "Statutory body operating under the Central Board of Revenue Act, 1963.",
+          "Functions as part of the Department of Revenue within the Ministry of Finance, handling direct tax policies and administration.",
+          "It consists of a Chairman and six functional members overseeing Income Tax, Corporate Tax, Revenue, and Audit."
+        ]
+      },
+      {
+        "title": "Comprehensive Economic Partnership Agreement (CEPA)",
+        "bullets": [
+          "A holistic economic agreement that goes beyond a standard Free Trade Agreement (FTA) by addressing trade in services, investment, regulatory cooperation, and intellectual property.",
+          "India has active CEPAs with countries such as Japan, South Korea, and the United Arab Emirates (UAE).",
+          "Framework agreements are overseen by the Department of Commerce under the Ministry of Commerce and Industry."
+        ]
+      }
+    ]
   }
 ]
