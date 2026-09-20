@@ -1205,5 +1205,158 @@
         ]
       }
     ]
+  },
+  {
+    "date": "20 September 2026",
+    "vocab_words": [
+      {
+        "word": "CATALYST",
+        "part_of_speech": "Noun",
+        "meaning": "A person or event that quickly causes significant change or action.",
+        "synonyms": [
+          "trigger",
+          "spur",
+          "impetus",
+          "stimulus"
+        ],
+        "antonyms": [
+          "hindrance",
+          "deterrent"
+        ],
+        "example_sentence": "The new policy acted as a catalyst for foreign investment in the manufacturing sector."
+      },
+      {
+        "word": "PRAGMATIC",
+        "part_of_speech": "Adjective",
+        "meaning": "Dealing with problems in a sensible, practical way rather than through theory.",
+        "synonyms": [
+          "practical",
+          "realistic",
+          "sensible"
+        ],
+        "antonyms": [
+          "idealistic",
+          "impractical"
+        ],
+        "example_sentence": "Economists praised the government's pragmatic approach to managing inflation."
+      },
+      {
+        "word": "CONSOLIDATE",
+        "part_of_speech": "Verb",
+        "meaning": "To combine or strengthen into a more effective or coherent whole.",
+        "synonyms": [
+          "strengthen",
+          "unify",
+          "merge",
+          "solidify"
+        ],
+        "antonyms": [
+          "weaken",
+          "fragment",
+          "divide"
+        ],
+        "example_sentence": "The merger aims to consolidate the bank's position in the retail lending market."
+      },
+      {
+        "word": "DIVERGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Tending to develop differently or move in different directions.",
+        "synonyms": [
+          "differing",
+          "varying",
+          "conflicting"
+        ],
+        "antonyms": [
+          "convergent",
+          "similar",
+          "uniform"
+        ],
+        "example_sentence": "The committee members held divergent views on the proposed constitutional amendment."
+      },
+      {
+        "word": "MANDATE",
+        "part_of_speech": "Noun",
+        "meaning": "An official order or authorization to act in a particular way on a public issue.",
+        "synonyms": [
+          "authorization",
+          "directive",
+          "sanction"
+        ],
+        "antonyms": [
+          "prohibition",
+          "refusal"
+        ],
+        "example_sentence": "The commission was given a fresh mandate to review electoral reforms."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Cut corners",
+        "meaning": "To do something in the easiest or cheapest way, often sacrificing quality.",
+        "example_sentence": "Auditors found the contractor had cut corners on the highway's safety standards."
+      },
+      {
+        "idiom": "On the same page",
+        "meaning": "In agreement; having the same understanding of a situation.",
+        "example_sentence": "All coalition partners were finally on the same page regarding the disaster relief bill."
+      },
+      {
+        "idiom": "A blessing in disguise",
+        "meaning": "Something that seems bad or unlucky at first but results in something good.",
+        "example_sentence": "The delayed monsoon turned out to be a blessing in disguise for the reservoir levels."
+      },
+      {
+        "idiom": "Turn the tide",
+        "meaning": "To reverse a trend or change the course of events significantly.",
+        "example_sentence": "The vaccination drive helped turn the tide against the outbreak in rural districts."
+      },
+      {
+        "idiom": "Under the weather",
+        "meaning": "Feeling slightly ill.",
+        "example_sentence": "Though feeling under the weather, the minister still attended the parliamentary session."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "National Human Rights Commission (NHRC)",
+        "bullets": [
+          "Established under the Protection of Human Rights Act, 1993.",
+          "A statutory (not constitutional) body headquartered in New Delhi.",
+          "Typically headed by a retired Chief Justice of India."
+        ]
+      },
+      {
+        "title": "Monetary Policy Committee (MPC) & RBI Basics",
+        "bullets": [
+          "Constituted under Section 45ZB of the Reserve Bank of India Act, 1934.",
+          "Consists of 6 members: 3 from RBI (including RBI Governor as ex-officio Chairperson) and 3 external members appointed by the Government.",
+          "Each member has one vote; the Governor has a casting vote in case of a tie."
+        ]
+      },
+      {
+        "title": "Election Commission of India (ECI)",
+        "bullets": [
+          "Established on 25 January 1950 under Article 324 of the Constitution.",
+          "A permanent constitutional body responsible for administering elections at the Union and State level.",
+          "Headed by the Chief Election Commissioner, headquartered in New Delhi."
+        ]
+      },
+      {
+        "title": "Ramsar Sites & Wetlands in India",
+        "bullets": [
+          "Ramsar Convention (1971) is an international treaty for the conservation of wetlands.",
+          "India has one of the largest networks of Ramsar sites in Asia, spread across multiple states.",
+          "Wetlands act as natural water purifiers and are critical for migratory bird habitats."
+        ]
+      },
+      {
+        "title": "ISRO & Space Missions Basics",
+        "bullets": [
+          "Indian Space Research Organisation (ISRO) was established in 1969, headquartered in Bengaluru.",
+          "Operates under the Department of Space, directly overseen by the Prime Minister's Office.",
+          "Known for cost-effective missions including lunar, solar, and Mars exploration programs."
+        ]
+      }
+    ]
   }
 ]
