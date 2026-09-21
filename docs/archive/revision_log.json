@@ -1358,5 +1358,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "21 September 2026",
+    "vocab_words": [
+      {
+        "word": "PUNCTILIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Showing great attention to detail or correct behavior.",
+        "synonyms": [
+          "meticulous",
+          "scrupulous",
+          "conscientious"
+        ],
+        "antonyms": [
+          "careless",
+          "slapdash",
+          "negligent"
+        ],
+        "example_sentence": "The phytosanitary certification officer must be punctilious when evaluating agricultural produce meant for international markets."
+      },
+      {
+        "word": "TEMERITY",
+        "part_of_speech": "Noun",
+        "meaning": "Excessive confidence or boldness; audacity.",
+        "synonyms": [
+          "audacity",
+          "effrontery",
+          "impudence"
+        ],
+        "antonyms": [
+          "timidity",
+          "modesty",
+          "diffidence"
+        ],
+        "example_sentence": "No market participant had the temerity to challenge the central bank's liquidity regulations."
+      },
+      {
+        "word": "NEXUS",
+        "part_of_speech": "Noun",
+        "meaning": "A connection or focal link between two or more elements.",
+        "synonyms": [
+          "connection",
+          "link",
+          "interlinkage"
+        ],
+        "antonyms": [
+          "disconnection",
+          "severance",
+          "isolation"
+        ],
+        "example_sentence": "Policymakers must address the nexus between infrastructure investment and domestic savings to achieve high GDP growth."
+      },
+      {
+        "word": "RECUPERATE",
+        "part_of_speech": "Verb",
+        "meaning": "To recover from loss, exhaustion, or illness.",
+        "synonyms": [
+          "recover",
+          "rebound",
+          "regain"
+        ],
+        "antonyms": [
+          "deteriorate",
+          "worsen",
+          "decline"
+        ],
+        "example_sentence": "Agricultural yields are expected to recuperate following favorable monsoon rain distribution in Central India."
+      },
+      {
+        "word": "INCHOATE",
+        "part_of_speech": "Adjective",
+        "meaning": "Just begun and so not fully formed or developed; rudimentary.",
+        "synonyms": [
+          "rudimentary",
+          "nascent",
+          "embryonic"
+        ],
+        "antonyms": [
+          "developed",
+          "mature",
+          "fully formed"
+        ],
+        "example_sentence": "The proposed cross-border digital currency architecture remains in an inchoate stage of international consensus."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To keep at arm's length",
+        "meaning": "To avoid becoming too close, involved, or friendly with someone or something.",
+        "example_sentence": "Central banks tend to keep speculative digital assets at arm's length due to volatility risks."
+      },
+      {
+        "idiom": "To hit the nail on the head",
+        "meaning": "To state or identify something with precise accuracy.",
+        "example_sentence": "The economist hit the nail on the head when highlighting the deficit in private sector capital expenditure."
+      },
+      {
+        "idiom": "To fly under the radar",
+        "meaning": "To go unnoticed or avoid attracting public scrutiny.",
+        "example_sentence": "The non-bank financial company operated under the radar until stricter RBI audit rules took effect."
+      },
+      {
+        "idiom": "To leave no stone unturned",
+        "meaning": "To explore every possible option in order to achieve an objective.",
+        "example_sentence": "The investigative agency left no stone unturned while probing food adulteration in dairy supply chains."
+      },
+      {
+        "idiom": "To throw in the towel",
+        "meaning": "To surrender, give up, or admit failure in an endeavor.",
+        "example_sentence": "Despite initial setbacks in export markets, local manufacturers refused to throw in the towel."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Bank for International Settlements (BIS)",
+        "bullets": [
+          "Established in May 1930, the BIS is the world's oldest international financial organization.",
+          "Headquartered in Basel, Switzerland, with representative offices in Hong Kong SAR and Mexico City.",
+          "Owned by 63 member central banks representing countries that together account for about 95% of world GDP."
+        ]
+      },
+      {
+        "title": "Central Warehousing Corporation (CWC)",
+        "bullets": [
+          "Established in 1957 under the Agricultural Produce (Development and Warehousing) Corporations Act, 1956.",
+          "Functions as a Category-I Mini-Ratna Public Sector Enterprise under the Ministry of Consumer Affairs, Food and Public Distribution.",
+          "Provides logistics support, scientific storage, and warehousing facilities for agricultural produce and commercial goods across India."
+        ]
+      },
+      {
+        "title": "Food Safety and Standards Authority of India (FSSAI)",
+        "bullets": [
+          "Statutory body established under the Food Safety and Standards Act, 2006.",
+          "Operates under the administrative control of the Union Ministry of Health and Family Welfare.",
+          "Responsible for laying down science-based standards for articles of food and regulating their manufacture, storage, distribution, and sale."
+        ]
+      },
+      {
+        "title": "India Meteorological Department (IMD)",
+        "bullets": [
+          "Established in 1875 in response to a tropical cyclone that hit Kolkata in 1864 and subsequent famines.",
+          "Headquartered in New Delhi (initially headquartered in Kolkata, then Shimla and Pune).",
+          "Functions under the Ministry of Earth Sciences and is one of the six Regional Specialized Meteorological Centres of the World Meteorological Organization (WMO)."
+        ]
+      },
+      {
+        "title": "BRICS & New Development Bank (NDB)",
+        "bullets": [
+          "The term 'BRIC' was coined in 2001 by Jim O'Neill; the grouping officially held its first summit in 2009 in Yekaterinburg, Russia.",
+          "South Africa joined in December 2010, turning it into BRICS; five new members (Egypt, Ethiopia, Iran, Saudi Arabia [pending formalization], UAE) were invited in 2024.",
+          "The New Development Bank (NDB) was established by BRICS nations during the 6th BRICS Summit in Fortaleza (2014) with an initial capital of $100 billion."
+        ]
+      }
+    ]
   }
 ]
