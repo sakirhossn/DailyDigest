@@ -1512,5 +1512,155 @@
         ]
       }
     ]
+  },
+  {
+    "date": "22 September 2026",
+    "vocab_words": [
+      {
+        "word": "DIVERGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Tending to develop differently or move in different directions.",
+        "synonyms": [
+          "differing",
+          "varying",
+          "conflicting"
+        ],
+        "antonyms": [
+          "convergent",
+          "similar",
+          "uniform"
+        ],
+        "example_sentence": "The committee members held divergent views on the proposed constitutional amendment."
+      },
+      {
+        "word": "MANDATE",
+        "part_of_speech": "Noun",
+        "meaning": "An official order or authorization to act in a particular way on a public issue.",
+        "synonyms": [
+          "authorization",
+          "directive",
+          "sanction"
+        ],
+        "antonyms": [
+          "prohibition",
+          "refusal"
+        ],
+        "example_sentence": "The commission was given a fresh mandate to review electoral reforms."
+      },
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a bad or unsatisfactory situation better.",
+        "synonyms": [
+          "improve",
+          "enhance",
+          "alleviate"
+        ],
+        "antonyms": [
+          "worsen",
+          "aggravate"
+        ],
+        "example_sentence": "The new subsidy scheme is expected to ameliorate rural farmers' financial distress."
+      },
+      {
+        "word": "SCRUTINIZE",
+        "part_of_speech": "Verb",
+        "meaning": "To examine or inspect something closely and thoroughly.",
+        "synonyms": [
+          "examine",
+          "inspect",
+          "analyze"
+        ],
+        "antonyms": [
+          "overlook",
+          "ignore"
+        ],
+        "example_sentence": "The parliamentary panel scrutinized the budget allocations line by line."
+      },
+      {
+        "word": "UNPRECEDENTED",
+        "part_of_speech": "Adjective",
+        "meaning": "Never done or known before.",
+        "synonyms": [
+          "unparalleled",
+          "unmatched",
+          "novel"
+        ],
+        "antonyms": [
+          "usual",
+          "common"
+        ],
+        "example_sentence": "The heatwave triggered unprecedented demand for power across northern states."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To face a difficult or unpleasant situation with courage.",
+        "example_sentence": "The finance ministry finally bit the bullet and raised fuel taxes to curb the deficit."
+      },
+      {
+        "idiom": "Turn the tide",
+        "meaning": "To reverse a trend or change the course of events significantly.",
+        "example_sentence": "The vaccination drive helped turn the tide against the outbreak in rural districts."
+      },
+      {
+        "idiom": "Under the weather",
+        "meaning": "Feeling slightly ill.",
+        "example_sentence": "Though feeling under the weather, the minister still attended the parliamentary session."
+      },
+      {
+        "idiom": "Get the ball rolling",
+        "meaning": "To start something or set a process in motion.",
+        "example_sentence": "The ministry got the ball rolling on the new skill development scheme this week."
+      },
+      {
+        "idiom": "Read between the lines",
+        "meaning": "To understand a hidden or implied meaning beyond what is directly stated.",
+        "example_sentence": "Analysts had to read between the lines of the RBI governor's cautious statement."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Election Commission of India (ECI)",
+        "bullets": [
+          "Established on 25 January 1950 under Article 324 of the Constitution.",
+          "A permanent constitutional body responsible for administering elections at the Union and State level.",
+          "Headed by the Chief Election Commissioner, headquartered in New Delhi."
+        ]
+      },
+      {
+        "title": "Ramsar Sites & Wetlands in India",
+        "bullets": [
+          "Ramsar Convention (1971) is an international treaty for the conservation of wetlands.",
+          "India has one of the largest networks of Ramsar sites in Asia, spread across multiple states.",
+          "Wetlands act as natural water purifiers and are critical for migratory bird habitats."
+        ]
+      },
+      {
+        "title": "ISRO & Space Missions Basics",
+        "bullets": [
+          "Indian Space Research Organisation (ISRO) was established in 1969, headquartered in Bengaluru.",
+          "Operates under the Department of Space, directly overseen by the Prime Minister's Office.",
+          "Known for cost-effective missions including lunar, solar, and Mars exploration programs."
+        ]
+      },
+      {
+        "title": "Goods and Services Tax (GST) Council",
+        "bullets": [
+          "Constituted under Article 279A of the Constitution via the 101st Constitutional Amendment Act, 2016.",
+          "Chaired by the Union Finance Minister, with state finance ministers as members.",
+          "Responsible for recommending GST rates, exemptions, and dispute resolution mechanisms."
+        ]
+      },
+      {
+        "title": "National Green Tribunal (NGT)",
+        "bullets": [
+          "Established in 2010 under the National Green Tribunal Act for effective environmental dispute resolution.",
+          "Has original jurisdiction over substantial questions relating to the environment.",
+          "Principal bench is located in New Delhi, with regional benches across India."
+        ]
+      }
+    ]
   }
 ]
