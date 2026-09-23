@@ -162,13 +162,13 @@ def build_gemini_prompt(
             avoid_section += f"- Do NOT reuse these recently covered GK booster topics: {', '.join(recent_gk_topics[-30:])}\n"
         avoid_section += "Choose genuinely different words/idioms/topics from the ones listed above.\n"
 
-    # Prepare top 25 candidate news items for context
+    # Prepare top 18 candidate news items for context (concise to prevent context/token overflow)
     news_corpus = []
-    for i, a in enumerate(articles[:25], 1):
+    for i, a in enumerate(articles[:18], 1):
         news_corpus.append(
             f"[{i}] Category: {a.get('category')}\n"
             f"Title: {a.get('title')}\n"
-            f"Summary: {a.get('summary')[:300]}\n"
+            f"Summary: {a.get('summary')[:220]}\n"
             f"Source URL: {a.get('link')}"
         )
     news_text = "\n\n".join(news_corpus)
@@ -248,33 +248,86 @@ Produce a strictly valid JSON object matching this schema:
   ]
 }}
 
-Provide 4 to 6 categories with 2-3 high-yield items each.
+Provide 3 to 4 categories with 2 high-yield items each.
 Provide exactly 5 high-yield vocab_words (rotate topics daily, avoid repeating recent words, no duplicates within the same day).
 Provide exactly 5 idioms_of_the_day (rotate idioms daily, avoid repeating recent idioms, no duplicates within the same day).
 Provide exactly 5 static_gk_boosters, each on a different topic drawn from today's news where possible.
 Provide exactly 5 high-quality exam MCQs in daily_quiz.
-Respond ONLY with the JSON object. Do not include markdown code backticks around the json if possible, or use standard ```json ... ```.
+Respond ONLY with the valid JSON object. Do not include markdown preamble, commentary, or conversational text.
 """
 
 
 def _extract_json(text: str) -> Optional[Dict]:
-    """Robustly parses JSON from LLM responses, stripping code fences or picking outermost object."""
+    """Robustly parses JSON from LLM responses, stripping reasoning blocks, markdown fences, and repairing truncated JSON."""
     if not text:
         return None
     cleaned = text.strip()
-    if cleaned.startswith("```"):
-        cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned)
-        cleaned = re.sub(r"\s*```$", "", cleaned)
+
+    # 1. Strip reasoning blocks emitted by thinking/reasoning models (e.g. gpt-oss, qwen, nemotron)
+    cleaned = re.sub(r"<think>.*?</think>", "", cleaned, flags=re.DOTALL).strip()
+    cleaned = re.sub(r"\[THINK\].*?\[/THINK\]", "", cleaned, flags=re.DOTALL).strip()
+
+    # 2. Extract from markdown code fences if present (```json ... ``` or ``` ... ```)
+    code_block = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", cleaned)
+    if code_block:
+        candidate = code_block.group(1).strip()
+        try:
+            return json.loads(candidate)
+        except Exception:
+            pass
+
+    # 3. Direct JSON parse
     try:
         return json.loads(cleaned)
     except Exception:
         pass
-    match = re.search(r"(\{.*\})", text, re.DOTALL)
-    if match:
+
+    # 4. Outermost JSON brackets
+    start = cleaned.find("{")
+    end = cleaned.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        candidate = cleaned[start:end + 1]
         try:
-            return json.loads(match.group(1))
+            return json.loads(candidate)
         except Exception:
             pass
+
+    # 5. Repair truncated JSON if the model stopped mid-generation
+    if start != -1:
+        try:
+            cand = cleaned[start:]
+            stack = []
+            in_str = False
+            esc = False
+            for ch in cand:
+                if esc:
+                    esc = False
+                    continue
+                if ch == '\\':
+                    esc = True
+                    continue
+                if ch == '"':
+                    in_str = not in_str
+                    continue
+                if not in_str:
+                    if ch == '{':
+                        stack.append('}')
+                    elif ch == '[':
+                        stack.append(']')
+                    elif ch in '}]':
+                        if stack and stack[-1] == ch:
+                            stack.pop()
+            if in_str:
+                cand += '"'
+            cand = re.sub(r",\s*$", "", cand)
+            cand += "".join(reversed(stack))
+            parsed = json.loads(cand)
+            logger.info("Successfully repaired and parsed truncated JSON response.")
+            return parsed
+        except Exception as e:
+            logger.debug(f"JSON truncation repair failed: {e}")
+
+    logger.warning(f"Failed to parse JSON. Raw snippet: {cleaned[:250]}...")
     return None
 
 
@@ -374,8 +427,10 @@ def curate_news_with_openrouter(
         "z-ai/glm-5.2:free",
         "nvidia/nemotron-3.5-lightning:free",
         "nex-agi/nex-n2.5-pro:free",
+        "nex-agi/nex-n2.5-mini:free",
         "google/gemma-4-31b-it:free",
     ]
+    forbidden_kws = ["vision", "safety", "audio", "guard", "arabic", "whisper", "embed"]
     free_models = []
     try:
         r = requests.get("https://openrouter.ai/api/v1/models", timeout=8)
@@ -388,7 +443,7 @@ def curate_news_with_openrouter(
             ]
             free_models = [p for p in priority_models if p in free_ids]
             for fid in free_ids:
-                if fid not in free_models and "vision" not in fid and "safety" not in fid:
+                if fid not in free_models and not any(f in fid.lower() for f in forbidden_kws):
                     free_models.append(fid)
     except Exception as e:
         logger.warning(f"Could not dynamically query OpenRouter models: {e}")
@@ -427,6 +482,7 @@ def curate_news_with_openrouter(
                 },
             )
             raw_text = (response.choices[0].message.content or "").strip()
+            logger.info(f"OpenRouter ({model_short}) returned {len(raw_text)} chars. Parsing JSON...")
             bulletin_data = _extract_json(raw_text)
             if bulletin_data:
                 bulletin_data = _normalize_bulletin(bulletin_data, today_str, exam_type, "openrouter")
@@ -465,16 +521,17 @@ def curate_news_with_groq(
 
     # Discover available text models in user's Groq account dynamically
     models_to_try = []
+    forbidden_kws = ["whisper", "guard", "safet", "prompt", "arabic", "allam", "orpheus", "vision", "audio", "tts", "stt", "embed"]
     try:
         models_data = client.models.list()
         available = [m.id for m in models_data.data]
-        priority_kws = ["llama-4", "gpt-oss", "70b", "8b", "mixtral", "gemma"]
+        priority_kws = ["llama-4", "gpt-oss-120b", "gpt-oss-20b", "qwen", "llama-3", "gemma"]
         for kw in priority_kws:
             for mid in available:
-                if kw in mid.lower() and "whisper" not in mid.lower() and "guard" not in mid.lower() and mid not in models_to_try:
+                if kw in mid.lower() and not any(f in mid.lower() for f in forbidden_kws) and mid not in models_to_try:
                     models_to_try.append(mid)
         for mid in available:
-            if "whisper" not in mid.lower() and "guard" not in mid.lower() and mid not in models_to_try:
+            if not any(f in mid.lower() for f in forbidden_kws) and mid not in models_to_try:
                 models_to_try.append(mid)
     except Exception as e:
         logger.warning(f"Could not dynamically query Groq models: {e}")
@@ -501,6 +558,7 @@ def curate_news_with_groq(
                 max_tokens=4096,
             )
             raw_text = (response.choices[0].message.content or "").strip()
+            logger.info(f"Groq ({model}) returned {len(raw_text)} chars. Parsing JSON...")
             bulletin_data = _extract_json(raw_text)
             if bulletin_data:
                 bulletin_data = _normalize_bulletin(bulletin_data, today_str, exam_type, "groq")
