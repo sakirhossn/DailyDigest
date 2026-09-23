@@ -1964,5 +1964,156 @@
         ]
       }
     ]
+  },
+  {
+    "date": "23 September 2026",
+    "vocab_words": [
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make something bad or unsatisfactory better.",
+        "synonyms": [
+          "improve",
+          "mitigate",
+          "ameliorate"
+        ],
+        "antonyms": [
+          "worsen",
+          "aggravate"
+        ],
+        "example_sentence": "The new policy measures are designed to ameliorate the working conditions of agricultural labourers."
+      },
+      {
+        "word": "CAUCUS",
+        "part_of_speech": "Noun",
+        "meaning": "A meeting of the members of a legislative body who are members of a particular political party, to select candidates or decide policy.",
+        "synonyms": [
+          "assembly",
+          "meeting",
+          "faction"
+        ],
+        "antonyms": [
+          "dispersal",
+          "division"
+        ],
+        "example_sentence": "The party leaders held a closed-door caucus to finalize their strategy for the upcoming parliamentary session."
+      },
+      {
+        "word": "LUMINESCENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Emitting light not caused by excessive heat; glowing.",
+        "synonyms": [
+          "glowing",
+          "phosphorescent",
+          "radiant"
+        ],
+        "antonyms": [
+          "dark",
+          "dull"
+        ],
+        "example_sentence": "Certain deep-sea organisms possess luminescent properties that help them navigate in complete darkness."
+      },
+      {
+        "word": "EQUIVOCAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Open to more than one interpretation; ambiguous.",
+        "synonyms": [
+          "ambiguous",
+          "vague",
+          "uncertain"
+        ],
+        "antonyms": [
+          "unequivocal",
+          "clear",
+          "definite"
+        ],
+        "example_sentence": "The official response to the trade query remained equivocal, leaving analysts guessing about future tariff structures."
+      },
+      {
+        "word": "DISCONCERT",
+        "part_of_speech": "Verb",
+        "meaning": "To make someone feel unsettled, confused, or disturbed.",
+        "synonyms": [
+          "fluster",
+          "perturb",
+          "discomfit"
+        ],
+        "antonyms": [
+          "reassure",
+          "calm",
+          "comfort"
+        ],
+        "example_sentence": "The sudden fluctuation in international commodity prices served to disconcert global financial markets."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A bone of contention",
+        "meaning": "A subject or matter over which there is continuing disagreement.",
+        "example_sentence": "The sharing of river water remains a major bone of contention between the neighboring states."
+      },
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove bad feelings, doubts, or tension through open discussion.",
+        "example_sentence": "The bilateral summit helped to clear the air between the two nations regarding trade restrictions."
+      },
+      {
+        "idiom": "At loggerheads",
+        "meaning": "In stubborn dispute or disagreement.",
+        "example_sentence": "The negotiating teams were at loggerheads over tariff reduction timelines for agricultural goods."
+      },
+      {
+        "idiom": "To weather the storm",
+        "meaning": "To successfully survive a difficult period or crisis.",
+        "example_sentence": "With robust foreign exchange reserves and strong macroeconomic fundamentals, India managed to weather the global economic storm."
+      },
+      {
+        "idiom": "By leaps and bounds",
+        "meaning": "Rapidly or in large increments.",
+        "example_sentence": "Digital payment adoption across semi-urban and rural regions has grown by leaps and bounds over the past few years."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Organization for Economic Co-operation and Development (OECD)",
+        "bullets": [
+          "Established in 1961, succeeding the Organization for European Economic Co-operation (OEEC).",
+          "Headquarters: Paris, France.",
+          "Comprises 38 member countries committed to market democracies and free-market economies; India is a key economic partner but not a full member."
+        ]
+      },
+      {
+        "title": "Eighth Schedule of the Indian Constitution",
+        "bullets": [
+          "Contains the officially recognized languages of the Republic of India.",
+          "Originally included 14 languages, and currently lists 22 languages after successive constitutional amendments.",
+          "Kannada, the language of the recent ESA draft translation, is one of the classical and constitutionally recognized languages in this schedule."
+        ]
+      },
+      {
+        "title": "Free Trade Agreements (FTAs) & Economic Partnerships",
+        "bullets": [
+          "FTAs involve international treaties that reduce or eliminate tariff and non-tariff barriers between participating nations.",
+          "Governed internationally by World Trade Organization (WTO) rules under GATT Article XXIV.",
+          "India actively negotiates Comprehensive Economic Partnership Agreements (CEPAs) and FTAs to boost export diversification and secure critical supply chains."
+        ]
+      },
+      {
+        "title": "Asian Games and Olympic Council of Asia (OCA)",
+        "bullets": [
+          "The Asian Games is a continental multi-sport event regulated by the Olympic Council of Asia (OCA).",
+          "First held in 1951 in New Delhi, India.",
+          "The 20th Asian Games (2026) are scheduled in Aichi-Nagoya, Japan."
+        ]
+      },
+      {
+        "title": "Critical Minerals and Strategic Industry Supply Chains",
+        "bullets": [
+          "Critical minerals include lithium, cobalt, nickel, and rare earth elements vital for green tech and advanced electronics.",
+          "India launched missions such as the National Critical Mineral Mission to secure domestic processing and recycling ecosystems.",
+          "The Ministry of Mines oversees mineral exploration, policy formulation, and structural reform in the sector."
+        ]
+      }
+    ]
   }
 ]

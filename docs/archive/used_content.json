@@ -1,6 +1,5 @@
 {
   "vocab": [
-    "RECALCITRANT",
     "PROPINQUITY",
     "OBVIATE",
     "TENABLE",
@@ -56,7 +55,11 @@
     "TRULCULENT",
     "PECCADILLO",
     "ENCOMIUM",
-    "TENUOUS"
+    "TENUOUS",
+    "CAUCUS",
+    "LUMINESCENT",
+    "EQUIVOCAL",
+    "DISCONCERT"
   ],
   "idiom": [
     "To steal a march on",
@@ -115,10 +118,11 @@
     "To read the riot act",
     "Swan song",
     "Pyrrhic victory",
-    "To spill the beans"
+    "To spill the beans",
+    "A bone of contention",
+    "By leaps and bounds"
   ],
   "gk_booster": [
-    "Dedicated Freight Corridor Corporation of India (DFCCIL)",
     "National Commission for Protection of Child Rights (NCPCR)",
     "BRICS & New Development Bank (NDB)",
     "National Statistical Office (NSO)",
@@ -174,6 +178,10 @@
     "Article 324 of the Indian Constitution",
     "Central Institute of Brackishwater Aquaculture (CIBA)",
     "Free Trade Agreement (FTA) & Preferential Trade",
-    "Asian Games (Aichi-Nagoya 2026)"
+    "Asian Games (Aichi-Nagoya 2026)",
+    "Eighth Schedule of the Indian Constitution",
+    "Free Trade Agreements (FTAs) & Economic Partnerships",
+    "Asian Games and Olympic Council of Asia (OCA)",
+    "Critical Minerals and Strategic Industry Supply Chains"
   ]
 }
