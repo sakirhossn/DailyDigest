@@ -360,17 +360,41 @@ def curate_news_with_openrouter(
     OpenRouter provides free access to high-performance open-weights models.
     Get a FREE key at: https://openrouter.ai/keys
     """
-    free_models = [
-        "meta-llama/llama-3.3-70b-instruct:free",
-        "qwen/qwen-2.5-72b-instruct:free",
-        "mistralai/mistral-7b-instruct:free",
-        "google/gemini-2.0-flash-exp:free",
-    ]
+    import requests
+
     try:
         from openai import OpenAI
     except ImportError:
         logger.warning("openai package not installed (needed for OpenRouter fallback).")
         return None
+
+    # Dynamically find all currently active free models on OpenRouter
+    priority_models = [
+        "qwen/qwen3.8-27b:free",
+        "z-ai/glm-5.2:free",
+        "nvidia/nemotron-3.5-lightning:free",
+        "nex-agi/nex-n2.5-pro:free",
+        "google/gemma-4-31b-it:free",
+    ]
+    free_models = []
+    try:
+        r = requests.get("https://openrouter.ai/api/v1/models", timeout=8)
+        if r.status_code == 200:
+            data = r.json().get("data", [])
+            free_ids = [
+                m["id"] for m in data
+                if ":free" in m.get("id", "")
+                or (m.get("pricing", {}).get("prompt") == "0" and m.get("pricing", {}).get("completion") == "0")
+            ]
+            free_models = [p for p in priority_models if p in free_ids]
+            for fid in free_ids:
+                if fid not in free_models and "vision" not in fid and "safety" not in fid:
+                    free_models.append(fid)
+    except Exception as e:
+        logger.warning(f"Could not dynamically query OpenRouter models: {e}")
+
+    if not free_models:
+        free_models = priority_models
 
     used_content = used_content or {"vocab": [], "idiom": [], "gk_booster": []}
     client = OpenAI(
@@ -385,7 +409,7 @@ def curate_news_with_openrouter(
         recent_gk_topics=used_content.get("gk_booster", []),
     )
 
-    for model in free_models:
+    for model in free_models[:8]:
         try:
             model_short = model.split("/")[-1].replace(":free", "")
             logger.info(f"Calling OpenRouter ({model_short}) for {exam_type} curation...")
@@ -397,6 +421,10 @@ def curate_news_with_openrouter(
                 ],
                 temperature=0.4,
                 max_tokens=4096,
+                extra_headers={
+                    "HTTP-Referer": "https://github.com/sakirhossn/DailyDigest",
+                    "X-Title": "Daily Current Affairs Agent",
+                },
             )
             raw_text = (response.choices[0].message.content or "").strip()
             bulletin_data = _extract_json(raw_text)
@@ -418,7 +446,7 @@ def curate_news_with_groq(
     api_key: str,
     used_content: Optional[Dict[str, List[str]]] = None,
 ) -> Optional[Dict]:
-    """Uses Groq API (free tier) with llama-3.3-70b-versatile."""
+    """Uses Groq API (free tier) with dynamic model discovery."""
     try:
         from groq import Groq
     except ImportError:
@@ -435,8 +463,32 @@ def curate_news_with_groq(
         recent_gk_topics=used_content.get("gk_booster", []),
     )
 
-    models_to_try = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"]
-    for model in models_to_try:
+    # Discover available text models in user's Groq account dynamically
+    models_to_try = []
+    try:
+        models_data = client.models.list()
+        available = [m.id for m in models_data.data]
+        priority_kws = ["llama-4", "gpt-oss", "70b", "8b", "mixtral", "gemma"]
+        for kw in priority_kws:
+            for mid in available:
+                if kw in mid.lower() and "whisper" not in mid.lower() and "guard" not in mid.lower() and mid not in models_to_try:
+                    models_to_try.append(mid)
+        for mid in available:
+            if "whisper" not in mid.lower() and "guard" not in mid.lower() and mid not in models_to_try:
+                models_to_try.append(mid)
+    except Exception as e:
+        logger.warning(f"Could not dynamically query Groq models: {e}")
+
+    if not models_to_try:
+        models_to_try = [
+            "meta-llama/llama-4-scout-17b-16e-instruct",
+            "openai/gpt-oss-120b",
+            "openai/gpt-oss-20b",
+            "llama-3.3-70b-versatile",
+            "llama-3.1-8b-instant",
+        ]
+
+    for model in models_to_try[:5]:
         try:
             logger.info(f"Calling Groq ({model}) for {exam_type} curation...")
             response = client.chat.completions.create(
@@ -860,8 +912,7 @@ def curate_daily_bulletin(articles: List[Dict], exam_type: str = TARGET_EXAM, ap
 
     # --- Provider 1: Gemini (3 attempts with model diversity and backoff) ---
     if api_key:
-        gemini_models_to_try = [GEMINI_MODEL, "gemini-2.5-flash", "gemini-2.5-flash-lite"]
-        # Deduplicate while preserving order
+        gemini_models_to_try = [GEMINI_MODEL, "gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-3.6-flash"]
         seen = set()
         gemini_models = [m for m in gemini_models_to_try if not (m in seen or seen.add(m))]
 

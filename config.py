@@ -36,7 +36,7 @@ GMAIL_TO = [
 
 # AI Intelligence (Gemini API)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash").strip()
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash").strip()
 
 # Fallback AI Providers (Optional keys for resilience)
 # OpenRouter (FREE — access to Llama 3.3, Qwen 2.5, Mistral: https://openrouter.ai/keys)
