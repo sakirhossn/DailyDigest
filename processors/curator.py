@@ -13,14 +13,7 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from config import (
-    GEMINI_API_KEY,
-    GEMINI_MODEL,
-    GROQ_API_KEY,
-    OPENAI_API_KEY,
-    OPENROUTER_API_KEY,
-    TARGET_EXAM,
-)
+from config import GEMINI_API_KEY, GEMINI_MODEL, TARGET_EXAM
 
 logger = logging.getLogger(__name__)
 
@@ -402,222 +395,6 @@ def curate_news_with_gemini(
         return None
 
 
-def curate_news_with_openrouter(
-    articles: List[Dict],
-    exam_type: str,
-    api_key: str,
-    used_content: Optional[Dict[str, List[str]]] = None,
-) -> Optional[Dict]:
-    """
-    Uses OpenRouter API (FREE tier) to curate current affairs.
-    OpenRouter provides free access to high-performance open-weights models.
-    Get a FREE key at: https://openrouter.ai/keys
-    """
-    import requests
-
-    try:
-        from openai import OpenAI
-    except ImportError:
-        logger.warning("openai package not installed (needed for OpenRouter fallback).")
-        return None
-
-    # Dynamically find all currently active free models on OpenRouter
-    priority_models = [
-        "qwen/qwen3.8-27b:free",
-        "z-ai/glm-5.2:free",
-        "nvidia/nemotron-3.5-lightning:free",
-        "nex-agi/nex-n2.5-pro:free",
-        "nex-agi/nex-n2.5-mini:free",
-        "google/gemma-4-31b-it:free",
-    ]
-    forbidden_kws = ["vision", "safety", "audio", "guard", "arabic", "whisper", "embed"]
-    free_models = []
-    try:
-        r = requests.get("https://openrouter.ai/api/v1/models", timeout=8)
-        if r.status_code == 200:
-            data = r.json().get("data", [])
-            free_ids = [
-                m["id"] for m in data
-                if ":free" in m.get("id", "")
-                or (m.get("pricing", {}).get("prompt") == "0" and m.get("pricing", {}).get("completion") == "0")
-            ]
-            free_models = [p for p in priority_models if p in free_ids]
-            for fid in free_ids:
-                if fid not in free_models and not any(f in fid.lower() for f in forbidden_kws):
-                    free_models.append(fid)
-    except Exception as e:
-        logger.warning(f"Could not dynamically query OpenRouter models: {e}")
-
-    if not free_models:
-        free_models = priority_models
-
-    used_content = used_content or {"vocab": [], "idiom": [], "gk_booster": []}
-    client = OpenAI(
-        base_url="https://openrouter.ai/api/v1",
-        api_key=api_key,
-    )
-    today_str = datetime.date.today().strftime("%d %B %Y")
-    prompt = build_gemini_prompt(
-        articles, exam_type, today_str,
-        recent_vocab=used_content.get("vocab", []),
-        recent_idioms=used_content.get("idiom", []),
-        recent_gk_topics=used_content.get("gk_booster", []),
-    )
-
-    for model in free_models[:8]:
-        try:
-            model_short = model.split("/")[-1].replace(":free", "")
-            logger.info(f"Calling OpenRouter ({model_short}) for {exam_type} curation...")
-            response = client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": "You are an expert Indian competitive exam current affairs editor. Respond with valid JSON only."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.4,
-                max_tokens=4096,
-                extra_headers={
-                    "HTTP-Referer": "https://github.com/sakirhossn/DailyDigest",
-                    "X-Title": "Daily Current Affairs Agent",
-                },
-            )
-            raw_text = (response.choices[0].message.content or "").strip()
-            logger.info(f"OpenRouter ({model_short}) returned {len(raw_text)} chars. Parsing JSON...")
-            bulletin_data = _extract_json(raw_text)
-            if bulletin_data:
-                bulletin_data = _normalize_bulletin(bulletin_data, today_str, exam_type, "openrouter")
-                logger.info(f"✅ OpenRouter ({model_short}) generated bulletin with {len(bulletin_data.get('categories', []))} categories.")
-                return bulletin_data
-        except Exception as e:
-            logger.warning(f"OpenRouter ({model}) failed: {type(e).__name__}: {e}")
-            continue
-
-    logger.error("All OpenRouter free models failed.")
-    return None
-
-
-def curate_news_with_groq(
-    articles: List[Dict],
-    exam_type: str,
-    api_key: str,
-    used_content: Optional[Dict[str, List[str]]] = None,
-) -> Optional[Dict]:
-    """Uses Groq API (free tier) with dynamic model discovery."""
-    try:
-        from groq import Groq
-    except ImportError:
-        logger.warning("groq package not installed (needed for Groq fallback).")
-        return None
-
-    used_content = used_content or {"vocab": [], "idiom": [], "gk_booster": []}
-    client = Groq(api_key=api_key)
-    today_str = datetime.date.today().strftime("%d %B %Y")
-    prompt = build_gemini_prompt(
-        articles, exam_type, today_str,
-        recent_vocab=used_content.get("vocab", []),
-        recent_idioms=used_content.get("idiom", []),
-        recent_gk_topics=used_content.get("gk_booster", []),
-    )
-
-    # Discover available text models in user's Groq account dynamically
-    models_to_try = []
-    forbidden_kws = ["whisper", "guard", "safet", "prompt", "arabic", "allam", "orpheus", "vision", "audio", "tts", "stt", "embed"]
-    try:
-        models_data = client.models.list()
-        available = [m.id for m in models_data.data]
-        priority_kws = ["llama-4", "gpt-oss-120b", "gpt-oss-20b", "qwen", "llama-3", "gemma"]
-        for kw in priority_kws:
-            for mid in available:
-                if kw in mid.lower() and not any(f in mid.lower() for f in forbidden_kws) and mid not in models_to_try:
-                    models_to_try.append(mid)
-        for mid in available:
-            if not any(f in mid.lower() for f in forbidden_kws) and mid not in models_to_try:
-                models_to_try.append(mid)
-    except Exception as e:
-        logger.warning(f"Could not dynamically query Groq models: {e}")
-
-    if not models_to_try:
-        models_to_try = [
-            "meta-llama/llama-4-scout-17b-16e-instruct",
-            "openai/gpt-oss-120b",
-            "openai/gpt-oss-20b",
-            "llama-3.3-70b-versatile",
-            "llama-3.1-8b-instant",
-        ]
-
-    for model in models_to_try[:5]:
-        try:
-            logger.info(f"Calling Groq ({model}) for {exam_type} curation...")
-            response = client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": "You are an expert Indian competitive exam current affairs editor. Respond with valid JSON only."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.4,
-                max_tokens=4096,
-            )
-            raw_text = (response.choices[0].message.content or "").strip()
-            logger.info(f"Groq ({model}) returned {len(raw_text)} chars. Parsing JSON...")
-            bulletin_data = _extract_json(raw_text)
-            if bulletin_data:
-                bulletin_data = _normalize_bulletin(bulletin_data, today_str, exam_type, "groq")
-                logger.info(f"✅ Groq ({model}) generated bulletin with {len(bulletin_data.get('categories', []))} categories.")
-                return bulletin_data
-        except Exception as e:
-            logger.warning(f"Groq ({model}) failed: {type(e).__name__}: {e}")
-            continue
-
-    logger.error("All Groq models failed.")
-    return None
-
-
-def curate_news_with_openai(
-    articles: List[Dict],
-    exam_type: str,
-    api_key: str,
-    used_content: Optional[Dict[str, List[str]]] = None,
-) -> Optional[Dict]:
-    """Uses OpenAI API with gpt-4o-mini."""
-    try:
-        from openai import OpenAI
-    except ImportError:
-        logger.warning("openai package not installed (needed for OpenAI fallback).")
-        return None
-
-    used_content = used_content or {"vocab": [], "idiom": [], "gk_booster": []}
-    client = OpenAI(api_key=api_key)
-    today_str = datetime.date.today().strftime("%d %B %Y")
-    prompt = build_gemini_prompt(
-        articles, exam_type, today_str,
-        recent_vocab=used_content.get("vocab", []),
-        recent_idioms=used_content.get("idiom", []),
-        recent_gk_topics=used_content.get("gk_booster", []),
-    )
-
-    try:
-        logger.info(f"Calling OpenAI (gpt-4o-mini) for {exam_type} curation...")
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": "You are an expert Indian competitive exam current affairs editor. Respond with valid JSON only."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.4,
-            max_tokens=4096,
-        )
-        raw_text = (response.choices[0].message.content or "").strip()
-        bulletin_data = _extract_json(raw_text)
-        if bulletin_data:
-            bulletin_data = _normalize_bulletin(bulletin_data, today_str, exam_type, "openai")
-            logger.info(f"✅ OpenAI bulletin generated with {len(bulletin_data.get('categories', []))} categories.")
-            return bulletin_data
-    except Exception as e:
-        logger.error(f"OpenAI curation failed: {type(e).__name__}: {e}")
-
-    return None
-
-
 # ---------------------------------------------------------------------------
 # Rotating fallback content banks (used only if Gemini is unavailable/fails).
 # Rotated by day-of-year so repeated fallback days still show fresh content,
@@ -956,19 +733,16 @@ def curate_news_heuristic(
 
 def curate_daily_bulletin(articles: List[Dict], exam_type: str = TARGET_EXAM, api_key: str = GEMINI_API_KEY) -> Dict:
     """
-    Main curation entry point with multi-provider AI fallback chain:
-      1. Gemini (up to 3 retries with backoff across recommended models)
-      2. OpenRouter (FREE — tries Llama 3.3, Qwen 2.5, Mistral, Gemini 2.0)
-      3. Groq (FREE tier — Llama 3.3 70B, Llama 3.1 8B)
-      4. OpenAI (paid — gpt-4o-mini)
-      5. Heuristic (intelligent offline fallback)
+    Main curation entry point:
+      - Tries Gemini up to 3 times (with backoff across active 3.x models)
+      - If Gemini fails all 3 attempts, falls back gracefully to Heuristic engine
     Tracks recently used vocab/idioms/GK topics across runs so content doesn't repeat.
     """
     import time
     used_content = load_used_content()
     result = None
 
-    # --- Provider 1: Gemini (3 attempts with model diversity and backoff) ---
+    # --- Gemini (3 attempts with model diversity and backoff) ---
     if api_key:
         gemini_models_to_try = [GEMINI_MODEL, "gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-3.6-flash"]
         seen = set()
@@ -987,30 +761,9 @@ def curate_daily_bulletin(articles: List[Dict], exam_type: str = TARGET_EXAM, ap
                 time.sleep(wait_time)
 
         if not result:
-            logger.warning("❌ Gemini failed all 3 attempts. Checking fallback providers...")
+            logger.warning("❌ Gemini failed all 3 attempts. Falling back to heuristic engine.")
 
-    # --- Provider 2: OpenRouter (FREE) ---
-    if not result and OPENROUTER_API_KEY:
-        logger.info("Trying OpenRouter (free models)...")
-        result = curate_news_with_openrouter(articles, exam_type, OPENROUTER_API_KEY, used_content)
-        if not result:
-            logger.warning("❌ OpenRouter fallback failed.")
-
-    # --- Provider 3: Groq (FREE) ---
-    if not result and GROQ_API_KEY:
-        logger.info("Trying Groq fallback...")
-        result = curate_news_with_groq(articles, exam_type, GROQ_API_KEY, used_content)
-        if not result:
-            logger.warning("❌ Groq fallback failed.")
-
-    # --- Provider 4: OpenAI ---
-    if not result and OPENAI_API_KEY:
-        logger.info("Trying OpenAI fallback...")
-        result = curate_news_with_openai(articles, exam_type, OPENAI_API_KEY, used_content)
-        if not result:
-            logger.warning("❌ OpenAI fallback failed.")
-
-    # --- Provider 5: Heuristic Engine ---
+    # --- Fallback: Heuristic Engine ---
     if not result:
         logger.info("📋 Using heuristic engine fallback. Vocab & GK will rotate daily.")
         result = curate_news_heuristic(articles, exam_type, used_content)
@@ -1020,3 +773,4 @@ def curate_daily_bulletin(articles: List[Dict], exam_type: str = TARGET_EXAM, ap
     append_revision_log(result)
 
     return result
+

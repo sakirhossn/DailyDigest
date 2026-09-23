@@ -38,16 +38,6 @@ GMAIL_TO = [
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash").strip()
 
-# Fallback AI Providers (Optional keys for resilience)
-# OpenRouter (FREE — access to Llama 3.3, Qwen 2.5, Mistral: https://openrouter.ai/keys)
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "").strip()
-
-# Groq (FREE tier — high speed: https://console.groq.com/)
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "").strip()
-
-# OpenAI (paid — gpt-4o-mini: https://platform.openai.com/api-keys)
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
-
 # Scheduling
 SCHEDULE_TIME = os.getenv("SCHEDULE_TIME", "09:37").strip()
 
