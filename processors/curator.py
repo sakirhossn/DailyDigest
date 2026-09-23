@@ -744,9 +744,20 @@ def curate_daily_bulletin(articles: List[Dict], exam_type: str = TARGET_EXAM, ap
 
     # --- Gemini (3 attempts with model diversity and backoff) ---
     if api_key:
-        gemini_models_to_try = [GEMINI_MODEL, "gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-3.6-flash"]
+        deprecated = {
+            "gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.5-pro",
+            "gemini-2.0-flash", "gemini-2.0-flash-exp",
+            "gemini-1.5-flash", "gemini-1.5-pro"
+        }
+        candidate_models = [GEMINI_MODEL, "gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-3.5-flash"]
         seen = set()
-        gemini_models = [m for m in gemini_models_to_try if not (m in seen or seen.add(m))]
+        gemini_models = []
+        for m in candidate_models:
+            if m and m not in deprecated and m not in seen:
+                seen.add(m)
+                gemini_models.append(m)
+        if not gemini_models:
+            gemini_models = ["gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-3.5-flash"]
 
         for attempt in range(1, 4):
             model_to_use = gemini_models[(attempt - 1) % len(gemini_models)]

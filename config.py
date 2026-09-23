@@ -36,7 +36,13 @@ GMAIL_TO = [
 
 # AI Intelligence (Gemini API)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash").strip()
+_raw_model = os.getenv("GEMINI_MODEL", "gemini-3.6-flash").strip()
+_deprecated_models = {
+    "gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.5-pro",
+    "gemini-2.0-flash", "gemini-2.0-flash-exp",
+    "gemini-1.5-flash", "gemini-1.5-pro"
+}
+GEMINI_MODEL = "gemini-3.6-flash" if (not _raw_model or _raw_model in _deprecated_models) else _raw_model
 
 # Scheduling
 SCHEDULE_TIME = os.getenv("SCHEDULE_TIME", "09:37").strip()
