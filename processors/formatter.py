@@ -22,7 +22,14 @@ def format_telegram_chunks(bulletin: Dict) -> List[str]:
 
     # Chunk 1: Header + Executive Summary
     source = bulletin.get("content_source", "unknown")
-    source_label = "🤖 Gemini AI" if source == "gemini" else ("⚠️ Fallback Engine" if source == "fallback" else "Unknown")
+    sources_map = {
+        "gemini": "🤖 Gemini AI",
+        "openrouter": "🌐 OpenRouter AI",
+        "groq": "⚡ Groq AI",
+        "openai": "🧠 OpenAI",
+        "fallback": "⚠️ Fallback Engine",
+    }
+    source_label = sources_map.get(source, source.title())
 
     header_msg = (
         f"🎯 *DAILY CURRENT AFFAIRS BULLETIN*\n"
@@ -418,7 +425,14 @@ def format_plain_text(bulletin: Dict) -> str:
     quiz = bulletin.get("daily_quiz", [])
 
     source = bulletin.get("content_source", "unknown")
-    source_label = "Gemini AI" if source == "gemini" else ("Fallback Engine" if source == "fallback" else "Unknown")
+    sources_plain = {
+        "gemini": "Gemini AI",
+        "openrouter": "OpenRouter AI",
+        "groq": "Groq AI",
+        "openai": "OpenAI",
+        "fallback": "Fallback Engine",
+    }
+    source_label = sources_plain.get(source, source.title())
 
     lines = [
         f"DAILY CURRENT AFFAIRS BULLETIN - {date}",

@@ -13,7 +13,14 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from config import GEMINI_API_KEY, GEMINI_MODEL, TARGET_EXAM
+from config import (
+    GEMINI_API_KEY,
+    GEMINI_MODEL,
+    GROQ_API_KEY,
+    OPENAI_API_KEY,
+    OPENROUTER_API_KEY,
+    TARGET_EXAM,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -250,14 +257,67 @@ Respond ONLY with the JSON object. Do not include markdown code backticks around
 """
 
 
+def _extract_json(text: str) -> Optional[Dict]:
+    """Robustly parses JSON from LLM responses, stripping code fences or picking outermost object."""
+    if not text:
+        return None
+    cleaned = text.strip()
+    if cleaned.startswith("```"):
+        cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned)
+        cleaned = re.sub(r"\s*```$", "", cleaned)
+    try:
+        return json.loads(cleaned)
+    except Exception:
+        pass
+    match = re.search(r"(\{.*\})", text, re.DOTALL)
+    if match:
+        try:
+            return json.loads(match.group(1))
+        except Exception:
+            pass
+    return None
+
+
+def _normalize_bulletin(data: Dict, date_str: str, exam_type: str, source: str) -> Dict:
+    """Ensures consistent schema and fields across all AI providers."""
+    data.setdefault("date", date_str)
+    data.setdefault("exam_type", exam_type)
+    data.setdefault("headline_summary", "Today's daily exam current affairs briefing.")
+    data.setdefault("categories", [])
+    data.setdefault("daily_quiz", [])
+    data["content_source"] = source
+
+    if not isinstance(data.get("vocab_words"), list):
+        if isinstance(data.get("vocab_word"), dict):
+            data["vocab_words"] = [data["vocab_word"]]
+        else:
+            data["vocab_words"] = []
+
+    if not isinstance(data.get("idioms_of_the_day"), list):
+        if isinstance(data.get("idiom_of_the_day"), dict):
+            data["idioms_of_the_day"] = [data["idiom_of_the_day"]]
+        else:
+            data["idioms_of_the_day"] = []
+
+    if not isinstance(data.get("static_gk_boosters"), list):
+        if isinstance(data.get("static_gk_booster"), dict):
+            data["static_gk_boosters"] = [data["static_gk_booster"]]
+        else:
+            data["static_gk_boosters"] = []
+
+    return data
+
+
 def curate_news_with_gemini(
     articles: List[Dict],
     exam_type: str,
     api_key: str,
     used_content: Optional[Dict[str, List[str]]] = None,
+    model_override: Optional[str] = None,
 ) -> Optional[Dict]:
     """Uses Google GenAI SDK to curate and structure current affairs."""
     used_content = used_content or {"vocab": [], "idiom": [], "gk_booster": []}
+    model = model_override or GEMINI_MODEL
     try:
         from google import genai
         client = genai.Client(api_key=api_key)
@@ -269,26 +329,183 @@ def curate_news_with_gemini(
             recent_gk_topics=used_content.get("gk_booster", []),
         )
 
-        logger.info(f"Calling Gemini ({GEMINI_MODEL}) for {exam_type} curation...")
+        logger.info(f"Calling Gemini ({model}) for {exam_type} curation...")
         response = client.models.generate_content(
-            model=GEMINI_MODEL,
+            model=model,
             contents=prompt,
         )
 
-        response_text = response.text.strip()
-        # Clean any markdown code blocks
-        if response_text.startswith("```"):
-            response_text = re.sub(r"^```(?:json)?\n", "", response_text)
-            response_text = re.sub(r"\n```$", "", response_text)
+        bulletin_data = _extract_json(response.text)
+        if not bulletin_data:
+            logger.error("Failed to parse JSON from Gemini response.")
+            return None
 
-        bulletin_data = json.loads(response_text)
-        bulletin_data["content_source"] = "gemini"
+        bulletin_data = _normalize_bulletin(bulletin_data, today_str, exam_type, "gemini")
         logger.info(f"Successfully generated Gemini bulletin with {len(bulletin_data.get('categories', []))} categories and {len(bulletin_data.get('daily_quiz', []))} MCQs.")
         return bulletin_data
 
     except Exception as e:
-        logger.error(f"Gemini curation failed: {e}. Falling back to heuristic engine.")
+        logger.error(f"Gemini ({model}) curation failed: {type(e).__name__}: {e}")
         return None
+
+
+def curate_news_with_openrouter(
+    articles: List[Dict],
+    exam_type: str,
+    api_key: str,
+    used_content: Optional[Dict[str, List[str]]] = None,
+) -> Optional[Dict]:
+    """
+    Uses OpenRouter API (FREE tier) to curate current affairs.
+    OpenRouter provides free access to high-performance open-weights models.
+    Get a FREE key at: https://openrouter.ai/keys
+    """
+    free_models = [
+        "meta-llama/llama-3.3-70b-instruct:free",
+        "qwen/qwen-2.5-72b-instruct:free",
+        "mistralai/mistral-7b-instruct:free",
+        "google/gemini-2.0-flash-exp:free",
+    ]
+    try:
+        from openai import OpenAI
+    except ImportError:
+        logger.warning("openai package not installed (needed for OpenRouter fallback).")
+        return None
+
+    used_content = used_content or {"vocab": [], "idiom": [], "gk_booster": []}
+    client = OpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=api_key,
+    )
+    today_str = datetime.date.today().strftime("%d %B %Y")
+    prompt = build_gemini_prompt(
+        articles, exam_type, today_str,
+        recent_vocab=used_content.get("vocab", []),
+        recent_idioms=used_content.get("idiom", []),
+        recent_gk_topics=used_content.get("gk_booster", []),
+    )
+
+    for model in free_models:
+        try:
+            model_short = model.split("/")[-1].replace(":free", "")
+            logger.info(f"Calling OpenRouter ({model_short}) for {exam_type} curation...")
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": "You are an expert Indian competitive exam current affairs editor. Respond with valid JSON only."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.4,
+                max_tokens=4096,
+            )
+            raw_text = (response.choices[0].message.content or "").strip()
+            bulletin_data = _extract_json(raw_text)
+            if bulletin_data:
+                bulletin_data = _normalize_bulletin(bulletin_data, today_str, exam_type, "openrouter")
+                logger.info(f"✅ OpenRouter ({model_short}) generated bulletin with {len(bulletin_data.get('categories', []))} categories.")
+                return bulletin_data
+        except Exception as e:
+            logger.warning(f"OpenRouter ({model}) failed: {type(e).__name__}: {e}")
+            continue
+
+    logger.error("All OpenRouter free models failed.")
+    return None
+
+
+def curate_news_with_groq(
+    articles: List[Dict],
+    exam_type: str,
+    api_key: str,
+    used_content: Optional[Dict[str, List[str]]] = None,
+) -> Optional[Dict]:
+    """Uses Groq API (free tier) with llama-3.3-70b-versatile."""
+    try:
+        from groq import Groq
+    except ImportError:
+        logger.warning("groq package not installed (needed for Groq fallback).")
+        return None
+
+    used_content = used_content or {"vocab": [], "idiom": [], "gk_booster": []}
+    client = Groq(api_key=api_key)
+    today_str = datetime.date.today().strftime("%d %B %Y")
+    prompt = build_gemini_prompt(
+        articles, exam_type, today_str,
+        recent_vocab=used_content.get("vocab", []),
+        recent_idioms=used_content.get("idiom", []),
+        recent_gk_topics=used_content.get("gk_booster", []),
+    )
+
+    models_to_try = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"]
+    for model in models_to_try:
+        try:
+            logger.info(f"Calling Groq ({model}) for {exam_type} curation...")
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": "You are an expert Indian competitive exam current affairs editor. Respond with valid JSON only."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.4,
+                max_tokens=4096,
+            )
+            raw_text = (response.choices[0].message.content or "").strip()
+            bulletin_data = _extract_json(raw_text)
+            if bulletin_data:
+                bulletin_data = _normalize_bulletin(bulletin_data, today_str, exam_type, "groq")
+                logger.info(f"✅ Groq ({model}) generated bulletin with {len(bulletin_data.get('categories', []))} categories.")
+                return bulletin_data
+        except Exception as e:
+            logger.warning(f"Groq ({model}) failed: {type(e).__name__}: {e}")
+            continue
+
+    logger.error("All Groq models failed.")
+    return None
+
+
+def curate_news_with_openai(
+    articles: List[Dict],
+    exam_type: str,
+    api_key: str,
+    used_content: Optional[Dict[str, List[str]]] = None,
+) -> Optional[Dict]:
+    """Uses OpenAI API with gpt-4o-mini."""
+    try:
+        from openai import OpenAI
+    except ImportError:
+        logger.warning("openai package not installed (needed for OpenAI fallback).")
+        return None
+
+    used_content = used_content or {"vocab": [], "idiom": [], "gk_booster": []}
+    client = OpenAI(api_key=api_key)
+    today_str = datetime.date.today().strftime("%d %B %Y")
+    prompt = build_gemini_prompt(
+        articles, exam_type, today_str,
+        recent_vocab=used_content.get("vocab", []),
+        recent_idioms=used_content.get("idiom", []),
+        recent_gk_topics=used_content.get("gk_booster", []),
+    )
+
+    try:
+        logger.info(f"Calling OpenAI (gpt-4o-mini) for {exam_type} curation...")
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "You are an expert Indian competitive exam current affairs editor. Respond with valid JSON only."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.4,
+            max_tokens=4096,
+        )
+        raw_text = (response.choices[0].message.content or "").strip()
+        bulletin_data = _extract_json(raw_text)
+        if bulletin_data:
+            bulletin_data = _normalize_bulletin(bulletin_data, today_str, exam_type, "openai")
+            logger.info(f"✅ OpenAI bulletin generated with {len(bulletin_data.get('categories', []))} categories.")
+            return bulletin_data
+    except Exception as e:
+        logger.error(f"OpenAI curation failed: {type(e).__name__}: {e}")
+
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -628,15 +845,65 @@ def curate_news_heuristic(
 
 
 def curate_daily_bulletin(articles: List[Dict], exam_type: str = TARGET_EXAM, api_key: str = GEMINI_API_KEY) -> Dict:
-    """Main curation entry point: tries Gemini first, falls back to Heuristic engine.
-    Tracks recently used vocab/idioms/GK topics across runs so content doesn't repeat."""
+    """
+    Main curation entry point with multi-provider AI fallback chain:
+      1. Gemini (up to 3 retries with backoff across recommended models)
+      2. OpenRouter (FREE — tries Llama 3.3, Qwen 2.5, Mistral, Gemini 2.0)
+      3. Groq (FREE tier — Llama 3.3 70B, Llama 3.1 8B)
+      4. OpenAI (paid — gpt-4o-mini)
+      5. Heuristic (intelligent offline fallback)
+    Tracks recently used vocab/idioms/GK topics across runs so content doesn't repeat.
+    """
+    import time
     used_content = load_used_content()
-
     result = None
-    if api_key:
-        result = curate_news_with_gemini(articles, exam_type, api_key, used_content)
 
+    # --- Provider 1: Gemini (3 attempts with model diversity and backoff) ---
+    if api_key:
+        gemini_models_to_try = [GEMINI_MODEL, "gemini-2.5-flash", "gemini-2.5-flash-lite"]
+        # Deduplicate while preserving order
+        seen = set()
+        gemini_models = [m for m in gemini_models_to_try if not (m in seen or seen.add(m))]
+
+        for attempt in range(1, 4):
+            model_to_use = gemini_models[(attempt - 1) % len(gemini_models)]
+            logger.info(f"🔄 Gemini attempt {attempt}/3 using {model_to_use}...")
+            result = curate_news_with_gemini(articles, exam_type, api_key, used_content, model_override=model_to_use)
+            if result:
+                logger.info(f"✅ Gemini succeeded on attempt {attempt} using {model_to_use}.")
+                break
+            if attempt < 3:
+                wait_time = attempt * 5
+                logger.info(f"⏳ Waiting {wait_time}s before next Gemini retry...")
+                time.sleep(wait_time)
+
+        if not result:
+            logger.warning("❌ Gemini failed all 3 attempts. Checking fallback providers...")
+
+    # --- Provider 2: OpenRouter (FREE) ---
+    if not result and OPENROUTER_API_KEY:
+        logger.info("Trying OpenRouter (free models)...")
+        result = curate_news_with_openrouter(articles, exam_type, OPENROUTER_API_KEY, used_content)
+        if not result:
+            logger.warning("❌ OpenRouter fallback failed.")
+
+    # --- Provider 3: Groq (FREE) ---
+    if not result and GROQ_API_KEY:
+        logger.info("Trying Groq fallback...")
+        result = curate_news_with_groq(articles, exam_type, GROQ_API_KEY, used_content)
+        if not result:
+            logger.warning("❌ Groq fallback failed.")
+
+    # --- Provider 4: OpenAI ---
+    if not result and OPENAI_API_KEY:
+        logger.info("Trying OpenAI fallback...")
+        result = curate_news_with_openai(articles, exam_type, OPENAI_API_KEY, used_content)
+        if not result:
+            logger.warning("❌ OpenAI fallback failed.")
+
+    # --- Provider 5: Heuristic Engine ---
     if not result:
+        logger.info("📋 Using heuristic engine fallback. Vocab & GK will rotate daily.")
         result = curate_news_heuristic(articles, exam_type, used_content)
 
     used_content = _record_used(used_content, result)

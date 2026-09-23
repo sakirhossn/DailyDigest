@@ -1,0 +1,24 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Secrets & Environment Variables (NEVER commit credentials!)
+.env
+*.env.local
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Local outputs & temp files
+daily_digest.html
+sample_*.html
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
