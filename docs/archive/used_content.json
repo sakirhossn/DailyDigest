@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "PROPINQUITY",
-    "OBVIATE",
-    "TENABLE",
-    "PUERILE",
     "AMELIORATE",
     "TANTAMOUNT",
     "CONCILIATORY",
@@ -59,11 +55,13 @@
     "CAUCUS",
     "LUMINESCENT",
     "EQUIVOCAL",
-    "DISCONCERT"
+    "DISCONCERT",
+    "SURREPTITIOUS",
+    "TACITURN",
+    "EPHEMERAL",
+    "ALACRITY"
   ],
   "idiom": [
-    "To steal a march on",
-    "Burn the midnight oil",
     "In the offing",
     "Fly in the ointment",
     "On the fence",
@@ -120,14 +118,12 @@
     "Pyrrhic victory",
     "To spill the beans",
     "A bone of contention",
-    "By leaps and bounds"
+    "By leaps and bounds",
+    "To break the ice",
+    "The tip of the iceberg",
+    "Play devil's advocate"
   ],
   "gk_booster": [
-    "National Commission for Protection of Child Rights (NCPCR)",
-    "BRICS & New Development Bank (NDB)",
-    "National Statistical Office (NSO)",
-    "Asian Cricket Council (ACC)",
-    "Kasturirangan Committee on Western Ghats",
     "Rural Self Employment Training Institutes (RSETIs)",
     "Chabahar Port & Strategic Significance",
     "International Monetary Fund (IMF)",
@@ -182,6 +178,11 @@
     "Eighth Schedule of the Indian Constitution",
     "Free Trade Agreements (FTAs) & Economic Partnerships",
     "Asian Games and Olympic Council of Asia (OCA)",
-    "Critical Minerals and Strategic Industry Supply Chains"
+    "Critical Minerals and Strategic Industry Supply Chains",
+    "Securities and Exchange Board of India (SEBI)",
+    "Organisation for Economic Co-operation and Development (OECD)",
+    "National Institute of Mental Health and Neurosciences (NIMHANS)",
+    "Organization of the Petroleum Exporting Countries (OPEC)",
+    "Asian Games & Olympic Council of Asia (OCA)"
   ]
 }

@@ -2115,5 +2115,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "24 September 2026",
+    "vocab_words": [
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make something bad or unsatisfactory better.",
+        "synonyms": [
+          "improve",
+          "mitigate",
+          "ameliorate"
+        ],
+        "antonyms": [
+          "worsen",
+          "aggravate"
+        ],
+        "example_sentence": "The state government introduced landmark legislation to ameliorate the working conditions of women farmers."
+      },
+      {
+        "word": "SURREPTITIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Kept secret, especially because it would not be approved of.",
+        "synonyms": [
+          "clandestine",
+          "stealthy",
+          "furtive"
+        ],
+        "antonyms": [
+          "open",
+          "manifest"
+        ],
+        "example_sentence": "Financial regulators remain vigilant against surreptitious attempts to bypass capital controls."
+      },
+      {
+        "word": "TACITURN",
+        "part_of_speech": "Adjective",
+        "meaning": "Reserved or uncommunicative in speech; saying little.",
+        "synonyms": [
+          "reticent",
+          "reserved",
+          "laconic"
+        ],
+        "antonyms": [
+          "talkative",
+          "voluble"
+        ],
+        "example_sentence": "Despite heavy market questioning, the central bank governor remained taciturn regarding upcoming rate decisions."
+      },
+      {
+        "word": "EPHEMERAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Lasting for a very short time.",
+        "synonyms": [
+          "transitory",
+          "fleeting",
+          "momentary"
+        ],
+        "antonyms": [
+          "permanent",
+          "enduring"
+        ],
+        "example_sentence": "Economists warned that short-term commodity price spikes should not be confused with sustainable growth trends."
+      },
+      {
+        "word": "ALACRITY",
+        "part_of_speech": "Noun",
+        "meaning": "Brisk and cheerful readiness.",
+        "synonyms": [
+          "eagerness",
+          "promptness",
+          "celerity"
+        ],
+        "antonyms": [
+          "apathy",
+          "slowness"
+        ],
+        "example_sentence": "The administrative machinery executed the trade pact ratification process with commendable alacrity."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To break the ice",
+        "meaning": "To make people who have not met before feel more relaxed with each other.",
+        "example_sentence": "Bilateral talks began with formal pleasantries to break the ice before moving to sensitive tariff negotiations."
+      },
+      {
+        "idiom": "A bone of contention",
+        "meaning": "A subject or issue over which there is continuing disagreement.",
+        "example_sentence": "Agricultural market access remains a major bone of contention in international trade agreements."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To work excessively hard or overextend oneself physically and mentally.",
+        "example_sentence": "Entrepreneurs often burn the candle at both ends while trying to scale startups in competitive tech sectors."
+      },
+      {
+        "idiom": "The tip of the iceberg",
+        "meaning": "A small visible part of a much larger, complex, or hidden problem.",
+        "example_sentence": "These reported corporate defaults might just be the tip of the iceberg for sector-wide credit stress."
+      },
+      {
+        "idiom": "Play devil's advocate",
+        "meaning": "To express an opinion that one does not necessarily hold, in order to provoke debate or test the strength of an argument.",
+        "example_sentence": "During the policy review meeting, the chief economist played devil's advocate to question the sustainability of the lending boom."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Securities and Exchange Board of India (SEBI)",
+        "bullets": [
+          "Established on April 12, 1992, under the SEBI Act, 1992.",
+          "Headquarters: Mumbai, Maharashtra.",
+          "Statutory regulatory body established to protect investors in securities and to regulate the securities market in India."
+        ]
+      },
+      {
+        "title": "Organisation for Economic Co-operation and Development (OECD)",
+        "bullets": [
+          "Founded in 1961, succeeding the Organisation for European Economic Co-operation (OEEC).",
+          "Headquarters: Paris, France.",
+          "Comprises developed and emerging economies dedicated to promoting policies designed to achieve sustainable economic growth and employment."
+        ]
+      },
+      {
+        "title": "National Institute of Mental Health and Neurosciences (NIMHANS)",
+        "bullets": [
+          "Premier institute for mental health and neurosciences in India located in Bengaluru.",
+          "Operates autonomously under the Ministry of Health and Family Welfare, Government of India.",
+          "Designated as an Institute of National Importance via parliamentary legislation."
+        ]
+      },
+      {
+        "title": "Organization of the Petroleum Exporting Countries (OPEC)",
+        "bullets": [
+          "Established in Baghdad in September 1960 by founding members Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela.",
+          "Headquarters: Vienna, Austria.",
+          "Permanent intergovernmental organization aimed at coordinating and unifying petroleum policies among member countries."
+        ]
+      },
+      {
+        "title": "Asian Games & Olympic Council of Asia (OCA)",
+        "bullets": [
+          "Governing body of sports in Asia, recognized by the International Olympic Committee (IOC).",
+          "Headquarters: Kuwait City, Kuwait.",
+          "Organizes the Asian Games quadrennial multi-sport event featuring athletes from all over Asia."
+        ]
+      }
+    ]
   }
 ]
