@@ -2264,5 +2264,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "25 September 2026",
+    "vocab_words": [
+      {
+        "word": "ACQUIESCE",
+        "part_of_speech": "Verb",
+        "meaning": "To accept, agree, or give consent tacitly without protest.",
+        "synonyms": [
+          "comply",
+          "yield",
+          "concede"
+        ],
+        "antonyms": [
+          "resis",
+          "defy"
+        ],
+        "example_sentence": "The opposition leaders decided to acquiesce to the revised legislative timeline after extensive negotiations."
+      },
+      {
+        "word": "SPURIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Not being what it purports to be; false or counterfeit.",
+        "synonyms": [
+          "bogus",
+          "fake",
+          "fraudulent"
+        ],
+        "antonyms": [
+          "genuine",
+          "authentic"
+        ],
+        "example_sentence": "Regulatory authorities cracked down heavily on manufacturers distributing spurious dairy substitutes in local markets."
+      },
+      {
+        "word": "MITIGATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make less severe, serious, or painful.",
+        "synonyms": [
+          "alleviate",
+          "attenuate",
+          "lessen"
+        ],
+        "antonyms": [
+          "aggravate",
+          "intensify"
+        ],
+        "example_sentence": "The state government introduced a 12-month loan moratorium to mitigate the financial stress faced by drought-hit farmers."
+      },
+      {
+        "word": "PRUDENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Acting with or showing care and thought for the future.",
+        "synonyms": [
+          "judicious",
+          "sagacious",
+          "circumspect"
+        ],
+        "antonyms": [
+          "reckless",
+          "imprudent"
+        ],
+        "example_sentence": "Economists recommend maintaining fiscal discipline and building robust foreign exchange reserves as a prudent measure."
+      },
+      {
+        "word": "EXACERBATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a problem, bad situation, or negative feeling worse.",
+        "synonyms": [
+          "worsen",
+          "compound",
+          "inflame"
+        ],
+        "antonyms": [
+          "ameliorate",
+          "mitigate"
+        ],
+        "example_sentence": "Unforeseen supply chain disruptions could exacerbate inflationary pressures across domestic retail markets."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A double-edged sword",
+        "meaning": "A situation or course of action that has both favorable and unfavorable consequences.",
+        "example_sentence": "Rapid capital inflows can be a double-edged sword, strengthening the currency while complicating monetary policy management."
+      },
+      {
+        "idiom": "To weather the storm",
+        "meaning": "To successfully survive a difficult period or crisis.",
+        "example_sentence": "India's robust macroeconomic fundamentals allowed the economy to weather the storm of global trade volatility."
+      },
+      {
+        "idiom": "To move the needle",
+        "meaning": "To make a noticeable difference or measurable impact on a situation.",
+        "example_sentence": "Small localized relief packages are helpful, but systemic reforms are required to truly move the needle on agrarian distress."
+      },
+      {
+        "idiom": "Tip of the iceberg",
+        "meaning": "A small visible part of a much larger, complex problem or situation.",
+        "example_sentence": "The recent detection of adulterated dairy products in urban distribution channels may only be the tip of the iceberg."
+      },
+      {
+        "idiom": "Back to the drawing board",
+        "meaning": "An instruction to start planning something again because the previous attempt failed.",
+        "example_sentence": "When municipal garbage collection tenders failed due to low bidder acceptance, authorities had to go back to the drawing board."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Agriculture Infrastructure Fund (AIF)",
+        "bullets": [
+          "Launched in: 2020 as part of the Aatmanirbhar Bharat economic stimulus package.",
+          "Financing Structure: Provides interest subvention of 3% per annum up to a loan amount of \u20b92 crore.",
+          "Target Beneficiaries: Farmers, Primary Agricultural Credit Societies (PACS), Farmer Producer Organizations (FPOs), and agri-entrepreneurs."
+        ]
+      },
+      {
+        "title": "Food Safety and Standards Authority of India (FSSAI)",
+        "bullets": [
+          "Statutory Basis: Established under the Food Safety and Standards Act, 2006.",
+          "Parent Ministry: Ministry of Health and Family Welfare, Government of India.",
+          "Headquarters: New Delhi, responsible for laying down science-based standards for food articles."
+        ]
+      },
+      {
+        "title": "Sovereign Credit Rating Agencies",
+        "bullets": [
+          "The 'Big Three' Agencies: Standard & Poor's (S&P), Moody's Ratings, and Fitch Ratings.",
+          "Function: Assess the creditworthiness of sovereign nations, influencing foreign institutional investment borrowing costs.",
+          "Key Metrics Evaluated: GDP growth trajectory, fiscal deficit, inflation rate, and external debt burden."
+        ]
+      },
+      {
+        "title": "State Disaster Response Fund (SDRF)",
+        "bullets": [
+          "Statutory Basis: Constituted under Section 48(1)(a) of the Disaster Management Act, 2005.",
+          "Funding Pattern: Central government contributes 75% for general states and 90% for northeastern/himalayan states.",
+          "Utilization: Primary fund available with state governments for immediate relief during notified disasters like drought, floods, and cyclones."
+        ]
+      },
+      {
+        "title": "Preferential Trade Agreement (PTA)",
+        "bullets": [
+          "Definition: A trading bloc that gives preferential access to certain products from participating countries by reducing tariffs.",
+          "Scope: Broader than a unilateral trade preference, but typically more limited in scope than a Comprehensive Economic Partnership Agreement (CEPA) or Free Trade Agreement (FTA).",
+          "WTO Compliance: Permitted under WTO enabling clauses for developing economies seeking regional trade integration."
+        ]
+      }
+    ]
   }
 ]

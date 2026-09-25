@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "AMELIORATE",
-    "TANTAMOUNT",
-    "CONCILIATORY",
-    "IMPASSE",
     "TEMERITY",
     "VOLATILITY",
     "TARIFF",
@@ -59,12 +55,13 @@
     "SURREPTITIOUS",
     "TACITURN",
     "EPHEMERAL",
-    "ALACRITY"
+    "ALACRITY",
+    "ACQUIESCE",
+    "SPURIOUS",
+    "MITIGATE",
+    "PRUDENT"
   ],
   "idiom": [
-    "In the offing",
-    "Fly in the ointment",
-    "On the fence",
     "To clear the air",
     "Throw down the gauntlet",
     "At loggerheads",
@@ -121,13 +118,12 @@
     "By leaps and bounds",
     "To break the ice",
     "The tip of the iceberg",
-    "Play devil's advocate"
+    "Play devil's advocate",
+    "To move the needle",
+    "Tip of the iceberg",
+    "Back to the drawing board"
   ],
   "gk_booster": [
-    "Rural Self Employment Training Institutes (RSETIs)",
-    "Chabahar Port & Strategic Significance",
-    "International Monetary Fund (IMF)",
-    "Freedom of Peaceful Assembly (Article 19(1)(b))",
     "Foreign Exchange Reserves of India",
     "Strait of Hormuz",
     "Monetary Policy Committee (MPC)",
@@ -183,6 +179,10 @@
     "Organisation for Economic Co-operation and Development (OECD)",
     "National Institute of Mental Health and Neurosciences (NIMHANS)",
     "Organization of the Petroleum Exporting Countries (OPEC)",
-    "Asian Games & Olympic Council of Asia (OCA)"
+    "Asian Games & Olympic Council of Asia (OCA)",
+    "Agriculture Infrastructure Fund (AIF)",
+    "Sovereign Credit Rating Agencies",
+    "State Disaster Response Fund (SDRF)",
+    "Preferential Trade Agreement (PTA)"
   ]
 }
