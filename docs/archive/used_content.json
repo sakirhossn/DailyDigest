@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "TEMERITY",
-    "VOLATILITY",
-    "TARIFF",
     "IMPETUS",
     "UNILATERAL",
     "COGENT",
@@ -59,12 +56,12 @@
     "ACQUIESCE",
     "SPURIOUS",
     "MITIGATE",
-    "PRUDENT"
+    "PRUDENT",
+    "ESCHEW",
+    "TENTATIVE",
+    "GALVANIZE"
   ],
   "idiom": [
-    "To clear the air",
-    "Throw down the gauntlet",
-    "At loggerheads",
     "Keep at bay",
     "Hit the nail on the head",
     "To read between the lines",
@@ -121,13 +118,12 @@
     "Play devil's advocate",
     "To move the needle",
     "Tip of the iceberg",
-    "Back to the drawing board"
+    "Back to the drawing board",
+    "A slippery slope",
+    "To bridge the gap",
+    "To draw the line"
   ],
   "gk_booster": [
-    "Foreign Exchange Reserves of India",
-    "Strait of Hormuz",
-    "Monetary Policy Committee (MPC)",
-    "Gross Domestic Product (GDP) Measurement in India",
     "Direct Benefit Transfer (DBT) System",
     "Payment and Settlement Systems Act, 2007",
     "Sashastra Seema Bal (SSB)",
@@ -183,6 +179,10 @@
     "Agriculture Infrastructure Fund (AIF)",
     "Sovereign Credit Rating Agencies",
     "State Disaster Response Fund (SDRF)",
-    "Preferential Trade Agreement (PTA)"
+    "Preferential Trade Agreement (PTA)",
+    "Blue Bonds & Sustainable Finance",
+    "Red Sea & Maritime Chokepoints",
+    "Free Trade Agreements (FTAs)",
+    "History of Kabaddi at the Asian Games"
   ]
 }

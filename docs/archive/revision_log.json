@@ -2413,5 +2413,158 @@
         ]
       }
     ]
+  },
+  {
+    "date": "26 September 2026",
+    "vocab_words": [
+      {
+        "word": "EXACERBATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a problem, bad situation, or negative feeling worse.",
+        "synonyms": [
+          "worsen",
+          "aggravate",
+          "intensify"
+        ],
+        "antonyms": [
+          "alleviate",
+          "mitigate",
+          "assuage"
+        ],
+        "example_sentence": "Unregulated industrial emissions can significantly exacerbate existing environmental challenges in metropolitan areas."
+      },
+      {
+        "word": "ESCHEW",
+        "part_of_speech": "Verb",
+        "meaning": "To deliberately avoid using, abstain from, or keep away from something.",
+        "synonyms": [
+          "avoid",
+          "shun",
+          "forswear"
+        ],
+        "antonyms": [
+          "embrace",
+          "adopt",
+          "pursue"
+        ],
+        "example_sentence": "Central bank leaders advised commercial lenders to eschew speculative lending euphoria and focus on robust project appraisal."
+      },
+      {
+        "word": "TENTATIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Not certain or fixed; provisional or subject to further confirmation.",
+        "synonyms": [
+          "provisional",
+          "conditional",
+          "unconfirmed"
+        ],
+        "antonyms": [
+          "definite",
+          "conclusive",
+          "certain"
+        ],
+        "example_sentence": "The government and banking consortiums reached a tentative agreement regarding the upcoming digital payment subsidy structure."
+      },
+      {
+        "word": "GALVANIZE",
+        "part_of_speech": "Verb",
+        "meaning": "To shock or excite someone into taking sudden action.",
+        "synonyms": [
+          "energize",
+          "catalyze",
+          "stimulate"
+        ],
+        "antonyms": [
+          "deter",
+          "discourage",
+          "paralyze"
+        ],
+        "example_sentence": "The introduction of sustainable blue bonds aims to galvanize green investments across the country's coastal regions."
+      },
+      {
+        "word": "PERMEATE",
+        "part_of_speech": "Verb",
+        "meaning": "To spread throughout something; to pass into or through every part of.",
+        "synonyms": [
+          "penetrate",
+          "diffuse",
+          "pervade"
+        ],
+        "antonyms": [
+          "dehydrate",
+          "concentrate"
+        ],
+        "example_sentence": "Digital payment platforms continue to permeate rural economies, bridging the financial inclusion gap rapidly."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To weather the storm",
+        "meaning": "To survive or successfully deal with a difficult situation or period of crisis.",
+        "example_sentence": "With robust fiscal policies and diversified trade pacts, the domestic economy managed to weather the global supply chain storm."
+      },
+      {
+        "idiom": "A slippery slope",
+        "meaning": "A course of action that is difficult to stop once it has begun and is likely to lead to a disastrous outcome.",
+        "example_sentence": "Financial experts warned that abandoning prudent lending standards could prove to be a slippery slope for commercial banks."
+      },
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove tension, doubts, or misunderstandings between people through open communication.",
+        "example_sentence": "Bilateral trade discussions helped clear the air regarding tariff concerns ahead of the upcoming FTA signing."
+      },
+      {
+        "idiom": "To bridge the gap",
+        "meaning": "To reduce or eliminate the distance, difference, or division between two contrasting things or groups.",
+        "example_sentence": "Sustainable finance instruments are designed to bridge the gap between ecological preservation and economic growth."
+      },
+      {
+        "idiom": "To draw the line",
+        "meaning": "To set a clear boundary or limit on what one is willing to accept or permit.",
+        "example_sentence": "Regulators had to draw the line on excessive lending practices to prevent systemic vulnerabilities in the banking sector."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Blue Bonds & Sustainable Finance",
+        "bullets": [
+          "First issued internationally by the Seychelles in 2018 to support sustainable marine and fisheries projects.",
+          "Regulated domestically in India under sustainability frameworks recognized by the Securities and Exchange Board of India (SEBI).",
+          "Primarily designed to fund ocean conservation, renewable energy, and sustainable maritime resource management."
+        ]
+      },
+      {
+        "title": "Merchant Discount Rate (MDR)",
+        "bullets": [
+          "MDR is a fee charged to a merchant by a bank for processing customer payments made via digital channels.",
+          "It is typically distributed among three entities: the merchant's bank, the customer's bank, and the payment network provider.",
+          "Zero-MDR policies on UPI have driven massive volume growth, prompting ongoing government deliberations over bank compensation subsidies."
+        ]
+      },
+      {
+        "title": "Red Sea & Maritime Chokepoints",
+        "bullets": [
+          "The Red Sea links the Mediterranean Sea via the Suez Canal to the Indian Ocean via the Bab-el-Mandeb Strait.",
+          "It handles a significant percentage of global maritime freight and container shipping traffic.",
+          "Geopolitical instability in the region directly impacts international supply chains, crude oil transit, and commercial shipping insurance costs."
+        ]
+      },
+      {
+        "title": "Free Trade Agreements (FTAs)",
+        "bullets": [
+          "An FTA is an international treaty between two or more economies designed to reduce or eliminate import tariffs and non-tariff trade barriers.",
+          "Under WTO rules, FTAs fall under regional trade agreements that promote deeper economic integration than standard Most-Favoured-Nation (MFN) tariffs.",
+          "India's recent FTA engagements focus on comprehensive economic partnership agreements (CEPA) covering trade in goods, services, and investments."
+        ]
+      },
+      {
+        "title": "History of Kabaddi at the Asian Games",
+        "bullets": [
+          "Kabaddi made its formal debut as a medal event at the 1990 Asian Games held in Beijing, China.",
+          "India has historically dominated both men's and women's kabaddi competitions at the continental level.",
+          "The sport is governed internationally by the International Kabaddi Federation (IKF), headquartered in India."
+        ]
+      }
+    ]
   }
 ]
