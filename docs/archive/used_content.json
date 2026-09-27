@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "IMPETUS",
-    "UNILATERAL",
-    "COGENT",
     "PERMEATE",
     "ASSERTION",
     "EXACERBATE",
@@ -59,13 +56,12 @@
     "PRUDENT",
     "ESCHEW",
     "TENTATIVE",
-    "GALVANIZE"
+    "GALVANIZE",
+    "INTRANSIGENT",
+    "VEXATIOUS",
+    "OBSTREPEROUS"
   ],
   "idiom": [
-    "Keep at bay",
-    "Hit the nail on the head",
-    "To read between the lines",
-    "At a crossroads",
     "Through thick and thin",
     "To turn the tide",
     "A double-edged sword",
@@ -121,14 +117,13 @@
     "Back to the drawing board",
     "A slippery slope",
     "To bridge the gap",
-    "To draw the line"
+    "To draw the line",
+    "Steal a march on",
+    "At loggerheads",
+    "On tenterhooks",
+    "Hit the panic button"
   ],
   "gk_booster": [
-    "Direct Benefit Transfer (DBT) System",
-    "Payment and Settlement Systems Act, 2007",
-    "Sashastra Seema Bal (SSB)",
-    "Wholesale Price Index (WPI) vs Consumer Price Index (CPI)",
-    "Open Court Principle & Article 145 of the Indian Constitution",
     "73rd Constitutional Amendment Act, 1992",
     "Central Drugs Standard Control Organization (CDSCO)",
     "World Trade Organization (WTO)",
@@ -183,6 +178,11 @@
     "Blue Bonds & Sustainable Finance",
     "Red Sea & Maritime Chokepoints",
     "Free Trade Agreements (FTAs)",
-    "History of Kabaddi at the Asian Games"
+    "History of Kabaddi at the Asian Games",
+    "Right to Information (RTI) Act, 2005 & Section 24",
+    "V. O. Chidambaranar Port (Thoothukudi)",
+    "Manual for Drought Management in India",
+    "World Trade Organization (WTO) Tariffs & GATT",
+    "Digital Personal Data Protection (DPDP) Act, 2023"
   ]
 }

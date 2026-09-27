@@ -2566,5 +2566,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "27 September 2026",
+    "vocab_words": [
+      {
+        "word": "OBFUSCATE",
+        "part_of_speech": "Verb",
+        "meaning": "To render obscure, unclear, or unintelligible, often deliberately.",
+        "synonyms": [
+          "befog",
+          "cloud",
+          "muddle"
+        ],
+        "antonyms": [
+          "clarify",
+          "elucidate",
+          "simplify"
+        ],
+        "example_sentence": "The bureaucratic report served only to obfuscate the true financial extent of the project delay."
+      },
+      {
+        "word": "INTRANSIGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Refusing to compromise or agree; uncompromisingly rigid.",
+        "synonyms": [
+          "obdurate",
+          "resolute",
+          "unbending"
+        ],
+        "antonyms": [
+          "flexible",
+          "yielding",
+          "compliant"
+        ],
+        "example_sentence": "Despite prolonged bilateral negotiations, both countries remained intransigent on tariff reductions."
+      },
+      {
+        "word": "VEXATIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Causing or tending to cause annoyance, frustration, or worry.",
+        "synonyms": [
+          "galling",
+          "troublesome",
+          "irritating"
+        ],
+        "antonyms": [
+          "pleasing",
+          "soothing",
+          "delightful"
+        ],
+        "example_sentence": "The petitioner sought dismissal of the vexatious litigation filed to delay municipal infrastructure development."
+      },
+      {
+        "word": "PARSIMONIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Unwilling to spend money or use resources; excessively frugal.",
+        "synonyms": [
+          "miserly",
+          "stingy",
+          "penurious"
+        ],
+        "antonyms": [
+          "extravagant",
+          "generous",
+          "profligate"
+        ],
+        "example_sentence": "The non-profit sector's parsimonious expenditure on cybersecurity left its operational systems vulnerable."
+      },
+      {
+        "word": "OBSTREPEROUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Noisy and difficult to control; boisterous.",
+        "synonyms": [
+          "unruly",
+          "refractory",
+          "boisterous"
+        ],
+        "antonyms": [
+          "docile",
+          "quiet",
+          "submissive"
+        ],
+        "example_sentence": "The obstreperous crowd assembled near the administrative block, demanding an immediate review of the order."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To face a difficult or unpleasant situation with courage and force yourself to get it over with.",
+        "example_sentence": "Facing severe water scarcity, the municipal council had to bite the bullet and implement strict water rationing."
+      },
+      {
+        "idiom": "Steal a march on",
+        "meaning": "To gain an advantage over a competitor, usually by acting secretively or before they do.",
+        "example_sentence": "By adopting green technology early, the shipyard managed to steal a march on foreign competitors."
+      },
+      {
+        "idiom": "At loggerheads",
+        "meaning": "In direct conflict or violent disagreement with someone.",
+        "example_sentence": "The state administration and the civil society groups are at loggerheads over exemptions under transparency laws."
+      },
+      {
+        "idiom": "On tenterhooks",
+        "meaning": "In a state of tense anxiety or suspense waiting for news or outcome.",
+        "example_sentence": "Farmers in the drought-affected talukas were on tenterhooks awaiting the official relief package announcement."
+      },
+      {
+        "idiom": "Hit the panic button",
+        "meaning": "To react with sudden, irrational fear or take drastic action prematurely.",
+        "example_sentence": "The central bank warned institutions against hitting the panic button during short-term market volatility."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Right to Information (RTI) Act, 2005 & Section 24",
+        "bullets": [
+          "Enacted in 2005 under Article 19(1)(a) implied fundamental rights to freedom of speech and expression.",
+          "Section 24 grants explicit exemption from RTI disclosures to specific central and state security/intelligence organizations.",
+          "Proviso to Section 24 mandates that information regarding corruption and human rights violations must be disclosed within 45 days upon approval from the Information Commission."
+        ]
+      },
+      {
+        "title": "V. O. Chidambaranar Port (Thoothukudi)",
+        "bullets": [
+          "Located in Tamil Nadu, it is one of the 12 major ports under the administrative control of the Union Ministry of Ports, Shipping and Waterways.",
+          "It is an artificial deepwater port situated on the Gulf of Mannar, named after freedom fighter V. O. Chidambaram Pillai.",
+          "Functions as a major hub for coal, containerized cargo, liquid cargo, and fertilizer trade along South India's eastern seaboard."
+        ]
+      },
+      {
+        "title": "Manual for Drought Management in India",
+        "bullets": [
+          "Published by the Ministry of Agriculture & Farmers Welfare to standardize scientific criteria for declaring drought.",
+          "Droughts are categorized into Hydro-meteorological, Agricultural, and Socio-economic droughts based on specific indices.",
+          "Requires mandatory assessment of rainfall indices, dry spells, Reservoir Storage Index (RSI), and Crop Conditions."
+        ]
+      },
+      {
+        "title": "World Trade Organization (WTO) Tariffs & GATT",
+        "bullets": [
+          "Established on January 1, 1995, following the Marrakesh Agreement, replacing the General Agreement on Tariffs and Trade (GATT).",
+          "Headquartered in Geneva, Switzerland, governing international trade rules among 164 member states.",
+          "Operates on the Most-Favoured-Nation (MFN) principle, ensuring non-discriminatory treatment between trading partners."
+        ]
+      },
+      {
+        "title": "Digital Personal Data Protection (DPDP) Act, 2023",
+        "bullets": [
+          "Provides a legal framework for processing digital personal data in India balancing individual rights with lawful data processing needs.",
+          "Introduces roles such as 'Data Principal' (the individual) and 'Data Fiduciary' (entity determining processing purpose).",
+          "Establishes the Data Protection Board of India (DPBI) to adjudicate non-compliance and impose penalties up to \u20b9250 crore per breach."
+        ]
+      }
+    ]
   }
 ]
