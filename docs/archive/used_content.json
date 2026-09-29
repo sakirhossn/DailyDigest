@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "PERMEATE",
-    "ASSERTION",
-    "EXACERBATE",
-    "SURMOUNT",
     "OVERSIGHT",
     "DISPARAGEMENT",
     "DESUETUDE",
@@ -59,11 +55,13 @@
     "GALVANIZE",
     "INTRANSIGENT",
     "VEXATIOUS",
-    "OBSTREPEROUS"
+    "OBSTREPEROUS",
+    "ESOTERIC",
+    "GARRULOUS",
+    "SALUTARY",
+    "RECALCITRANT"
   ],
   "idiom": [
-    "Through thick and thin",
-    "To turn the tide",
     "A double-edged sword",
     "To take with a pinch of salt",
     "Bite the bullet",
@@ -121,13 +119,11 @@
     "Steal a march on",
     "At loggerheads",
     "On tenterhooks",
-    "Hit the panic button"
+    "Hit the panic button",
+    "Cut to the chase",
+    "Turn a blind eye"
   ],
   "gk_booster": [
-    "73rd Constitutional Amendment Act, 1992",
-    "Central Drugs Standard Control Organization (CDSCO)",
-    "World Trade Organization (WTO)",
-    "Section 22A of the Registration Act, 1908",
     "India-Nepal Energy Cooperation Framework",
     "El Ni\u00f1o-Southern Oscillation (ENSO)",
     "Employees' Provident Fund Organisation (EPFO)",
@@ -183,6 +179,10 @@
     "V. O. Chidambaranar Port (Thoothukudi)",
     "Manual for Drought Management in India",
     "World Trade Organization (WTO) Tariffs & GATT",
-    "Digital Personal Data Protection (DPDP) Act, 2023"
+    "Digital Personal Data Protection (DPDP) Act, 2023",
+    "Index of Industrial Production (IIP)",
+    "Open Market Operations (OMOs)",
+    "Registration of Electors Rules, 1960",
+    "Gandhi Memorial Museum, Madurai"
   ]
 }

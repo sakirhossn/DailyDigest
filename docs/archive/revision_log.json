@@ -2875,5 +2875,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "29 September 2026",
+    "vocab_words": [
+      {
+        "word": "PERNICIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having a harmful effect, especially in a gradual or subtle way.",
+        "synonyms": [
+          "deleterious",
+          "detrimental",
+          "pernicious"
+        ],
+        "antonyms": [
+          "beneficial",
+          "salubrious",
+          "advantageous"
+        ],
+        "example_sentence": "The pernicious spread of misinformation online threatens democratic discourse."
+      },
+      {
+        "word": "ESOTERIC",
+        "part_of_speech": "Adjective",
+        "meaning": "Intended for or likely to be understood by only a small number of people with a specialized knowledge.",
+        "synonyms": [
+          "obscure",
+          "abstruse",
+          "arcane"
+        ],
+        "antonyms": [
+          "exoteric",
+          "common",
+          "manifest"
+        ],
+        "example_sentence": "The economist presented esoteric mathematical models to explain the liquidity crunch."
+      },
+      {
+        "word": "GARRULOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Excessively talkative, especially on trivial matters.",
+        "synonyms": [
+          "loquacious",
+          "voluble",
+          "chatty"
+        ],
+        "antonyms": [
+          "taciturn",
+          "reticent",
+          "laconic"
+        ],
+        "example_sentence": "The garrulous politician spoke for hours without addressing the core policy concerns."
+      },
+      {
+        "word": "SALUTARY",
+        "part_of_speech": "Adjective",
+        "meaning": "Producing good effects; beneficial or wholesome.",
+        "synonyms": [
+          "wholesome",
+          "beneficial",
+          "salubrious"
+        ],
+        "antonyms": [
+          "pernicious",
+          "harmful",
+          "deleterious"
+        ],
+        "example_sentence": "The recent monetary tightening had a salutary effect on reining in inflation."
+      },
+      {
+        "word": "RECALCITRANT",
+        "part_of_speech": "Adjective",
+        "meaning": "Having an uncooperative attitude toward authority or discipline.",
+        "synonyms": [
+          "intractible",
+          "defiant",
+          "refractory"
+        ],
+        "antonyms": [
+          "amenable",
+          "compliant",
+          "docile"
+        ],
+        "example_sentence": "The regulator penalized recalcitrant financial institutions for failing to comply with reporting norms."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Cut to the chase",
+        "meaning": "To get to the point without wasting time on preliminaries.",
+        "example_sentence": "Instead of beating around the bush, the trade negotiator decided to cut to the chase regarding tariff barriers."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To work excessively hard or overextend oneself physically and mentally.",
+        "example_sentence": "Civil services aspirants often burn the candle at both ends while preparing for the prelims."
+      },
+      {
+        "idiom": "Spanner in the works",
+        "meaning": "An event or mistake that completely disrupts a plan or process.",
+        "example_sentence": "Rising global crude prices threw a major spanner in the works for the government's fiscal deficit target."
+      },
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To face a difficult or unpleasant situation with courage and endurance.",
+        "example_sentence": "The central bank had to bite the bullet and raise interest rates to protect the weakening currency."
+      },
+      {
+        "idiom": "Turn a blind eye",
+        "meaning": "To pretend not to notice or ignore an undesirable situation.",
+        "example_sentence": "Authorities cannot afford to turn a blind eye to compliance violations in quick-commerce sectors."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Index of Industrial Production (IIP)",
+        "bullets": [
+          "Tracks manufacturing, mining, and electricity production sectors in India.",
+          "Released monthly by the National Statistical Office (NSO), MoSPI.",
+          "Core industries hold a weight of over 40% within the IIP index basket."
+        ]
+      },
+      {
+        "title": "Comprehensive Economic Partnership Agreement (CEPA)",
+        "bullets": [
+          "A deep free trade pact covering goods, services, investment, and economic cooperation.",
+          "India-UAE CEPA marked a historic bilateral trade milestone signed in 2022.",
+          "Differs from a standard FTA by featuring expansive institutional regulatory commitments."
+        ]
+      },
+      {
+        "title": "Open Market Operations (OMOs)",
+        "bullets": [
+          "Quantitative monetary policy tool deployed by the RBI.",
+          "Involves direct sale and purchase of government securities to regulate liquidity.",
+          "Helps stabilize bond yields and control money supply in the domestic market."
+        ]
+      },
+      {
+        "title": "Registration of Electors Rules, 1960",
+        "bullets": [
+          "Formulated under the Representation of the People Act, 1950.",
+          "Govern electoral roll preparation, voter registration, objections, and deletions.",
+          "Form-7 is specifically designated for raising objections or requesting name removals."
+        ]
+      },
+      {
+        "title": "Gandhi Memorial Museum, Madurai",
+        "bullets": [
+          "Located in the historic Tamukkam Palace of Madurai, Tamil Nadu.",
+          "One of five national Gandhi Sangrahalayas established nationwide.",
+          "Preserves important memorabilia, photographs, and historical letters associated with Mahatma Gandhi."
+        ]
+      }
+    ]
   }
 ]
