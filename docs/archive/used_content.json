@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "OVERSIGHT",
-    "DISPARAGEMENT",
-    "DESUETUDE",
-    "PERNICIOUS",
-    "PROSCRIPTION",
     "DISQUIET",
     "OBFUSCATE",
     "SQUANDER",
@@ -59,12 +54,14 @@
     "ESOTERIC",
     "GARRULOUS",
     "SALUTARY",
-    "RECALCITRANT"
+    "RECALCITRANT",
+    "EXPROPRIATION",
+    "FROST",
+    "AMELIORATE",
+    "PROLIFERATE",
+    "DISCONCERTING"
   ],
   "idiom": [
-    "A double-edged sword",
-    "To take with a pinch of salt",
-    "Bite the bullet",
     "In the pipeline",
     "At the eleventh hour",
     "Spill the beans",
@@ -121,11 +118,12 @@
     "On tenterhooks",
     "Hit the panic button",
     "Cut to the chase",
-    "Turn a blind eye"
+    "Turn a blind eye",
+    "In hot water",
+    "Turn a new leaf",
+    "Burning the candle at both ends"
   ],
   "gk_booster": [
-    "India-Nepal Energy Cooperation Framework",
-    "El Ni\u00f1o-Southern Oscillation (ENSO)",
     "Employees' Provident Fund Organisation (EPFO)",
     "Foreign Currency Non-Resident (Bank) Deposit Scheme - FCNR(B)",
     "Meenakshi Amman Temple & Dravidian Architecture",
@@ -183,6 +181,8 @@
     "Index of Industrial Production (IIP)",
     "Open Market Operations (OMOs)",
     "Registration of Electors Rules, 1960",
-    "Gandhi Memorial Museum, Madurai"
+    "Gandhi Memorial Museum, Madurai",
+    "Form 6 under Election Commission Rules",
+    "United Nations General Assembly and Security Council Framework"
   ]
 }

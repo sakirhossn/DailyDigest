@@ -3029,5 +3029,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "30 September 2026",
+    "vocab_words": [
+      {
+        "word": "EXPROPRIATION",
+        "part_of_speech": "Noun",
+        "meaning": "The action of taking property from its owner for public use or by governmental decree.",
+        "synonyms": [
+          "confiscation",
+          "seizure",
+          " commandeering"
+        ],
+        "antonyms": [
+          "restitution",
+          "restoration"
+        ],
+        "example_sentence": "The legal dispute centered on whether the regulatory policy amounted to an unconstitutional expropriation of private assets."
+      },
+      {
+        "word": "FROST",
+        "part_of_speech": "Verb",
+        "meaning": "To cover with a decorative or frosty layer, or metaphorically to dampen enthusiasm.",
+        "synonyms": [
+          "chill",
+          "cool",
+          "dampen"
+        ],
+        "antonyms": [
+          "warm",
+          "heat"
+        ],
+        "example_sentence": "The unexpected regulatory hurdle could frost investor enthusiasm for the new sector."
+      },
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make something bad or unsatisfactory better.",
+        "synonyms": [
+          "improve",
+          "enhance",
+          "ameliorate"
+        ],
+        "antonyms": [
+          "worsen",
+          "deteriorate"
+        ],
+        "example_sentence": "Special fiscal measures were introduced to ameliorate the challenges faced by small merchants."
+      },
+      {
+        "word": "PROLIFERATE",
+        "part_of_speech": "Verb",
+        "meaning": "To increase rapidly in number; multiply.",
+        "synonyms": [
+          "burgeon",
+          "accumulate",
+          "escalate"
+        ],
+        "antonyms": [
+          "decrease",
+          "dwindle"
+        ],
+        "example_sentence": "Fintech startups continue to proliferate across urban tech hubs in India."
+      },
+      {
+        "word": "DISCONCERTING",
+        "part_of_speech": "Adjective",
+        "meaning": "Causing one to feel unsettled, disturbed, or concerned.",
+        "synonyms": [
+          "alarming",
+          "disturbing",
+          "unsettling"
+        ],
+        "antonyms": [
+          "comforting",
+          "reassuring"
+        ],
+        "example_sentence": "The sudden drop in regional agricultural output proved disconcerting for policymakers."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A blessing in disguise",
+        "meaning": "An apparent misfortune that eventually turns out to be good for someone.",
+        "example_sentence": "Losing that contract turned out to be a blessing in disguise as it forced the firm to diversify its portfolio."
+      },
+      {
+        "idiom": "Cut corners",
+        "meaning": "To do something perfunctorily or cheaply in order to save time or money.",
+        "example_sentence": "Regulatory bodies warned infrastructure firms not to cut corners on safety audits."
+      },
+      {
+        "idiom": "In hot water",
+        "meaning": "In serious trouble or difficulty.",
+        "example_sentence": "The corporation found itself in hot water after failing to comply with mandatory environmental declarations."
+      },
+      {
+        "idiom": "Turn a new leaf",
+        "meaning": "To make a fresh start or change one's behavior for the better.",
+        "example_sentence": "The state administration resolved to turn a new leaf regarding industrial dispute resolutions."
+      },
+      {
+        "idiom": "Burning the candle at both ends",
+        "meaning": "Working excessively hard or overextending oneself physically and mentally.",
+        "example_sentence": "The team was burning the candle at both ends to meet the ambitious fiscal quarter targets."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Index of Industrial Production (IIP)",
+        "bullets": [
+          "Measures short-term changes in the volume of production of a basket of industrial products during a given period.",
+          "Calculated and published monthly by the National Statistical Office (NSO), MoSPI.",
+          "Core sectors include Electricity, Steel, Refinery Products, Crude Oil, Coal, Cement, Natural Gas, and Fertilizers."
+        ]
+      },
+      {
+        "title": "Merchant Discount Rate (MDR)",
+        "bullets": [
+          "Defined as the cost paid by a merchant to a bank for accepting payments from customers via digital methods.",
+          "Divided between issuer bank, payment gateway providers, and the acquiring bank.",
+          "Crucial instrument regulated under the Payment and Settlement Systems Act, 2007."
+        ]
+      },
+      {
+        "title": "Comprehensive Economic Partnership Agreement (CEPA)",
+        "bullets": [
+          "A deep free trade agreement that covers negotiation of trade in services, investment, and other economic partnership areas.",
+          "India-UAE CEPA was India's first bilateral trade pact in the MENA region, signed in 2022.",
+          "Aims to significantly expand bilateral trade and economic integration."
+        ]
+      },
+      {
+        "title": "Form 6 under Election Commission Rules",
+        "bullets": [
+          "Statutory document utilized under the Registration of Electors Rules, 1960.",
+          "Applied by Indian citizens who are eligible to vote for new registration or inclusion of name in electoral rolls.",
+          "Managed directly under the administrative jurisdiction of the Election Commission of India."
+        ]
+      },
+      {
+        "title": "United Nations General Assembly and Security Council Framework",
+        "bullets": [
+          "UN consists of six principal organs including the General Assembly, Security Council, and International Court of Justice.",
+          "Headquartered in New York City, United Nations acts as the primary global deliberative and diplomatic forum.",
+          "Ant\u00f3nio Guterres is the current Secretary-General of the United Nations."
+        ]
+      }
+    ]
   }
 ]
