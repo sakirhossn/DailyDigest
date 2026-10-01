@@ -3178,5 +3178,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "01 October 2026",
+    "vocab_words": [
+      {
+        "word": "PALLIATIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Serving to relieve something without dealing with the underlying cause (often used for medicine, policy measures, or relief packages).",
+        "synonyms": [
+          "alleviating",
+          "soothing",
+          "mitigative"
+        ],
+        "antonyms": [
+          "aggravating",
+          "intensifying",
+          "provocative"
+        ],
+        "example_sentence": "The government introduced palliative financial measures to cushion vulnerable households against sudden inflationary shocks."
+      },
+      {
+        "word": "PONTIFICATE",
+        "part_of_speech": "Verb",
+        "meaning": "To express one's opinions in a pompous, dogmatic, or overly authoritative manner.",
+        "synonyms": [
+          "preach",
+          "moralize",
+          "dogmatize"
+        ],
+        "antonyms": [
+          "listen",
+          "acquiesce",
+          "defer"
+        ],
+        "example_sentence": "Instead of pontificating on complex economic policies, experts suggested focusing on ground-level implementation."
+      },
+      {
+        "word": "DISINGENUOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Not candid or sincere, typically by pretending that one knows less about something than one really does.",
+        "synonyms": [
+          "insincere",
+          "deceitful",
+          "duplicitous"
+        ],
+        "antonyms": [
+          "sincere",
+          "forthright",
+          "genuine"
+        ],
+        "example_sentence": "It would be disingenuous to claim that fiscal deficit targets can be met without rationalizing subsidy outlays."
+      },
+      {
+        "word": "TENACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Tending to keep a firm hold of something; clinging tenaciously to a position or goal with great persistence.",
+        "synonyms": [
+          "resolute",
+          "determined",
+          "persistent"
+        ],
+        "antonyms": [
+          "irresolute",
+          "yielding",
+          "fickle"
+        ],
+        "example_sentence": "India's tenacious pursuit of renewable energy transition has positioned it as a global leader in climate action."
+      },
+      {
+        "word": "EXEMPLARY",
+        "part_of_speech": "Adjective",
+        "meaning": "Serving as a desirable model; representing the best of its kind.",
+        "synonyms": [
+          "commendable",
+          "admirable",
+          "laudable"
+        ],
+        "antonyms": [
+          "reprehensible",
+          "execrable",
+          "deplorable"
+        ],
+        "example_sentence": "Captain Smit Machchhar displayed exemplary courage and presence of mind in saving the commercial flight from disaster."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A double-edged sword",
+        "meaning": "A situation or course of action that has both favorable and unfavorable consequences.",
+        "example_sentence": "Granting complete regulatory freedom without robust oversight can prove to be a double-edged sword for digital financial platforms."
+      },
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove bad feelings, tension, or misunderstandings between people through open discussion.",
+        "example_sentence": "Ministerial delegations held detailed bilateral talks to clear the air regarding tariff disagreements and trade concessions."
+      },
+      {
+        "idiom": "To weather the storm",
+        "meaning": "To survive a period of severe difficulty or crisis successfully.",
+        "example_sentence": "With robust foreign exchange reserves and over 80 days of fuel stockpiles, India is well-positioned to weather the global energy storm."
+      },
+      {
+        "idiom": "To turn a corner",
+        "meaning": "To pass the critical point in a crisis or illness and begin to improve.",
+        "example_sentence": "With industrial output posting an 8% growth rate in August, macroeconomic indicators suggest the economy has finally turned a corner."
+      },
+      {
+        "idiom": "At the eleventh hour",
+        "meaning": "At the very last possible moment before it is too late.",
+        "example_sentence": "The alert pilot intervened at the eleventh hour to avert a catastrophic mid-air emergency."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Index of Industrial Production (IIP)",
+        "bullets": [
+          "Measures the short-term changes in the volume of production of industrial products in an economy.",
+          "Compiled and published monthly by the National Statistical Office (NSO), MoSPI.",
+          "Uses eight core industries (Coal, Crude Oil, Natural Gas, Refinery Products, Fertilizers, Steel, Cement, Electricity) which comprise over 40% of the weight of items in IIP."
+        ]
+      },
+      {
+        "title": "Strategic Petroleum Reserves (SPR)",
+        "bullets": [
+          "Emergency stockpiles of crude oil maintained by countries to safeguard against supply disruptions.",
+          "In India, underground crude oil storage facilities are built at Visakhapatnam, Mangaluru, and Padur.",
+          "Managed by Indian Strategic Petroleum Reserves Limited (ISPRL), a wholly-owned subsidiary of Oil Industry Development Board (OIDB)."
+        ]
+      },
+      {
+        "title": "Fiscal Deficit and FRBM Act",
+        "bullets": [
+          "Represents the total borrowing needs of the government during a fiscal year.",
+          "Regulated by the Fiscal Responsibility and Budget Management (FRBM) Act, enacted in 2003.",
+          "Aims to introduce fiscal discipline, reduce fiscal deficit, and eliminate revenue deficit over stipulated timelines."
+        ]
+      },
+      {
+        "title": "Representation of the People Act, 1951",
+        "bullets": [
+          "An act of Parliament of India to provide for the conduct of elections to the Houses of Parliament and State Legislatures.",
+          "Deals with qualifications and disqualifications for membership of those Houses, corrupt practices, and election petitions.",
+          "Administered by the Election Commission of India under Article 324 of the Constitution."
+        ]
+      },
+      {
+        "title": "Comprehensive Economic Partnership Agreement (CEPA)",
+        "bullets": [
+          "A comprehensive free trade agreement that covers negotiation on trade in goods, services, investment, and economic partnership.",
+          "India-UAE CEPA marked a milestone in bilateral economic diplomacy, boosting market access and investment flows.",
+          "Encourages institutional cooperation across strategic infrastructure, energy, and digital sectors."
+        ]
+      }
+    ]
   }
 ]

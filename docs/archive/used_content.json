@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "DISQUIET",
-    "OBFUSCATE",
-    "SQUANDER",
-    "INNOCUOUS",
-    "PARSIMONIOUS",
     "EXCORIATE",
     "BURGEONING",
     "IMPRIMATUR",
@@ -59,12 +54,14 @@
     "FROST",
     "AMELIORATE",
     "PROLIFERATE",
-    "DISCONCERTING"
+    "DISCONCERTING",
+    "PALLIATIVE",
+    "PONTIFICATE",
+    "DISINGENUOUS",
+    "TENACIOUS",
+    "EXEMPLARY"
   ],
   "idiom": [
-    "In the pipeline",
-    "At the eleventh hour",
-    "Spill the beans",
     "To lock horns",
     "Through the grapevine",
     "Burn the candle at both ends",
@@ -121,12 +118,12 @@
     "Turn a blind eye",
     "In hot water",
     "Turn a new leaf",
-    "Burning the candle at both ends"
+    "Burning the candle at both ends",
+    "A double-edged sword",
+    "To clear the air",
+    "To turn a corner"
   ],
   "gk_booster": [
-    "Employees' Provident Fund Organisation (EPFO)",
-    "Foreign Currency Non-Resident (Bank) Deposit Scheme - FCNR(B)",
-    "Meenakshi Amman Temple & Dravidian Architecture",
     "Outer Space Treaty of 1967",
     "Operation Polo & Article 371(J) (Kalyana-Karnataka)",
     "Public Accounts Committee (PAC)",
@@ -183,6 +180,9 @@
     "Registration of Electors Rules, 1960",
     "Gandhi Memorial Museum, Madurai",
     "Form 6 under Election Commission Rules",
-    "United Nations General Assembly and Security Council Framework"
+    "United Nations General Assembly and Security Council Framework",
+    "Strategic Petroleum Reserves (SPR)",
+    "Fiscal Deficit and FRBM Act",
+    "Representation of the People Act, 1951"
   ]
 }
