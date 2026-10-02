@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "EXCORIATE",
-    "BURGEONING",
-    "IMPRIMATUR",
-    "ATTENUATE",
-    "SANCTIMONIOUS",
     "SOPHISTIC",
     "PROCLIVITY",
     "CAPRICIOUS",
@@ -59,10 +54,14 @@
     "PONTIFICATE",
     "DISINGENUOUS",
     "TENACIOUS",
-    "EXEMPLARY"
+    "EXEMPLARY",
+    "PUNITIVE",
+    "VOLATILITY",
+    "PERNICIOUS",
+    "EXACERBATE",
+    "BOUNTIFUL"
   ],
   "idiom": [
-    "To lock horns",
     "Through the grapevine",
     "Burn the candle at both ends",
     "To throw cold water on",
@@ -121,13 +120,10 @@
     "Burning the candle at both ends",
     "A double-edged sword",
     "To clear the air",
-    "To turn a corner"
+    "To turn a corner",
+    "Rock the boat"
   ],
   "gk_booster": [
-    "Outer Space Treaty of 1967",
-    "Operation Polo & Article 371(J) (Kalyana-Karnataka)",
-    "Public Accounts Committee (PAC)",
-    "National Land Monetization Corporation (NLMC)",
     "National Quantum Mission (NQM)",
     "Ethanol Blending Programme (EBP) in India",
     "Merchant Discount Rate (MDR)",
@@ -183,6 +179,10 @@
     "United Nations General Assembly and Security Council Framework",
     "Strategic Petroleum Reserves (SPR)",
     "Fiscal Deficit and FRBM Act",
-    "Representation of the People Act, 1951"
+    "Representation of the People Act, 1951",
+    "Purchasing Managers' Index (PMI)",
+    "Strait of Hormuz",
+    "Particularly Vulnerable Tribal Groups (PVTGs)",
+    "Small Savings Schemes in India"
   ]
 }
