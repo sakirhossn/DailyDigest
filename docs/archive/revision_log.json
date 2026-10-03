@@ -3481,5 +3481,164 @@
         ]
       }
     ]
+  },
+  {
+    "date": "03 October 2026",
+    "vocab_words": [
+      {
+        "word": "CACOPHONY",
+        "part_of_speech": "Noun",
+        "meaning": "A harsh, discordant mixture of unpleasant sounds.",
+        "synonyms": [
+          "din",
+          "clamor",
+          "discord",
+          "racket"
+        ],
+        "antonyms": [
+          "harmony",
+          "silence",
+          "euphony"
+        ],
+        "example_sentence": "The cacophony of the trading floor reached a fever pitch as global bond markets tumbled."
+      },
+      {
+        "word": "OBFUSCATE",
+        "part_of_speech": "Verb",
+        "meaning": "To render obscure, unclear, or unintelligible.",
+        "synonyms": [
+          "confuse",
+          "muddle",
+          "obscure",
+          "blur"
+        ],
+        "antonyms": [
+          "clarify",
+          "illuminate",
+          "elucidate"
+        ],
+        "example_sentence": "Instead of explaining the sudden drop in forex reserves, the central bank report risked obfuscating core metrics."
+      },
+      {
+        "word": "PANEGYRIC",
+        "part_of_speech": "Noun",
+        "meaning": "A public speech or published text written in praise of someone or something.",
+        "synonyms": [
+          "acolade",
+          "tribute",
+          "encomium",
+          "panegyric"
+        ],
+        "antonyms": [
+          "critique",
+          "diatribe",
+          "condemnation"
+        ],
+        "example_sentence": "Political gatherings often turn into uninterrupted panegyrics during annual public outreach programs."
+      },
+      {
+        "word": "SURREPTITIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Kept secret, especially because it would not be approved of.",
+        "synonyms": [
+          "clandestine",
+          "furtive",
+          "stealthy",
+          "concealed"
+        ],
+        "antonyms": [
+          "manifest",
+          "transparent",
+          "open"
+        ],
+        "example_sentence": "The international fugitive maintained a surreptitious existence under a fake Turkish identity before his deportation."
+      },
+      {
+        "word": "TACITURN",
+        "part_of_speech": "Adjective",
+        "meaning": "Reserved or uncommunicative in speech; saying little.",
+        "synonyms": [
+          "reticent",
+          "laconic",
+          "reserved",
+          "uncommunicative"
+        ],
+        "antonyms": [
+          "loquacious",
+          "talkative",
+          "garrulous"
+        ],
+        "example_sentence": "Financial regulators remained taciturn regarding future intervention strategies following the historic forex outflow."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A storm in a teacup",
+        "meaning": "A great fuss over a small, trivial matter.",
+        "example_sentence": "Economists urged markets not to panic, dismissing the minor currency fluctuation as merely a storm in a teacup."
+      },
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work or study late into the night.",
+        "example_sentence": "The finance ministry officials burned the midnight oil to prepare contingency reports amid soaring global bond yields."
+      },
+      {
+        "idiom": "Cut through the red tape",
+        "meaning": "To deal with official rules and bureaucratic procedures quickly and effectively.",
+        "example_sentence": "Agencies must cut through the red tape to expedite the extradition of international criminals."
+      },
+      {
+        "idiom": "Sail close to the wind",
+        "meaning": "To behave in a way that is risky, dangerous, or near the boundary of breaking the law.",
+        "example_sentence": "The shell companies accused of drug money laundering were found to have been sailing close to the wind for years."
+      },
+      {
+        "idiom": "Face the music",
+        "meaning": "To accept unpleasant consequences for one's actions.",
+        "example_sentence": "The narco-trafficking kingpin was finally forced to face the music upon being deported back to India."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Foreign Exchange Reserves Management in India",
+        "bullets": [
+          "Governed under Section 45CC of the Reserve Bank of India Act, 1934.",
+          "Held and managed by the Reserve Bank of India (RBI) to maintain orderly conditions in foreign exchange markets.",
+          "Comprises Foreign Currency Assets (FCAs), Gold reserves, Special Drawing Rights (SDRs), and IMF reserve tranches."
+        ]
+      },
+      {
+        "title": "Strait of Hormuz Geopolitical Significance",
+        "bullets": [
+          "A critical maritime chokepoint situated between Oman and Iran, linking the Persian Gulf with the Gulf of Oman and the Arabian Sea.",
+          "Vital transit corridor for nearly a fifth of the world's petroleum consumption and global liquefied natural gas shipments.",
+          "High strategic relevance for global energy security and crude oil price stability."
+        ]
+      },
+      {
+        "title": "International Energy Agency (IEA) and Strategic Petroleum Reserves",
+        "bullets": [
+          "Established in 1974 in the wake of the 1973 oil crisis, headquartered in Paris, France.",
+          "Mandates member countries to hold emergency oil stocks equivalent to at least 90 days of net oil imports.",
+          "India became an Associate member of the IEA in March 2017 to strengthen global energy dialogue."
+        ]
+      },
+      {
+        "title": "Extradition Laws and Treaties in India",
+        "bullets": [
+          "Regulated primarily by the Indian Extradition Act, 1962.",
+          "Defines the legal framework for surrendering fugitives to foreign states or requesting custody of offenders from treaty partners.",
+          "Requires dual criminality, meaning the offense must be punishable under the laws of both contracting nations."
+        ]
+      },
+      {
+        "title": "Padma Shri and Arjuna Awards in Sports",
+        "bullets": [
+          "Arjuna Award was instituted in 1961 by the Government of India to recognize outstanding achievement in national sports.",
+          "Padma Shri is India's fourth-highest civilian award, conferred for distinguished service in various fields including sports and public service.",
+          "Pargat Singh is an acclaimed former Indian field hockey captain who received both prestigious accolades for his monumental sporting career."
+        ]
+      }
+    ]
   }
 ]

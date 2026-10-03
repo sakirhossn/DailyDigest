@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "SOPHISTIC",
-    "PROCLIVITY",
-    "CAPRICIOUS",
     "OBDURATE",
     "EQUANIMITY",
     "PURVEYOR",
@@ -59,14 +56,12 @@
     "VOLATILITY",
     "PERNICIOUS",
     "EXACERBATE",
-    "BOUNTIFUL"
+    "BOUNTIFUL",
+    "CACOPHONY",
+    "OBFUSCATE",
+    "PANEGYRIC"
   ],
   "idiom": [
-    "Through the grapevine",
-    "Burn the candle at both ends",
-    "To throw cold water on",
-    "Barking up the wrong tree",
-    "To bury the hatchet",
     "To weather the storm",
     "Burn the bridge",
     "Add fuel to the fire",
@@ -121,14 +116,14 @@
     "A double-edged sword",
     "To clear the air",
     "To turn a corner",
-    "Rock the boat"
+    "Rock the boat",
+    "A storm in a teacup",
+    "Burn the midnight oil",
+    "Cut through the red tape",
+    "Sail close to the wind",
+    "Face the music"
   ],
   "gk_booster": [
-    "National Quantum Mission (NQM)",
-    "Ethanol Blending Programme (EBP) in India",
-    "Merchant Discount Rate (MDR)",
-    "Foreign Contribution (Regulation) Act (FCRA)",
-    "Hindustan Aeronautics Limited (HAL)",
     "National Mineral Development Corporation (NMDC)",
     "Central Board of Direct Taxes (CBDT)",
     "Comprehensive Economic Partnership Agreement (CEPA)",
@@ -183,6 +178,11 @@
     "Purchasing Managers' Index (PMI)",
     "Strait of Hormuz",
     "Particularly Vulnerable Tribal Groups (PVTGs)",
-    "Small Savings Schemes in India"
+    "Small Savings Schemes in India",
+    "Foreign Exchange Reserves Management in India",
+    "Strait of Hormuz Geopolitical Significance",
+    "International Energy Agency (IEA) and Strategic Petroleum Reserves",
+    "Extradition Laws and Treaties in India",
+    "Padma Shri and Arjuna Awards in Sports"
   ]
 }
