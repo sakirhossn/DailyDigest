@@ -3640,5 +3640,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "04 October 2026",
+    "vocab_words": [
+      {
+        "word": "Impugn",
+        "part_of_speech": "Verb",
+        "meaning": "To challenge the validity, truth, or integrity of a statement or action.",
+        "synonyms": [
+          "challenge",
+          "gainsay",
+          "question"
+        ],
+        "antonyms": [
+          "validate",
+          "endorse"
+        ],
+        "example_sentence": "The defense attorney attempted to impugn the credibility of the key witness during cross-examination."
+      },
+      {
+        "word": "Recrudescence",
+        "part_of_speech": "Noun",
+        "meaning": "The revival or resurgence of an undesirable condition, activity, or disease.",
+        "synonyms": [
+          "resurgence",
+          "reappearance",
+          "revival"
+        ],
+        "antonyms": [
+          "subsidence",
+          "extinction"
+        ],
+        "example_sentence": "Central banks remain vigilant against a recrudescence of inflationary pressures in consumer markets."
+      },
+      {
+        "word": "Desuetude",
+        "part_of_speech": "Noun",
+        "meaning": "A state of disuse or inactivity.",
+        "synonyms": [
+          "disuse",
+          "inactivity",
+          "dormancy"
+        ],
+        "antonyms": [
+          "use",
+          "continuation"
+        ],
+        "example_sentence": "Several colonial-era regulations fell into desuetude following comprehensive statutory reviews."
+      },
+      {
+        "word": "Proscriptive",
+        "part_of_speech": "Adjective",
+        "meaning": "Imposing prohibitions, restrictions, or legal bans.",
+        "synonyms": [
+          "prohibitive",
+          "restrictive",
+          "forbidding"
+        ],
+        "antonyms": [
+          "permissive",
+          "prescriptive"
+        ],
+        "example_sentence": "The regulatory authority issued proscriptive guidelines to eliminate unfair market practices."
+      },
+      {
+        "word": "Subjugate",
+        "part_of_speech": "Verb",
+        "meaning": "To bring under complete domination, control, or subjection.",
+        "synonyms": [
+          "vanquish",
+          "subdue",
+          "overpower"
+        ],
+        "antonyms": [
+          "liberate",
+          "emancipate"
+        ],
+        "example_sentence": "Fiscal regulations aim to subjugate market manipulation under strict supervisory oversight."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Throw down the gauntlet",
+        "meaning": "To issue a formal challenge or provocation to someone.",
+        "example_sentence": "The regulatory commission threw down the gauntlet by warning non-compliant OMCs with strict legal action."
+      },
+      {
+        "idiom": "Put the cart before the horse",
+        "meaning": "To reverse the logical order of doing or analyzing things.",
+        "example_sentence": "Expanding distribution networks before establishing adequate supply sources is putting the cart before the horse."
+      },
+      {
+        "idiom": "Leave no stone unturned",
+        "meaning": "To try every possible resource or course of action to achieve an objective.",
+        "example_sentence": "Investigating agencies vowed to leave no stone unturned while tracing unaccounted assets."
+      },
+      {
+        "idiom": "Meet one's Waterloo",
+        "meaning": "To encounter a final, decisive, or overwhelming defeat.",
+        "example_sentence": "The shell company met its Waterloo when forensic auditors uncovered its off-balance-sheet liabilities."
+      },
+      {
+        "idiom": "Blow hot and cold",
+        "meaning": "To continuously alternate between enthusiastic and unenthusiastic attitudes.",
+        "example_sentence": "Trade negotiators criticized the foreign delegation for blowing hot and cold on tariff concessions."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Petroleum and Natural Gas Regulatory Board (PNGRB)",
+        "bullets": [
+          "Established under the Petroleum and Natural Gas Regulatory Board Act, 2006.",
+          "Headquartered in New Delhi; functions under the Ministry of Petroleum and Natural Gas.",
+          "Regulates downstream activities including refining, processing, storage, transportation, distribution, and sale of petroleum products and natural gas."
+        ]
+      },
+      {
+        "title": "Prevention of Corruption Act (PCA), 1988",
+        "bullets": [
+          "Enacted to consolidate laws relating to the prevention of corruption and bribery among public servants.",
+          "Section 17A (inserted via 2018 amendment) mandates prior approval from the government/appointing authority before conducting any inquiry or investigation against a public official.",
+          "Special Judges appointed under Section 3 of the Act exercise exclusive jurisdiction over trial of offences specified under the PCA."
+        ]
+      },
+      {
+        "title": "Coal India Limited (CIL)",
+        "bullets": [
+          "Formed in 1975 following the nationalization of coal mines; holds Maharatna status.",
+          "Headquartered in Kolkata, West Bengal.",
+          "Operates through eight fully owned subsidiaries across major Indian coalfields and contributes over 80% of domestic coal production."
+        ]
+      },
+      {
+        "title": "Universal Service Obligation (USO) in Retail Fuel Marketing",
+        "bullets": [
+          "Governed by the revised guidelines for authorization to market transportation fuels notified in November 2019.",
+          "Requires authorized entities to set up a minimum of 5% of their total retail outlets in specified remote areas.",
+          "Mandates uninterrupted supply of specified auto fuels at all authorized retail outlets."
+        ]
+      },
+      {
+        "title": "Office of the United States Trade Representative (USTR)",
+        "bullets": [
+          "Created as the Office of the Special Trade Representative under the Trade Expansion Act of 1962.",
+          "Part of the Executive Office of the President of the United States.",
+          "Leads U.S. participation in multilateral trade bodies such as the World Trade Organization (WTO) and negotiates bilateral trade pacts."
+        ]
+      }
+    ]
   }
 ]

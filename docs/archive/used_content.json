@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "OBDURATE",
-    "EQUANIMITY",
-    "PURVEYOR",
-    "CATALYST",
-    "PRAGMATIC",
     "CONSOLIDATE",
     "DIVERGENT",
     "MANDATE",
@@ -59,14 +54,14 @@
     "BOUNTIFUL",
     "CACOPHONY",
     "OBFUSCATE",
-    "PANEGYRIC"
+    "PANEGYRIC",
+    "IMPUGN",
+    "RECRUDESCENCE",
+    "DESUETUDE",
+    "PROSCRIPTIVE",
+    "SUBJUGATE"
   ],
   "idiom": [
-    "To weather the storm",
-    "Burn the bridge",
-    "Add fuel to the fire",
-    "Spanner in the works",
-    "To cut the Gordian knot",
     "To tilt at windmills",
     "In the doldrums",
     "To keep one's ear to the ground",
@@ -121,14 +116,14 @@
     "Burn the midnight oil",
     "Cut through the red tape",
     "Sail close to the wind",
-    "Face the music"
+    "Face the music",
+    "Throw down the gauntlet",
+    "Put the cart before the horse",
+    "Leave no stone unturned",
+    "Meet one's Waterloo",
+    "Blow hot and cold"
   ],
   "gk_booster": [
-    "National Mineral Development Corporation (NMDC)",
-    "Central Board of Direct Taxes (CBDT)",
-    "Comprehensive Economic Partnership Agreement (CEPA)",
-    "National Human Rights Commission (NHRC)",
-    "Monetary Policy Committee (MPC) & RBI Basics",
     "Election Commission of India (ECI)",
     "Ramsar Sites & Wetlands in India",
     "ISRO & Space Missions Basics",
@@ -183,6 +178,11 @@
     "Strait of Hormuz Geopolitical Significance",
     "International Energy Agency (IEA) and Strategic Petroleum Reserves",
     "Extradition Laws and Treaties in India",
-    "Padma Shri and Arjuna Awards in Sports"
+    "Padma Shri and Arjuna Awards in Sports",
+    "Petroleum and Natural Gas Regulatory Board (PNGRB)",
+    "Prevention of Corruption Act (PCA), 1988",
+    "Coal India Limited (CIL)",
+    "Universal Service Obligation (USO) in Retail Fuel Marketing",
+    "Office of the United States Trade Representative (USTR)"
   ]
 }
