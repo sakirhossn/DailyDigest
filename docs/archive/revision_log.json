@@ -3789,5 +3789,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "05 October 2026",
+    "vocab_words": [
+      {
+        "word": "PALLIATIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Serving to relieve or soothe something without curing the underlying problem; mitigating.",
+        "synonyms": [
+          "alleviating",
+          "mitigating",
+          "soothing"
+        ],
+        "antonyms": [
+          "aggravating",
+          "intensifying"
+        ],
+        "example_sentence": "Short-term fiscal stimuli can only offer palliative relief rather than curing structural economic imbalances."
+      },
+      {
+        "word": "OBFUSCATE",
+        "part_of_speech": "Verb",
+        "meaning": "To render obscure, unclear, or unintelligible; to confuse deliberately.",
+        "synonyms": [
+          "obscure",
+          "confuse",
+          "blur"
+        ],
+        "antonyms": [
+          "clarify",
+          "illuminate"
+        ],
+        "example_sentence": "Complex financial jargon is often used by institutions to obfuscate the true risks of cross-border transactions."
+      },
+      {
+        "word": "INTREPID",
+        "part_of_speech": "Adjective",
+        "meaning": "Fearless, adventurous, and resolutely courageous in the face of danger.",
+        "synonyms": [
+          "fearless",
+          "undaunted",
+          "valiant"
+        ],
+        "antonyms": [
+          "timid",
+          "cowardly"
+        ],
+        "example_sentence": "Intrepid investigative journalists play a vital role in exposing administrative apathy and systemic loopholes."
+      },
+      {
+        "word": "ESCHEW",
+        "part_of_speech": "Verb",
+        "meaning": "To deliberately avoid, shun, or abstain from using something.",
+        "synonyms": [
+          "shun",
+          "avoid",
+          "forgo"
+        ],
+        "antonyms": [
+          "embrace",
+          "pursue"
+        ],
+        "example_sentence": "Prudent central bankers urge nations to eschew protectionist trade barriers during global macroeconomic slowdowns."
+      },
+      {
+        "word": "PARADIGM",
+        "part_of_speech": "Noun",
+        "meaning": "A typical example or pattern of something; a fundamental model or conceptual framework.",
+        "synonyms": [
+          "model",
+          "prototype",
+          "framework"
+        ],
+        "antonyms": [
+          "anomaly",
+          "deviation"
+        ],
+        "example_sentence": "The shift toward green energy manufacturing represents a complete paradigm shift in industrial policy."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A blessing in disguise",
+        "meaning": "An apparent misfortune or difficult situation that ultimately results in something good happening later.",
+        "example_sentence": "The sudden spike in energy costs proved to be a blessing in disguise, forcing factories to accelerate energy efficiency measures."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To work excessively hard or stay up very late and get up early, thereby exhausting oneself physically and mentally.",
+        "example_sentence": "Civil services aspirants often burn the candle at both ends to balance their optional subjects and current affairs revision."
+      },
+      {
+        "idiom": "Spill the beans",
+        "meaning": "To reveal a secret, often unintentionally or prematurely.",
+        "example_sentence": "The internal audit report spilled the beans on corporate governance lapses within the regulated entity."
+      },
+      {
+        "idiom": "Hit the nail on the head",
+        "meaning": "To describe or identify exactly what is causing a situation or problem.",
+        "example_sentence": "The economist hit the nail on the head by highlighting structural rigidities as the primary bottleneck for private investment."
+      },
+      {
+        "idiom": "Under the weather",
+        "meaning": "Feeling slightly ill, unwell, or fatigued.",
+        "example_sentence": "Due to feeling under the weather, the senior bureaucrat participated in the policy review meeting virtually."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Monetary Policy Committee (MPC)",
+        "bullets": [
+          "Statutory body constituted under Section 45ZB of the Reserve Bank of India Act, 1934.",
+          "Comprises 6 members: RBI Governor (Chairperson), RBI Deputy Governor in charge of monetary policy, one officer of RBI, and three external members appointed by the Central Government.",
+          "Mandated to maintain price stability while keeping in mind the objective of growth, targeting inflation at 4% with a +/- 2% tolerance band."
+        ]
+      },
+      {
+        "title": "Goods and Services Tax (GST) Council",
+        "bullets": [
+          "Constitutional body established under Article 279A of the Indian Constitution, introduced via the 101st Constitutional Amendment Act, 2016.",
+          "Chaired by the Union Finance Minister, with State Finance Ministers or representatives acting as members.",
+          "Functions on the principle of cooperative federalism, requiring a three-fourths majority of weighted votes for decision-making."
+        ]
+      },
+      {
+        "title": "Foreign Exchange Reserves of India",
+        "bullets": [
+          "Managed by the Reserve Bank of India under the Reserve Bank of India Act, 1934.",
+          "Comprise Foreign Currency Assets (FCAs), Gold, Special Drawing Rights (SDRs), and Reserve Tranche Position with the International Monetary Fund (IMF).",
+          "Acts as a critical financial buffer against external shocks and maintains orderly conditions in the foreign exchange market."
+        ]
+      },
+      {
+        "title": "BRICS Bloc Evolution",
+        "bullets": [
+          "Originally formed as BRIC in 2009 by Brazil, Russia, India, and China; South Africa joined in 2010 to form BRICS.",
+          "Headquarters of its financial arm, the New Development Bank (NDB), is located in Shanghai, China.",
+          "Focuses on strengthening economic cooperation, alternative international payment platforms, and multilateral trade initiatives among developing economies."
+        ]
+      },
+      {
+        "title": "Central Secretariat Library (CSL)",
+        "bullets": [
+          "One of the oldest government libraries in India, tracing its origins back to the late 19th century (founded around 1891 in Calcutta before moving to Delhi).",
+          "Functioning under the administrative control of the Ministry of Culture, Government of India.",
+          "Serves as an invaluable repository of rare official documents, reports, and gazettes for researchers and policymakers."
+        ]
+      }
+    ]
   }
 ]

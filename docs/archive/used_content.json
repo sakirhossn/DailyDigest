@@ -1,7 +1,5 @@
 {
   "vocab": [
-    "CONSOLIDATE",
-    "DIVERGENT",
     "MANDATE",
     "PUNCTILIOUS",
     "NEXUS",
@@ -59,12 +57,11 @@
     "RECRUDESCENCE",
     "DESUETUDE",
     "PROSCRIPTIVE",
-    "SUBJUGATE"
+    "SUBJUGATE",
+    "INTREPID",
+    "PARADIGM"
   ],
   "idiom": [
-    "To tilt at windmills",
-    "In the doldrums",
-    "To keep one's ear to the ground",
     "To strain at a gnat and swallow a camel",
     "To steer clear of",
     "To make ends meet",
@@ -121,13 +118,12 @@
     "Put the cart before the horse",
     "Leave no stone unturned",
     "Meet one's Waterloo",
-    "Blow hot and cold"
+    "Blow hot and cold",
+    "Burn the candle at both ends",
+    "Spill the beans",
+    "Hit the nail on the head"
   ],
   "gk_booster": [
-    "Election Commission of India (ECI)",
-    "Ramsar Sites & Wetlands in India",
-    "ISRO & Space Missions Basics",
-    "Bank for International Settlements (BIS)",
     "Central Warehousing Corporation (CWC)",
     "Food Safety and Standards Authority of India (FSSAI)",
     "India Meteorological Department (IMD)",
@@ -183,6 +179,10 @@
     "Prevention of Corruption Act (PCA), 1988",
     "Coal India Limited (CIL)",
     "Universal Service Obligation (USO) in Retail Fuel Marketing",
-    "Office of the United States Trade Representative (USTR)"
+    "Office of the United States Trade Representative (USTR)",
+    "Monetary Policy Committee (MPC)",
+    "Foreign Exchange Reserves of India",
+    "BRICS Bloc Evolution",
+    "Central Secretariat Library (CSL)"
   ]
 }
