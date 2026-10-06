@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "MANDATE",
-    "PUNCTILIOUS",
-    "NEXUS",
-    "RECUPERATE",
     "INCHOATE",
     "SCRUTINIZE",
     "UNPRECEDENTED",
@@ -59,14 +55,13 @@
     "PROSCRIPTIVE",
     "SUBJUGATE",
     "INTREPID",
-    "PARADIGM"
+    "PARADIGM",
+    "EQUIVOCATE",
+    "SANGUINE",
+    "SOPORIFIC",
+    "FACILE"
   ],
   "idiom": [
-    "To strain at a gnat and swallow a camel",
-    "To steer clear of",
-    "To make ends meet",
-    "On a wing and a prayer",
-    "To burn the midnight oil",
     "In the teeth of",
     "Cut corners",
     "On the same page",
@@ -121,12 +116,14 @@
     "Blow hot and cold",
     "Burn the candle at both ends",
     "Spill the beans",
-    "Hit the nail on the head"
+    "Hit the nail on the head",
+    "To hold all the aces",
+    "To pass the buck",
+    "In the offing",
+    "Bark up the wrong tree",
+    "At the end of one's tether"
   ],
   "gk_booster": [
-    "Central Warehousing Corporation (CWC)",
-    "Food Safety and Standards Authority of India (FSSAI)",
-    "India Meteorological Department (IMD)",
     "Goods and Services Tax (GST) Council",
     "National Green Tribunal (NGT)",
     "Finance Commission of India",
@@ -183,6 +180,9 @@
     "Monetary Policy Committee (MPC)",
     "Foreign Exchange Reserves of India",
     "BRICS Bloc Evolution",
-    "Central Secretariat Library (CSL)"
+    "Central Secretariat Library (CSL)",
+    "Kakatiya Dynasty & Thousand Pillar Temple",
+    "MSME Classification Framework in India",
+    "Election Commission of India (ECI) & Article 324"
   ]
 }
