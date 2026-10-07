@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "INCHOATE",
-    "SCRUTINIZE",
-    "UNPRECEDENTED",
-    "EXIGENCY",
     "ADUMBRATE",
     "TRULCULENT",
     "PECCADILLO",
@@ -59,7 +55,11 @@
     "EQUIVOCATE",
     "SANGUINE",
     "SOPORIFIC",
-    "FACILE"
+    "FACILE",
+    "ESTUARY",
+    "MALLABLE",
+    "AUSTERE",
+    "BENEVOLENT"
   ],
   "idiom": [
     "In the teeth of",
@@ -124,11 +124,6 @@
     "At the end of one's tether"
   ],
   "gk_booster": [
-    "Goods and Services Tax (GST) Council",
-    "National Green Tribunal (NGT)",
-    "Finance Commission of India",
-    "Organization for Economic Co-operation and Development (OECD)",
-    "Article 324 of the Indian Constitution",
     "Central Institute of Brackishwater Aquaculture (CIBA)",
     "Free Trade Agreement (FTA) & Preferential Trade",
     "Asian Games (Aichi-Nagoya 2026)",
@@ -183,6 +178,11 @@
     "Central Secretariat Library (CSL)",
     "Kakatiya Dynasty & Thousand Pillar Temple",
     "MSME Classification Framework in India",
-    "Election Commission of India (ECI) & Article 324"
+    "Election Commission of India (ECI) & Article 324",
+    "Article 279A of the Indian Constitution",
+    "World Bank Group Institutions",
+    "Repo Rate and Monetary Policy Committee (MPC)",
+    "Ministry of Statistics and Programme Implementation (MoSPI)",
+    "European Union Artificial Intelligence Act"
   ]
 }

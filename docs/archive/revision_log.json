@@ -4092,5 +4092,158 @@
         ]
       }
     ]
+  },
+  {
+    "date": "07 October 2026",
+    "vocab_words": [
+      {
+        "word": "ESTUARY",
+        "part_of_speech": "Noun",
+        "meaning": "The tidal mouth of a large river, where the tide meets the stream.",
+        "synonyms": [
+          "delta",
+          "firth",
+          "inlet"
+        ],
+        "antonyms": [
+          "source",
+          "headwaters"
+        ],
+        "example_sentence": "Many major industrial cities are situated along the wide estuary of the river."
+      },
+      {
+        "word": "EPHEMERAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Lasting for a very short time.",
+        "synonyms": [
+          "transitory",
+          "fleeting",
+          "momentary"
+        ],
+        "antonyms": [
+          "permanent",
+          "enduring",
+          "perennial"
+        ],
+        "example_sentence": "The economic boost provided by the temporary festival spending proved to be entirely ephemeral."
+      },
+      {
+        "word": "MALLABLE",
+        "part_of_speech": "Adjective",
+        "meaning": "Easily influenced; pliable or adaptable to new conditions.",
+        "synonyms": [
+          "pliant",
+          "ductile",
+          "flexible"
+        ],
+        "antonyms": [
+          "rigid",
+          "obstinate",
+          "inflexible"
+        ],
+        "example_sentence": "Regulatory frameworks must remain malleable enough to adapt to rapid technological innovations."
+      },
+      {
+        "word": "AUSTERE",
+        "part_of_speech": "Adjective",
+        "meaning": "Severe or strict in manner, attitude, or economic expenditure.",
+        "synonyms": [
+          "spartan",
+          "strict",
+          "rigorous"
+        ],
+        "antonyms": [
+          "luxurious",
+          "extravagant",
+          "indulgent"
+        ],
+        "example_sentence": "The finance ministry announced an austere budget to rein in the fiscal deficit."
+      },
+      {
+        "word": "BENEVOLENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Well meaning and kindly; charitable.",
+        "synonyms": [
+          "altruistic",
+          "philanthropic",
+          "kindhearted"
+        ],
+        "antonyms": [
+          "malicious",
+          "malevolent",
+          "cruel"
+        ],
+        "example_sentence": "The foundation established a benevolent fund to support distressed rural farmers."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove bad feelings, doubts, or confusion between people.",
+        "example_sentence": "The bilateral trade ministers held a special summit to clear the air regarding tariff disputes."
+      },
+      {
+        "idiom": "A storm in a teacup",
+        "meaning": "A great fuss over a small, trivial matter.",
+        "example_sentence": "Media panic over minor market corrections turned out to be nothing more than a storm in a teacup."
+      },
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work or study late into the night.",
+        "example_sentence": "Aspirants must burn the midnight oil if they want to crack competitive examinations."
+      },
+      {
+        "idiom": "Cut through the red tape",
+        "meaning": "To deal with official rules and bureaucratic procedures quickly.",
+        "example_sentence": "The new portal aims to cut through the red tape for business registrations."
+      },
+      {
+        "idiom": "Sail close to the wind",
+        "meaning": "To act dangerously close to the limits of legality or safety.",
+        "example_sentence": "Corporations that ignore environmental compliances are sailing close to the wind."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Article 279A of the Indian Constitution",
+        "bullets": [
+          "Provides for the establishment of the Goods and Services Tax (GST) Council.",
+          "Empowers the President to constitute the Council comprising the Union Finance Minister and State Ministers.",
+          "Decisions at the Council require a weighted majority of not less than three-fourths of the votes cast."
+        ]
+      },
+      {
+        "title": "World Bank Group Institutions",
+        "bullets": [
+          "Comprises five distinct international organizations: IBRD, IDA, IFC, MIGA, and ICSID.",
+          "Established alongside the International Monetary Fund at the 1944 Bretton Woods Conference.",
+          "Headquartered in Washington, D.C., United States."
+        ]
+      },
+      {
+        "title": "Repo Rate and Monetary Policy Committee (MPC)",
+        "bullets": [
+          "Repo rate is the interest rate at which the RBI lends money to commercial banks against government securities.",
+          "The MPC was established under Section 45ZB of the Reserve Bank of India Act, 1934.",
+          "It consists of six members: three from RBI and three appointed by the Central Government."
+        ]
+      },
+      {
+        "title": "Ministry of Statistics and Programme Implementation (MoSPI)",
+        "bullets": [
+          "Functions as the nodal agency for planned statistical activities in India.",
+          "Responsible for the formulation and publication of key macroeconomic data like GDP and IIP.",
+          "Oversees the National Statistical Office (NSO)."
+        ]
+      },
+      {
+        "title": "European Union Artificial Intelligence Act",
+        "bullets": [
+          "Recognized as the world's first comprehensive legal framework governing artificial intelligence.",
+          "Adopts a risk-based approach, banning systems with unacceptable risks while strictly regulating high-risk AI applications.",
+          "Enforces transparency obligations, including watermarking for generative AI content."
+        ]
+      }
+    ]
   }
 ]
