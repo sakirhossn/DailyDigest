@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "ADUMBRATE",
-    "TRULCULENT",
-    "PECCADILLO",
-    "ENCOMIUM",
     "TENUOUS",
     "CAUCUS",
     "LUMINESCENT",
@@ -59,12 +55,13 @@
     "ESTUARY",
     "MALLABLE",
     "AUSTERE",
-    "BENEVOLENT"
+    "BENEVOLENT",
+    "ADMONITION",
+    "PALLID",
+    "TACIT",
+    "OBDURATE"
   ],
   "idiom": [
-    "In the teeth of",
-    "Cut corners",
-    "On the same page",
     "A blessing in disguise",
     "Turn the tide",
     "Under the weather",
@@ -121,13 +118,12 @@
     "To pass the buck",
     "In the offing",
     "Bark up the wrong tree",
-    "At the end of one's tether"
+    "At the end of one's tether",
+    "Bite the bullet",
+    "Through the grapevine",
+    "Cost an arm and a leg"
   ],
   "gk_booster": [
-    "Central Institute of Brackishwater Aquaculture (CIBA)",
-    "Free Trade Agreement (FTA) & Preferential Trade",
-    "Asian Games (Aichi-Nagoya 2026)",
-    "Eighth Schedule of the Indian Constitution",
     "Free Trade Agreements (FTAs) & Economic Partnerships",
     "Asian Games and Olympic Council of Asia (OCA)",
     "Critical Minerals and Strategic Industry Supply Chains",
@@ -183,6 +179,10 @@
     "World Bank Group Institutions",
     "Repo Rate and Monetary Policy Committee (MPC)",
     "Ministry of Statistics and Programme Implementation (MoSPI)",
-    "European Union Artificial Intelligence Act"
+    "European Union Artificial Intelligence Act",
+    "Reserve Bank of India (RBI) Structure",
+    "Goods and Services Tax (GST) Council",
+    "El Ni\u00f1o and Indian Monsoon Dynamics",
+    "Gross Value Added (GVA) in National Accounts"
   ]
 }

@@ -4245,5 +4245,158 @@
         ]
       }
     ]
+  },
+  {
+    "date": "08 October 2026",
+    "vocab_words": [
+      {
+        "word": "ADMONITION",
+        "part_of_speech": "Noun",
+        "meaning": "A firm warning or reprimand.",
+        "synonyms": [
+          "reproof",
+          "chiding",
+          "admonishment"
+        ],
+        "antonyms": [
+          "praise",
+          "commendation"
+        ],
+        "example_sentence": "The central bank issued a stern admonition to financial institutions regarding inadequate risk management frameworks."
+      },
+      {
+        "word": "PALLID",
+        "part_of_speech": "Adjective",
+        "meaning": "Lacking color or liveliness; pale.",
+        "synonyms": [
+          "wan",
+          "bloodless",
+          "ashen"
+        ],
+        "antonyms": [
+          "florid",
+          "rosy",
+          "vibrant"
+        ],
+        "example_sentence": "Economic indicators suggested a pallid recovery in rural consumer demand."
+      },
+      {
+        "word": "TACIT",
+        "part_of_speech": "Adjective",
+        "meaning": "Understood or implied without being openly stated.",
+        "synonyms": [
+          "implicit",
+          "unstated",
+          "understood"
+        ],
+        "antonyms": [
+          "explicit",
+          "expressed",
+          "stated"
+        ],
+        "example_sentence": "The regulatory shift represented a tacit acknowledgment of persistent inflationary pressures."
+      },
+      {
+        "word": "GARRULOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Excessively talkative, especially on trivial matters.",
+        "synonyms": [
+          "loquacious",
+          "voluble",
+          "chatty"
+        ],
+        "antonyms": [
+          "reticent",
+          "taciturn",
+          "laconic"
+        ],
+        "example_sentence": "The debate featured garrulous politicians discussing peripheral issues rather than structural reforms."
+      },
+      {
+        "word": "OBDURATE",
+        "part_of_speech": "Adjective",
+        "meaning": "Stubbornly refusing to change one's opinion or course of action.",
+        "synonyms": [
+          "obstinate",
+          "intransigent",
+          "adamant"
+        ],
+        "antonyms": [
+          "flexible",
+          "yielding",
+          "compliant"
+        ],
+        "example_sentence": "Despite mounting market volatility, the committee remained obdurate in its tightening stance."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A blessing in disguise",
+        "meaning": "An apparent misfortune that eventually results in something good happening.",
+        "example_sentence": "The sudden supply chain disruption turned out to be a blessing in disguise, forcing local manufacturers to innovate."
+      },
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To force yourself to do a difficult or unpleasant thing or to be brave in a difficult situation.",
+        "example_sentence": "The central bank had to bite the bullet and raise interest rates to curb runaway inflation."
+      },
+      {
+        "idiom": "Through the grapevine",
+        "meaning": "By informal person-to-person communication; by rumor or gossip.",
+        "example_sentence": "Bank employees heard through the grapevine about the impending regulatory restructuring."
+      },
+      {
+        "idiom": "Under the weather",
+        "meaning": "Feeling slightly ill or low in spirits.",
+        "example_sentence": "Industrial output dipped slightly because many factory workers were under the weather during the seasonal flu."
+      },
+      {
+        "idiom": "Cost an arm and a leg",
+        "meaning": "To be extremely expensive.",
+        "example_sentence": "Importing specialized raw materials would cost an arm and a leg under current trade tariffs."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Reserve Bank of India (RBI) Structure",
+        "bullets": [
+          "Established on April 1, 1935, in accordance with the provisions of the Reserve Bank of India Act, 1934.",
+          "Originally privately owned, the RBI was nationalized in 1949 and is headquartered in Mumbai, Maharashtra.",
+          "The central bank is governed by a central board of directors appointed by the Government of India."
+        ]
+      },
+      {
+        "title": "World Bank Group Institutions",
+        "bullets": [
+          "Founded in 1944 at the Bretton Woods Conference, originally focusing on post-war reconstruction.",
+          "Consists of five distinct international organizations: IBRD, IDA, IFC, MIGA, and ICSID.",
+          "Headquartered in Washington, D.C., its primary mission is poverty reduction and fostering sustainable economic development."
+        ]
+      },
+      {
+        "title": "Goods and Services Tax (GST) Council",
+        "bullets": [
+          "Constitutional body established under Article 279A of the Indian Constitution introduced by the 101st Constitutional Amendment Act, 2016.",
+          "Chaired by the Union Finance Minister, with state finance ministers serving as members.",
+          "Responsible for making recommendations on GST rates, exemptions, thresholds, and tax laws."
+        ]
+      },
+      {
+        "title": "El Ni\u00f1o and Indian Monsoon Dynamics",
+        "bullets": [
+          "El Ni\u00f1o is characterized by the warming of sea surface temperatures in the central and eastern tropical Pacific Ocean.",
+          "It typically disrupts atmospheric circulation patterns, often leading to suppressed rainfall and drought conditions in the Indian subcontinent.",
+          "Monsoon performance critically dictates agricultural output and rural demand cycles across Indian states."
+        ]
+      },
+      {
+        "title": "Gross Value Added (GVA) in National Accounts",
+        "bullets": [
+          "Measures the value of goods and services produced in an area, industry, or sector of an economy.",
+          "Calculated as Output minus Intermediate Consumption; it provides sector-specific performance data before accounting for taxes and subsidies.",
+          "Compiled and published periodically by the Ministry of Statistics and Programme Implementation (MoSPI) in India."
+        ]
+      }
+    ]
   }
 ]
