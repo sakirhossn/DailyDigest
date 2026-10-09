@@ -4398,5 +4398,156 @@
         ]
       }
     ]
+  },
+  {
+    "date": "09 October 2026",
+    "vocab_words": [
+      {
+        "word": "MANDATE",
+        "part_of_speech": "Noun",
+        "meaning": "An official order or commission to do something.",
+        "synonyms": [
+          "directive",
+          "authorisation",
+          "command"
+        ],
+        "antonyms": [
+          "prohibition",
+          "breach"
+        ],
+        "example_sentence": "The new regulatory framework established a clear mandate for financial inclusion across all rural districts."
+      },
+      {
+        "word": "PARITY",
+        "part_of_speech": "Noun",
+        "meaning": "The state or condition of being equal, especially regarding status or pay.",
+        "synonyms": [
+          "equality",
+          "equivalence",
+          "uniformity"
+        ],
+        "antonyms": [
+          "disparity",
+          "inequality"
+        ],
+        "example_sentence": "The tax amendment was enacted to achieve market parity between bullion and nominated agency imports."
+      },
+      {
+        "word": "LITIGATION",
+        "part_of_speech": "Noun",
+        "meaning": "The process of taking legal action in courts.",
+        "synonyms": [
+          "lawsuit",
+          "legal proceeding",
+          "contention"
+        ],
+        "antonyms": [
+          "arbitration",
+          "conciliatory settlement"
+        ],
+        "example_sentence": "The recent GST reforms aim to reduce unnecessary departmental litigation and ease procedural burdens."
+      },
+      {
+        "word": "CATALYZE",
+        "part_of_speech": "Verb",
+        "meaning": "To cause or accelerate a process or action.",
+        "synonyms": [
+          "stimulate",
+          "spark",
+          "accelerate"
+        ],
+        "antonyms": [
+          "hamper",
+          "delay",
+          "deter"
+        ],
+        "example_sentence": "Stricter international mobility conditions could catalyze the expansion of domestic technical research centers."
+      },
+      {
+        "word": "BOTTLENECK",
+        "part_of_speech": "Noun",
+        "meaning": "A situation that slows down or stops progress or a process.",
+        "synonyms": [
+          "impediment",
+          "obstacle",
+          "congestion"
+        ],
+        "antonyms": [
+          "catalyst",
+          "facilitation",
+          "expediter"
+        ],
+        "example_sentence": "Maritime security incidents created a severe bottleneck for commodity shipping through critical trade straits."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A slippery slope",
+        "meaning": "A course of action that is difficult to stop once it has begun and usually leads to serious trouble or failure.",
+        "example_sentence": "Relaxing regulatory compliance standards for financial institutions can prove to be a very slippery slope."
+      },
+      {
+        "idiom": "To clear the decks",
+        "meaning": "To prepare for action by removing obstacles, clutter, or unnecessary items.",
+        "example_sentence": "The administration sought to clear the decks for structural tax reforms before the upcoming fiscal year."
+      },
+      {
+        "idiom": "A watershed moment",
+        "meaning": "An event or period that marks a turning point or important change in a course of action or state of affairs.",
+        "example_sentence": "The implementation of the new GST compliance framework is viewed by experts as a watershed moment for indirect taxation."
+      },
+      {
+        "idiom": "To weather the storm",
+        "meaning": "To survive a difficult period or crisis successfully.",
+        "example_sentence": "With prudent monetary interventions, the banking sector managed to weather the storm of global inflation."
+      },
+      {
+        "idiom": "To jump on the bandwagon",
+        "meaning": "To join a popular activity or trend because it has become successful.",
+        "example_sentence": "Many technology firms rushed to jump on the bandwagon of AI-driven research mandates."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Integrated Goods and Services Tax (IGST)",
+        "bullets": [
+          "Governed by the IGST Act, 2017, and administered under Article 269A of the Indian Constitution.",
+          "Collected by the Central Government on all inter-state trade of goods and services as well as on import transactions.",
+          "Revenue collected under IGST is subsequently apportioned between the Union and the respective destination states."
+        ]
+      },
+      {
+        "title": "State Level Bankers' Committee (SLBC)",
+        "bullets": [
+          "A state-level apex inter-institutional forum established under the lead bank scheme by the Reserve Bank of India.",
+          "Responsible for reviewing priority sector lending, agricultural credit expansion, and grassroots financial inclusion targets.",
+          "Chaired by the Chairman, Managing Director, or Executive Director of the designated Lead Bank operating within the state."
+        ]
+      },
+      {
+        "title": "Representation of the People Act, 1951",
+        "bullets": [
+          "Enacted by the Provisional Parliament under Article 327 of the Constitution of India.",
+          "Contains comprehensive provisions regarding the conduct of parliamentary and state legislative elections, qualification of members, and corrupt practices.",
+          "Empowers the Election Commission of India to conduct byelections within stipulated statutory timeframes upon a seat falling vacant."
+        ]
+      },
+      {
+        "title": "Global Capability Centers (GCCs) in India",
+        "bullets": [
+          "Corporate offshore units established by multinational companies to handle R&D, IT services, and back-office operations.",
+          "India hosts a significant share of the world's GCCs, primarily concentrated in tech hubs like Bengaluru, Hyderabad, Pune, and Chennai.",
+          "Transitioning rapidly from mere cost-arbitrage centers to high-value global innovation and engineering leadership hubs."
+        ]
+      },
+      {
+        "title": "Geopolitics of the Persian Gulf and Choke Points",
+        "bullets": [
+          "Includes vital strategic straits such as the Strait of Hormuz, connecting oil-producing Gulf nations to world markets.",
+          "Recognized globally as a key energy corridor where maritime safety directly influences international crude oil pricing.",
+          "Monitored closely by energy security agencies and international naval coalitions to ensure unhindered commercial transit."
+        ]
+      }
+    ]
   }
 ]

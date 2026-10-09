@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "TENUOUS",
-    "CAUCUS",
-    "LUMINESCENT",
-    "EQUIVOCAL",
-    "DISCONCERT",
     "SURREPTITIOUS",
     "TACITURN",
     "EPHEMERAL",
@@ -59,13 +54,14 @@
     "ADMONITION",
     "PALLID",
     "TACIT",
-    "OBDURATE"
+    "OBDURATE",
+    "MANDATE",
+    "PARITY",
+    "LITIGATION",
+    "CATALYZE",
+    "BOTTLENECK"
   ],
   "idiom": [
-    "A blessing in disguise",
-    "Turn the tide",
-    "Under the weather",
-    "To keep at arm's length",
     "To hit the nail on the head",
     "To fly under the radar",
     "To leave no stone unturned",
@@ -121,13 +117,13 @@
     "At the end of one's tether",
     "Bite the bullet",
     "Through the grapevine",
-    "Cost an arm and a leg"
+    "Cost an arm and a leg",
+    "To clear the decks",
+    "A watershed moment",
+    "To weather the storm",
+    "To jump on the bandwagon"
   ],
   "gk_booster": [
-    "Free Trade Agreements (FTAs) & Economic Partnerships",
-    "Asian Games and Olympic Council of Asia (OCA)",
-    "Critical Minerals and Strategic Industry Supply Chains",
-    "Securities and Exchange Board of India (SEBI)",
     "Organisation for Economic Co-operation and Development (OECD)",
     "National Institute of Mental Health and Neurosciences (NIMHANS)",
     "Organization of the Petroleum Exporting Countries (OPEC)",
@@ -183,6 +179,10 @@
     "Reserve Bank of India (RBI) Structure",
     "Goods and Services Tax (GST) Council",
     "El Ni\u00f1o and Indian Monsoon Dynamics",
-    "Gross Value Added (GVA) in National Accounts"
+    "Gross Value Added (GVA) in National Accounts",
+    "Integrated Goods and Services Tax (IGST)",
+    "State Level Bankers' Committee (SLBC)",
+    "Global Capability Centers (GCCs) in India",
+    "Geopolitics of the Persian Gulf and Choke Points"
   ]
 }
