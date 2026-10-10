@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "SURREPTITIOUS",
-    "TACITURN",
-    "EPHEMERAL",
-    "ALACRITY",
     "ACQUIESCE",
     "SPURIOUS",
     "MITIGATE",
@@ -59,14 +55,13 @@
     "PARITY",
     "LITIGATION",
     "CATALYZE",
-    "BOTTLENECK"
+    "BOTTLENECK",
+    "PROBITY",
+    "TEMERITY",
+    "TRUNCATE",
+    "TENABLE"
   ],
   "idiom": [
-    "To hit the nail on the head",
-    "To fly under the radar",
-    "To leave no stone unturned",
-    "To throw in the towel",
-    "Get the ball rolling",
     "Read between the lines",
     "A drop in the ocean",
     "To read the riot act",
@@ -121,14 +116,14 @@
     "To clear the decks",
     "A watershed moment",
     "To weather the storm",
-    "To jump on the bandwagon"
+    "To jump on the bandwagon",
+    "To burn one's bridges",
+    "To keep at arm's length",
+    "To steal someone's thunder",
+    "To add fuel to the fire",
+    "To throw caution to the wind"
   ],
   "gk_booster": [
-    "Organisation for Economic Co-operation and Development (OECD)",
-    "National Institute of Mental Health and Neurosciences (NIMHANS)",
-    "Organization of the Petroleum Exporting Countries (OPEC)",
-    "Asian Games & Olympic Council of Asia (OCA)",
-    "Agriculture Infrastructure Fund (AIF)",
     "Sovereign Credit Rating Agencies",
     "State Disaster Response Fund (SDRF)",
     "Preferential Trade Agreement (PTA)",
@@ -183,6 +178,11 @@
     "Integrated Goods and Services Tax (IGST)",
     "State Level Bankers' Committee (SLBC)",
     "Global Capability Centers (GCCs) in India",
-    "Geopolitics of the Persian Gulf and Choke Points"
+    "Geopolitics of the Persian Gulf and Choke Points",
+    "Airports Authority of India (AAI)",
+    "Public Examinations (Prevention of Unfair Means) Act, 2024",
+    "Article 293 of the Indian Constitution",
+    "PM-eBus Sewa Scheme",
+    "Electoral Roll Revisions under RP Act, 1950"
   ]
 }

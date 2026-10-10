@@ -4549,5 +4549,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "10 October 2026",
+    "vocab_words": [
+      {
+        "word": "PROBITY",
+        "part_of_speech": "Noun",
+        "meaning": "The quality of having strong moral principles, honesty, and integrity.",
+        "synonyms": [
+          "integrity",
+          "uprightness",
+          "rectitude"
+        ],
+        "antonyms": [
+          "dishonesty",
+          "deceit",
+          "corruption"
+        ],
+        "example_sentence": "Public competitive exams must be conducted with unquestionable probity to maintain youth trust."
+      },
+      {
+        "word": "TEMERITY",
+        "part_of_speech": "Noun",
+        "meaning": "Excessive confidence or boldness; audacity.",
+        "synonyms": [
+          "audacity",
+          "effrontery",
+          "presumption"
+        ],
+        "antonyms": [
+          "timidity",
+          "modesty",
+          "diffidence"
+        ],
+        "example_sentence": "The fraud offenders had the temerity to leak competitive exam papers using encrypted channels."
+      },
+      {
+        "word": "TRUNCATE",
+        "part_of_speech": "Verb",
+        "meaning": "To shorten something by cutting off a part of it.",
+        "synonyms": [
+          "abridge",
+          "curtail",
+          "shorten"
+        ],
+        "antonyms": [
+          "extend",
+          "lengthen",
+          "prolong"
+        ],
+        "example_sentence": "Protests forced authorities to truncate the administrative conference schedule."
+      },
+      {
+        "word": "TENABLE",
+        "part_of_speech": "Adjective",
+        "meaning": "Able to be maintained or defended against attack or objection.",
+        "synonyms": [
+          "defensible",
+          "justifiable",
+          "sustainable"
+        ],
+        "antonyms": [
+          "untenable",
+          "indefensible",
+          "flimsy"
+        ],
+        "example_sentence": "Without clear legal authorization, mortgaging public land reserves is hardly tenable."
+      },
+      {
+        "word": "RECALCITRANT",
+        "part_of_speech": "Adjective",
+        "meaning": "Having an obstinately uncooperative attitude toward authority or discipline.",
+        "synonyms": [
+          "uncooperative",
+          "refractory",
+          "obstinate"
+        ],
+        "antonyms": [
+          "compliant",
+          "submissive",
+          "tractable"
+        ],
+        "example_sentence": "Strict penalties under anti-paper leak laws target recalcitrant examination syndicates."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To burn one's bridges",
+        "meaning": "To permanently sever ties or eliminate possibilities of returning to a previous state.",
+        "example_sentence": "By publicly violating statutory guidelines, the agency burned its bridges with international partners."
+      },
+      {
+        "idiom": "To keep at arm's length",
+        "meaning": "To maintain a distance and avoid becoming overly familiar or involved.",
+        "example_sentence": "The constitutional body chose to keep political parties at arm's length to protect neutrality."
+      },
+      {
+        "idiom": "To steal someone's thunder",
+        "meaning": "To lessen someone's effort or accomplishment by taking credit or attention first.",
+        "example_sentence": "The unexpected cabinet announcement stole the media's thunder from the economic forum."
+      },
+      {
+        "idiom": "To add fuel to the fire",
+        "meaning": "To worsen an already intense or volatile situation.",
+        "example_sentence": "Detaining civilian leaders without proper notice only added fuel to the fire."
+      },
+      {
+        "idiom": "To throw caution to the wind",
+        "meaning": "To act recklessly without worrying about potential risks or consequences.",
+        "example_sentence": "Aspirants threw caution to the wind and gathered in large numbers despite section restrictions."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Airports Authority of India (AAI)",
+        "bullets": [
+          "Established on 1st April 1995 by merging National Airports Authority and International Airports Authority of India under AAI Act, 1994.",
+          "Headquartered at Rajiv Gandhi Bhawan, Safdarjung Airport, New Delhi; operates under Ministry of Civil Aviation.",
+          "Manages 137 airports, including 24 International airports, 10 Custom airports, and 80 Domestic airports."
+        ]
+      },
+      {
+        "title": "Public Examinations (Prevention of Unfair Means) Act, 2024",
+        "bullets": [
+          "Enacted to curb paper leaks, impersonation, and fraudulent practices in public recruitment exams.",
+          "Prescribes minimum punishment of 3 to 5 years imprisonment, extendable to 10 years for organized crime syndicates.",
+          "Imposes minimum fines of \u20b91 crore on organized entities involved in compromising examination security."
+        ]
+      },
+      {
+        "title": "Article 293 of the Indian Constitution",
+        "bullets": [
+          "Deals with financial borrowing powers of Indian States within and outside their territorial limits.",
+          "Clause (3) restricts a state from raising loans without Central Government consent if previous central loans remain unpaid.",
+          "The Centre fixes Net Borrowing Ceilings (NBC) annually based on recommended Fiscal Deficit limits (3% of GSDP under FRBM)."
+        ]
+      },
+      {
+        "title": "PM-eBus Sewa Scheme",
+        "bullets": [
+          "Launched by Ministry of Housing and Urban Affairs (MoHUA) to deploy 10,000 electric buses in urban centers.",
+          "Covers urban areas having population between 3 lakh and 40 lakh as per 2011 census.",
+          "Implemented on Gross Cost Contract (GCC) Public-Private Partnership model with Central Assistance."
+        ]
+      },
+      {
+        "title": "Electoral Roll Revisions under RP Act, 1950",
+        "bullets": [
+          "Section 21 of the Representation of the People Act, 1950 governs preparation and revision of electoral rolls.",
+          "Qualifying dates for voter registration are January 1, April 1, July 1, and October 1 under Election Laws (Amendment) Act, 2021.",
+          "Special Intensive Revision (SIR) involves door-to-door verification by Block Level Officers (BLOs) appointed under Article 324."
+        ]
+      }
+    ]
   }
 ]
