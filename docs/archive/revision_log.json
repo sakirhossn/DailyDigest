@@ -4703,5 +4703,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "11 October 2026",
+    "vocab_words": [
+      {
+        "word": "EXACERBATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a problem, bad situation, or negative feeling worse.",
+        "synonyms": [
+          "aggravate",
+          "worsen",
+          "compound"
+        ],
+        "antonyms": [
+          "ameliorate",
+          "mitigate",
+          "assuage"
+        ],
+        "example_sentence": "Imposing new merchant fees on digital payments could exacerbate financial stress for micro-enterprises."
+      },
+      {
+        "word": "ESCHEW",
+        "part_of_speech": "Verb",
+        "meaning": "To deliberately avoid using or abstain from something.",
+        "synonyms": [
+          "abjure",
+          "renounce",
+          "shun"
+        ],
+        "antonyms": [
+          "embrace",
+          "adopt",
+          "pursue"
+        ],
+        "example_sentence": "Policymakers urged financial institutions to eschew rigid evaluation metrics when assessing seasonal MSME loans."
+      },
+      {
+        "word": "CACOPHONY",
+        "part_of_speech": "Noun",
+        "meaning": "A harsh, discordant mixture of loud sounds.",
+        "synonyms": [
+          "din",
+          "clamor",
+          "discord"
+        ],
+        "antonyms": [
+          "harmony",
+          "silence",
+          "cacophony-free"
+        ],
+        "example_sentence": "The political capital witnessed a cacophony of protests over election commission oversight."
+      },
+      {
+        "word": "MUNIFICENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Larger or more generous than is usual or necessary (typically referring to gifts or sums of money).",
+        "synonyms": [
+          "bounteous",
+          "generous",
+          "liberal"
+        ],
+        "antonyms": [
+          "parsimonious",
+          "stingy",
+          "mean"
+        ],
+        "example_sentence": "The government announced a munificent corpus of ten thousand crores to fuel SME growth."
+      },
+      {
+        "word": "PERSPICACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having a ready insight into and understanding of things; mentally acute.",
+        "synonyms": [
+          "astute",
+          "shrewd",
+          "discerning"
+        ],
+        "antonyms": [
+          "obtuse",
+          "inept",
+          "vacuous"
+        ],
+        "example_sentence": "A perspicacious analysis by the central bank helped avert catastrophic currency fluctuations."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A slippery slope",
+        "meaning": "An idea or course of action which will lead to something unacceptable, wrong, or disastrous.",
+        "example_sentence": "Introducing transaction levies on micro-digital payments could prove to be a slippery slope for financial inclusion."
+      },
+      {
+        "idiom": "Play with fire",
+        "meaning": "To act in a way that is very dangerous and risks a harmful outcome.",
+        "example_sentence": "Ignoring structural cash-flow bottlenecks in MSME lending is like playing with fire."
+      },
+      {
+        "idiom": "Turn a blind eye",
+        "meaning": "To pretend not to notice something, usually something that is bad or illegal.",
+        "example_sentence": "Regulators cannot afford to turn a blind eye to mounting inflation pressures."
+      },
+      {
+        "idiom": "Weather the storm",
+        "meaning": "To survive or successfully deal with a difficult situation or period.",
+        "example_sentence": "The central bank implemented forex interventions to help the domestic currency weather the storm."
+      },
+      {
+        "idiom": "Walking on thin ice",
+        "meaning": "Being in a risky, precarious situation where a single misstep could lead to trouble.",
+        "example_sentence": "Protesting without adhering to civic safety guidelines means the organizers are walking on thin ice legally."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "National Payments Corporation of India (NPCI)",
+        "bullets": [
+          "Established in 2008 as an umbrella organization for operating retail payments and settlement systems in India.",
+          "Promoted by the Reserve Bank of India (RBI) and the Indian Banks' Association (IBA) under the provisions of the Payment and Settlement Systems Act, 2007.",
+          "Headquarters: Mumbai, Maharashtra; responsible for foundational systems like UPI, IMPS, RuPay, and Aadhaar Enabled Payment System (AePS)."
+        ]
+      },
+      {
+        "title": "Foreign Exchange Management Act (FEMA), 1999",
+        "bullets": [
+          "Enacted by the Parliament of India to replace the restrictive Foreign Exchange Regulation Act (FERA).",
+          "Aims to facilitate external trade and payments and promote the orderly development and maintenance of the foreign exchange market in India.",
+          "Administered by the Enforcement Directorate (under the Ministry of Finance) for investigation of violations, while RBI handles regulatory policy framing."
+        ]
+      },
+      {
+        "title": "Udyam Registration Portal for MSMEs",
+        "bullets": [
+          "Launched by the Ministry of Micro, Small and Medium Enterprises for online registration of MSMEs based on Aadhaar verification.",
+          "Classification criteria: Micro (Investment up to \u20b91 crore, Turnover up to \u20b95 crore); Small (Investment up to \u20b910 crore, Turnover up to \u20b950 crore); Medium (Investment up to \u20b950 crore, Turnover up to \u20b9250 crore).",
+          "Registration is entirely paperless and free of cost."
+        ]
+      },
+      {
+        "title": "Article 355 of the Indian Constitution",
+        "bullets": [
+          "Part of Emergency Provisions (Part XVIII) of the Constitution of India.",
+          "Mandates that the Union Government shall protect every State against external aggression and internal disturbance.",
+          "Ensures that the government of every State is carried on in accordance with the provisions of the Constitution."
+        ]
+      },
+      {
+        "title": "Repo Rate and Liquidity Adjustment Facility (LAF)",
+        "bullets": [
+          "Repo rate is the interest rate at which the Reserve Bank of India lends money to commercial banks against government securities.",
+          "Operates under the Liquidity Adjustment Facility (LAF) window managed by the central bank.",
+          "Serves as the primary benchmark rate used by the Monetary Policy Committee (MPC) to control domestic inflation and liquidity."
+        ]
+      }
+    ]
   }
 ]

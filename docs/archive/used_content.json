@@ -1,7 +1,5 @@
 {
   "vocab": [
-    "ACQUIESCE",
-    "SPURIOUS",
     "MITIGATE",
     "PRUDENT",
     "ESCHEW",
@@ -59,12 +57,11 @@
     "PROBITY",
     "TEMERITY",
     "TRUNCATE",
-    "TENABLE"
+    "TENABLE",
+    "MUNIFICENT",
+    "PERSPICACIOUS"
   ],
   "idiom": [
-    "Read between the lines",
-    "A drop in the ocean",
-    "To read the riot act",
     "Swan song",
     "Pyrrhic victory",
     "To spill the beans",
@@ -121,14 +118,12 @@
     "To keep at arm's length",
     "To steal someone's thunder",
     "To add fuel to the fire",
-    "To throw caution to the wind"
+    "To throw caution to the wind",
+    "Play with fire",
+    "Weather the storm",
+    "Walking on thin ice"
   ],
   "gk_booster": [
-    "Sovereign Credit Rating Agencies",
-    "State Disaster Response Fund (SDRF)",
-    "Preferential Trade Agreement (PTA)",
-    "Blue Bonds & Sustainable Finance",
-    "Red Sea & Maritime Chokepoints",
     "Free Trade Agreements (FTAs)",
     "History of Kabaddi at the Asian Games",
     "Right to Information (RTI) Act, 2005 & Section 24",
@@ -183,6 +178,11 @@
     "Public Examinations (Prevention of Unfair Means) Act, 2024",
     "Article 293 of the Indian Constitution",
     "PM-eBus Sewa Scheme",
-    "Electoral Roll Revisions under RP Act, 1950"
+    "Electoral Roll Revisions under RP Act, 1950",
+    "National Payments Corporation of India (NPCI)",
+    "Foreign Exchange Management Act (FEMA), 1999",
+    "Udyam Registration Portal for MSMEs",
+    "Article 355 of the Indian Constitution",
+    "Repo Rate and Liquidity Adjustment Facility (LAF)"
   ]
 }
