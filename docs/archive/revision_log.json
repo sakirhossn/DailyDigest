@@ -4857,5 +4857,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "12 October 2026",
+    "vocab_words": [
+      {
+        "word": "EXCORIATE",
+        "part_of_speech": "Verb",
+        "meaning": "To criticize or censure someone or something severely.",
+        "synonyms": [
+          "censure",
+          "denounce",
+          "lambaste"
+        ],
+        "antonyms": [
+          "praise",
+          "acclaim"
+        ],
+        "example_sentence": "Industry experts excoriated the proposed levy on digital transactions, arguing it would stifle small business growth."
+      },
+      {
+        "word": "TANTAMOUNT",
+        "part_of_speech": "Adjective",
+        "meaning": "Equivalent in seriousness, effect, or value to something.",
+        "synonyms": [
+          "equivalent",
+          "commensurate",
+          "synonymous"
+        ],
+        "antonyms": [
+          "different",
+          "unrelated"
+        ],
+        "example_sentence": "Imposing severe criminal penalties for simple procedural filing errors is tantamount to harassment."
+      },
+      {
+        "word": "SAGACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having or showing keen mental discernment, good judgment, and wisdom.",
+        "synonyms": [
+          "shrewd",
+          "astute",
+          "discerning"
+        ],
+        "antonyms": [
+          "foolish",
+          "unwise"
+        ],
+        "example_sentence": "The central bank took a sagacious step by opening a direct dollar window to shield the domestic currency."
+      },
+      {
+        "word": "INCURSION",
+        "part_of_speech": "Noun",
+        "meaning": "A sudden or brief invasion, entry, or intrusion into a territory or domain.",
+        "synonyms": [
+          "inroad",
+          "irruption",
+          "intrusive intervention"
+        ],
+        "antonyms": [
+          "retreat",
+          "withdrawal"
+        ],
+        "example_sentence": "The unprecedented surge in shipping tariffs represented a major incursion into manufacturer profit margins."
+      },
+      {
+        "word": "IMMUTABLE",
+        "part_of_speech": "Adjective",
+        "meaning": "Unchanging over time or unable to be changed.",
+        "synonyms": [
+          "fixed",
+          "unalterable",
+          "permanent"
+        ],
+        "antonyms": [
+          "variable",
+          "flexible"
+        ],
+        "example_sentence": "The Chief Economic Adviser argued that regulatory classification timelines for loans should not be treated as immutable rules."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work late into the night.",
+        "example_sentence": "Legal teams had to burn the midnight oil to prepare the urgent petition before the High Court deadline."
+      },
+      {
+        "idiom": "Hit the sack",
+        "meaning": "To go to bed or go to sleep.",
+        "example_sentence": "After working extended shifts at the electoral verification desks, officers were eager to hit the sack."
+      },
+      {
+        "idiom": "On the fence",
+        "meaning": "Undecided or neutral on an issue.",
+        "example_sentence": "Several member countries remained on the fence during international trade negotiations regarding industrial subsidies."
+      },
+      {
+        "idiom": "Cut corners",
+        "meaning": "To do something in a hasty or perfunctory way to save time or money, often reducing quality.",
+        "example_sentence": "Electoral officials were cautioned not to cut corners when verifying the authenticity of voter deletion notices."
+      },
+      {
+        "idiom": "Back to the drawing board",
+        "meaning": "To start over with a new plan after a previous effort has failed or proven unsuitable.",
+        "example_sentence": "When initial regulatory models caused liquidity distress, policy framers went back to the drawing board."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Strait of Hormuz & Maritime Navigation",
+        "bullets": [
+          "Geographical Location: Connects the Persian Gulf with the Gulf of Oman and the Arabian Sea.",
+          "Strategic Importance: Key global oil transit choke point through which approximately 20% of global petroleum passes.",
+          "Bordering Nations: Iran to the north and north-east, Oman and the United Arab Emirates to the south."
+        ]
+      },
+      {
+        "title": "Merchant Discount Rate (MDR) Framework",
+        "bullets": [
+          "Definition: Fee charged to merchants for processing payments through debit/credit cards or digital wallets.",
+          "Zero-MDR Policy: Mandated by the Government of India for BHIM-UPI and RuPay debit card transactions under Section 10A of the Payment and Settlement Systems Act, 2007.",
+          "Stakeholder Burden: Costs of processing zero-MDR transactions are currently subsidized by government budget allocations to banks."
+        ]
+      },
+      {
+        "title": "Non-Performing Asset (NPA) Classification Rules",
+        "bullets": [
+          "Standard Definition: A loan asset becomes non-performing when interest or principal remains overdue for more than 90 days.",
+          "Sub-categories: NPAs are categorized into Substandard (NPA for <= 12 months), Doubtful (NPA for > 12 months), and Loss Assets.",
+          "Special Mention Accounts (SMA): SMA-0 (1-30 days overdue), SMA-1 (31-60 days overdue), and SMA-2 (61-90 days overdue) serve as early warning signals."
+        ]
+      },
+      {
+        "title": "Fundamental Right to Freedom of Assembly",
+        "bullets": [
+          "Constitutional Provision: Article 19(1)(b) grants all Indian citizens the right to assemble peaceably and without arms.",
+          "Reasonable Restrictions: Article 19(3) allows Parliament to impose restrictions based on 'sovereignty and integrity of India' or 'public order'.",
+          "Statutory Power: Section 144 of the Code of Criminal Procedure / Section 163 of Bharatiya Nagarik Suraksha Sanhita allows magistrates to issue temporary orders in urgent cases of nuisance or danger."
+        ]
+      },
+      {
+        "title": "Decriminalization Provisions under CGST Act",
+        "bullets": [
+          "Section 132 Framework: Deals with offences including tax evasion, fake invoicing, and wrongful input tax credit utilization.",
+          "Prosecution Threshold: Raised from \u20b92 crore to \u20b95 crore for general offences to prevent unwarranted criminal proceedings.",
+          "Compounding of Offences: Allows offenders to pay a compounding fee to avoid court prosecution under Section 138 of the CGST Act."
+        ]
+      }
+    ]
   }
 ]

@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "MITIGATE",
-    "PRUDENT",
-    "ESCHEW",
-    "TENTATIVE",
-    "GALVANIZE",
     "INTRANSIGENT",
     "VEXATIOUS",
     "OBSTREPEROUS",
@@ -59,12 +54,14 @@
     "TRUNCATE",
     "TENABLE",
     "MUNIFICENT",
-    "PERSPICACIOUS"
+    "PERSPICACIOUS",
+    "EXCORIATE",
+    "TANTAMOUNT",
+    "SAGACIOUS",
+    "INCURSION",
+    "IMMUTABLE"
   ],
   "idiom": [
-    "Swan song",
-    "Pyrrhic victory",
-    "To spill the beans",
     "A bone of contention",
     "By leaps and bounds",
     "To break the ice",
@@ -121,14 +118,12 @@
     "To throw caution to the wind",
     "Play with fire",
     "Weather the storm",
-    "Walking on thin ice"
+    "Walking on thin ice",
+    "Hit the sack",
+    "On the fence",
+    "Cut corners"
   ],
   "gk_booster": [
-    "Free Trade Agreements (FTAs)",
-    "History of Kabaddi at the Asian Games",
-    "Right to Information (RTI) Act, 2005 & Section 24",
-    "V. O. Chidambaranar Port (Thoothukudi)",
-    "Manual for Drought Management in India",
     "World Trade Organization (WTO) Tariffs & GATT",
     "Digital Personal Data Protection (DPDP) Act, 2023",
     "Index of Industrial Production (IIP)",
@@ -183,6 +178,11 @@
     "Foreign Exchange Management Act (FEMA), 1999",
     "Udyam Registration Portal for MSMEs",
     "Article 355 of the Indian Constitution",
-    "Repo Rate and Liquidity Adjustment Facility (LAF)"
+    "Repo Rate and Liquidity Adjustment Facility (LAF)",
+    "Strait of Hormuz & Maritime Navigation",
+    "Merchant Discount Rate (MDR) Framework",
+    "Non-Performing Asset (NPA) Classification Rules",
+    "Fundamental Right to Freedom of Assembly",
+    "Decriminalization Provisions under CGST Act"
   ]
 }
