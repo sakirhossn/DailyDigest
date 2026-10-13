@@ -5006,5 +5006,155 @@
         ]
       }
     ]
+  },
+  {
+    "date": "13 October 2026",
+    "vocab_words": [
+      {
+        "word": "PUNITIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Inflicting or intended as punishment against unlawful or undesirable actions.",
+        "synonyms": [
+          "disciplinary",
+          "penal",
+          "corrective"
+        ],
+        "antonyms": [
+          "rewarding",
+          "accommodating"
+        ],
+        "example_sentence": "The regulatory body imposed punitive financial penalties on institutions violating capital adequacy norms."
+      },
+      {
+        "word": "DIVESTMENT",
+        "part_of_speech": "Noun",
+        "meaning": "The action or process of selling off subsidiary business interests, assets, or government equity shares.",
+        "synonyms": [
+          "disinvestment",
+          "liquidation",
+          "privatization"
+        ],
+        "antonyms": [
+          "acquisition",
+          "investment"
+        ],
+        "example_sentence": "The strategic divestment of public sector undertakings aims to enhance corporate efficiency and fiscal consolidation."
+      },
+      {
+        "word": "ALACRITY",
+        "part_of_speech": "Noun",
+        "meaning": "Brisk, cheerful readiness and promptness in executing a task.",
+        "synonyms": [
+          "celerity",
+          "enthusiasm",
+          "dispatch"
+        ],
+        "antonyms": [
+          "apathy",
+          "sluggishness"
+        ],
+        "example_sentence": "The district administration acted with commendable alacrity to restore infrastructure damaged during the construction project."
+      },
+      {
+        "word": "TENUOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Very weak, fragile, or slight in structure or logic.",
+        "synonyms": [
+          "flimsy",
+          "fragile",
+          "slender"
+        ],
+        "antonyms": [
+          "substantial",
+          "firm",
+          "secure"
+        ],
+        "example_sentence": "Global supply chains remain vulnerable due to their tenuous reliance on geopolitical stability across narrow maritime channels."
+      },
+      {
+        "word": "PROLIFERATE",
+        "part_of_speech": "Verb",
+        "meaning": "To increase rapidly in number or spread out extensively.",
+        "synonyms": [
+          "multiply",
+          "mushroom",
+          "expand"
+        ],
+        "antonyms": [
+          "diminish",
+          "dwindle"
+        ],
+        "example_sentence": "As digital payment ecosystems grow, technological platforms continue to proliferate across semi-urban economies."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A double-edged sword",
+        "meaning": "A situation or course of action that has both favorable and unfavorable consequences.",
+        "example_sentence": "Rapid capital inflows and foreign currency volatility can prove to be a double-edged sword for domestic macroeconomic stability."
+      },
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove suspicion, tension, or misunderstanding through open dialogue or clarification.",
+        "example_sentence": "High-level bilateral talks helped clear the air regarding maritime security protocols in the strategic gulf region."
+      },
+      {
+        "idiom": "A drop in the ocean",
+        "meaning": "An extremely small amount compared with what is actually needed or expected.",
+        "example_sentence": "The initial budgetary allocation for localized road repairs was merely a drop in the ocean compared to overall regional infrastructure requirements."
+      },
+      {
+        "idiom": "To read between the lines",
+        "meaning": "To understand the hidden meaning, underlying intent, or unstated implications of a communication.",
+        "example_sentence": "Analysts had to read between the lines of the central bank's monetary policy statement to gauge future interest rate trajectories."
+      },
+      {
+        "idiom": "A tight corner",
+        "meaning": "A difficult, precarious, or inescapable predicament requiring careful tactical management.",
+        "example_sentence": "Persistently high energy prices and currency depreciation put the central bank in a tight corner while defending the domestic exchange rate."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Pension Fund Regulatory and Development Authority (PFRDA)",
+        "bullets": [
+          "Established in August 2003 by the Government of India and later given statutory status via the PFRDA Act, 2013.",
+          "Headquarters: New Delhi, India.",
+          "Regulates the National Pension System (NPS) and Atal Pension Yojana (APY) to secure old-age income security for citizens."
+        ]
+      },
+      {
+        "title": "National Investment and Infrastructure Fund (NIIF)",
+        "bullets": [
+          "Established in 2015 as India\u2019s first sovereign-backed investment fund to provide long-term capital for core economic infrastructure.",
+          "Headquarters: Mumbai, Maharashtra.",
+          "Operates through three distinct funds: Master Fund, Fund of Funds, and Strategic Opportunities Fund."
+        ]
+      },
+      {
+        "title": "International Monetary Fund (IMF) and World Economic Outlook",
+        "bullets": [
+          "Created in 1944 at the Bretton Woods Conference alongside the World Bank, commencing operations in December 1945.",
+          "Headquarters: Washington, D.C., United States.",
+          "Publishes flagship economic reports including the World Economic Outlook (WEO) and Global Financial Stability Report (GFSR)."
+        ]
+      },
+      {
+        "title": "Madras High Court and Article 226 of the Constitution",
+        "bullets": [
+          "Established in 1862 under the Indian High Courts Act 1861, making it one of the three chartered high courts in India.",
+          "Jurisdiction extends over the state of Tamil Nadu and the Union Territory of Puducherry.",
+          "Empowered under Article 226 to issue writs for the enforcement of fundamental rights and other legal remedies."
+        ]
+      },
+      {
+        "title": "Article 190 of the Indian Constitution",
+        "bullets": [
+          "Governs the vacation of seats in State Legislatures in India.",
+          "Deals with simultaneous membership across houses, absence from sittings without permission, and resignation of seats by members.",
+          "Requires resignations to be submitted in writing to the Speaker or Chairman, who must accept them after verifying genuineness."
+        ]
+      }
+    ]
   }
 ]

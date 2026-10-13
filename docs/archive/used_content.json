@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "INTRANSIGENT",
-    "VEXATIOUS",
-    "OBSTREPEROUS",
     "ESOTERIC",
     "GARRULOUS",
     "SALUTARY",
@@ -59,12 +56,12 @@
     "TANTAMOUNT",
     "SAGACIOUS",
     "INCURSION",
-    "IMMUTABLE"
+    "IMMUTABLE",
+    "DIVESTMENT",
+    "ALACRITY",
+    "TENUOUS"
   ],
   "idiom": [
-    "A bone of contention",
-    "By leaps and bounds",
-    "To break the ice",
     "The tip of the iceberg",
     "Play devil's advocate",
     "To move the needle",
@@ -121,14 +118,12 @@
     "Walking on thin ice",
     "Hit the sack",
     "On the fence",
-    "Cut corners"
+    "Cut corners",
+    "A drop in the ocean",
+    "To read between the lines",
+    "A tight corner"
   ],
   "gk_booster": [
-    "World Trade Organization (WTO) Tariffs & GATT",
-    "Digital Personal Data Protection (DPDP) Act, 2023",
-    "Index of Industrial Production (IIP)",
-    "Open Market Operations (OMOs)",
-    "Registration of Electors Rules, 1960",
     "Gandhi Memorial Museum, Madurai",
     "Form 6 under Election Commission Rules",
     "United Nations General Assembly and Security Council Framework",
@@ -183,6 +178,11 @@
     "Merchant Discount Rate (MDR) Framework",
     "Non-Performing Asset (NPA) Classification Rules",
     "Fundamental Right to Freedom of Assembly",
-    "Decriminalization Provisions under CGST Act"
+    "Decriminalization Provisions under CGST Act",
+    "Pension Fund Regulatory and Development Authority (PFRDA)",
+    "National Investment and Infrastructure Fund (NIIF)",
+    "International Monetary Fund (IMF) and World Economic Outlook",
+    "Madras High Court and Article 226 of the Constitution",
+    "Article 190 of the Indian Constitution"
   ]
 }
