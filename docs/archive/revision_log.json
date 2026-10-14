@@ -5156,5 +5156,155 @@
         ]
       }
     ]
+  },
+  {
+    "date": "14 October 2026",
+    "vocab_words": [
+      {
+        "word": "PUNITIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Inflicted or intended as a punishment.",
+        "synonyms": [
+          "penal",
+          "disciplinary",
+          "corrective"
+        ],
+        "antonyms": [
+          "rewarding",
+          "compensatory"
+        ],
+        "example_sentence": "The central bank imposed punitive fines on non-compliant financial institutions."
+      },
+      {
+        "word": "DISCONCERTING",
+        "part_of_speech": "Adjective",
+        "meaning": "Causing one to feel unsettled or confused.",
+        "synonyms": [
+          "unnerving",
+          "disturbing",
+          "alarming"
+        ],
+        "antonyms": [
+          "comforting",
+          "reassuring"
+        ],
+        "example_sentence": "The sudden volatility in foreign exchange reserves was disconcerting to market analysts."
+      },
+      {
+        "word": "PROLIFERATE",
+        "part_of_speech": "Verb",
+        "meaning": "To increase rapidly in number; multiply.",
+        "synonyms": [
+          "burgeon",
+          "propagate",
+          "escalate"
+        ],
+        "antonyms": [
+          "dwindle",
+          "contract",
+          "decrease"
+        ],
+        "example_sentence": "Green technology startups continue to proliferate across urban industrial hubs."
+      },
+      {
+        "word": "RETRENCHMENT",
+        "part_of_speech": "Noun",
+        "meaning": "The reduction of costs or spending by a government or organization.",
+        "synonyms": [
+          "cutback",
+          "downsizing",
+          "austerity"
+        ],
+        "antonyms": [
+          "expansion",
+          "augmentation"
+        ],
+        "example_sentence": "Mounting national debt forced developing economies into strict fiscal retrenchment."
+      },
+      {
+        "word": "PLAUSIBLE",
+        "part_of_speech": "Adjective",
+        "meaning": "Seeming reasonable or probable.",
+        "synonyms": [
+          "credible",
+          "tenable",
+          "feasible"
+        ],
+        "antonyms": [
+          "implausible",
+          "unconvincing"
+        ],
+        "example_sentence": "The committee presented a plausible framework for achieving net-zero emissions by 2070."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To paddle one's own canoe",
+        "meaning": "To be independent and self-reliant without depending on others.",
+        "example_sentence": "India's resilient economic growth demonstrates its ability to paddle its own canoe amidst global turbulence."
+      },
+      {
+        "idiom": "A bone of contention",
+        "meaning": "A subject or matter over which there is ongoing disagreement.",
+        "example_sentence": "Trade tariffs and carbon border taxes remain a major bone of contention in international summits."
+      },
+      {
+        "idiom": "To read the writing on the wall",
+        "meaning": "To be aware of clear signs of impending danger or failure.",
+        "example_sentence": "Central banks had to read the writing on the wall regarding persistent inflation and adjust interest rates accordingly."
+      },
+      {
+        "idiom": "Spick and span",
+        "meaning": "Neat, clean, and well-organized.",
+        "example_sentence": "The newly upgraded railway freight terminals were kept spick and span to boost operational efficiency."
+      },
+      {
+        "idiom": "Through thick and thin",
+        "meaning": "Under all circumstances, no matter how difficult.",
+        "example_sentence": "Public sector banks have supported domestic manufacturing through thick and thin."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Organization of the Petroleum Exporting Countries (OPEC)",
+        "bullets": [
+          "Established in Baghdad in September 1960 by five founding members: Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela.",
+          "Headquartered in Vienna, Austria since 1965.",
+          "Controls a substantial portion of global crude oil production and heavily influences international petroleum pricing."
+        ]
+      },
+      {
+        "title": "World Economic Outlook (WEO)",
+        "bullets": [
+          "A flagship survey published twice a year by the International Monetary Fund (IMF).",
+          "Analyzes global economic developments during the near and medium term.",
+          "Provides critical macro-projections on global GDP growth, inflation, and trade balances."
+        ]
+      },
+      {
+        "title": "National Thermal Power Corporation (NTPC)",
+        "bullets": [
+          "India's largest power utility company, founded in 1975 under the Ministry of Power.",
+          "Awarded Maharatna status by the Government of India in 2010.",
+          "Currently spearheading clean energy transitions into solar, wind, and green hydrogen projects."
+        ]
+      },
+      {
+        "title": "Biodiversity Heritage Sites and Ecosystem Assessment",
+        "bullets": [
+          "Ecosystem Red List frameworks evaluate the risk of ecosystem collapse using criteria modeled after IUCN species assessments.",
+          "Aims to protect functional ecological units rather than isolated endangered flora and fauna.",
+          "Crucial for biodiversity conservation planning under the Convention on Biological Diversity (CBD)."
+        ]
+      },
+      {
+        "title": "Indian Railways Freight Operations",
+        "bullets": [
+          "Freight traffic is the primary revenue earner for Indian Railways, subsidizing passenger travel costs.",
+          "Key commodities transported include coal, iron ore, cement, food grains, and fertilizers.",
+          "Dedicated Freight Corridors (DFC) are being constructed to enhance transit speed and logistics capacity."
+        ]
+      }
+    ]
   }
 ]

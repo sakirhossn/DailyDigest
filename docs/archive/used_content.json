@@ -1,7 +1,5 @@
 {
   "vocab": [
-    "ESOTERIC",
-    "GARRULOUS",
     "SALUTARY",
     "RECALCITRANT",
     "EXPROPRIATION",
@@ -59,14 +57,11 @@
     "IMMUTABLE",
     "DIVESTMENT",
     "ALACRITY",
-    "TENUOUS"
+    "TENUOUS",
+    "RETRENCHMENT",
+    "PLAUSIBLE"
   ],
   "idiom": [
-    "The tip of the iceberg",
-    "Play devil's advocate",
-    "To move the needle",
-    "Tip of the iceberg",
-    "Back to the drawing board",
     "A slippery slope",
     "To bridge the gap",
     "To draw the line",
@@ -121,14 +116,14 @@
     "Cut corners",
     "A drop in the ocean",
     "To read between the lines",
-    "A tight corner"
+    "A tight corner",
+    "To paddle one's own canoe",
+    "A bone of contention",
+    "To read the writing on the wall",
+    "Spick and span",
+    "Through thick and thin"
   ],
   "gk_booster": [
-    "Gandhi Memorial Museum, Madurai",
-    "Form 6 under Election Commission Rules",
-    "United Nations General Assembly and Security Council Framework",
-    "Strategic Petroleum Reserves (SPR)",
-    "Fiscal Deficit and FRBM Act",
     "Representation of the People Act, 1951",
     "Purchasing Managers' Index (PMI)",
     "Strait of Hormuz",
@@ -183,6 +178,11 @@
     "National Investment and Infrastructure Fund (NIIF)",
     "International Monetary Fund (IMF) and World Economic Outlook",
     "Madras High Court and Article 226 of the Constitution",
-    "Article 190 of the Indian Constitution"
+    "Article 190 of the Indian Constitution",
+    "Organization of the Petroleum Exporting Countries (OPEC)",
+    "World Economic Outlook (WEO)",
+    "National Thermal Power Corporation (NTPC)",
+    "Biodiversity Heritage Sites and Ecosystem Assessment",
+    "Indian Railways Freight Operations"
   ]
 }
