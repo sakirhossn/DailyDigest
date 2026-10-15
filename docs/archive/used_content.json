@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "SALUTARY",
-    "RECALCITRANT",
-    "EXPROPRIATION",
     "FROST",
     "AMELIORATE",
     "PROLIFERATE",
@@ -59,12 +56,12 @@
     "ALACRITY",
     "TENUOUS",
     "RETRENCHMENT",
-    "PLAUSIBLE"
+    "PLAUSIBLE",
+    "FASTIDIOUS",
+    "EPHEMERAL",
+    "GREGARIOUS"
   ],
   "idiom": [
-    "A slippery slope",
-    "To bridge the gap",
-    "To draw the line",
     "Steal a march on",
     "At loggerheads",
     "On tenterhooks",
@@ -121,14 +118,12 @@
     "A bone of contention",
     "To read the writing on the wall",
     "Spick and span",
-    "Through thick and thin"
+    "Through thick and thin",
+    "Beat around the bush",
+    "Cry over spilt milk",
+    "Bite your tongue"
   ],
   "gk_booster": [
-    "Representation of the People Act, 1951",
-    "Purchasing Managers' Index (PMI)",
-    "Strait of Hormuz",
-    "Particularly Vulnerable Tribal Groups (PVTGs)",
-    "Small Savings Schemes in India",
     "Foreign Exchange Reserves Management in India",
     "Strait of Hormuz Geopolitical Significance",
     "International Energy Agency (IEA) and Strategic Petroleum Reserves",
@@ -183,6 +178,11 @@
     "World Economic Outlook (WEO)",
     "National Thermal Power Corporation (NTPC)",
     "Biodiversity Heritage Sites and Ecosystem Assessment",
-    "Indian Railways Freight Operations"
+    "Indian Railways Freight Operations",
+    "International Monetary Fund (IMF) and Governance Quotas",
+    "Wholesale Price Index (WPI) in India",
+    "Central Bureau of Investigation (CBI)",
+    "Securities and Emergency Regulations on Telecom Infrastructure",
+    "Hosur Industrial Cluster (Tamil Nadu)"
   ]
 }

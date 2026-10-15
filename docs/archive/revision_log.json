@@ -5306,5 +5306,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "15 October 2026",
+    "vocab_words": [
+      {
+        "word": "PUNITIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Inflicting or intended as punishment.",
+        "synonyms": [
+          "penal",
+          "disciplinary",
+          "corrective"
+        ],
+        "antonyms": [
+          "rewarding",
+          "beneficial"
+        ],
+        "example_sentence": "The regulatory body imposed punitive financial penalties on institutions violating capital adequacy norms."
+      },
+      {
+        "word": "FASTIDIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Very attentive to and concerned about accuracy and detail.",
+        "synonyms": [
+          "meticulous",
+          "scrupulous",
+          "punctilious"
+        ],
+        "antonyms": [
+          "careless",
+          "sloppy"
+        ],
+        "example_sentence": "Auditors maintain fastidious records to ensure total transparency in government expenditure."
+      },
+      {
+        "word": "CACOPHONY",
+        "part_of_speech": "Noun",
+        "meaning": "A harsh, discordant mixture of sounds.",
+        "synonyms": [
+          "din",
+          "clamor",
+          "discord"
+        ],
+        "antonyms": [
+          "harmony",
+          "silence"
+        ],
+        "example_sentence": "The sudden cacophony of political rallies filled the commercial district ahead of the elections."
+      },
+      {
+        "word": "EPHEMERAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Lasting for a very short time.",
+        "synonyms": [
+          "transitory",
+          "fleeting",
+          "momentary"
+        ],
+        "antonyms": [
+          "permanent",
+          "enduring"
+        ],
+        "example_sentence": "Market analysts noted that the recent surge in currency value was entirely ephemeral."
+      },
+      {
+        "word": "GREGARIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Fond of company; sociable.",
+        "synonyms": [
+          "outgoing",
+          "sociable",
+          "convivial"
+        ],
+        "antonyms": [
+          "introverted",
+          "withdrawn"
+        ],
+        "example_sentence": "Diplomats must possess a gregarious demeanor to build effective coalitions during multilateral summits."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Spill the beans",
+        "meaning": "To reveal a secret carelessly or by mistake.",
+        "example_sentence": "An internal whistleblower threatened to spill the beans regarding the corporate compliance cover-up."
+      },
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work or study late into the night.",
+        "example_sentence": "Aspirants preparing for competitive exams often burn the midnight oil to cover vast syllabi."
+      },
+      {
+        "idiom": "Beat around the bush",
+        "meaning": "To avoid answering a question directly or to stall when speaking.",
+        "example_sentence": "Instead of beating around the bush, the finance minister addressed the fiscal deficit numbers head-on."
+      },
+      {
+        "idiom": "Cry over spilt milk",
+        "meaning": "To complain or worry about something that has already happened and cannot be changed.",
+        "example_sentence": "There is no point crying over spilt milk when dealing with past investment losses."
+      },
+      {
+        "idiom": "Bite your tongue",
+        "meaning": "To stop yourself from saying something because it is better not to speak.",
+        "example_sentence": "She had to bite her tongue during the aggressive parliamentary debate."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "International Monetary Fund (IMF) and Governance Quotas",
+        "bullets": [
+          "Established in 1944 at the Bretton Woods Conference, operational in December 1945.",
+          "Headquartered in Washington, D.C., United States.",
+          "Governed by 190 member countries, with voting power determined by quota subscriptions reflecting relative economic position in the world economy."
+        ]
+      },
+      {
+        "title": "Wholesale Price Index (WPI) in India",
+        "bullets": [
+          "Measures the changes in the prices of goods sold and traded in wholesale markets.",
+          "Published monthly by the Office of Economic Adviser in the Ministry of Commerce and Industry.",
+          "Does not capture services inflation, which is a key distinction from the Consumer Price Index (CPI)."
+        ]
+      },
+      {
+        "title": "Central Bureau of Investigation (CBI)",
+        "bullets": [
+          "Prime investigative agency of India operating under the Ministry of Personnel, Public Grievances and Pensions.",
+          "Derived its legal mandate from the Delhi Special Police Establishment (DSPE) Act, 1946.",
+          "First established through a resolution of the Ministry of Home Affairs in April 1963."
+        ]
+      },
+      {
+        "title": "Securities and Emergency Regulations on Telecom Infrastructure",
+        "bullets": [
+          "Under the Indian Telegraph Act, 1885, temporary suspension of telecom services is governed by specific oversight rules notified in 2017.",
+          "Requires orders to be issued by competent authorities such as the Union Home Secretary or State Home Secretaries during public emergencies.",
+          "Subject to judicial review by Constitutional Courts to ensure proportionality and protection of fundamental rights."
+        ]
+      },
+      {
+        "title": "Hosur Industrial Cluster (Tamil Nadu)",
+        "bullets": [
+          "Strategically located near the border of Tamil Nadu and Karnataka, functioning as a major manufacturing hub.",
+          "Hosts prominent automotive, electrical machinery, and expanding aerospace and defence manufacturing units.",
+          "Plays an instrumental role in Tamil Nadu's industrial export strategy and regional economic development."
+        ]
+      }
+    ]
   }
 ]
