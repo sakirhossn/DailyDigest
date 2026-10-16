@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "FROST",
-    "AMELIORATE",
-    "PROLIFERATE",
-    "DISCONCERTING",
     "PALLIATIVE",
     "PONTIFICATE",
     "DISINGENUOUS",
@@ -59,10 +55,13 @@
     "PLAUSIBLE",
     "FASTIDIOUS",
     "EPHEMERAL",
-    "GREGARIOUS"
+    "GREGARIOUS",
+    "EPITOME",
+    "PRUDENT",
+    "SCINTILLATING",
+    "SPURIOUS"
   ],
   "idiom": [
-    "Steal a march on",
     "At loggerheads",
     "On tenterhooks",
     "Hit the panic button",
@@ -121,14 +120,10 @@
     "Through thick and thin",
     "Beat around the bush",
     "Cry over spilt milk",
-    "Bite your tongue"
+    "Bite your tongue",
+    "Under a cloud"
   ],
   "gk_booster": [
-    "Foreign Exchange Reserves Management in India",
-    "Strait of Hormuz Geopolitical Significance",
-    "International Energy Agency (IEA) and Strategic Petroleum Reserves",
-    "Extradition Laws and Treaties in India",
-    "Padma Shri and Arjuna Awards in Sports",
     "Petroleum and Natural Gas Regulatory Board (PNGRB)",
     "Prevention of Corruption Act (PCA), 1988",
     "Coal India Limited (CIL)",
@@ -183,6 +178,11 @@
     "Wholesale Price Index (WPI) in India",
     "Central Bureau of Investigation (CBI)",
     "Securities and Emergency Regulations on Telecom Infrastructure",
-    "Hosur Industrial Cluster (Tamil Nadu)"
+    "Hosur Industrial Cluster (Tamil Nadu)",
+    "International Monetary Fund (IMF)",
+    "World Bank Group",
+    "Election Commission of India (ECI)",
+    "Reserve Bank of India (RBI)",
+    "Wholesale Price Index (WPI)"
   ]
 }

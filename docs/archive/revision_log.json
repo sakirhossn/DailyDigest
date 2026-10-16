@@ -5455,5 +5455,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "16 October 2026",
+    "vocab_words": [
+      {
+        "word": "EPITOME",
+        "part_of_speech": "Noun",
+        "meaning": "A person or thing that is a perfect example of a particular quality or type.",
+        "synonyms": [
+          "personification",
+          "embodiment",
+          "quintessence"
+        ],
+        "antonyms": [
+          "antithesis",
+          "flaw"
+        ],
+        "example_sentence": "Her commitment to public welfare is the epitome of dedicated civil service."
+      },
+      {
+        "word": "PRUDENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Acting with or showing care and thought for the future.",
+        "synonyms": [
+          "wise",
+          "judicious",
+          "circumspect"
+        ],
+        "antonyms": [
+          "reckless",
+          "imprudent"
+        ],
+        "example_sentence": "Maintaining adequate foreign exchange reserves is a prudent measure for economic stability."
+      },
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make something bad or unsatisfactory better.",
+        "synonyms": [
+          "improve",
+          "enhance",
+          "mitigate"
+        ],
+        "antonyms": [
+          "worsen",
+          "exacerbate"
+        ],
+        "example_sentence": "Targeted skill development programs help ameliorate employment challenges in urban sectors."
+      },
+      {
+        "word": "SCINTILLATING",
+        "part_of_speech": "Adjective",
+        "meaning": "Brilliantly and excitingly clever or skillful.",
+        "synonyms": [
+          "brilliant",
+          "sparkling",
+          "dazzling"
+        ],
+        "antonyms": [
+          "dull",
+          "boring"
+        ],
+        "example_sentence": "The candidate delivered a scintillating presentation during the UPSC personality test."
+      },
+      {
+        "word": "SPURIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Not being what it purports to be; false or fake.",
+        "synonyms": [
+          "bogus",
+          "counterfeit",
+          "apocryphal"
+        ],
+        "antonyms": [
+          "genuine",
+          "authentic"
+        ],
+        "example_sentence": "Regulatory authorities actively crack down on spurious financial schemes targeting retail investors."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A double-edged sword",
+        "meaning": "A situation or course of action that has both favorable and unfavorable consequences.",
+        "example_sentence": "Rapid urban economic growth can be a double-edged sword, bringing higher employment alongside severe traffic congestion."
+      },
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove bad feelings, tension, or misunderstandings between people.",
+        "example_sentence": "The high-level meeting helped clear the air between institutional stakeholders regarding the new compliance mandates."
+      },
+      {
+        "idiom": "Under a cloud",
+        "meaning": "Under suspicion or in disgrace.",
+        "example_sentence": "The administrative department's operations remained under a cloud following procedural discrepancies."
+      },
+      {
+        "idiom": "Turn a blind eye",
+        "meaning": "To pretend not to notice something, usually something bad or illegal.",
+        "example_sentence": "Regulatory bodies cannot afford to turn a blind eye to violations of foreign exchange risk guidelines."
+      },
+      {
+        "idiom": "Spick and span",
+        "meaning": "Neat, clean, and in very good condition.",
+        "example_sentence": "The newly renovated heritage cultural complex was kept spick and span for international delegates."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "International Monetary Fund (IMF)",
+        "bullets": [
+          "Created in 1944 at the Bretton Woods Conference, operational in December 1945.",
+          "Headquartered in Washington, D.C., United States.",
+          "Publishes flagship reports including the World Economic Outlook (WEO) and Global Financial Stability Report."
+        ]
+      },
+      {
+        "title": "World Bank Group",
+        "bullets": [
+          "Established in 1944 alongside the IMF at the Bretton Woods Conference.",
+          "Comprises five distinct institutions: IBRD, IDA, IFC, MIGA, and ICSID.",
+          "Focuses on long-term capital investment for poverty reduction and economic development."
+        ]
+      },
+      {
+        "title": "Election Commission of India (ECI)",
+        "bullets": [
+          "An autonomous constitutional authority responsible for administering election processes in India under Article 324.",
+          "Originally a single-member body, it became a multi-member body with the Election Commissioner Amendment Act, 1989.",
+          "Superintends, directs, and controls elections to Parliament, State Legislatures, and the offices of the President and Vice-President."
+        ]
+      },
+      {
+        "title": "Reserve Bank of India (RBI)",
+        "bullets": [
+          "India's central banking institution established on April 1, 1935, based on the recommendations of the Hilton Young Commission.",
+          "Nationalized on January 1, 1949.",
+          "Acts as the banker to the government, regulator of commercial banks, and custodian of the country's foreign exchange reserves."
+        ]
+      },
+      {
+        "title": "Wholesale Price Index (WPI)",
+        "bullets": [
+          "Measures and tracks the changes in the price of goods in the wholesale stage before they are sold retail.",
+          "Published monthly by the Office of the Economic Adviser, Ministry of Commerce and Industry.",
+          "Serves as a key indicator to measure headline inflation pressures in producer markets."
+        ]
+      }
+    ]
   }
 ]
