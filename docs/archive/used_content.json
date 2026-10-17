@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "PALLIATIVE",
-    "PONTIFICATE",
-    "DISINGENUOUS",
-    "TENACIOUS",
-    "EXEMPLARY",
     "PUNITIVE",
     "VOLATILITY",
     "PERNICIOUS",
@@ -59,13 +54,14 @@
     "EPITOME",
     "PRUDENT",
     "SCINTILLATING",
-    "SPURIOUS"
+    "SPURIOUS",
+    "IMPETUS",
+    "CONTRITE",
+    "PROGNOSTICATE",
+    "STRIDENT",
+    "RECIPROCITY"
   ],
   "idiom": [
-    "At loggerheads",
-    "On tenterhooks",
-    "Hit the panic button",
-    "Cut to the chase",
     "Turn a blind eye",
     "In hot water",
     "Turn a new leaf",
@@ -121,13 +117,13 @@
     "Beat around the bush",
     "Cry over spilt milk",
     "Bite your tongue",
-    "Under a cloud"
+    "Under a cloud",
+    "Across the board",
+    "To toe the line",
+    "To throw down the gauntlet",
+    "Steer clear of"
   ],
   "gk_booster": [
-    "Petroleum and Natural Gas Regulatory Board (PNGRB)",
-    "Prevention of Corruption Act (PCA), 1988",
-    "Coal India Limited (CIL)",
-    "Universal Service Obligation (USO) in Retail Fuel Marketing",
     "Office of the United States Trade Representative (USTR)",
     "Monetary Policy Committee (MPC)",
     "Foreign Exchange Reserves of India",
@@ -183,6 +179,10 @@
     "World Bank Group",
     "Election Commission of India (ECI)",
     "Reserve Bank of India (RBI)",
-    "Wholesale Price Index (WPI)"
+    "Wholesale Price Index (WPI)",
+    "Bharat Stage (BS) Emission Standards",
+    "Skill India Mission & PM-SETU Scheme",
+    "Foreign Exchange Risk Reserve & Derivatives Framework",
+    "Non-Tariff Barriers (NTBs) under WTO Framework"
   ]
 }
