@@ -66,7 +66,12 @@ def run_agent(
 
     # 2. Curate and structure for exam
     logger.info(f"Step 2: Curating exam-focused bulletin for {exam_type}...")
-    bulletin = curate_daily_bulletin(raw_articles, exam_type=exam_type, api_key=GEMINI_API_KEY)
+    bulletin = curate_daily_bulletin(
+        raw_articles,
+        exam_type=exam_type,
+        api_key=GEMINI_API_KEY,
+        dry_run=(dry_run or channel == "preview"),
+    )
 
     # 3. Format digests
     logger.info("Step 3: Formatting digests...")

@@ -4,7 +4,18 @@ Transforms structured bulletin data into Telegram-compatible messages (with chun
 and styled, responsive HTML emails for Gmail.
 """
 
+import html
 from typing import Dict, List
+
+
+def _safe_url(url: str) -> str:
+    """Validates and escapes URL to prevent javascript: or malformed attributes."""
+    if not url:
+        return ""
+    clean = url.strip()
+    if clean.startswith("http://") or clean.startswith("https://"):
+        return html.escape(clean, quote=True)
+    return ""
 
 
 def format_telegram_chunks(bulletin: Dict) -> List[str]:
@@ -181,19 +192,19 @@ def format_gmail_html(bulletin: Dict) -> str:
 
     categories_html = ""
     for cat in categories:
-        cat_name = cat.get("category_name", "General Affairs")
+        cat_name = html.escape(cat.get("category_name", "General Affairs"))
         items_html = ""
         items = cat.get("items", [])
         for idx, item in enumerate(items, 1):
-            title = item.get("title", "").strip()
-            tag = item.get("exam_tag", "")
+            title = html.escape(item.get("title", "").strip())
+            tag = html.escape(item.get("exam_tag", "") or "Current Affairs")
             raw_bullets = item.get("summary_bullets", [])
             filtered_bullets = [
                 b.strip() for b in raw_bullets
                 if b.strip() and not b.strip().lower().startswith("relevance:")
                 and "significant for" not in b.lower()
             ]
-            bullets_li = "".join([f"<li style='margin-bottom: 6px;'>{b}</li>" for b in filtered_bullets])
+            bullets_li = "".join([f"<li style='margin-bottom: 6px;'>{html.escape(b)}</li>" for b in filtered_bullets])
             desc_html = f"<ul style='margin: 0; padding-left: 20px; color: #475569; font-size: 14px; line-height: 1.5;'>{bullets_li}</ul>" if filtered_bullets else ""
 
             static_info = item.get("static_gk_or_deep_dive", "").strip()
@@ -204,12 +215,13 @@ def format_gmail_html(bulletin: Dict) -> str:
             if static_info:
                 static_section = f"""
                 <div style="background-color: #f1f5f9; padding: 8px 12px; border-radius: 6px; margin-top: 8px; font-size: 13px; color: #334155; border-left: 3px solid #0284c7;">
-                    <strong>💡 Static GK / Core Concept:</strong> {static_info}
+                    <strong>💡 Static GK / Core Concept:</strong> {html.escape(static_info)}
                 </div>
                 """
             source_link = ""
-            if item.get("link"):
-                source_link = f"<div style='margin-top: 6px;'><a href='{item.get('link')}' target='_blank' style='color: #2563eb; text-decoration: none; font-size: 12px;'>🔗 View Official Source &rarr;</a></div>"
+            safe_link = _safe_url(item.get("link", ""))
+            if safe_link:
+                source_link = f"<div style='margin-top: 6px;'><a href='{safe_link}' target='_blank' style='color: #2563eb; text-decoration: none; font-size: 12px;'>🔗 View Official Source &rarr;</a></div>"
 
             items_html += f"""
             <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
@@ -218,7 +230,7 @@ def format_gmail_html(bulletin: Dict) -> str:
                 </div>
                 <div style="margin-bottom: 10px;">
                     <span style="background-color: #e0e7ff; color: #3730a3; padding: 3px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; text-transform: uppercase;">
-                        {tag or 'Current Affairs'}
+                        {tag}
                     </span>
                 </div>
                 {desc_html}
@@ -240,18 +252,21 @@ def format_gmail_html(bulletin: Dict) -> str:
     if quiz:
         questions_html = ""
         for i, q in enumerate(quiz, 1):
-            options_li = "".join([f"<li style='margin-bottom: 4px;'>{opt}</li>" for opt in q.get("options", [])])
+            options_li = "".join([f"<li style='margin-bottom: 4px;'>{html.escape(str(opt))}</li>" for opt in q.get("options", [])])
+            q_text = html.escape(str(q.get('question', '')))
+            correct_text = html.escape(str(q.get('correct', '')))
+            exp_text = html.escape(str(q.get('explanation', '')))
             questions_html += f"""
             <div style="background-color: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 14px; margin-bottom: 14px;">
-                <p style="margin: 0 0 8px 0; font-weight: 600; color: #0f172a; font-size: 14px;">{q.get('question')}</p>
+                <p style="margin: 0 0 8px 0; font-weight: 600; color: #0f172a; font-size: 14px;">{q_text}</p>
                 <ul style="list-style-type: none; padding-left: 0; margin: 0 0 10px 0; font-size: 13px; color: #334155;">
                     {options_li}
                 </ul>
                 <details style="background: #f8fafc; padding: 8px 12px; border-radius: 6px; border: 1px dashed #94a3b8; font-size: 13px;">
                     <summary style="cursor: pointer; font-weight: bold; color: #0284c7;">Click to reveal Answer & Explanation</summary>
                     <div style="margin-top: 6px; color: #166534;">
-                        <strong>Correct Answer:</strong> Option {q.get('correct')}<br/>
-                        <span style="color: #475569;"><strong>Explanation:</strong> {q.get('explanation')}</span>
+                        <strong>Correct Answer:</strong> Option {correct_text}<br/>
+                        <span style="color: #475569;"><strong>Explanation:</strong> {exp_text}</span>
                     </div>
                 </details>
             </div>
@@ -259,7 +274,7 @@ def format_gmail_html(bulletin: Dict) -> str:
         quiz_html = f"""
         <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 12px; padding: 20px; margin-top: 30px;">
             <h2 style="margin: 0 0 4px 0; color: #1e40af; font-size: 18px;">🎯 Daily 5 Practice MCQs</h2>
-            <p style="margin: 0 0 16px 0; font-size: 13px; color: #64748b;">Test your retention for {exam} exams right away:</p>
+            <p style="margin: 0 0 16px 0; font-size: 13px; color: #64748b;">Test your retention for {html.escape(exam)} exams right away:</p>
             {questions_html}
         </div>
         """
@@ -270,12 +285,12 @@ def format_gmail_html(bulletin: Dict) -> str:
     if vocab_list:
         vocab_cards = ""
         for vocab in vocab_list:
-            w = vocab.get("word", "").upper()
-            pos = vocab.get("part_of_speech", "")
-            meaning = vocab.get("meaning", "")
-            syns = ", ".join(vocab.get("synonyms", []))
-            ants = ", ".join(vocab.get("antonyms", []))
-            ex = vocab.get("example_sentence", "")
+            w = html.escape(vocab.get("word", "").upper())
+            pos = html.escape(vocab.get("part_of_speech", ""))
+            meaning = html.escape(vocab.get("meaning", ""))
+            syns = html.escape(", ".join(vocab.get("synonyms", [])))
+            ants = html.escape(", ".join(vocab.get("antonyms", [])))
+            ex = html.escape(vocab.get("example_sentence", ""))
             vocab_cards += f"""
             <div style="background: #ffffff; border-radius: 8px; padding: 14px; border: 1px solid #f5d0fe; margin-bottom: 10px;">
                 <div style="margin-bottom: 6px;">
@@ -304,9 +319,9 @@ def format_gmail_html(bulletin: Dict) -> str:
     if idiom_list:
         idiom_cards = ""
         for idiom in idiom_list:
-            i_text = idiom.get("idiom", "")
-            i_meaning = idiom.get("meaning", "")
-            i_ex = idiom.get("example_sentence", "")
+            i_text = html.escape(idiom.get("idiom", ""))
+            i_meaning = html.escape(idiom.get("meaning", ""))
+            i_ex = html.escape(idiom.get("example_sentence", ""))
             idiom_cards += f"""
             <div style="background: #ffffff; border-radius: 8px; padding: 14px; border: 1px solid #fde68a; margin-bottom: 10px;">
                 <div style="margin-bottom: 6px;">
@@ -332,8 +347,8 @@ def format_gmail_html(bulletin: Dict) -> str:
     if booster_list:
         booster_cards = ""
         for booster in booster_list:
-            btitle = booster.get("title", "")
-            bbullets = "".join([f"<li style='margin-bottom: 6px;'>{b}</li>" for b in booster.get("bullets", [])])
+            btitle = html.escape(booster.get("title", ""))
+            bbullets = "".join([f"<li style='margin-bottom: 6px;'>{html.escape(b)}</li>" for b in booster.get("bullets", [])])
             booster_cards += f"""
             <div style="background: #ffffff; border-radius: 8px; padding: 14px; border: 1px solid #a7f3d0; margin-bottom: 10px;">
                 <h4 style="margin: 0 0 8px 0; font-size: 15px; color: #047857;">📌 {btitle}</h4>
@@ -352,12 +367,16 @@ def format_gmail_html(bulletin: Dict) -> str:
         </div>
         """
 
+    escaped_date = html.escape(str(date))
+    escaped_exam = html.escape(str(exam))
+    escaped_headline = html.escape(str(headline))
+
     full_html = f"""<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Daily Current Affairs - {date}</title>
+<title>Daily Current Affairs - {escaped_date}</title>
 </head>
 <body style="margin: 0; padding: 0; background-color: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b;">
     <div style="max-width: 680px; margin: 0 auto; padding: 24px 16px;">
@@ -365,20 +384,20 @@ def format_gmail_html(bulletin: Dict) -> str:
         <!-- Header Banner -->
         <div style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); border-radius: 14px; padding: 24px; text-align: center; color: #ffffff; margin-bottom: 24px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
             <div style="display: inline-block; background-color: rgba(255, 255, 255, 0.2); padding: 4px 12px; border-radius: 16px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 8px; margin-right: 6px;">
-                EXAM FOCUS: {exam}
+                EXAM FOCUS: {escaped_exam}
             </div>
             <div style="display: inline-block; background-color: {source_bg}; padding: 4px 12px; border-radius: 16px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 8px;">
                 {source_label}
             </div>
             <h1 style="margin: 0 0 6px 0; font-size: 24px; font-weight: 700;">Daily Current Affairs Digest</h1>
-            <p style="margin: 0; font-size: 14px; opacity: 0.9;">📅 {date} | Tailored for SSC, RRB, Banking & UPSC</p>
+            <p style="margin: 0; font-size: 14px; opacity: 0.9;">📅 {escaped_date} | Tailored for SSC, RRB, Banking & UPSC</p>
         </div>
 
         <!-- Executive Briefing -->
         <div style="background-color: #ffffff; border-left: 4px solid #3b82f6; border-radius: 8px; padding: 16px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
             <h3 style="margin: 0 0 6px 0; font-size: 14px; text-transform: uppercase; color: #2563eb; letter-spacing: 0.5px;">⚡ Executive Briefing</h3>
             <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #334155; font-weight: 500;">
-                {headline}
+                {escaped_headline}
             </p>
         </div>
 
@@ -514,31 +533,31 @@ def format_revision_digest_html(entries: List[Dict], start_date: str, end_date: 
     """
     days_html = ""
     for entry in entries:
-        day_date = entry.get("date", "")
+        day_date = html.escape(entry.get("date", ""))
         vocab_list = entry.get("vocab_words", [])
         idiom_list = entry.get("idioms_of_the_day", [])
         booster_list = entry.get("static_gk_boosters", [])
 
         vocab_cards = "".join([f"""
             <div style="background: #ffffff; border-radius: 8px; padding: 12px; border: 1px solid #f5d0fe; margin-bottom: 8px;">
-                <strong style="font-size: 15px; color: #701a75;">{v.get('word','').upper()}</strong>
-                <span style="background: #fdf2f8; color: #be185d; padding: 2px 6px; border-radius: 8px; font-size: 10px; margin-left: 6px; font-weight: 600;">{v.get('part_of_speech','')}</span>
-                <p style="margin: 4px 0 0 0; color: #374151; font-size: 13px; line-height: 1.4;">{v.get('meaning','')}</p>
+                <strong style="font-size: 15px; color: #701a75;">{html.escape(v.get('word','').upper())}</strong>
+                <span style="background: #fdf2f8; color: #be185d; padding: 2px 6px; border-radius: 8px; font-size: 10px; margin-left: 6px; font-weight: 600;">{html.escape(v.get('part_of_speech',''))}</span>
+                <p style="margin: 4px 0 0 0; color: #374151; font-size: 13px; line-height: 1.4;">{html.escape(v.get('meaning',''))}</p>
             </div>
         """ for v in vocab_list])
 
         idiom_cards = "".join([f"""
             <div style="background: #ffffff; border-radius: 8px; padding: 12px; border: 1px solid #fde68a; margin-bottom: 8px;">
-                <strong style="font-size: 15px; color: #78350f;">{i.get('idiom','')}</strong>
-                <p style="margin: 4px 0 0 0; color: #374151; font-size: 13px; line-height: 1.4;">{i.get('meaning','')}</p>
+                <strong style="font-size: 15px; color: #78350f;">{html.escape(i.get('idiom',''))}</strong>
+                <p style="margin: 4px 0 0 0; color: #374151; font-size: 13px; line-height: 1.4;">{html.escape(i.get('meaning',''))}</p>
             </div>
         """ for i in idiom_list])
 
         booster_cards = "".join([f"""
             <div style="background: #ffffff; border-radius: 8px; padding: 12px; border: 1px solid #a7f3d0; margin-bottom: 8px;">
-                <strong style="font-size: 14px; color: #047857;">📌 {b.get('title','')}</strong>
+                <strong style="font-size: 14px; color: #047857;">📌 {html.escape(b.get('title',''))}</strong>
                 <ul style="margin: 4px 0 0 0; padding-left: 18px; color: #374151; font-size: 12.5px; line-height: 1.4;">
-                    {"".join([f"<li>{bullet}</li>" for bullet in b.get('bullets', [])])}
+                    {"".join([f"<li>{html.escape(bullet)}</li>" for bullet in b.get('bullets', [])])}
                 </ul>
             </div>
         """ for b in booster_list])
@@ -569,7 +588,7 @@ def format_revision_digest_html(entries: List[Dict], start_date: str, end_date: 
                 10-DAY REVISION CHECKPOINT
             </div>
             <h1 style="margin: 0 0 6px 0; font-size: 22px; font-weight: 700;">Vocab, Idioms &amp; Static GK Revision</h1>
-            <p style="margin: 0; font-size: 13px; opacity: 0.9;">📅 {start_date} &rarr; {end_date}</p>
+            <p style="margin: 0; font-size: 13px; opacity: 0.9;">📅 {html.escape(start_date)} &rarr; {html.escape(end_date)}</p>
         </div>
 
         {days_html}
@@ -617,31 +636,31 @@ def format_revision_digest_pdf_html(entries: List[Dict], start_date: str, end_da
     """
     days_html = ""
     for entry in entries:
-        day_date = entry.get("date", "")
+        day_date = html.escape(entry.get("date", ""))
         vocab_list = entry.get("vocab_words", [])
         idiom_list = entry.get("idioms_of_the_day", [])
         booster_list = entry.get("static_gk_boosters", [])
 
         vocab_rows = "".join([f"""
             <div style="background-color: #fdf4ff; border: 1px solid #e9a8f2; padding: 10px; margin-bottom: 6px;">
-                <b style="color: #701a75; font-size: 13px;">{v.get('word','').upper()}</b>
-                <span style="color: #be185d; font-size: 10px;"> ({v.get('part_of_speech','')})</span><br/>
-                <span style="color: #374151; font-size: 11px;">{v.get('meaning','')}</span>
+                <b style="color: #701a75; font-size: 13px;">{html.escape(v.get('word','').upper())}</b>
+                <span style="color: #be185d; font-size: 10px;"> ({html.escape(v.get('part_of_speech',''))})</span><br/>
+                <span style="color: #374151; font-size: 11px;">{html.escape(v.get('meaning',''))}</span>
             </div>
         """ for v in vocab_list])
 
         idiom_rows = "".join([f"""
             <div style="background-color: #fffbeb; border: 1px solid #f5cf6b; padding: 10px; margin-bottom: 6px;">
-                <b style="color: #78350f; font-size: 13px;">{i.get('idiom','')}</b><br/>
-                <span style="color: #374151; font-size: 11px;">{i.get('meaning','')}</span>
+                <b style="color: #78350f; font-size: 13px;">{html.escape(i.get('idiom',''))}</b><br/>
+                <span style="color: #374151; font-size: 11px;">{html.escape(i.get('meaning',''))}</span>
             </div>
         """ for i in idiom_list])
 
         booster_rows = "".join([f"""
             <div style="background-color: #ecfdf5; border: 1px solid #86e0b8; padding: 10px; margin-bottom: 6px;">
-                <b style="color: #047857; font-size: 12px;">{b.get('title','')}</b>
+                <b style="color: #047857; font-size: 12px;">{html.escape(b.get('title',''))}</b>
                 <ul style="margin: 4px 0 0 0; padding-left: 16px; color: #374151; font-size: 10.5px;">
-                    {"".join([f"<li>{bullet}</li>" for bullet in b.get('bullets', [])])}
+                    {"".join([f"<li>{html.escape(bullet)}</li>" for bullet in b.get('bullets', [])])}
                 </ul>
             </div>
         """ for b in booster_list])
@@ -669,7 +688,7 @@ def format_revision_digest_pdf_html(entries: List[Dict], start_date: str, end_da
     <div style="background-color: #6d28d9; padding: 16px; text-align: center; color: #ffffff; margin-bottom: 20px;">
         <div style="font-size: 11px; letter-spacing: 1px;">10-DAY REVISION CHECKPOINT</div>
         <div style="font-size: 18px; font-weight: bold; margin-top: 6px;">Vocab, Idioms &amp; Static GK Revision</div>
-        <div style="font-size: 11px; margin-top: 4px;">{start_date} to {end_date}</div>
+        <div style="font-size: 11px; margin-top: 4px;">{html.escape(start_date)} to {html.escape(end_date)}</div>
     </div>
     {days_html}
 </body>

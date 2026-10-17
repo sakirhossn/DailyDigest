@@ -17,7 +17,7 @@ The agent collects real-time news from verified sources (Press Information Burea
 - ❓ **Daily 5 Exam MCQs:** Generates exam-standard practice questions with options, correct answer, and detailed explanations based on the day's news.
 - 📱 **Telegram Delivery:** Clean Markdown messages with emojis, source hyperlinks, spoiler-tagged quiz answers, and automatic chunking under Telegram's 4096-character limit.
 - ✉️ **Gmail Delivery:** Modern, responsive HTML email template featuring light/dark mode support, topic badges, and expandable answer keys.
-- 🤖 **AI-Powered & Resilient:** Uses Google Gemini (`gemini-3.6-flash`) for deep synthesis when configured, and features a built-in heuristic rule engine that works 100% offline without any API keys.
+- 🤖 **AI-Powered & Resilient:** Uses Google Gemini (`gemini-2.5-flash`) for deep synthesis when configured, and features a built-in heuristic rule engine that works 100% offline without any API keys.
 - ⏰ **Multiple Automation Options:** Run via a built-in scheduler, Windows Task Scheduler/cron, or free 24/7 cloud automation using GitHub Actions.
 - 📚 **Automated Revision:** Generates and emails a 10-day revision digest with a PDF attachment, compiling all vocab, idioms, and static GK points.
 - 🌐 **Web Archive:** Automatically archives every daily digest to a browsable web interface with a calendar-based navigator, powered by GitHub Pages.
@@ -69,11 +69,11 @@ SCHEDULE_TIME=09:30
 
 # --- Credentials (only fill what you need) ---
 
-# Telegram Bot (Optional, for Telegram delivery)
+# Telegram Bot (Optional, for Telegram delivery - supports multiple comma-separated chat IDs)
 TELEGRAM_BOT_TOKEN=your_bot_token_from_botfather
-TELEGRAM_CHAT_ID=your_personal_or_channel_chat_id
+TELEGRAM_CHAT_ID=12345678,87654321
 
-# Gmail SMTP (Optional, for Gmail delivery)
+# Gmail SMTP (Optional, for Gmail delivery - supports multiple comma-separated emails)
 GMAIL_USER=your_email@gmail.com
 GMAIL_APP_PASSWORD=xxxx xxxx xxxx xxxx
 GMAIL_TO=your_email@gmail.com,another_email@example.com
@@ -91,7 +91,7 @@ GEMINI_API_KEY=your_gemini_api_key
 1. Open Telegram and search for **[@BotFather](https://t.me/BotFather)**.
 2. Send `/newbot`, give it a name (e.g., `My Exam Digest`) and a username (e.g., `MyExamDigestBot`).
 3. Copy the **HTTP API token** and set `TELEGRAM_BOT_TOKEN` in your `.env` file.
-4. To get your chat ID, search for **[@userinfobot](https://t.me/userinfobot)**, send `/start`, and copy the numeric **Chat ID**. Set this as `TELEGRAM_CHAT_ID`.
+4. To get your chat ID, search for **[@userinfobot](https://t.me/userinfobot)**, send `/start`, and copy the numeric **Chat ID**. Set this as `TELEGRAM_CHAT_ID`. (For multiple recipients, separate chat IDs with commas: `12345678,87654321`).
 5. Start your new bot by opening its chat and clicking **Start**.
 
 ### 2. Gmail App Password (1 Minute)
@@ -137,7 +137,7 @@ python main.py --daemon
 1. Fork this repository to your own GitHub account.
 2. Go to your forked repository's **Settings > Secrets and variables > Actions**.
 3. Under **Repository secrets**, add the secrets you configured in your `.env` file: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `GMAIL_USER`, `GMAIL_APP_PASSWORD`, `GMAIL_TO`, and `GEMINI_API_KEY`.
-4. The workflow in `.github/workflows/daily_digest.yml` will automatically run every morning at **21:47 UTC** (3:17 AM IST), dispatch the digest, archive it, and check if a revision email needs to be sent.
+4. The workflow in `.github/workflows/daily_digest.yml` will automatically run every morning at **00:47 UTC** (06:17 AM IST), dispatch the digest, archive it, and check if a revision email needs to be sent.
 
 ### Option 2: Windows Task Scheduler (Runs on your PC)
 Run this command in PowerShell (from the project's root directory) to create a daily scheduled task.

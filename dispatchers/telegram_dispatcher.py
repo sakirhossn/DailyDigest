@@ -16,13 +16,25 @@ from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 logger = logging.getLogger(__name__)
 
 
-def test_telegram_connection(bot_token: Optional[str] = None, chat_id: Optional[str] = None) -> bool:
-    """Verifies that the bot token is valid and can access the given chat."""
-    token = (bot_token or TELEGRAM_BOT_TOKEN).strip()
-    target_chat = (chat_id or TELEGRAM_CHAT_ID).strip()
+def _mask_token(text: str, token: str) -> str:
+    """Masks bot token from error/log strings to prevent credential leakage."""
+    if token and token in text:
+        return text.replace(token, "[MASKED_BOT_TOKEN]")
+    return text
 
-    if not token or not target_chat:
+
+def test_telegram_connection(bot_token: Optional[str] = None, chat_id: Optional[str] = None) -> bool:
+    """Verifies that the bot token is valid and can access the given chat(s)."""
+    token = (bot_token or TELEGRAM_BOT_TOKEN).strip()
+    target_chats_raw = (chat_id or TELEGRAM_CHAT_ID).strip()
+
+    if not token or not target_chats_raw:
         logger.error("Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID.")
+        return False
+
+    chat_targets = [c.strip() for c in target_chats_raw.split(",") if c.strip()]
+    if not chat_targets:
+        logger.error("No valid chat IDs found in TELEGRAM_CHAT_ID.")
         return False
 
     url = f"https://api.telegram.org/bot{token}/getMe"
@@ -36,27 +48,30 @@ def test_telegram_connection(bot_token: Optional[str] = None, chat_id: Optional[
         bot_username = data.get("result", {}).get("username")
         logger.info(f"Connected to Telegram Bot: @{bot_username}")
 
-        # Send quick verification ping
+        # Send quick verification ping to each configured chat
+        all_passed = True
         test_msg_url = f"https://api.telegram.org/bot{token}/sendMessage"
-        ping_res = requests.post(
-            test_msg_url,
-            json={
-                "chat_id": target_chat,
-                "text": "🤖 *Daily Current Affairs Agent* connected successfully!",
-                "parse_mode": "Markdown",
-            },
-            timeout=10,
-        )
-        ping_data = ping_res.json()
-        if ping_data.get("ok"):
-            logger.info(f"Test message sent successfully to chat_id: {target_chat}")
-            return True
-        else:
-            logger.error(f"Failed to send test message: {ping_data.get('description')}")
-            return False
+        for target_chat in chat_targets:
+            ping_res = requests.post(
+                test_msg_url,
+                json={
+                    "chat_id": target_chat,
+                    "text": "🤖 *Daily Current Affairs Agent* connected successfully!",
+                    "parse_mode": "Markdown",
+                },
+                timeout=10,
+            )
+            ping_data = ping_res.json()
+            if ping_data.get("ok"):
+                logger.info(f"Test message sent successfully to chat_id: {target_chat}")
+            else:
+                logger.error(f"Failed to send test message to {target_chat}: {ping_data.get('description')}")
+                all_passed = False
+
+        return all_passed
 
     except Exception as e:
-        logger.error(f"Network error connecting to Telegram API: {e}")
+        logger.error(f"Network error connecting to Telegram API: {_mask_token(str(e), token)}")
         return False
 
 
@@ -90,7 +105,7 @@ def send_single_chunk(token: str, chat_id: str, text: str, retries: int = 2) -> 
             logger.error(f"Telegram sendMessage error: {data_plain.get('description')}")
 
         except Exception as e:
-            logger.error(f"Attempt {attempt + 1} failed: {e}")
+            logger.error(f"Attempt {attempt + 1} failed: {_mask_token(str(e), token)}")
 
         time.sleep(1)
 
@@ -98,31 +113,38 @@ def send_single_chunk(token: str, chat_id: str, text: str, retries: int = 2) -> 
 
 
 def dispatch_telegram(chunks: List[str], bot_token: Optional[str] = None, chat_id: Optional[str] = None) -> bool:
-    """Dispatches all formatted message chunks to Telegram."""
+    """Dispatches all formatted message chunks to configured Telegram chats."""
     token = (bot_token or TELEGRAM_BOT_TOKEN).strip()
-    target_chat = (chat_id or TELEGRAM_CHAT_ID).strip()
+    target_chats_raw = (chat_id or TELEGRAM_CHAT_ID).strip()
 
-    if not token or not target_chat:
+    if not token or not target_chats_raw:
         logger.error("Cannot dispatch to Telegram: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not configured in .env")
         return False
 
-    logger.info(f"Dispatching {len(chunks)} message chunks to Telegram chat {target_chat}...")
-    success_count = 0
+    chat_targets = [c.strip() for c in target_chats_raw.split(",") if c.strip()]
+    if not chat_targets:
+        logger.error("No valid chat IDs found in TELEGRAM_CHAT_ID.")
+        return False
 
-    for i, chunk in enumerate(chunks, 1):
-        if send_single_chunk(token, target_chat, chunk):
-            success_count += 1
-            # Brief delay to respect Telegram rate limits
-            time.sleep(0.5)
+    all_chats_succeeded = True
+    for target_chat in chat_targets:
+        logger.info(f"Dispatching {len(chunks)} message chunks to Telegram chat {target_chat}...")
+        success_count = 0
+        for i, chunk in enumerate(chunks, 1):
+            if send_single_chunk(token, target_chat, chunk):
+                success_count += 1
+                # Brief delay to respect Telegram rate limits
+                time.sleep(0.5)
+            else:
+                logger.error(f"Failed to deliver chunk {i}/{len(chunks)} to {target_chat}.")
+
+        if success_count == len(chunks):
+            logger.info(f"All Telegram message chunks delivered successfully to {target_chat}!")
         else:
-            logger.error(f"Failed to deliver chunk {i}/{len(chunks)}.")
+            logger.error(f"Incomplete delivery to {target_chat}: {success_count}/{len(chunks)} chunks sent.")
+            all_chats_succeeded = False
 
-    if success_count == len(chunks):
-        logger.info("All Telegram message chunks delivered successfully!")
-        return True
-    else:
-        logger.warning(f"Delivered {success_count}/{len(chunks)} chunks to Telegram.")
-        return success_count > 0
+    return all_chats_succeeded
 
 
 if __name__ == "__main__":

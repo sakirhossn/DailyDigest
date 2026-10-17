@@ -23,7 +23,11 @@ DISPATCH_CHANNEL = _raw_channel if _raw_channel in VALID_CHANNELS else "both"
 
 # Telegram Bot Settings
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+_raw_chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+TELEGRAM_CHAT_ID = _raw_chat_id
+TELEGRAM_CHAT_IDS = [
+    cid.strip() for cid in _raw_chat_id.split(",") if cid.strip()
+]
 
 # Gmail SMTP Settings
 GMAIL_USER = os.getenv("GMAIL_USER", "").strip()
@@ -36,15 +40,10 @@ GMAIL_TO = [
 
 # AI Intelligence (Gemini API)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-_raw_model = os.getenv("GEMINI_MODEL", "gemini-3.6-flash").strip()
-_deprecated_models = {
-    "gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.5-pro",
-    "gemini-2.0-flash", "gemini-2.0-flash-exp",
-    "gemini-1.5-flash", "gemini-1.5-pro"
-}
-GEMINI_MODEL = "gemini-3.6-flash" if (not _raw_model or _raw_model in _deprecated_models) else _raw_model
+_raw_model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash").strip()
+GEMINI_MODEL = _raw_model if _raw_model else "gemini-2.5-flash"
 
-# Scheduling
+# Scheduling (default morning execution)
 SCHEDULE_TIME = os.getenv("SCHEDULE_TIME", "09:37").strip()
 
 # Verified RSS Feeds for Exam Topics

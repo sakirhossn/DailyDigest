@@ -29,7 +29,36 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 REVISION_LOG_PATH = Path(__file__).resolve().parent / "docs" / "archive" / "revision_log.json"
+REVISION_STATE_PATH = Path(__file__).resolve().parent / "docs" / "archive" / "revision_state.json"
 REVISION_EVERY_N_DAYS = 10
+
+
+def load_revision_state(total_entries: int) -> dict:
+    """Loads previous revision state or sets baseline checkpoint."""
+    if REVISION_STATE_PATH.exists():
+        try:
+            with open(REVISION_STATE_PATH, "r", encoding="utf-8") as fh:
+                return json.load(fh)
+        except Exception as e:
+            logger.warning(f"Failed to read revision state: {e}")
+
+    # Baseline: if historical logs exist and no state was saved, baseline to highest completed previous decade
+    initial_checkpoint = (
+        ((total_entries - 1) // REVISION_EVERY_N_DAYS) * REVISION_EVERY_N_DAYS
+        if total_entries > 0
+        else 0
+    )
+    return {"last_revised_count": initial_checkpoint}
+
+
+def save_revision_state(state: dict):
+    """Saves checkpoint state atomically to disk."""
+    try:
+        REVISION_STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with open(REVISION_STATE_PATH, "w", encoding="utf-8") as fh:
+            json.dump(state, fh, indent=2)
+    except Exception as e:
+        logger.error(f"Failed to save revision state: {e}")
 
 
 def generate_pdf_bytes(pdf_safe_html: str):
@@ -59,20 +88,28 @@ def main():
     total = len(log)
     logger.info(f"Revision log currently has {total} daily entries.")
 
-    if total == 0 or total % REVISION_EVERY_N_DAYS != 0:
-        remainder = REVISION_EVERY_N_DAYS - (total % REVISION_EVERY_N_DAYS)
-        logger.info(f"Not a 10-day checkpoint yet ({remainder} more day(s) to go). Skipping revision email.")
+    state = load_revision_state(total)
+    last_revised = state.get("last_revised_count", 0)
+    pending_count = total - last_revised
+
+    if pending_count < REVISION_EVERY_N_DAYS:
+        remainder = REVISION_EVERY_N_DAYS - pending_count
+        logger.info(
+            f"Not a 10-day checkpoint yet ({pending_count}/{REVISION_EVERY_N_DAYS} accumulated since last revision; "
+            f"{remainder} more day(s) to go). Skipping revision email."
+        )
         return
 
-    last_10 = log[-REVISION_EVERY_N_DAYS:]
-    start_date = last_10[0].get("date", "")
-    end_date = last_10[-1].get("date", "")
+    # Extract exactly the next 10-day batch
+    revision_batch = log[last_revised : last_revised + REVISION_EVERY_N_DAYS]
+    start_date = revision_batch[0].get("date", "")
+    end_date = revision_batch[-1].get("date", "")
 
     logger.info(f"10-day checkpoint reached! Compiling revision digest for {start_date} to {end_date}...")
 
-    html_content = format_revision_digest_html(last_10, start_date, end_date)
-    plain_text = format_revision_digest_plain(last_10, start_date, end_date)
-    pdf_safe_html = format_revision_digest_pdf_html(last_10, start_date, end_date)
+    html_content = format_revision_digest_html(revision_batch, start_date, end_date)
+    plain_text = format_revision_digest_plain(revision_batch, start_date, end_date)
+    pdf_safe_html = format_revision_digest_pdf_html(revision_batch, start_date, end_date)
 
     pdf_bytes = generate_pdf_bytes(pdf_safe_html)
     attachments = []
@@ -97,6 +134,9 @@ def main():
 
     if success:
         logger.info("10-day revision digest sent successfully!")
+        state["last_revised_count"] = last_revised + REVISION_EVERY_N_DAYS
+        state["last_revised_date"] = end_date
+        save_revision_state(state)
     else:
         logger.error("Failed to send 10-day revision digest.")
 

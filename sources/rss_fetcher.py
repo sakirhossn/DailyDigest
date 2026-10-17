@@ -38,6 +38,7 @@ def clean_html(raw_html: str) -> str:
     for script_or_style in soup(["script", "style"]):
         script_or_style.decompose()
     text = soup.get_text(separator=" ")
+    text = re.sub(r"\s+([.,!?;:])", r"\1", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 

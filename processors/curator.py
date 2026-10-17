@@ -731,12 +731,17 @@ def curate_news_heuristic(
     }
 
 
-def curate_daily_bulletin(articles: List[Dict], exam_type: str = TARGET_EXAM, api_key: str = GEMINI_API_KEY) -> Dict:
+def curate_daily_bulletin(
+    articles: List[Dict],
+    exam_type: str = TARGET_EXAM,
+    api_key: str = GEMINI_API_KEY,
+    dry_run: bool = False,
+) -> Dict:
     """
     Main curation entry point:
-      - Tries Gemini up to 3 times (with backoff across active 3.x models)
+      - Tries Gemini up to 3 times (with backoff across candidate models)
       - If Gemini fails all 3 attempts, falls back gracefully to Heuristic engine
-    Tracks recently used vocab/idioms/GK topics across runs so content doesn't repeat.
+    Tracks recently used vocab/idioms/GK topics across runs so content doesn't repeat (skipped in dry_run).
     """
     import time
     used_content = load_used_content()
@@ -744,22 +749,15 @@ def curate_daily_bulletin(articles: List[Dict], exam_type: str = TARGET_EXAM, ap
 
     # --- Gemini (3 attempts with model diversity and backoff) ---
     if api_key:
-        deprecated = {
-            "gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.5-pro",
-            "gemini-2.0-flash", "gemini-2.0-flash-exp",
-            "gemini-1.5-flash", "gemini-1.5-pro"
-        }
-        candidate_models = [GEMINI_MODEL, "gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-3.5-flash"]
+        candidate_models = [GEMINI_MODEL, "gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-1.5-flash"]
         seen = set()
         gemini_models = []
         for m in candidate_models:
-            if m and m not in deprecated and m not in seen:
+            if m and m not in seen:
                 seen.add(m)
                 gemini_models.append(m)
-        if not gemini_models:
-            gemini_models = ["gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-3.5-flash"]
 
-        for attempt in range(1, 4):
+        for attempt in range(1, len(gemini_models) + 1 if len(gemini_models) < 3 else 4):
             model_to_use = gemini_models[(attempt - 1) % len(gemini_models)]
             logger.info(f"🔄 Gemini attempt {attempt}/3 using {model_to_use}...")
             result = curate_news_with_gemini(articles, exam_type, api_key, used_content, model_override=model_to_use)
@@ -772,16 +770,19 @@ def curate_daily_bulletin(articles: List[Dict], exam_type: str = TARGET_EXAM, ap
                 time.sleep(wait_time)
 
         if not result:
-            logger.warning("❌ Gemini failed all 3 attempts. Falling back to heuristic engine.")
+            logger.warning("❌ Gemini failed all attempts. Falling back to heuristic engine.")
 
     # --- Fallback: Heuristic Engine ---
     if not result:
         logger.info("📋 Using heuristic engine fallback. Vocab & GK will rotate daily.")
         result = curate_news_heuristic(articles, exam_type, used_content)
 
-    used_content = _record_used(used_content, result)
-    save_used_content(used_content)
-    append_revision_log(result)
+    if not dry_run:
+        used_content = _record_used(used_content, result)
+        save_used_content(used_content)
+        append_revision_log(result)
+    else:
+        logger.info("Dry-run/preview active: skipping updates to used_content.json and revision_log.json")
 
     return result
 
