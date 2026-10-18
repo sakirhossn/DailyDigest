@@ -17,7 +17,7 @@ The agent collects real-time news from verified sources (Press Information Burea
 - ❓ **Daily 5 Exam MCQs:** Generates exam-standard practice questions with options, correct answer, and detailed explanations based on the day's news.
 - 📱 **Telegram Delivery:** Clean Markdown messages with emojis, source hyperlinks, spoiler-tagged quiz answers, and automatic chunking under Telegram's 4096-character limit.
 - ✉️ **Gmail Delivery:** Modern, responsive HTML email template featuring light/dark mode support, topic badges, and expandable answer keys.
-- 🤖 **AI-Powered & Resilient:** Uses Google Gemini (`gemini-2.5-flash`) for deep synthesis when configured, and features a built-in heuristic rule engine that works 100% offline without any API keys.
+- 🤖 **AI-Powered & Resilient:** Uses Google Gemini (`gemini-3.8-flash`) for deep synthesis when configured, and features a built-in heuristic rule engine that works 100% offline without any API keys.
 - ⏰ **Multiple Automation Options:** Run via a built-in scheduler, Windows Task Scheduler/cron, or free 24/7 cloud automation using GitHub Actions.
 - 📚 **Automated Revision:** Generates and emails a 10-day revision digest with a PDF attachment, compiling all vocab, idioms, and static GK points.
 - 🌐 **Web Archive:** Automatically archives every daily digest to a browsable web interface with a calendar-based navigator, powered by GitHub Pages.

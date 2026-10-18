@@ -749,7 +749,7 @@ def curate_daily_bulletin(
 
     # --- Gemini (3 attempts with model diversity and backoff) ---
     if api_key:
-        candidate_models = [GEMINI_MODEL, "gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-1.5-flash"]
+        candidate_models = [GEMINI_MODEL, "gemini-3.8-flash", "gemini-3.5-flash-lite", "gemini-3.5-flash"]
         seen = set()
         gemini_models = []
         for m in candidate_models:
