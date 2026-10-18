@@ -5758,5 +5758,157 @@
         ]
       }
     ]
+  },
+  {
+    "date": "18 October 2026",
+    "vocab_words": [
+      {
+        "word": "PRAGMATIC",
+        "part_of_speech": "Adjective",
+        "meaning": "Dealing with problems in a sensible, practical way rather than through theory.",
+        "synonyms": [
+          "practical",
+          "realistic",
+          "sensible"
+        ],
+        "antonyms": [
+          "idealistic",
+          "impractical"
+        ],
+        "example_sentence": "Economists praised the government's pragmatic approach to managing inflation."
+      },
+      {
+        "word": "CONSOLIDATE",
+        "part_of_speech": "Verb",
+        "meaning": "To combine or strengthen into a more effective or coherent whole.",
+        "synonyms": [
+          "strengthen",
+          "unify",
+          "merge",
+          "solidify"
+        ],
+        "antonyms": [
+          "weaken",
+          "fragment",
+          "divide"
+        ],
+        "example_sentence": "The merger aims to consolidate the bank's position in the retail lending market."
+      },
+      {
+        "word": "DIVERGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Tending to develop differently or move in different directions.",
+        "synonyms": [
+          "differing",
+          "varying",
+          "conflicting"
+        ],
+        "antonyms": [
+          "convergent",
+          "similar",
+          "uniform"
+        ],
+        "example_sentence": "The committee members held divergent views on the proposed constitutional amendment."
+      },
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a bad or unsatisfactory situation better.",
+        "synonyms": [
+          "improve",
+          "enhance",
+          "alleviate"
+        ],
+        "antonyms": [
+          "worsen",
+          "aggravate"
+        ],
+        "example_sentence": "The new subsidy scheme is expected to ameliorate rural farmers' financial distress."
+      },
+      {
+        "word": "SCRUTINIZE",
+        "part_of_speech": "Verb",
+        "meaning": "To examine or inspect something closely and thoroughly.",
+        "synonyms": [
+          "examine",
+          "inspect",
+          "analyze"
+        ],
+        "antonyms": [
+          "overlook",
+          "ignore"
+        ],
+        "example_sentence": "The parliamentary panel scrutinized the budget allocations line by line."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Under the weather",
+        "meaning": "Feeling slightly ill.",
+        "example_sentence": "Though feeling under the weather, the minister still attended the parliamentary session."
+      },
+      {
+        "idiom": "Get the ball rolling",
+        "meaning": "To start something or set a process in motion.",
+        "example_sentence": "The ministry got the ball rolling on the new skill development scheme this week."
+      },
+      {
+        "idiom": "Read between the lines",
+        "meaning": "To understand a hidden or implied meaning beyond what is directly stated.",
+        "example_sentence": "Analysts had to read between the lines of the RBI governor's cautious statement."
+      },
+      {
+        "idiom": "Back to the drawing board",
+        "meaning": "To start a task or plan again because the previous attempt failed.",
+        "example_sentence": "After the bill was rejected in the assembly, the committee went back to the drawing board."
+      },
+      {
+        "idiom": "On the same page",
+        "meaning": "In agreement; having the same understanding of a situation.",
+        "example_sentence": "All coalition partners were finally on the same page regarding the disaster relief bill."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "National Green Tribunal (NGT)",
+        "bullets": [
+          "Established in 2010 under the National Green Tribunal Act for effective environmental dispute resolution.",
+          "Has original jurisdiction over substantial questions relating to the environment.",
+          "Principal bench is located in New Delhi, with regional benches across India."
+        ]
+      },
+      {
+        "title": "Finance Commission of India",
+        "bullets": [
+          "Constituted under Article 280 of the Constitution, typically every five years.",
+          "Recommends the distribution of tax revenues between the Union and the States.",
+          "Headed by a Chairman appointed by the President of India."
+        ]
+      },
+      {
+        "title": "National Human Rights Commission (NHRC)",
+        "bullets": [
+          "Established under the Protection of Human Rights Act, 1993.",
+          "A statutory (not constitutional) body headquartered in New Delhi.",
+          "Typically headed by a retired Chief Justice of India."
+        ]
+      },
+      {
+        "title": "Monetary Policy Committee (MPC) & RBI Basics",
+        "bullets": [
+          "Constituted under Section 45ZB of the Reserve Bank of India Act, 1934.",
+          "Consists of 6 members: 3 from RBI (including RBI Governor as ex-officio Chairperson) and 3 external members appointed by the Government.",
+          "Each member has one vote; the Governor has a casting vote in case of a tie."
+        ]
+      },
+      {
+        "title": "Ramsar Sites & Wetlands in India",
+        "bullets": [
+          "Ramsar Convention (1971) is an international treaty for the conservation of wetlands.",
+          "India has one of the largest networks of Ramsar sites in Asia, spread across multiple states.",
+          "Wetlands act as natural water purifiers and are critical for migratory bird habitats."
+        ]
+      }
+    ]
   }
 ]

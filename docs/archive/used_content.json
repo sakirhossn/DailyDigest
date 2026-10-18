@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "PUNITIVE",
-    "VOLATILITY",
-    "PERNICIOUS",
-    "EXACERBATE",
-    "BOUNTIFUL",
     "CACOPHONY",
     "OBFUSCATE",
     "PANEGYRIC",
@@ -59,14 +54,14 @@
     "CONTRITE",
     "PROGNOSTICATE",
     "STRIDENT",
-    "RECIPROCITY"
+    "RECIPROCITY",
+    "PRAGMATIC",
+    "CONSOLIDATE",
+    "DIVERGENT",
+    "AMELIORATE",
+    "SCRUTINIZE"
   ],
   "idiom": [
-    "Turn a blind eye",
-    "In hot water",
-    "Turn a new leaf",
-    "Burning the candle at both ends",
-    "A double-edged sword",
     "To clear the air",
     "To turn a corner",
     "Rock the boat",
@@ -121,14 +116,14 @@
     "Across the board",
     "To toe the line",
     "To throw down the gauntlet",
-    "Steer clear of"
+    "Steer clear of",
+    "Under the weather",
+    "Get the ball rolling",
+    "Read between the lines",
+    "Back to the drawing board",
+    "On the same page"
   ],
   "gk_booster": [
-    "Office of the United States Trade Representative (USTR)",
-    "Monetary Policy Committee (MPC)",
-    "Foreign Exchange Reserves of India",
-    "BRICS Bloc Evolution",
-    "Central Secretariat Library (CSL)",
     "Kakatiya Dynasty & Thousand Pillar Temple",
     "MSME Classification Framework in India",
     "Election Commission of India (ECI) & Article 324",
@@ -183,6 +178,11 @@
     "Bharat Stage (BS) Emission Standards",
     "Skill India Mission & PM-SETU Scheme",
     "Foreign Exchange Risk Reserve & Derivatives Framework",
-    "Non-Tariff Barriers (NTBs) under WTO Framework"
+    "Non-Tariff Barriers (NTBs) under WTO Framework",
+    "National Green Tribunal (NGT)",
+    "Finance Commission of India",
+    "National Human Rights Commission (NHRC)",
+    "Monetary Policy Committee (MPC) & RBI Basics",
+    "Ramsar Sites & Wetlands in India"
   ]
 }
