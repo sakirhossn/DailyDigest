@@ -10,9 +10,21 @@ from unittest.mock import patch
 class TestConfig(unittest.TestCase):
 
     def test_default_gemini_model_is_valid(self):
-        """Ensure default GEMINI_MODEL is gemini-2.5-flash and not fictitious gemini-3.6-flash."""
+        """Ensure default GEMINI_MODEL is gemini-3.8-flash."""
+        import importlib
         import config
-        self.assertEqual(config.GEMINI_MODEL, "gemini-2.5-flash")
+        with patch.dict(os.environ, {}, clear=True):
+            importlib.reload(config)
+            self.assertEqual(config.GEMINI_MODEL, "gemini-3.8-flash")
+
+    def test_deprecated_gemini_model_auto_migrated(self):
+        """Ensure legacy models (e.g. gemini-2.5-flash) are automatically migrated to gemini-3.8-flash."""
+        import importlib
+        import config
+        for legacy in ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-1.5-flash"]:
+            with patch.dict(os.environ, {"GEMINI_MODEL": legacy}):
+                importlib.reload(config)
+                self.assertEqual(config.GEMINI_MODEL, "gemini-3.8-flash")
 
     def test_telegram_chat_ids_parsing(self):
         """Ensure comma-separated chat IDs are parsed correctly."""
