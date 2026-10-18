@@ -5910,5 +5910,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "18 October 2026",
+    "vocab_words": [
+      {
+        "word": "UBIQUITOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Present, appearing, or found everywhere at the same time.",
+        "synonyms": [
+          "omnipresent",
+          "pervasive",
+          "universal"
+        ],
+        "antonyms": [
+          "rare",
+          "scarce",
+          "uncommon"
+        ],
+        "example_sentence": "Digital payment platforms have become ubiquitous across urban and rural markets alike."
+      },
+      {
+        "word": "CAPRICIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Given to sudden and unaccountable changes of mood or behavior; erratic.",
+        "synonyms": [
+          "fickle",
+          "mercurial",
+          "volatile"
+        ],
+        "antonyms": [
+          "stable",
+          "consistent",
+          "predictable"
+        ],
+        "example_sentence": "Agricultural output remains vulnerable to the capricious patterns of tropical monsoons."
+      },
+      {
+        "word": "EQUANIMITY",
+        "part_of_speech": "Noun",
+        "meaning": "Mental calmness, composure, and evenness of temper, especially in a difficult situation.",
+        "synonyms": [
+          "serenity",
+          "poise",
+          "aplomb"
+        ],
+        "antonyms": [
+          "agitation",
+          "anxiety",
+          "discomposure"
+        ],
+        "example_sentence": "The central bank governor addressed the currency depreciation pressures with remarkable equanimity."
+      },
+      {
+        "word": "OBVIATE",
+        "part_of_speech": "Verb",
+        "meaning": "To remove a need or difficulty; to anticipate and prevent.",
+        "synonyms": [
+          "preclude",
+          "forestall",
+          "eliminate"
+        ],
+        "antonyms": [
+          "necessitate",
+          "foster",
+          "cause"
+        ],
+        "example_sentence": "Automated digital verification of identity will obviate the requirement for physical document queues."
+      },
+      {
+        "word": "PERFIDIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Deceitful and untrustworthy; guilty of deliberately betraying trust.",
+        "synonyms": [
+          "treacherous",
+          "disloyal",
+          "duplicitous"
+        ],
+        "antonyms": [
+          "faithful",
+          "loyal",
+          "dependable"
+        ],
+        "example_sentence": "The trade committee reprimanded the consortium for perfidious business practices that violated market integrity."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "At the drop of a hat",
+        "meaning": "Without any hesitation, delay, or prior planning; immediately.",
+        "example_sentence": "The emergency response team was primed to deploy to the flood-affected delta at the drop of a hat."
+      },
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work or study late into the night.",
+        "example_sentence": "Aspirants preparing for competitive banking and civil services exams routinely burn the midnight oil."
+      },
+      {
+        "idiom": "Call it a day",
+        "meaning": "To decide or agree to stop doing something, especially work, for the rest of the day.",
+        "example_sentence": "Having resolved the final legislative deadlock over the finance bill, the committee decided to call it a day."
+      },
+      {
+        "idiom": "Barking up the wrong tree",
+        "meaning": "Pursuing a mistaken line of thought, misdirecting one's efforts or accusations.",
+        "example_sentence": "The investigating agency was barking up the wrong tree by auditing the supplier rather than the shell company."
+      },
+      {
+        "idiom": "Cost an arm and a leg",
+        "meaning": "To be extremely expensive or exorbitant in price.",
+        "example_sentence": "Imported high-precision medical machinery can cost an arm and a leg for secondary healthcare clinics."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Right to Information (RTI) Act, 2005",
+        "bullets": [
+          "Enacted by the Parliament of India, coming fully into force on 12 October 2005, giving statutory expression to Article 19(1)(a) freedom of speech and expression.",
+          "Under Section 7(1), public information officers must provide information within 30 days of receiving the request (48 hours if it concerns the life or liberty of a person).",
+          "Section 8(1) sets forth categorical exemptions from disclosure, including sovereign security, commercial confidence, and personal privacy without overriding public interest."
+        ]
+      },
+      {
+        "title": "Northeast Monsoon (Retreating Monsoon) & IMD Framework",
+        "bullets": [
+          "Originates due to the southward shift of the Inter-Tropical Convergence Zone (ITCZ) during October to December, blowing from northeast to southwest.",
+          "Crucial for the southern peninsula, specifically Tamil Nadu, coastal Andhra Pradesh, Rayalaseema, and south interior Karnataka, replenishing major reservoirs.",
+          "The India Meteorological Department (IMD), established in 1875 and headquartered in New Delhi, serves as the nodal forecasting agency under the Ministry of Earth Sciences."
+        ]
+      },
+      {
+        "title": "MSME Composite Classification Criteria (2020 Framework)",
+        "bullets": [
+          "Effective 1 July 2020, India replaced the segregated manufacturing and services categorization with a composite threshold of Investment in Plant & Machinery/Equipment and Annual Turnover.",
+          "Micro: Investment \u2264 \u20b91 crore and Turnover \u2264 \u20b95 crore; Small: Investment \u2264 \u20b910 crore and Turnover \u2264 \u20b950 crore.",
+          "Medium: Investment \u2264 \u20b950 crore and Turnover \u2264 \u20b9250 crore; exports of goods and services are excluded from the turnover calculation."
+        ]
+      },
+      {
+        "title": "Directorate General of Training (DGT) and Vocational Framework",
+        "bullets": [
+          "DGT functions as the principal policy-making body for vocational training and apprenticeships under the Ministry of Skill Development and Entrepreneurship (MSDE).",
+          "It manages the Craftsmen Training Scheme (CTS) implemented through government and private Industrial Training Institutes (ITIs).",
+          "National Council for Vocational Education and Training (NCVET) regulates and oversees national vocational qualifications, ensuring standardization across awarding bodies."
+        ]
+      },
+      {
+        "title": "International Development Association (IDA) - World Bank Group",
+        "bullets": [
+          "Established in 1960 as the soft-loan window of the World Bank Group, headquartered in Washington, D.C.",
+          "Provides grants and zero to low-interest concessional credits (with maturities extending up to 30\u201340 years) to the world's 75 poorest developing nations.",
+          "Replenished every three years by donor partner countries; India successfully graduated from IDA borrower status in 2014 and is now an IDA donor."
+        ]
+      }
+    ]
   }
 ]
