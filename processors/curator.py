@@ -366,6 +366,7 @@ def curate_news_with_gemini(
     model = model_override or GEMINI_MODEL
     try:
         from google import genai
+        from google.genai import types
         client = genai.Client(api_key=api_key)
         today_str = datetime.date.today().strftime("%d %B %Y")
         prompt = build_gemini_prompt(
@@ -376,9 +377,16 @@ def curate_news_with_gemini(
         )
 
         logger.info(f"Calling Gemini ({model}) for {exam_type} curation...")
+        config = types.GenerateContentConfig(
+            response_mime_type="application/json",
+            automatic_function_calling=types.AutomaticFunctionCallingConfig(
+                disable=True
+            ),
+        )
         response = client.models.generate_content(
             model=model,
             contents=prompt,
+            config=config,
         )
 
         bulletin_data = _extract_json(response.text)

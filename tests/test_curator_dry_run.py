@@ -64,7 +64,40 @@ Evaluating syllabus relevance for SSC CGL and UPSC GS-2...
         self.assertIsNotNone(bulletin)
         mock_save.assert_not_called()
         mock_append.assert_not_called()
+    @patch("google.genai.Client")
+    def test_curate_news_with_gemini_config(self, mock_client_cls):
+        """Ensure curate_news_with_gemini passes GenerateContentConfig with AFC disabled."""
+        from unittest.mock import MagicMock
+        from processors.curator import curate_news_with_gemini
+
+        mock_instance = MagicMock()
+        mock_client_cls.return_value = mock_instance
+        mock_response = MagicMock()
+        mock_response.text = json.dumps({
+            "date": "18 October 2026",
+            "exam_type": "ALL",
+            "headline_summary": "Test summary",
+            "categories": [],
+            "daily_quiz": [],
+            "vocabulary": [],
+            "idioms": [],
+            "gk_boosters": [],
+        })
+        mock_instance.models.generate_content.return_value = mock_response
+
+        articles = [{"category": "General", "title": "Headline", "summary": "Body", "link": "https://example.com", "published": "2026-10-18"}]
+        bulletin = curate_news_with_gemini(articles, "ALL", "fake_key", model_override="gemini-3.8-flash")
+
+        self.assertIsNotNone(bulletin)
+        mock_instance.models.generate_content.assert_called_once()
+        _, kwargs = mock_instance.models.generate_content.call_args
+        self.assertEqual(kwargs.get("model"), "gemini-3.8-flash")
+        config = kwargs.get("config")
+        self.assertIsNotNone(config)
+        self.assertEqual(config.response_mime_type, "application/json")
+        self.assertTrue(config.automatic_function_calling.disable)
 
 
 if __name__ == "__main__":
     unittest.main()
+
