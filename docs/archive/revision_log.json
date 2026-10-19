@@ -6064,5 +6064,158 @@
         ]
       }
     ]
+  },
+  {
+    "date": "19 October 2026",
+    "vocab_words": [
+      {
+        "word": "RESILIENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Able to withstand or recover quickly from difficult conditions.",
+        "synonyms": [
+          "hardy",
+          "robust",
+          "adaptable"
+        ],
+        "antonyms": [
+          "fragile",
+          "vulnerable",
+          "weak"
+        ],
+        "example_sentence": "The Indian economy has proven remarkably resilient despite global trade shocks."
+      },
+      {
+        "word": "EXPEDITE",
+        "part_of_speech": "Verb",
+        "meaning": "Make an action or process happen sooner or be accomplished more quickly.",
+        "synonyms": [
+          "accelerate",
+          "hasten",
+          "speed up"
+        ],
+        "antonyms": [
+          "delay",
+          "hinder",
+          "slow down"
+        ],
+        "example_sentence": "The ministry took immediate steps to expedite the disbursement of funds for skilling clusters."
+      },
+      {
+        "word": "PARADIGM",
+        "part_of_speech": "Noun",
+        "meaning": "A typical example or pattern of something; a model.",
+        "synonyms": [
+          "archetype",
+          "model",
+          "standard"
+        ],
+        "antonyms": [
+          "anomaly",
+          "deviation"
+        ],
+        "example_sentence": "Artificial intelligence represents a new paradigm in global technological productivity."
+      },
+      {
+        "word": "BENEVOLENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Well meaning and kindly; charitable.",
+        "synonyms": [
+          "altruistic",
+          "kindhearted",
+          "beneficent"
+        ],
+        "antonyms": [
+          "malevolent",
+          "cruel",
+          "hostile"
+        ],
+        "example_sentence": "Corporate foundations often play a benevolent role in upgrading public educational institutions."
+      },
+      {
+        "word": "SCRUPULOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Diligently, extremely attentive to details; very concerned to avoid doing wrong.",
+        "synonyms": [
+          "meticulous",
+          "conscientious",
+          "pains-taking"
+        ],
+        "antonyms": [
+          "careless",
+          "lax",
+          "negligent"
+        ],
+        "example_sentence": "Financial regulators maintain scrupulous oversight of banking transactions."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Spick and span",
+        "meaning": "Neat, clean, and in very good condition.",
+        "example_sentence": "The heritage exhibition grounds were kept spick and span for international delegates."
+      },
+      {
+        "idiom": "A double-edged sword",
+        "meaning": "A situation or course of action that has both favorable and unfavorable consequences.",
+        "example_sentence": "Rapid artificial intelligence integration can be a double-edged sword for employment markets."
+      },
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work or study late into the night.",
+        "example_sentence": "Civil services aspirants often burn the midnight oil to cover vast current affairs syllabi."
+      },
+      {
+        "idiom": "Break the ice",
+        "meaning": "To do or say something to relieve tension or get a conversation started in a strained situation.",
+        "example_sentence": "Bilateral trade discussions helped break the ice between the negotiating delegations."
+      },
+      {
+        "idiom": "Read between the lines",
+        "meaning": "To understand the hidden meaning or underlying intent of something written or spoken.",
+        "example_sentence": "Economists had to read between the lines of the central bank's monetary statement to predict future interest rates."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Ministry of Textiles and Export Promotion Councils",
+        "bullets": [
+          "Headquarters: New Delhi, India.",
+          "Responsible for policy formulation, export promotion, and skill development across the entire textile value chain.",
+          "Oversees various Export Promotion Councils (EPCs) such as AEPC and TEXPROCIL."
+        ]
+      },
+      {
+        "title": "World Bank Group Composition",
+        "bullets": [
+          "Comprises five distinct institutions: IBRD, IDA, IFC, MIGA, and ICSID.",
+          "Established in 1944 following the Bretton Woods Agreement.",
+          "Headquartered in Washington, D.C., USA, with the primary objective of reducing global poverty."
+        ]
+      },
+      {
+        "title": "Industrial Training Institutes (ITIs) in India",
+        "bullets": [
+          "Operate under the Directorate General of Training (DGT), Ministry of Skill Development and Entrepreneurship.",
+          "Provide vocational training across various engineering and non-engineering trades to school leavers.",
+          "Designed to supply skilled technical personnel to domestic industries."
+        ]
+      },
+      {
+        "title": "Kambala Traditional Sport",
+        "bullets": [
+          "Traditional buffalo race conducted annually in the coastal Karnataka region (Tulunadu).",
+          "Held in slushy, water-filled paddy fields amidst lively traditional music and large crowds.",
+          "Recognised as an integral element of rural folk culture and heritage preservation."
+        ]
+      },
+      {
+        "title": "Mysuru Dasara (Nada Habba)",
+        "bullets": [
+          "State festival of Karnataka celebrating the victory of Goddess Chamundeshwari over Mahishasura.",
+          "Features the iconic 'Jamboo Savari' grand elephant procession starting from the Mysuru Palace.",
+          "Marks the culmination of nine nights of Navaratri festivities."
+        ]
+      }
+    ]
   }
 ]

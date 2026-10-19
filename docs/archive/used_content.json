@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "DESUETUDE",
-    "PROSCRIPTIVE",
-    "SUBJUGATE",
     "INTREPID",
     "PARADIGM",
     "EQUIVOCATE",
@@ -59,11 +56,12 @@
     "CAPRICIOUS",
     "EQUANIMITY",
     "OBVIATE",
-    "PERFIDIOUS"
+    "PERFIDIOUS",
+    "RESILIENT",
+    "EXPEDITE",
+    "SCRUPULOUS"
   ],
   "idiom": [
-    "A storm in a teacup",
-    "Burn the midnight oil",
     "Cut through the red tape",
     "Sail close to the wind",
     "Face the music",
@@ -121,14 +119,11 @@
     "On the same page",
     "At the drop of a hat",
     "Call it a day",
-    "Barking up the wrong tree"
+    "Barking up the wrong tree",
+    "A double-edged sword",
+    "Break the ice"
   ],
   "gk_booster": [
-    "Repo Rate and Monetary Policy Committee (MPC)",
-    "Ministry of Statistics and Programme Implementation (MoSPI)",
-    "European Union Artificial Intelligence Act",
-    "Reserve Bank of India (RBI) Structure",
-    "Goods and Services Tax (GST) Council",
     "El Ni\u00f1o and Indian Monsoon Dynamics",
     "Gross Value Added (GVA) in National Accounts",
     "Integrated Goods and Services Tax (IGST)",
@@ -183,6 +178,11 @@
     "Northeast Monsoon (Retreating Monsoon) & IMD Framework",
     "MSME Composite Classification Criteria (2020 Framework)",
     "Directorate General of Training (DGT) and Vocational Framework",
-    "International Development Association (IDA) - World Bank Group"
+    "International Development Association (IDA) - World Bank Group",
+    "Ministry of Textiles and Export Promotion Councils",
+    "World Bank Group Composition",
+    "Industrial Training Institutes (ITIs) in India",
+    "Kambala Traditional Sport",
+    "Mysuru Dasara (Nada Habba)"
   ]
 }
