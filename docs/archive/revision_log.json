@@ -6217,5 +6217,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "20 October 2026",
+    "vocab_words": [
+      {
+        "word": "TACITURN",
+        "part_of_speech": "Adjective",
+        "meaning": "Habitually reserved, silent, or uncommunicative in speech",
+        "synonyms": [
+          "reticent",
+          "laconic",
+          "uncommunicative"
+        ],
+        "antonyms": [
+          "loquacious",
+          "garrulous"
+        ],
+        "example_sentence": "The chief negotiator remained taciturn throughout the press briefing, refusing to speculate on ongoing boundary talks."
+      },
+      {
+        "word": "VOCIFEROUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Expressing feelings or opinions in a loud, forceful, or passionate manner",
+        "synonyms": [
+          "clamorous",
+          "vehement",
+          "outspoken"
+        ],
+        "antonyms": [
+          "muted",
+          "subdued"
+        ],
+        "example_sentence": "Domestic manufacturers offered vociferous support for tariffs aimed at curbing cheap imports."
+      },
+      {
+        "word": "INCHOATE",
+        "part_of_speech": "Adjective",
+        "meaning": "Just begun and so not fully formed or developed; rudimentary",
+        "synonyms": [
+          "nascent",
+          "embryonic",
+          "rudimentary"
+        ],
+        "antonyms": [
+          "mature",
+          "developed"
+        ],
+        "example_sentence": "The multilateral initiative is still in an inchoate stage, lacking formal operational protocols."
+      },
+      {
+        "word": "SANGUINE",
+        "part_of_speech": "Adjective",
+        "meaning": "Optimistic or positive, especially in an apparently bad or difficult situation",
+        "synonyms": [
+          "buoyant",
+          "hopeful",
+          "optimistic"
+        ],
+        "antonyms": [
+          "pessimistic",
+          "despondent"
+        ],
+        "example_sentence": "The central bank governor sounded sanguine about domestic growth prospects despite severe global capital flight."
+      },
+      {
+        "word": "ESCHEW",
+        "part_of_speech": "Verb",
+        "meaning": "Deliberately avoid using; abstain from",
+        "synonyms": [
+          "shun",
+          "renounce",
+          "forgo"
+        ],
+        "antonyms": [
+          "embrace",
+          "indulge"
+        ],
+        "example_sentence": "Modern trade agreements often eschew protectionist tariffs in favor of harmonized technical standards."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work or study late into the night",
+        "example_sentence": "Civil service aspirants often burn the midnight oil while revising dynamic general studies modules."
+      },
+      {
+        "idiom": "Once in a blue moon",
+        "meaning": "An event that happens very rarely",
+        "example_sentence": "Major comprehensive free trade agreements entering into force without friction occur once in a blue moon."
+      },
+      {
+        "idiom": "Spill the beans",
+        "meaning": "To disclose a secret or reveal confidential information prematurely",
+        "example_sentence": "The official refused to spill the beans regarding the fiscal incentives earmarked in the upcoming semiconductor scheme."
+      },
+      {
+        "idiom": "Take with a grain of salt",
+        "meaning": "To view something with skepticism or not accept it as completely true",
+        "example_sentence": "Preliminary polling figures before nominations close must be taken with a grain of salt."
+      },
+      {
+        "idiom": "Throw in the towel",
+        "meaning": "To admit defeat or give up trying",
+        "example_sentence": "Despite escalating supply-chain bottlenecks, the green tech firm refused to throw in the towel on its fabrication facility."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Representation of the People Act (RPA), 1951 - Section 8",
+        "bullets": [
+          "Enacted by the Provisional Parliament under Article 327 of the Constitution to regulate qualifications, disqualifications, and election disputes.",
+          "Section 8(3) mandates that any person convicted of an offence and sentenced to at least two years imprisonment is disqualified from contesting elections from the conviction date and continues to be disqualified for six years post-release.",
+          "In Lily Thomas v. Union of India (2013), the Supreme Court nullified Section 8(4), ruling that sitting MPs and MLAs cannot enjoy immunity from immediate disqualification merely by filing an appeal."
+        ]
+      },
+      {
+        "title": "Constitutional Adjudication of Inter-State Disputes (Article 131 & 263)",
+        "bullets": [
+          "Article 131 gives the Supreme Court exclusive original jurisdiction in disputes between the Government of India and one or more States, or between two or more States, involving any legal right.",
+          "Article 263 empowers the President to establish an Inter-State Council (ISC) to investigate, discuss, and advise upon disputes between states; it was first formally set up in 1990 based on the Sarkaria Commission recommendations.",
+          "Disputes concerning inter-state river waters are excluded from Article 131 and adjudicated through specialized tribunals formed under Article 262 and the Inter-State River Water Disputes Act, 1956."
+        ]
+      },
+      {
+        "title": "India Semiconductor Mission (ISM) & Dholera SIR",
+        "bullets": [
+          "Launched in 2021 as a dedicated business division within the Digital India Corporation to catalyze the commercial electronics manufacturing ecosystem.",
+          "Provides 50% fiscal support of project cost on a pari-passu basis for setting up Silicon Semiconductor Fabs, Display Fabs, and Compound Semiconductors / ATMP / OSAT facilities.",
+          "Dholera Special Investment Region (SIR) in Gujarat is being established as India's premier node on the Delhi-Mumbai Industrial Corridor (DMIC), housing the first commercial fabrication plant by Tata Electronics and Taiwan's PSMC."
+        ]
+      },
+      {
+        "title": "India-UAE Comprehensive Economic Partnership Agreement (CEPA)",
+        "bullets": [
+          "Signed on 18 February 2022 and officially enacted on 1 May 2022, representing India's first full-fledged bilateral trade agreement in over a decade.",
+          "Eliminated duties on over 80% of tariff lines immediately, significantly enhancing Indian access for gems and jewellery, textiles, engineering goods, and pharmaceuticals.",
+          "Supported by bilateral frameworks including the Local Currency Settlement (LCS) system, allowing invoicing and settlement in Indian Rupee (INR) and UAE Dirham (AED)."
+        ]
+      },
+      {
+        "title": "Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985",
+        "bullets": [
+          "Enacted in 1985 to fulfill India's obligations under the UN Single Convention on Narcotic Drugs (1961) and Convention on Psychotropic Substances (1971).",
+          "Distinguishes offences by contraband quantity into 'small quantity' and 'commercial quantity', imposing stringent non-bailable provisions under Section 37 for commercial possession.",
+          "Empowers both Central agencies (like the Narcotics Control Bureau under the Ministry of Home Affairs) and State Police specialized units to conduct search, seizure, and forfeiture of illicit drug-derived assets."
+        ]
+      }
+    ]
   }
 ]

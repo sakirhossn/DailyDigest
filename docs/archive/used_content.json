@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "INTREPID",
-    "PARADIGM",
-    "EQUIVOCATE",
-    "SANGUINE",
     "SOPORIFIC",
     "FACILE",
     "ESTUARY",
@@ -59,13 +55,13 @@
     "PERFIDIOUS",
     "RESILIENT",
     "EXPEDITE",
-    "SCRUPULOUS"
+    "SCRUPULOUS",
+    "TACITURN",
+    "VOCIFEROUS",
+    "INCHOATE",
+    "ESCHEW"
   ],
   "idiom": [
-    "Cut through the red tape",
-    "Sail close to the wind",
-    "Face the music",
-    "Throw down the gauntlet",
     "Put the cart before the horse",
     "Leave no stone unturned",
     "Meet one's Waterloo",
@@ -121,14 +117,13 @@
     "Call it a day",
     "Barking up the wrong tree",
     "A double-edged sword",
-    "Break the ice"
+    "Break the ice",
+    "Burn the midnight oil",
+    "Once in a blue moon",
+    "Take with a grain of salt",
+    "Throw in the towel"
   ],
   "gk_booster": [
-    "El Ni\u00f1o and Indian Monsoon Dynamics",
-    "Gross Value Added (GVA) in National Accounts",
-    "Integrated Goods and Services Tax (IGST)",
-    "State Level Bankers' Committee (SLBC)",
-    "Global Capability Centers (GCCs) in India",
     "Geopolitics of the Persian Gulf and Choke Points",
     "Airports Authority of India (AAI)",
     "Public Examinations (Prevention of Unfair Means) Act, 2024",
@@ -183,6 +178,11 @@
     "World Bank Group Composition",
     "Industrial Training Institutes (ITIs) in India",
     "Kambala Traditional Sport",
-    "Mysuru Dasara (Nada Habba)"
+    "Mysuru Dasara (Nada Habba)",
+    "Representation of the People Act (RPA), 1951 - Section 8",
+    "Constitutional Adjudication of Inter-State Disputes (Article 131 & 263)",
+    "India Semiconductor Mission (ISM) & Dholera SIR",
+    "India-UAE Comprehensive Economic Partnership Agreement (CEPA)",
+    "Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985"
   ]
 }
