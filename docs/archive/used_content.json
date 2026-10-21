@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "SOPORIFIC",
-    "FACILE",
-    "ESTUARY",
-    "MALLABLE",
     "AUSTERE",
     "BENEVOLENT",
     "ADMONITION",
@@ -59,13 +55,13 @@
     "TACITURN",
     "VOCIFEROUS",
     "INCHOATE",
-    "ESCHEW"
+    "ESCHEW",
+    "CANDID",
+    "METICULOUS",
+    "MITIGATE",
+    "LUCID"
   ],
   "idiom": [
-    "Put the cart before the horse",
-    "Leave no stone unturned",
-    "Meet one's Waterloo",
-    "Blow hot and cold",
     "Burn the candle at both ends",
     "Spill the beans",
     "Hit the nail on the head",
@@ -121,14 +117,13 @@
     "Burn the midnight oil",
     "Once in a blue moon",
     "Take with a grain of salt",
-    "Throw in the towel"
+    "Throw in the towel",
+    "To break the ice",
+    "A blessing in disguise",
+    "To miss the boat",
+    "Apple of discord"
   ],
   "gk_booster": [
-    "Geopolitics of the Persian Gulf and Choke Points",
-    "Airports Authority of India (AAI)",
-    "Public Examinations (Prevention of Unfair Means) Act, 2024",
-    "Article 293 of the Indian Constitution",
-    "PM-eBus Sewa Scheme",
     "Electoral Roll Revisions under RP Act, 1950",
     "National Payments Corporation of India (NPCI)",
     "Foreign Exchange Management Act (FEMA), 1999",
@@ -183,6 +178,11 @@
     "Constitutional Adjudication of Inter-State Disputes (Article 131 & 263)",
     "India Semiconductor Mission (ISM) & Dholera SIR",
     "India-UAE Comprehensive Economic Partnership Agreement (CEPA)",
-    "Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985"
+    "Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985",
+    "New Zealand Capital and Currency",
+    "Panchayati Raj System & Constitutional Provisions",
+    "RoDTEP Scheme Framework",
+    "Rights of Persons with Disabilities Act, 2016",
+    "India-United States 2+2 Ministerial Dialogue"
   ]
 }
