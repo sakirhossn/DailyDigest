@@ -1,7 +1,5 @@
 {
   "vocab": [
-    "AUSTERE",
-    "BENEVOLENT",
     "ADMONITION",
     "PALLID",
     "TACIT",
@@ -59,11 +57,11 @@
     "CANDID",
     "METICULOUS",
     "MITIGATE",
-    "LUCID"
+    "LUCID",
+    "COGENT",
+    "RETICENT"
   ],
   "idiom": [
-    "Burn the candle at both ends",
-    "Spill the beans",
     "Hit the nail on the head",
     "To hold all the aces",
     "To pass the buck",
@@ -121,14 +119,11 @@
     "To break the ice",
     "A blessing in disguise",
     "To miss the boat",
-    "Apple of discord"
+    "Apple of discord",
+    "Feather one's nest",
+    "In the nick of time"
   ],
   "gk_booster": [
-    "Electoral Roll Revisions under RP Act, 1950",
-    "National Payments Corporation of India (NPCI)",
-    "Foreign Exchange Management Act (FEMA), 1999",
-    "Udyam Registration Portal for MSMEs",
-    "Article 355 of the Indian Constitution",
     "Repo Rate and Liquidity Adjustment Facility (LAF)",
     "Strait of Hormuz & Maritime Navigation",
     "Merchant Discount Rate (MDR) Framework",
@@ -183,6 +178,11 @@
     "Panchayati Raj System & Constitutional Provisions",
     "RoDTEP Scheme Framework",
     "Rights of Persons with Disabilities Act, 2016",
-    "India-United States 2+2 Ministerial Dialogue"
+    "India-United States 2+2 Ministerial Dialogue",
+    "Food Safety and Standards Authority of India (FSSAI)",
+    "PM-KUSUM Scheme Architecture",
+    "Securities and Exchange Board of India (SEBI)",
+    "Indian Computer Emergency Response Team (CERT-In)",
+    "National Policy for Rare Diseases (NPRD) 2021"
   ]
 }

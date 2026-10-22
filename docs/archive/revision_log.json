@@ -6515,5 +6515,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "22 October 2026",
+    "vocab_words": [
+      {
+        "word": "PERSPICACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having a ready insight into and deep understanding of things; mentally acute.",
+        "synonyms": [
+          "astute",
+          "shrewd",
+          "discerning"
+        ],
+        "antonyms": [
+          "obtuse",
+          "ignorant",
+          "unperceptive"
+        ],
+        "example_sentence": "The perspicacious auditor immediately flagged the inconsistencies in the corporate tax filings."
+      },
+      {
+        "word": "COGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Clear, logical, and convincing in argument or reasoning.",
+        "synonyms": [
+          "compelling",
+          "persuasive",
+          "luculent"
+        ],
+        "antonyms": [
+          "unconvincing",
+          "weak",
+          "flimsy"
+        ],
+        "example_sentence": "The government provided a cogent rationale for tightening the eligibility parameters of retail SME share offerings."
+      },
+      {
+        "word": "TRUNCATE",
+        "part_of_speech": "Verb",
+        "meaning": "To shorten the duration or extent of something by cutting off a part.",
+        "synonyms": [
+          "curtail",
+          "abridge",
+          "condense"
+        ],
+        "antonyms": [
+          "lengthen",
+          "elongate",
+          "extend"
+        ],
+        "example_sentence": "Due to unexpected flash floods in the ghat sections, railway authorities had to truncate the special train service."
+      },
+      {
+        "word": "RETICENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Not revealing one's thoughts or feelings readily; reserved or restrained.",
+        "synonyms": [
+          "reserved",
+          "uncommunicative",
+          "diffident"
+        ],
+        "antonyms": [
+          "loquacious",
+          "expansive",
+          "garrulous"
+        ],
+        "example_sentence": "Bank executives remained reticent when asked about the preliminary findings of the external cybersecurity audit."
+      },
+      {
+        "word": "ALACRITY",
+        "part_of_speech": "Noun",
+        "meaning": "Brisk and cheerful readiness or promptness in response.",
+        "synonyms": [
+          "eagerness",
+          "promptness",
+          "celerity"
+        ],
+        "antonyms": [
+          "reluctance",
+          "sluggishness",
+          "apathy"
+        ],
+        "example_sentence": "District welfare officers executed the annual life-certificate verification of senior pensioners with commendable alacrity."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Cut corners",
+        "meaning": "To do something in the easiest, cheapest, or fastest way, often compromising quality or safety rules.",
+        "example_sentence": "Startups that cut corners during the initial public offering process often face strict regulatory scrutiny from capital market watchdogs."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To exhaust oneself by working early in the morning and late into the night without sufficient rest.",
+        "example_sentence": "Aspirants preparing for competitive civil services examinations frequently burn the candle at both ends during revision months."
+      },
+      {
+        "idiom": "Spill the beans",
+        "meaning": "To reveal a secret or confidential information prematurely and often unintentionally.",
+        "example_sentence": "An unauthorized insider spilled the beans regarding the impending tariff cuts before the official trade communiqu\u00e9 was signed."
+      },
+      {
+        "idiom": "Feather one's nest",
+        "meaning": "To use one's official power or position to enrich oneself illicitly.",
+        "example_sentence": "The central investigative bureau initiated proceedings against the corrupt officer for using shell corporations to feather his nest."
+      },
+      {
+        "idiom": "In the nick of time",
+        "meaning": "At the very last possible moment, just before it is too late.",
+        "example_sentence": "Disaster management teams evacuated families residing along the swollen river banks in the nick of time."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Food Safety and Standards Authority of India (FSSAI)",
+        "bullets": [
+          "Established under the Food Safety and Standards Act, 2006, replacing multiple older food laws like the Prevention of Food Adulteration Act, 1954.",
+          "Operates under the administrative jurisdiction of the Union Ministry of Health and Family Welfare; headquarters in New Delhi.",
+          "Empowered to lay down science-based standards for food items and regulate manufacture, storage, distribution, and import to ensure wholesome food for human consumption."
+        ]
+      },
+      {
+        "title": "PM-KUSUM Scheme Architecture",
+        "bullets": [
+          "Launched in 2019 by the Ministry of New and Renewable Energy (MNRE) to provide energy and water security to farmers while de-dieselizing irrigation.",
+          "Component A: Setting up of 10,000 MW decentralized ground-mounted grid-connected solar power plants on barren or agricultural land.",
+          "Component B & C: Installation of 20 lakh standalone solar agriculture pumps (B) and solarization of 15 lakh grid-connected agriculture pumps (C)."
+        ]
+      },
+      {
+        "title": "Securities and Exchange Board of India (SEBI)",
+        "bullets": [
+          "Constituted as a non-statutory body in 1988 and conferred full statutory powers on April 12, 1992, through the SEBI Act, 1992.",
+          "Headquartered in Mumbai, Maharashtra, with regional offices in Ahmedabad, Kolkata, New Delhi, and Chennai.",
+          "Governed by a Board comprising a Chairman and members nominated by the Central Government, RBI, and Ministry of Finance."
+        ]
+      },
+      {
+        "title": "Indian Computer Emergency Response Team (CERT-In)",
+        "bullets": [
+          "Operationalized in 2004 under the Department of Information Technology; designated as national nodal agency under Section 70B of the Information Technology Act, 2000.",
+          "Functions under the Ministry of Electronics and Information Technology (MeitY) to handle cybersecurity threats, vulnerabilities, and data incident response.",
+          "Mandates all service providers, intermediaries, and corporate entities to report critical cybersecurity incidents within a stipulated timeframe."
+        ]
+      },
+      {
+        "title": "National Policy for Rare Diseases (NPRD) 2021",
+        "bullets": [
+          "Formulated by the Ministry of Health and Family Welfare to categorize rare genetic disorders into three groups based on treatment feasibility and cost.",
+          "Group 1 disorders require one-time curative treatment; Group 2 requires long-term/lifelong therapy with lower costs; Group 3 requires high-cost lifelong therapy (e.g., SMA, Gaucher's disease).",
+          "Designates premier tertiary government institutions as Centers of Excellence (CoEs) for diagnosis, prevention, and treatment facilitation."
+        ]
+      }
+    ]
   }
 ]
