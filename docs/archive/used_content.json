@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "ADMONITION",
-    "PALLID",
-    "TACIT",
-    "OBDURATE",
     "MANDATE",
     "PARITY",
     "LITIGATION",
@@ -59,12 +55,13 @@
     "MITIGATE",
     "LUCID",
     "COGENT",
-    "RETICENT"
+    "RETICENT",
+    "INTRANSIGENT",
+    "SALUBRIOUS",
+    "PELLUCID",
+    "ABROGATE"
   ],
   "idiom": [
-    "Hit the nail on the head",
-    "To hold all the aces",
-    "To pass the buck",
     "In the offing",
     "Bark up the wrong tree",
     "At the end of one's tether",
@@ -121,14 +118,12 @@
     "To miss the boat",
     "Apple of discord",
     "Feather one's nest",
-    "In the nick of time"
+    "In the nick of time",
+    "At loggerheads",
+    "To clip someone's wings",
+    "A dime a dozen"
   ],
   "gk_booster": [
-    "Repo Rate and Liquidity Adjustment Facility (LAF)",
-    "Strait of Hormuz & Maritime Navigation",
-    "Merchant Discount Rate (MDR) Framework",
-    "Non-Performing Asset (NPA) Classification Rules",
-    "Fundamental Right to Freedom of Assembly",
     "Decriminalization Provisions under CGST Act",
     "Pension Fund Regulatory and Development Authority (PFRDA)",
     "National Investment and Infrastructure Fund (NIIF)",
@@ -183,6 +178,11 @@
     "PM-KUSUM Scheme Architecture",
     "Securities and Exchange Board of India (SEBI)",
     "Indian Computer Emergency Response Team (CERT-In)",
-    "National Policy for Rare Diseases (NPRD) 2021"
+    "National Policy for Rare Diseases (NPRD) 2021",
+    "Index of Eight Core Industries (ICI)",
+    "Tenth Schedule of the Indian Constitution",
+    "United Nations Security Council (UNSC) Architecture",
+    "Strait of Hormuz: Geographic and Strategic Significance",
+    "National Organ and Tissue Transplant Organisation (NOTTO)"
   ]
 }

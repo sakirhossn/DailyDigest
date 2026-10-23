@@ -6669,5 +6669,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "23 October 2026",
+    "vocab_words": [
+      {
+        "word": "INTRANSIGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Unwilling or refusing to change one's views or to agree about something.",
+        "synonyms": [
+          "uncompromising",
+          "obstinate",
+          "resolute"
+        ],
+        "antonyms": [
+          "pliant",
+          "accommodating"
+        ],
+        "example_sentence": "The intransigent attitude of veto-wielding powers has stalled comprehensive reforms in the UN Security Council."
+      },
+      {
+        "word": "SALUBRIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Favourable to or promoting health or well-being.",
+        "synonyms": [
+          "wholesome",
+          "healthful",
+          "invigorating"
+        ],
+        "antonyms": [
+          "unwholesome",
+          "deleterious"
+        ],
+        "example_sentence": "Investments in geriatric care and clean municipal infrastructure produce a more salubrious environment for the ageing population."
+      },
+      {
+        "word": "TEMERITY",
+        "part_of_speech": "Noun",
+        "meaning": "Excessive confidence or boldness; audacity.",
+        "synonyms": [
+          "audacity",
+          "effrontery",
+          "presumption"
+        ],
+        "antonyms": [
+          "diffidence",
+          "prudence"
+        ],
+        "example_sentence": "No sovereign state had the temerity to challenge the established maritime transit protocols along international chokepoints."
+      },
+      {
+        "word": "PELLUCID",
+        "part_of_speech": "Adjective",
+        "meaning": "Translucently clear; easily understood.",
+        "synonyms": [
+          "limpid",
+          "crystalline",
+          "transparent"
+        ],
+        "antonyms": [
+          "opaque",
+          "murky"
+        ],
+        "example_sentence": "The central bank provided a pellucid rationale in its monetary policy minutes regarding the balance between growth and core inflation."
+      },
+      {
+        "word": "ABROGATE",
+        "part_of_speech": "Verb",
+        "meaning": "To repeal, annul, or abolish a law, right, or formal agreement by authoritative act.",
+        "synonyms": [
+          "repeal",
+          "revoke",
+          "nullify"
+        ],
+        "antonyms": [
+          "enact",
+          "ratify"
+        ],
+        "example_sentence": "Parliament retains the constitutional power to abrogate redundant colonial-era statutes through legislative action."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To burn one's bridges",
+        "meaning": "To destroy a path, relationship, or option permanently so that one cannot return to a previous state.",
+        "example_sentence": "By resigning abruptly and attacking his former colleagues, the dissenting legislator burned his bridges with the party leadership."
+      },
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To face a difficult or unavoidable situation with courage and resolve.",
+        "example_sentence": "With inflationary pressures mounting, the central bank had to bite the bullet and raise benchmark interest rates."
+      },
+      {
+        "idiom": "At loggerheads",
+        "meaning": "In stubborn and persistent dispute or disagreement with someone.",
+        "example_sentence": "The two ministries were at loggerheads over the proposed funding allocation for the national export remission scheme."
+      },
+      {
+        "idiom": "To clip someone's wings",
+        "meaning": "To restrict someone's freedom, authority, or power.",
+        "example_sentence": "The supreme judicial ruling effectively clipped the wings of rogue corporations by enforcing strict data protection standards."
+      },
+      {
+        "idiom": "A dime a dozen",
+        "meaning": "Very common, plentiful, and therefore of little special value.",
+        "example_sentence": "Generic digital storefronts are a dime a dozen; only enterprises offering distinct value will survive the market consolidation."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Index of Eight Core Industries (ICI)",
+        "bullets": [
+          "Published monthly by the Office of Economic Adviser, Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry.",
+          "Represents 40.27% of the weight of items included in the Index of Industrial Production (IIP) with base year 2011-12.",
+          "Petroleum Refinery Products carries the highest weight (28.04%), while Fertilizer holds the lowest weight (2.63%) among the eight sectors."
+        ]
+      },
+      {
+        "title": "Tenth Schedule of the Indian Constitution",
+        "bullets": [
+          "Inserted by the 52nd Constitutional Amendment Act, 1985 to curb political opportunism and defection.",
+          "The 91st Constitutional Amendment Act, 2003 omitted the provision protecting defections involving one-third splits, requiring at least two-thirds of members to validate a merger.",
+          "In the landmark Kihoto Hollohan case (1992), the Supreme Court ruled that the Presiding Officer's decision on disqualification is subject to judicial review."
+        ]
+      },
+      {
+        "title": "United Nations Security Council (UNSC) Architecture",
+        "bullets": [
+          "Formed in 1945 under the United Nations Charter, the Council comprises 15 members: 5 permanent (P5) with veto power and 10 non-permanent members.",
+          "Non-permanent members are elected by the UN General Assembly for two-year terms based on equitable regional distribution.",
+          "Under Article 25 of the UN Charter, all member states agree to accept and carry out the binding decisions of the Security Council."
+        ]
+      },
+      {
+        "title": "Strait of Hormuz: Geographic and Strategic Significance",
+        "bullets": [
+          "A maritime chokepoint situated between the Musandam peninsula (Oman/UAE) and Iran, connecting the Persian Gulf with the Gulf of Oman.",
+          "It provides the only sea passage from the Persian Gulf to the open ocean, handling nearly 20-21 million barrels of petroleum liquids daily.",
+          "Recognized under the UN Convention on the Law of the Sea (UNCLOS) as a vital international transit strait subject to the regime of transit passage."
+        ]
+      },
+      {
+        "title": "National Organ and Tissue Transplant Organisation (NOTTO)",
+        "bullets": [
+          "Set up under the Directorate General of Health Services, Ministry of Health and Family Welfare, headquartered in New Delhi.",
+          "Serves as the apex national centre for coordination, networking, procurement, and distribution of organs and tissues across India.",
+          "Governed under the framework of the Transplantation of Human Organs and Tissues Act (THOTA), 1994, which officially recognized brain-stem death."
+        ]
+      }
+    ]
   }
 ]
