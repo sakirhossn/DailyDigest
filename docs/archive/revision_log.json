@@ -6818,5 +6818,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "24 October 2026",
+    "vocab_words": [
+      {
+        "word": "TEMERITY",
+        "part_of_speech": "Noun",
+        "meaning": "Excessive confidence or boldness; audacity.",
+        "synonyms": [
+          "audacity",
+          "impudence",
+          "effrontery"
+        ],
+        "antonyms": [
+          "diffidence",
+          "timidity"
+        ],
+        "example_sentence": "None of the regional delegates had the temerity to challenge the committee's unanimous economic resolution."
+      },
+      {
+        "word": "SAGACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having or showing keen mental discernment, sound judgment, and farsightedness.",
+        "synonyms": [
+          "judicious",
+          "astute",
+          "perspicacious"
+        ],
+        "antonyms": [
+          "foolish",
+          "obtuse"
+        ],
+        "example_sentence": "The central bank's sagacious monetary interventions shielded the domestic banking system from global financial volatility."
+      },
+      {
+        "word": "ALACRITY",
+        "part_of_speech": "Noun",
+        "meaning": "Brisk and cheerful readiness, promptness, or eagerness in action.",
+        "synonyms": [
+          "eagerness",
+          "promptitude",
+          "celerity"
+        ],
+        "antonyms": [
+          "apathy",
+          "lethargy"
+        ],
+        "example_sentence": "The state disaster response team responded with commendable alacrity to the coastal storm warning."
+      },
+      {
+        "word": "TENABLE",
+        "part_of_speech": "Adjective",
+        "meaning": "Able to be maintained, supported, or defended against attack or objection.",
+        "synonyms": [
+          "defensible",
+          "justifiable",
+          "sustainable"
+        ],
+        "antonyms": [
+          "untenable",
+          "indefensible"
+        ],
+        "example_sentence": "Without empirical production data, the enterprise's fiscal projections were no longer considered tenable by institutional investors."
+      },
+      {
+        "word": "FASTIDIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Very attentive to and concerned about accuracy and detail; meticulous.",
+        "synonyms": [
+          "punctilious",
+          "painstaking",
+          "scrupulous"
+        ],
+        "antonyms": [
+          "careless",
+          "lax"
+        ],
+        "example_sentence": "The engineering team maintained fastidious quality controls during the structural safety inspection of the Himalayan railway tunnels."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Face the music",
+        "meaning": "To accept unpleasant consequences or criticism for one's actions.",
+        "example_sentence": "After misallocating development funds, the defaulting company officials had to face the music before the statutory investigative tribunal."
+      },
+      {
+        "idiom": "Hit the nail on the head",
+        "meaning": "To describe exactly what is causing a situation or problem.",
+        "example_sentence": "The governor hit the nail on the head when he identified food supply disruptions as the primary catalyst of headline inflation."
+      },
+      {
+        "idiom": "Beat around the bush",
+        "meaning": "To discuss a matter without coming directly to the point; avoid talking about what is important.",
+        "example_sentence": "The auditor refused to beat around the bush and directly highlighted the compliance lapses in the annual balance sheet."
+      },
+      {
+        "idiom": "See eye to eye",
+        "meaning": "To agree fully with someone on a matter.",
+        "example_sentence": "Although the panel members did not see eye to eye on the terminal rate, they agreed on the immediate rate pause."
+      },
+      {
+        "idiom": "Spill the beans",
+        "meaning": "To reveal a secret or disclose confidential information prematurely.",
+        "example_sentence": "An inadvertent leak from the ministry spilled the beans regarding the tax slab reforms before the official budget presentation."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Monetary Policy Committee (MPC) Statutory Framework",
+        "bullets": [
+          "Established under Section 45ZB of the amended RBI Act, 1934, following the 2016 statutory amendments.",
+          "Composed of 6 members: the RBI Governor (Chairperson), the Deputy Governor in charge of monetary policy, one RBI officer, and three external members appointed by the Central Government.",
+          "Each member has one vote, with the Governor holding a casting vote in the event of a tie; meetings are required at least four times a year with a quorum of four members."
+        ]
+      },
+      {
+        "title": "Purchasing Managers' Index (PMI) Methodology",
+        "bullets": [
+          "A survey-based macroeconomic indicator assessing business conditions across manufacturing and services sectors, compiled globally by S&P Global.",
+          "The index is calculated on a scale of 0 to 100, where a baseline reading of 50 indicates neutral conditions (no change), above 50 indicates expansion, and below 50 indicates contraction.",
+          "Key variables evaluated include new orders, output levels, employment trends, suppliers' delivery times, and stocks of purchases."
+        ]
+      },
+      {
+        "title": "Minor Forest Produce (MFP) & TRIFED Institutional Architecture",
+        "bullets": [
+          "Minor Forest Produce (MFP) includes all non-timber forest produce of plant origin under the Forest Rights Act (FRA), 2006, and the PESA Act, 1996.",
+          "The Tribal Co-operative Marketing Development Federation of India (TRIFED) was established in 1987 under the Multi-State Co-operative Societies Act to support tribal commerce.",
+          "The Ministry of Tribal Affairs oversees the 'Mechanism for Marketing of Minor Forest Produce (MFP) through Minimum Support Price (MSP) and Development of Value Chain for MFP'."
+        ]
+      },
+      {
+        "title": "El Ni\u00f1o-Southern Oscillation (ENSO) System",
+        "bullets": [
+          "An ocean-atmosphere phenomenon involving periodic temperature fluctuations in the central and eastern equatorial Pacific Ocean.",
+          "The warm phase (El Ni\u00f1o) weakens the Walker Circulation and is statistically associated with deficient Southwest Monsoon rainfall in India.",
+          "The cool phase (La Ni\u00f1a) involves anomalous cooling of the central/eastern equatorial Pacific, frequently favouring normal to above-normal Indian monsoon precipitation."
+        ]
+      },
+      {
+        "title": "Directorate of Revenue Intelligence (DRI)",
+        "bullets": [
+          "The apex anti-smuggling agency of India, established on 4 December 1957, functioning under the Central Board of Indirect Taxes and Customs (CBIC), Ministry of Finance.",
+          "Mandated to enforce provisions of the Customs Act, 1962, and prevent illicit trade in narcotics, foreign currencies, precious metals, and endangered flora and fauna.",
+          "Operates through regional zones and maintains liaison with international agencies like the World Customs Organization (WCO) and INTERPOL."
+        ]
+      }
+    ]
   }
 ]
