@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "MANDATE",
-    "PARITY",
-    "LITIGATION",
-    "CATALYZE",
     "BOTTLENECK",
     "PROBITY",
     "TEMERITY",
@@ -59,13 +55,13 @@
     "INTRANSIGENT",
     "SALUBRIOUS",
     "PELLUCID",
-    "ABROGATE"
+    "ABROGATE",
+    "VILIFY",
+    "EXACERBATE",
+    "OBFUSCATE",
+    "LACONIC"
   ],
   "idiom": [
-    "Through the grapevine",
-    "Cost an arm and a leg",
-    "To clear the decks",
-    "A watershed moment",
     "To weather the storm",
     "To jump on the bandwagon",
     "To burn one's bridges",
@@ -121,14 +117,13 @@
     "Face the music",
     "Hit the nail on the head",
     "See eye to eye",
-    "Spill the beans"
+    "Spill the beans",
+    "Cut the Gordian knot",
+    "Bite the bullet",
+    "Burn the candle at both ends",
+    "Jump on the bandwagon"
   ],
   "gk_booster": [
-    "Article 190 of the Indian Constitution",
-    "Organization of the Petroleum Exporting Countries (OPEC)",
-    "World Economic Outlook (WEO)",
-    "National Thermal Power Corporation (NTPC)",
-    "Biodiversity Heritage Sites and Ecosystem Assessment",
     "Indian Railways Freight Operations",
     "International Monetary Fund (IMF) and Governance Quotas",
     "Wholesale Price Index (WPI) in India",
@@ -183,6 +178,11 @@
     "Purchasing Managers' Index (PMI) Methodology",
     "Minor Forest Produce (MFP) & TRIFED Institutional Architecture",
     "El Ni\u00f1o-Southern Oscillation (ENSO) System",
-    "Directorate of Revenue Intelligence (DRI)"
+    "Directorate of Revenue Intelligence (DRI)",
+    "Periodic Labour Force Survey (PLFS) Framework",
+    "Constitutional Safeguards of the Election Commission (Article 324)",
+    "Kharai Camels of Kutch",
+    "IMD Tropical Cyclone Classification System",
+    "Ethanol Blended Petrol (EBP) Programme"
   ]
 }

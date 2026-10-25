@@ -6967,5 +6967,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "25 October 2026",
+    "vocab_words": [
+      {
+        "word": "VILIFY",
+        "part_of_speech": "Verb",
+        "meaning": "To speak ill of, defame, or disparage someone harshly in public speech or writing.",
+        "synonyms": [
+          "denigrate",
+          "disparage",
+          "malign"
+        ],
+        "antonyms": [
+          "commend",
+          "venerate"
+        ],
+        "example_sentence": "Partisan speakers often vilify regulatory authorities instead of presenting constructive legal arguments."
+      },
+      {
+        "word": "EXACERBATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a bad situation, problem, or negative feeling worse.",
+        "synonyms": [
+          "aggravate",
+          "worsen",
+          "inflame"
+        ],
+        "antonyms": [
+          "alleviate",
+          "assuage"
+        ],
+        "example_sentence": "Geopolitical tensions in the Persian Gulf continue to exacerbate crude oil price volatility for developing economies."
+      },
+      {
+        "word": "FASTIDIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Very attentive to accuracy, precision, and detail; hard to please.",
+        "synonyms": [
+          "scrupulous",
+          "meticulous",
+          "exacting"
+        ],
+        "antonyms": [
+          "careless",
+          "lax"
+        ],
+        "example_sentence": "Forensic data audits require fastidious verification of system logs and firewall permissions."
+      },
+      {
+        "word": "OBFUSCATE",
+        "part_of_speech": "Verb",
+        "meaning": "To deliberately make something unclear, confusing, or difficult to understand.",
+        "synonyms": [
+          "confound",
+          "obscure",
+          "muddle"
+        ],
+        "antonyms": [
+          "clarify",
+          "illuminate"
+        ],
+        "example_sentence": "The non-standard financial disclosures appeared designed to obfuscate the real state of non-performing assets."
+      },
+      {
+        "word": "LACONIC",
+        "part_of_speech": "Adjective",
+        "meaning": "Using very few words in speech or writing; concise to the point of seeming terse.",
+        "synonyms": [
+          "concise",
+          "terse",
+          "succinct"
+        ],
+        "antonyms": [
+          "loquacious",
+          "garrulous"
+        ],
+        "example_sentence": "The ministry issued a laconic statement confirming that forensic checks had been initiated on central databases."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Cut the Gordian knot",
+        "meaning": "To solve a complex or intractable problem by taking a decisive, radical step.",
+        "example_sentence": "By introducing unified digital registrations, the transport department cut the Gordian knot of interstate vehicle tax evasion."
+      },
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To face an inevitable, difficult situation with courage and resolution.",
+        "example_sentence": "Refiners had to bite the bullet and pay higher freight premiums on spot crude imports due to shipping disruptions."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To exhaust oneself by working excessively hard early in the morning and late at night.",
+        "example_sentence": "Emergency response personnel burned the candle at both ends to evacuate vulnerable coastal settlements ahead of the storm."
+      },
+      {
+        "idiom": "Jump on the bandwagon",
+        "meaning": "To join an activity or support an opinion simply because it has become popular or fashionable.",
+        "example_sentence": "Rather than evaluating technical yields, several processing units jumped on the bandwagon of converting grain supplies to fuel."
+      },
+      {
+        "idiom": "Through thick and thin",
+        "meaning": "Under all conditions, no matter how challenging or difficult the circumstances are.",
+        "example_sentence": "Pastoralist communities in Kutch have preserved native camel breeds through thick and thin across generations."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Periodic Labour Force Survey (PLFS) Framework",
+        "bullets": [
+          "Launched by the National Sample Survey Office (NSSO) under the Ministry of Statistics and Programme Implementation (MoSPI) in 2017.",
+          "Generates quarterly key labour force indicators (Labour Force Participation Rate, Worker-Population Ratio, Unemployment Rate) for urban areas using Current Weekly Status (CWS).",
+          "Produces annual reports covering both rural and urban sectors using Usual Status (ps+ss) and Current Weekly Status (CWS)."
+        ]
+      },
+      {
+        "title": "Constitutional Safeguards of the Election Commission (Article 324)",
+        "bullets": [
+          "Established on 25 January 1950 (commemorated annually as National Voters' Day); initially a single-member body before becoming multi-member in October 1993.",
+          "Article 324(5) establishes that the Chief Election Commissioner cannot be removed except in like manner and on the like grounds as a Judge of the Supreme Court of India.",
+          "Other Election Commissioners cannot be removed from office except on the recommendation of the Chief Election Commissioner."
+        ]
+      },
+      {
+        "title": "Kharai Camels of Kutch",
+        "bullets": [
+          "Recognised as the ninth indigenous camel breed of India by the National Bureau of Animal Genetic Resources (NBAGR) in 2015.",
+          "Famous as 'swimming camels' endemic to the arid coastal regions of Kutch, Gujarat, adapted to swim long distances across tidal creeks.",
+          "Feed predominantly on coastal mangroves (Avicennia marina), making them ecologically reliant on conserved intertidal marine zones."
+        ]
+      },
+      {
+        "title": "IMD Tropical Cyclone Classification System",
+        "bullets": [
+          "India Meteorological Department (IMD) acts as the Regional Specialised Meteorological Centre (RSMC) for the North Indian Ocean basin (Bay of Bengal and Arabian Sea).",
+          "Classifications by wind speed: Depression (31-49 km/h), Deep Depression (50-61 km/h), Cyclonic Storm (62-87 km/h), Severe Cyclonic Storm (88-117 km/h), and Very Severe Cyclonic Storm (118-166 km/h).",
+          "Systems exceeding 222 km/h (120 knots or more) are designated as Super Cyclonic Storms."
+        ]
+      },
+      {
+        "title": "Ethanol Blended Petrol (EBP) Programme",
+        "bullets": [
+          "Administered by the Ministry of Petroleum and Natural Gas (MoPNG) to reduce oil import dependency, lower carbon emissions, and support sugarcane/grain farmers.",
+          "Permits procurement of ethanol from multiple feedstocks: sugarcane juice, B-heavy molasses, C-heavy molasses, damaged food grains, surplus FCI rice, and maize.",
+          "India achieved 10% ethanol blending in petrol in June 2022 and moved forward the target for achieving 20% blending (E20) to ESY 2025-26."
+        ]
+      }
+    ]
   }
 ]
