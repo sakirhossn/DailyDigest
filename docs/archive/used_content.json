@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "BOTTLENECK",
-    "PROBITY",
-    "TEMERITY",
-    "TRUNCATE",
-    "TENABLE",
     "MUNIFICENT",
     "PERSPICACIOUS",
     "EXCORIATE",
@@ -59,13 +54,14 @@
     "VILIFY",
     "EXACERBATE",
     "OBFUSCATE",
-    "LACONIC"
+    "LACONIC",
+    "PALLIATE",
+    "DUBIOUS",
+    "PROLIFERATE",
+    "TACIT",
+    "AUDACIOUS"
   ],
   "idiom": [
-    "To weather the storm",
-    "To jump on the bandwagon",
-    "To burn one's bridges",
-    "To keep at arm's length",
     "To steal someone's thunder",
     "To add fuel to the fire",
     "To throw caution to the wind",
@@ -121,14 +117,13 @@
     "Cut the Gordian knot",
     "Bite the bullet",
     "Burn the candle at both ends",
-    "Jump on the bandwagon"
+    "Jump on the bandwagon",
+    "A storm in a teacup",
+    "By and large",
+    "Cut to the chase",
+    "Play devil's advocate"
   ],
   "gk_booster": [
-    "Indian Railways Freight Operations",
-    "International Monetary Fund (IMF) and Governance Quotas",
-    "Wholesale Price Index (WPI) in India",
-    "Central Bureau of Investigation (CBI)",
-    "Securities and Emergency Regulations on Telecom Infrastructure",
     "Hosur Industrial Cluster (Tamil Nadu)",
     "International Monetary Fund (IMF)",
     "World Bank Group",
@@ -183,6 +178,11 @@
     "Constitutional Safeguards of the Election Commission (Article 324)",
     "Kharai Camels of Kutch",
     "IMD Tropical Cyclone Classification System",
-    "Ethanol Blended Petrol (EBP) Programme"
+    "Ethanol Blended Petrol (EBP) Programme",
+    "Agriculture Infrastructure Fund (AIF)",
+    "74th Constitutional Amendment Act, 1992",
+    "Tropical Cyclone Classification by IMD",
+    "Tunnel Boring Machine (TBM) Technology",
+    "State Finance Commission (SFC)"
   ]
 }

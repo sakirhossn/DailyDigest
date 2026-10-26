@@ -7116,5 +7116,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "26 October 2026",
+    "vocab_words": [
+      {
+        "word": "PALLIATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a disease or its symptoms less severe without removing the basic cause; to alleviate.",
+        "synonyms": [
+          "alleviate",
+          "mitigate",
+          "soothe"
+        ],
+        "antonyms": [
+          "aggravate",
+          "intensify"
+        ],
+        "example_sentence": "The new administrative guidelines were designed to palliate the growing distress among small-scale borrowers."
+      },
+      {
+        "word": "DUBIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Hesitating or doubting; not confirming to high standards of honesty or reliability.",
+        "synonyms": [
+          "doubtful",
+          "questionable",
+          "suspect"
+        ],
+        "antonyms": [
+          "certain",
+          "reliable"
+        ],
+        "example_sentence": "The corporation earned a dubious reputation following persistent delays in fulfilling corporate debt restructuring terms."
+      },
+      {
+        "word": "PROLIFERATE",
+        "part_of_speech": "Verb",
+        "meaning": "To increase rapidly in numbers; to multiply.",
+        "synonyms": [
+          "burgeon",
+          "multiply",
+          "mushroom"
+        ],
+        "antonyms": [
+          "dwindle",
+          "decrease"
+        ],
+        "example_sentence": "Technology incubators have begun to proliferate across tier-2 cities, stimulating local economic growth."
+      },
+      {
+        "word": "TACIT",
+        "part_of_speech": "Adjective",
+        "meaning": "Understood or implied without being stated directly.",
+        "synonyms": [
+          "implicit",
+          "unstated",
+          "silent"
+        ],
+        "antonyms": [
+          "explicit",
+          "expressed"
+        ],
+        "example_sentence": "The regional parties reached a tacit understanding regarding seat-sharing arrangements for the upcoming local elections."
+      },
+      {
+        "word": "AUDACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Showing a willingness to take surprisingly bold risks; showing impudent boldness.",
+        "synonyms": [
+          "bold",
+          "daring",
+          "venturesome"
+        ],
+        "antonyms": [
+          "timid",
+          "cautious"
+        ],
+        "example_sentence": "The engineering team undertook an audacious tunneling project through fragile Himalayan strata."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A storm in a teacup",
+        "meaning": "A great fuss or commotion over a small, trivial matter.",
+        "example_sentence": "The initial panic over the minor regulatory update proved to be nothing more than a storm in a teacup."
+      },
+      {
+        "idiom": "By and large",
+        "meaning": "On the whole; everything considered.",
+        "example_sentence": "By and large, the fiscal data released by the government reflected steady economic recovery."
+      },
+      {
+        "idiom": "Cut to the chase",
+        "meaning": "To get straight to the point without wasting time on preliminaries.",
+        "example_sentence": "Rather than dwelling on background details, the secretary decided to cut to the chase regarding fund allocations."
+      },
+      {
+        "idiom": "Play devil's advocate",
+        "meaning": "To express an opinion that one does not necessarily hold, in order to provoke debate or test the validity of an argument.",
+        "example_sentence": "During the panel review, the senior economist played devil's advocate to examine vulnerabilities in the proposed infrastructure policy."
+      },
+      {
+        "idiom": "Spick and span",
+        "meaning": "Neat, clean, and in very good condition.",
+        "example_sentence": "The archival department maintained its documents spick and span for inspection."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Agriculture Infrastructure Fund (AIF)",
+        "bullets": [
+          "Launched in: 2020 as part of the Atmanirbhar Bharat package.",
+          "Financing mechanism: Provides medium-long term debt financing facility for investment in viable projects for post-harvest management infrastructure.",
+          "Nodal Ministry: Ministry of Agriculture and Farmers Welfare."
+        ]
+      },
+      {
+        "title": "74th Constitutional Amendment Act, 1992",
+        "bullets": [
+          "Constitutional status: Added Part IX-A to the Constitution, titled 'The Municipalities'.",
+          "New Schedule: Introduced the Twelfth Schedule containing 18 functional items for urban local bodies.",
+          "Mandatory provisions: Regular elections every five years, constitution of State Finance Commissions."
+        ]
+      },
+      {
+        "title": "Tropical Cyclone Classification by IMD",
+        "bullets": [
+          "Wind speed parameters: Deep Depression ranges from 51 to 61 kmph, while Cyclonic Storm ranges from 62 to 88 kmph.",
+          "Basin jurisdiction: North Indian Ocean covers the Bay of Bengal and the Arabian Sea.",
+          "Naming convention: Managed by WMO/ESCAP panel consisting of 13 member countries."
+        ]
+      },
+      {
+        "title": "Tunnel Boring Machine (TBM) Technology",
+        "bullets": [
+          "Function: A machine used to excavate tunnels with a circular cross section through a variety of soil and rock strata.",
+          "Advantage: Limits ground disruption and constructs a smooth tunnel wall, reducing lining costs.",
+          "Strategic push: India is increasingly developing indigenous manufacturing facilities for TBMs to support complex rail and hydro projects."
+        ]
+      },
+      {
+        "title": "State Finance Commission (SFC)",
+        "bullets": [
+          "Constitutional basis: Formed under Article 243-I (for Panchayats) and Article 243-Y (for Municipalities).",
+          "Appointment: Constituted every five years by the Governor of the State.",
+          "Core mandate: Reviews the financial position of local bodies and recommends principles for tax devolution."
+        ]
+      }
+    ]
   }
 ]
