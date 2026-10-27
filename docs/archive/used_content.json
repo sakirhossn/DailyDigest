@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "MUNIFICENT",
-    "PERSPICACIOUS",
-    "EXCORIATE",
-    "TANTAMOUNT",
     "SAGACIOUS",
     "INCURSION",
     "IMMUTABLE",
@@ -59,12 +55,13 @@
     "DUBIOUS",
     "PROLIFERATE",
     "TACIT",
-    "AUDACIOUS"
+    "AUDACIOUS",
+    "PAGAN",
+    "PERTINENT",
+    "SURREPTITIOUS",
+    "GARRULOUS"
   ],
   "idiom": [
-    "To steal someone's thunder",
-    "To add fuel to the fire",
-    "To throw caution to the wind",
     "Play with fire",
     "Weather the storm",
     "Walking on thin ice",
@@ -121,13 +118,12 @@
     "A storm in a teacup",
     "By and large",
     "Cut to the chase",
-    "Play devil's advocate"
+    "Play devil's advocate",
+    "To clear the air",
+    "A tall order",
+    "To show one's true colors"
   ],
   "gk_booster": [
-    "Hosur Industrial Cluster (Tamil Nadu)",
-    "International Monetary Fund (IMF)",
-    "World Bank Group",
-    "Election Commission of India (ECI)",
     "Reserve Bank of India (RBI)",
     "Wholesale Price Index (WPI)",
     "Bharat Stage (BS) Emission Standards",
@@ -183,6 +179,10 @@
     "74th Constitutional Amendment Act, 1992",
     "Tropical Cyclone Classification by IMD",
     "Tunnel Boring Machine (TBM) Technology",
-    "State Finance Commission (SFC)"
+    "State Finance Commission (SFC)",
+    "Fiscal Responsibility and Budget Management (FRBM) Act, 2003",
+    "Periodic Labour Force Survey (PLFS) Institutional Framework",
+    "IndusInd Bank: Establishment and Headquarters",
+    "Free On Board (FOB) vs. Landed Cost in Trade"
   ]
 }

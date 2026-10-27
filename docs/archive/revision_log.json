@@ -7265,5 +7265,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "27 October 2026",
+    "vocab_words": [
+      {
+        "word": "PAGAN",
+        "part_of_speech": "Adjective",
+        "meaning": "Relating to polytheistic religions or someone holding beliefs outside of major mainstream Abrahamic religions.",
+        "synonyms": [
+          "heathen",
+          "polytheistic",
+          "infidel"
+        ],
+        "antonyms": [
+          "religious",
+          "monotheistic",
+          "pious"
+        ],
+        "example_sentence": "Historical excavations revealed ancient artifacts associated with pagan rituals in the valley."
+      },
+      {
+        "word": "PERTINENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Relevant or applicable to a particular matter; apposite.",
+        "synonyms": [
+          "relevant",
+          "germane",
+          "apposite"
+        ],
+        "antonyms": [
+          "irrelevant",
+          "extraneous",
+          "impertinent"
+        ],
+        "example_sentence": "The lawyer raised several pertinent objections during the cross-examination."
+      },
+      {
+        "word": "SURREPTITIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Kept secret, especially because it would not be approved of.",
+        "synonyms": [
+          "secretive",
+          "stealthy",
+          "furtive"
+        ],
+        "antonyms": [
+          "open",
+          "transparent",
+          "blatant"
+        ],
+        "example_sentence": "The auditor discovered a series of surreptitious financial transactions hidden within subsidiary accounts."
+      },
+      {
+        "word": "GARRULOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Excessively talkative, especially on trivial matters.",
+        "synonyms": [
+          "loquacious",
+          "talkative",
+          "voluble"
+        ],
+        "antonyms": [
+          "taciturn",
+          "reticent",
+          "concise"
+        ],
+        "example_sentence": "The garrulous witness took nearly an hour to answer a simple procedural question."
+      },
+      {
+        "word": "EPHEMERAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Lasting for a very short time.",
+        "synonyms": [
+          "transitory",
+          "fleeting",
+          "evanescent"
+        ],
+        "antonyms": [
+          "permanent",
+          "perennial",
+          "enduring"
+        ],
+        "example_sentence": "Market reactions to daily macroeconomic data releases are often ephemeral."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove bad feelings, doubt, or confusion between people through open discussion.",
+        "example_sentence": "The two corporate partners held a meeting to clear the air regarding the distribution of revenue."
+      },
+      {
+        "idiom": "A tall order",
+        "meaning": "A task or goal that is difficult to accomplish.",
+        "example_sentence": "Capping national debt at 50% of GDP by 2030 is a tall order for fiscal policymakers."
+      },
+      {
+        "idiom": "To show one's true colors",
+        "meaning": "To reveal one's real character or intentions, especially when they were previously hidden.",
+        "example_sentence": "During the financial crisis, several defaulting promoters showed their true colors by fleeing abroad."
+      },
+      {
+        "idiom": "To read between the lines",
+        "meaning": "To understand the hidden meaning or underlying intent of something written or spoken.",
+        "example_sentence": "Analysts had to read between the lines of the central bank bulletin to infer future rate actions."
+      },
+      {
+        "idiom": "Back to the drawing board",
+        "meaning": "An idiom used to indicate that a plan has failed and that one must start over from the beginning.",
+        "example_sentence": "When the initial oil procurement strategy failed due to price volatility, the management went back to the drawing board."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Fiscal Responsibility and Budget Management (FRBM) Act, 2003",
+        "bullets": [
+          "Enacted to introduce legal transparency and institutionalize fiscal discipline in India's public finances.",
+          "Originally targeted the elimination of revenue deficit and reduction of fiscal deficit to 3% of GDP.",
+          "Frequently amended to accommodate economic shocks and extraordinary public expenditure cycles."
+        ]
+      },
+      {
+        "title": "Periodic Labour Force Survey (PLFS) Institutional Framework",
+        "bullets": [
+          "Launched in April 2017 by the National Statistical Office (NSO) under MoSPI.",
+          "Designed to measure employment and unemployment indicators in both rural and urban areas on an annual and quarterly basis.",
+          "Utilizes Usual Principal and Subsidiary Status (UPSS) and Current Weekly Status (CWS) approaches to capture workforce dynamics."
+        ]
+      },
+      {
+        "title": "Agriculture Infrastructure Fund (AIF)",
+        "bullets": [
+          "A central sector financing facility launched in 2020 under the Ministry of Agriculture and Farmers Welfare.",
+          "Provides medium-to-long term debt financing facility for investment in viable projects for post-harvest management infrastructure.",
+          "Offers interest subvention of 3% per annum up to a loan amount of \u20b92 crore."
+        ]
+      },
+      {
+        "title": "IndusInd Bank: Establishment and Headquarters",
+        "bullets": [
+          "Founded in April 1994 by then Union Finance Minister Manmohan Singh as one of the new-generation private sector banks.",
+          "Headquartered in Pune, Maharashtra, with its registered office in Mumbai.",
+          "Named after the Indus Valley civilization, reflecting its core founding philosophy."
+        ]
+      },
+      {
+        "title": "Free On Board (FOB) vs. Landed Cost in Trade",
+        "bullets": [
+          "FOB means the seller is responsible for the goods until they are loaded onto the shipping vessel at the port of origin.",
+          "Landed cost incorporates the total cost of goods including shipping, freight insurance, customs duties, and port handling charges.",
+          "Crucial concept for petroleum refiners managing import logistics amidst volatile international shipping freight rates."
+        ]
+      }
+    ]
   }
 ]
