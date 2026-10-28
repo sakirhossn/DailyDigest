@@ -7419,5 +7419,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "28 October 2026",
+    "vocab_words": [
+      {
+        "word": "IMPECUNIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having little or no money; persistently poor or penniless.",
+        "synonyms": [
+          "penurious",
+          "destitute",
+          "indigent"
+        ],
+        "antonyms": [
+          "affluent",
+          "opulent",
+          "wealthy"
+        ],
+        "example_sentence": "Subsidized lending schemes are designed to extend institutional credit to impecunious rural artisans."
+      },
+      {
+        "word": "SAGACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having or showing keen mental discernment, good judgment, and practical wisdom.",
+        "synonyms": [
+          "astute",
+          "perspicacious",
+          "prudent"
+        ],
+        "antonyms": [
+          "foolish",
+          "vacuous",
+          "shortsighted"
+        ],
+        "example_sentence": "The central bank made a sagacious decision to hold adequate foreign exchange buffers against global capital flight."
+      },
+      {
+        "word": "RECONDITE",
+        "part_of_speech": "Adjective",
+        "meaning": "Dealing with something obscure, profound, or little known to the average person.",
+        "synonyms": [
+          "abstruse",
+          "esoteric",
+          "arcane"
+        ],
+        "antonyms": [
+          "manifest",
+          "obvious",
+          "comprehensible"
+        ],
+        "example_sentence": "The intricacies of secondary market derivative clearing mechanisms remain recondite to most retail investors."
+      },
+      {
+        "word": "EQUIVOCATE",
+        "part_of_speech": "Verb",
+        "meaning": "To use ambiguous language so as to conceal the truth or avoid committing oneself.",
+        "synonyms": [
+          "prevaricate",
+          "hedge",
+          "tergiversate"
+        ],
+        "antonyms": [
+          "clarify",
+          "confront",
+          "affirm"
+        ],
+        "example_sentence": "The department head chose to equivocate rather than provide a straightforward answer regarding state revenue deficits."
+      },
+      {
+        "word": "TENACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Holding firmly to an idea, purpose, or position; persistent and unyielding.",
+        "synonyms": [
+          "pertinacious",
+          "resolute",
+          "steadfast"
+        ],
+        "antonyms": [
+          "irresolute",
+          "vacillating",
+          "surrendering"
+        ],
+        "example_sentence": "Disaster management personnel mounted a tenacious effort to restore the power grid within hours of the cyclone."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "At the drop of a hat",
+        "meaning": "Willing to do something immediately without any hesitation or prior planning.",
+        "example_sentence": "The National Disaster Response Force was prepared to deploy relief units at the drop of a hat."
+      },
+      {
+        "idiom": "Barking up the wrong tree",
+        "meaning": "Pursuing a mistaken line of thought or accusing the wrong entity.",
+        "example_sentence": "Blaming currency depreciation entirely on domestic banks is barking up the wrong tree given global dollar strength."
+      },
+      {
+        "idiom": "Currying favour",
+        "meaning": "Ingratiating oneself with someone through flattery or servile behaviour to gain an advantage.",
+        "example_sentence": "Civil servants must maintain strict political neutrality instead of currying favour with ruling regimes."
+      },
+      {
+        "idiom": "Leaving no stone unturned",
+        "meaning": "Doing everything possible and exploring every avenue to achieve an objective.",
+        "example_sentence": "Election authorities are leaving no stone unturned to eliminate duplicate voters during the intensive revision."
+      },
+      {
+        "idiom": "Through thick and thin",
+        "meaning": "Remaining loyal and committed under all circumstances, even through hardships.",
+        "example_sentence": "The cooperative credit society supported local farmers through thick and thin during recurring droughts."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "State Election Commission (Article 243K)",
+        "bullets": [
+          "Constitutional status: Inserted via the 73rd and 74th Constitutional Amendment Acts, 1992 under Articles 243K and 243ZA.",
+          "Appointment & Removal: Appointed by the Governor; can be removed from office only in like manner and on like grounds as a Judge of a High Court.",
+          "Jurisdiction: Vested with the superintendence, direction, and control of the preparation of electoral rolls and conduct of all elections to Panchayats and Municipalities."
+        ]
+      },
+      {
+        "title": "Ways and Means Advances (WMA) Scheme",
+        "bullets": [
+          "Statutory basis: Governed under Section 17(5) of the Reserve Bank of India Act, 1934.",
+          "Purpose: Temporary loan facilities extended by the RBI to Central and State governments to bridge transient mismatches in cash receipts and disbursements.",
+          "Operational tenures: Advances must be repaid within 90 days from the date of advance, with interest charged at the prevailing repo rate."
+        ]
+      },
+      {
+        "title": "Representation of the People Act, 1950 (RPA 1950)",
+        "bullets": [
+          "Scope: Provides for the allocation of seats in the House of the People and State Legislative Assemblies/Councils.",
+          "Voter Roll Framework: Details the qualifications of voters and the statutory machinery for preparing and revising electoral rolls.",
+          "Contrast with RPA 1951: RPA 1950 handles seats and registration of electors, while RPA 1951 governs the actual conduct of elections, qualifications/disqualifications of candidates, and corrupt practices."
+        ]
+      },
+      {
+        "title": "National Disaster Response Force (NDRF)",
+        "bullets": [
+          "Legal Mandate: Constituted under Section 44 of the Disaster Management Act, 2005 as a specialized force for disaster response.",
+          "Administrative Control: Operates under the Ministry of Home Affairs (MHA), led by a Director General (DG) drawn from the Indian Police Service (IPS).",
+          "Motto & Composition: Its motto is 'Aapda Seva Sadaiv Sarvatra'; personnel are drawn on deputation from Central Armed Police Forces (CAPFs) like BSF, CRPF, CISF, and ITBP."
+        ]
+      },
+      {
+        "title": "Securities Transaction Tax (STT)",
+        "bullets": [
+          "Introduction: Enacted under Chapter VII of the Finance (No. 2) Act, 2004, spearheaded by the Union Ministry of Finance.",
+          "Nature: A direct tax levied on every purchase or sale of equities, equity-oriented mutual funds, and derivative contracts listed on recognized Indian stock exchanges.",
+          "Purpose: Designed to curb tax evasion on capital gains and establish a transparent, automated transaction trail for financial securities."
+        ]
+      }
+    ]
   }
 ]

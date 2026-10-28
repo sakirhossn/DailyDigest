@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "SAGACIOUS",
-    "INCURSION",
-    "IMMUTABLE",
-    "DIVESTMENT",
     "ALACRITY",
     "TENUOUS",
     "RETRENCHMENT",
@@ -59,11 +55,13 @@
     "PAGAN",
     "PERTINENT",
     "SURREPTITIOUS",
-    "GARRULOUS"
+    "GARRULOUS",
+    "IMPECUNIOUS",
+    "RECONDITE",
+    "EQUIVOCATE",
+    "TENACIOUS"
   ],
   "idiom": [
-    "Play with fire",
-    "Weather the storm",
     "Walking on thin ice",
     "Hit the sack",
     "On the fence",
@@ -121,14 +119,11 @@
     "Play devil's advocate",
     "To clear the air",
     "A tall order",
-    "To show one's true colors"
+    "To show one's true colors",
+    "Currying favour",
+    "Leaving no stone unturned"
   ],
   "gk_booster": [
-    "Reserve Bank of India (RBI)",
-    "Wholesale Price Index (WPI)",
-    "Bharat Stage (BS) Emission Standards",
-    "Skill India Mission & PM-SETU Scheme",
-    "Foreign Exchange Risk Reserve & Derivatives Framework",
     "Non-Tariff Barriers (NTBs) under WTO Framework",
     "National Green Tribunal (NGT)",
     "Finance Commission of India",
@@ -183,6 +178,11 @@
     "Fiscal Responsibility and Budget Management (FRBM) Act, 2003",
     "Periodic Labour Force Survey (PLFS) Institutional Framework",
     "IndusInd Bank: Establishment and Headquarters",
-    "Free On Board (FOB) vs. Landed Cost in Trade"
+    "Free On Board (FOB) vs. Landed Cost in Trade",
+    "State Election Commission (Article 243K)",
+    "Ways and Means Advances (WMA) Scheme",
+    "Representation of the People Act, 1950 (RPA 1950)",
+    "National Disaster Response Force (NDRF)",
+    "Securities Transaction Tax (STT)"
   ]
 }
