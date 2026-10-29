@@ -7573,5 +7573,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "29 October 2026",
+    "vocab_words": [
+      {
+        "word": "PROCLIVITY",
+        "part_of_speech": "Noun",
+        "meaning": "A natural inclination or predisposition toward a particular activity or behavior.",
+        "synonyms": [
+          "penchant",
+          "predisposition",
+          "propensity"
+        ],
+        "antonyms": [
+          "aversion",
+          "disinclination"
+        ],
+        "example_sentence": "The central bank warned against the fiscal proclivity of state governments to finance recurring revenue expenditures via market borrowing."
+      },
+      {
+        "word": "OBVIATE",
+        "part_of_speech": "Verb",
+        "meaning": "To remove a need, difficulty, or danger; to render something unnecessary.",
+        "synonyms": [
+          "preclude",
+          "forestall",
+          "avert"
+        ],
+        "antonyms": [
+          "necessitate",
+          "foster"
+        ],
+        "example_sentence": "Adopting streamlined digital governance platforms will obviate the bureaucratic delays historically plaguing panchayat disbursements."
+      },
+      {
+        "word": "PERSPICACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having keen mental perception and understanding; discerning.",
+        "synonyms": [
+          "astute",
+          "insightful",
+          "shrewd"
+        ],
+        "antonyms": [
+          "obtuse",
+          "ignorant"
+        ],
+        "example_sentence": "Perspicacious economic analysts anticipated the moderation in manufacturing output long before the official statistics were compiled."
+      },
+      {
+        "word": "INVIDIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Likely to arouse resentment, anger, or envy in others; unfairly discriminatory.",
+        "synonyms": [
+          "odious",
+          "detestable",
+          "prejudicial"
+        ],
+        "antonyms": [
+          "delightful",
+          "laudable"
+        ],
+        "example_sentence": "Arbitrary allocation of discretionary funds puts regional administrations in an invidious position before the electorate."
+      },
+      {
+        "word": "SURFEIT",
+        "part_of_speech": "Noun",
+        "meaning": "An excessive amount or overabundant supply of something.",
+        "synonyms": [
+          "glut",
+          "plethora",
+          "superfluity"
+        ],
+        "antonyms": [
+          "scarcity",
+          "dearth"
+        ],
+        "example_sentence": "A surfeit of old grain stocks in regional storage warehouses prevented millers from artificially hiking wholesale prices."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To steer clear of",
+        "meaning": "To deliberately avoid someone or something dangerous, unpleasant, or problematic.",
+        "example_sentence": "Fiscal managers advised states to steer clear of off-budget borrowings to maintain transparent sovereign balance sheets."
+      },
+      {
+        "idiom": "A clean slate",
+        "meaning": "A fresh start or a state of having a record free of previous faults or obligations.",
+        "example_sentence": "The restructuring package gave distressed local bodies a clean slate to implement reformed accounting practices."
+      },
+      {
+        "idiom": "To call the shots",
+        "meaning": "To be the person in control or the one who makes the authoritative decisions.",
+        "example_sentence": "Empowering Gram Sabhas ensures that local communities call the shots regarding village infrastructure priorities."
+      },
+      {
+        "idiom": "At a snail's pace",
+        "meaning": "Moving or progressing extremely slowly.",
+        "example_sentence": "Without automated grievance redressal systems, clearance of developmental funds often proceeded at a snail's pace."
+      },
+      {
+        "idiom": "To weather the storm",
+        "meaning": "To successfully endure or survive a very difficult period or adversity.",
+        "example_sentence": "The Indian economy managed to weather the storm of global inflation due to robust domestic demand and diversified sourcing."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Article 293 of the Indian Constitution (Borrowing by States)",
+        "bullets": [
+          "Clause (1) empowers the executive of a State to borrow within the territory of India upon the security of the Consolidated Fund of the State.",
+          "Clause (3) mandates central consent if a State has any outstanding central loan or guaranteed obligation.",
+          "It acts as a primary constitutional check ensuring national macroeconomic stability and debt sustainability."
+        ]
+      },
+      {
+        "title": "National Statistical Office (NSO)",
+        "bullets": [
+          "Created in May 2019 by merging the Central Statistics Office (CSO) and the National Sample Survey Office (NSSO).",
+          "Operates under the Ministry of Statistics and Programme Implementation (MoSPI) headed by a Director General.",
+          "Responsible for releasing key economic barometers including GDP estimates, IIP, and Consumer Price Index (CPI)."
+        ]
+      },
+      {
+        "title": "Panchayati Raj Constitutional Framework (73rd Amendment)",
+        "bullets": [
+          "Passed in 1992 and came into force on April 24, 1993, observed annually as National Panchayati Raj Day.",
+          "Mandated a three-tier structure: Gram Panchayat (village), Panchayat Samiti (block), and Zilla Parishad (district).",
+          "Article 243D provides mandatory reservation of not less than one-third of total seats for women."
+        ]
+      },
+      {
+        "title": "Consolidated Sinking Fund (CSF)",
+        "bullets": [
+          "Instituted by the Reserve Bank of India in 1999-2000 to assist State Governments in amortizing their debt obligations.",
+          "States contribute a specified percentage of their outstanding liabilities annually to build a debt redemption reserve.",
+          "The fund is managed by the Internal Debt Management Department of the Reserve Bank of India."
+        ]
+      },
+      {
+        "title": "WMO/ESCAP Panel on Tropical Cyclones (PTC)",
+        "bullets": [
+          "Established in 1972 under the joint auspices of the World Meteorological Organization and UN ESCAP.",
+          "Currently comprises 13 members: India, Bangladesh, Maldives, Myanmar, Oman, Pakistan, Sri Lanka, Thailand, Iran, Qatar, Saudi Arabia, UAE, and Yemen.",
+          "IMD serves as the Regional Specialized Meteorological Centre (RSMC) in New Delhi to track and issue cyclone advisories for this basin."
+        ]
+      }
+    ]
   }
 ]

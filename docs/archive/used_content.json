@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "ALACRITY",
-    "TENUOUS",
-    "RETRENCHMENT",
-    "PLAUSIBLE",
     "FASTIDIOUS",
     "EPHEMERAL",
     "GREGARIOUS",
@@ -59,14 +55,13 @@
     "IMPECUNIOUS",
     "RECONDITE",
     "EQUIVOCATE",
-    "TENACIOUS"
+    "TENACIOUS",
+    "PROCLIVITY",
+    "PERSPICACIOUS",
+    "INVIDIOUS",
+    "SURFEIT"
   ],
   "idiom": [
-    "Walking on thin ice",
-    "Hit the sack",
-    "On the fence",
-    "Cut corners",
-    "A drop in the ocean",
     "To read between the lines",
     "A tight corner",
     "To paddle one's own canoe",
@@ -121,14 +116,14 @@
     "A tall order",
     "To show one's true colors",
     "Currying favour",
-    "Leaving no stone unturned"
+    "Leaving no stone unturned",
+    "To steer clear of",
+    "A clean slate",
+    "To call the shots",
+    "At a snail's pace",
+    "To weather the storm"
   ],
   "gk_booster": [
-    "Non-Tariff Barriers (NTBs) under WTO Framework",
-    "National Green Tribunal (NGT)",
-    "Finance Commission of India",
-    "National Human Rights Commission (NHRC)",
-    "Monetary Policy Committee (MPC) & RBI Basics",
     "Ramsar Sites & Wetlands in India",
     "Right to Information (RTI) Act, 2005",
     "Northeast Monsoon (Retreating Monsoon) & IMD Framework",
@@ -183,6 +178,11 @@
     "Ways and Means Advances (WMA) Scheme",
     "Representation of the People Act, 1950 (RPA 1950)",
     "National Disaster Response Force (NDRF)",
-    "Securities Transaction Tax (STT)"
+    "Securities Transaction Tax (STT)",
+    "Article 293 of the Indian Constitution (Borrowing by States)",
+    "National Statistical Office (NSO)",
+    "Panchayati Raj Constitutional Framework (73rd Amendment)",
+    "Consolidated Sinking Fund (CSF)",
+    "WMO/ESCAP Panel on Tropical Cyclones (PTC)"
   ]
 }
