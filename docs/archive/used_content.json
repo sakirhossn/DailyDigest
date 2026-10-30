@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "FASTIDIOUS",
-    "EPHEMERAL",
-    "GREGARIOUS",
     "EPITOME",
     "PRUDENT",
     "SCINTILLATING",
@@ -59,12 +56,12 @@
     "PROCLIVITY",
     "PERSPICACIOUS",
     "INVIDIOUS",
-    "SURFEIT"
+    "SURFEIT",
+    "SANCTIMONIOUS",
+    "TORPID",
+    "ALACRITY"
   ],
   "idiom": [
-    "To read between the lines",
-    "A tight corner",
-    "To paddle one's own canoe",
     "A bone of contention",
     "To read the writing on the wall",
     "Spick and span",
@@ -121,13 +118,12 @@
     "A clean slate",
     "To call the shots",
     "At a snail's pace",
-    "To weather the storm"
+    "To weather the storm",
+    "Through the grapevine",
+    "Burn bridges",
+    "Take with a pinch of salt"
   ],
   "gk_booster": [
-    "Ramsar Sites & Wetlands in India",
-    "Right to Information (RTI) Act, 2005",
-    "Northeast Monsoon (Retreating Monsoon) & IMD Framework",
-    "MSME Composite Classification Criteria (2020 Framework)",
     "Directorate General of Training (DGT) and Vocational Framework",
     "International Development Association (IDA) - World Bank Group",
     "Ministry of Textiles and Export Promotion Councils",
@@ -183,6 +179,10 @@
     "National Statistical Office (NSO)",
     "Panchayati Raj Constitutional Framework (73rd Amendment)",
     "Consolidated Sinking Fund (CSF)",
-    "WMO/ESCAP Panel on Tropical Cyclones (PTC)"
+    "WMO/ESCAP Panel on Tropical Cyclones (PTC)",
+    "Code on Social Security, 2020",
+    "Article 215 of the Indian Constitution",
+    "Singareni Collieries Company Limited (SCCL)",
+    "Department of Investment and Public Asset Management (DIPAM)"
   ]
 }

@@ -7722,5 +7722,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "30 October 2026",
+    "vocab_words": [
+      {
+        "word": "SANCTIMONIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Making a hypocritical show of moral superiority or religious righteousness.",
+        "synonyms": [
+          "pietistic",
+          "holier-than-thou",
+          "canting"
+        ],
+        "antonyms": [
+          "unpretentious",
+          "modest",
+          "sincere"
+        ],
+        "example_sentence": "The spokesperson's sanctimonious speech on financial propriety failed to persuade investors amid allegations of governance lapses."
+      },
+      {
+        "word": "TORPID",
+        "part_of_speech": "Adjective",
+        "meaning": "Mentally or physically inactive, sluggish, or dormant.",
+        "synonyms": [
+          "lethargic",
+          "somnolent",
+          "slothful"
+        ],
+        "antonyms": [
+          "energetic",
+          "dynamic",
+          "vivacious"
+        ],
+        "example_sentence": "Economic growth remained torpid during the monsoon quarter as private investment lagged behind expectations."
+      },
+      {
+        "word": "INCHOATE",
+        "part_of_speech": "Adjective",
+        "meaning": "Just begun and so not fully formed or developed; rudimentary.",
+        "synonyms": [
+          "nascent",
+          "embryonic",
+          "unformed"
+        ],
+        "antonyms": [
+          "mature",
+          "developed",
+          "culminated"
+        ],
+        "example_sentence": "The ministry's regulatory framework for decentralized autonomous organizations remains in an inchoate stage."
+      },
+      {
+        "word": "ALACRITY",
+        "part_of_speech": "Noun",
+        "meaning": "Brisk and cheerful readiness or promptness in response.",
+        "synonyms": [
+          "eagerness",
+          "promptitude",
+          "willingness"
+        ],
+        "antonyms": [
+          "apathy",
+          "reluctance",
+          "hesitancy"
+        ],
+        "example_sentence": "The disaster response teams mobilised with remarkable alacrity to evacuate coastal settlements ahead of the storm."
+      },
+      {
+        "word": "ESCHEW",
+        "part_of_speech": "Verb",
+        "meaning": "To deliberately avoid, abstain from, or shun something.",
+        "synonyms": [
+          "relinquish",
+          "forswear",
+          "abjure"
+        ],
+        "antonyms": [
+          "embrace",
+          "pursue",
+          "indulge"
+        ],
+        "example_sentence": "Central banks must eschew short-term political expediency to anchor long-term inflation expectations."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Through the grapevine",
+        "meaning": "Hearing news or receiving information through unofficial, informal channels or gossip.",
+        "example_sentence": "Market analysts heard through the grapevine that the state-owned miner was planning a massive dividend payout."
+      },
+      {
+        "idiom": "Barking up the wrong tree",
+        "meaning": "Pursuing a mistaken line of inquiry or addressing the wrong issue.",
+        "example_sentence": "Regulators will be barking up the wrong tree if they penalise consumers rather than patching systemic digital banking loopholes."
+      },
+      {
+        "idiom": "Burn bridges",
+        "meaning": "To destroy one's path, relationships, or options permanently, making retreat impossible.",
+        "example_sentence": "The executive was careful not to burn bridges with his previous employer when accepting the rival company's offer."
+      },
+      {
+        "idiom": "Take with a pinch of salt",
+        "meaning": "To view or accept a statement or claim with skepticism and reserve.",
+        "example_sentence": "Early corporate earnings projections should be taken with a pinch of salt until audited quarterly balance sheets are released."
+      },
+      {
+        "idiom": "Throw in the towel",
+        "meaning": "To acknowledge defeat, give up, or abandon a struggling endeavor.",
+        "example_sentence": "Despite severe market volatility, the nascent fintech start-up refused to throw in the towel."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Code on Social Security, 2020",
+        "bullets": [
+          "Enacted to amalgamate 9 major central labour laws, including the Employees' Provident Funds Act, 1952, and the Maternity Benefit Act, 1961.",
+          "Introduced statutory recognition of 'gig workers' and 'platform workers' for the first time in Indian legislative history.",
+          "Mandates the constitution of a National Social Security Board chaired by the Union Minister for Labour and Employment."
+        ]
+      },
+      {
+        "title": "Article 215 of the Indian Constitution",
+        "bullets": [
+          "Declares that every High Court shall be a Court of Record and shall have all the powers of such a court, including the power to punish for contempt of itself.",
+          "A Court of Record maintains proceedings whose acts and judicial proceedings are enrolled for perpetual memory and testimony, holding unquestioned evidentiary value.",
+          "Parallel provisions for the Supreme Court of India are contained in Article 129."
+        ]
+      },
+      {
+        "title": "Singareni Collieries Company Limited (SCCL)",
+        "bullets": [
+          "Established originally in 1920 (originating as Hyderabad Deccan Company in 1889), headquartered at Kothagudem, Telangana.",
+          "Joint venture between the Government of Telangana (51% equity shareholding) and the Government of India (49% equity shareholding).",
+          "Operates exclusively along the Godavari Valley Coalfield, the only repository of proven coal reserves in South India."
+        ]
+      },
+      {
+        "title": "Department of Investment and Public Asset Management (DIPAM)",
+        "bullets": [
+          "Originally set up as the Department of Disinvestment in December 1999 and subsequently renamed as DIPAM in April 2016.",
+          "Functions as one of the six nodal departments under the Ministry of Finance, Government of India.",
+          "Oversees the strategic sale of CPSE equity, asset monetization, and capital restructuring guidelines (including dividend policies)."
+        ]
+      },
+      {
+        "title": "Indian Computer Emergency Response Team (CERT-In)",
+        "bullets": [
+          "Established in 2004 as the national agency for incident response, operating under the Ministry of Electronics and Information Technology (MeitY).",
+          "Empowered under Section 70B of the Information Technology Act, 2000 to collect, analyse, and disseminate information on cyber incidents.",
+          "Mandates mandatory reporting of specified cybersecurity incidents by service providers and corporate entities within strict regulatory timeframes."
+        ]
+      }
+    ]
   }
 ]
