@@ -7876,5 +7876,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "31 October 2026",
+    "vocab_words": [
+      {
+        "word": "EPHEMERAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Lasting for a very short time; fleeting.",
+        "synonyms": [
+          "transitory",
+          "fleeting",
+          "evanescent"
+        ],
+        "antonyms": [
+          "permanent",
+          "enduring"
+        ],
+        "example_sentence": "The stock market rally proved to be ephemeral as global economic pressures quickly resurfaced."
+      },
+      {
+        "word": "OBVIATE",
+        "part_of_speech": "Verb",
+        "meaning": "To remove or avoid a problem or need; to prevent.",
+        "synonyms": [
+          "prevent",
+          "preclude",
+          "forestall"
+        ],
+        "antonyms": [
+          "encourage",
+          "facilitate"
+        ],
+        "example_sentence": "Advanced automation can obviate the need for repetitive manual data entry in banking operations."
+      },
+      {
+        "word": "CANDID",
+        "part_of_speech": "Adjective",
+        "meaning": "Truthful and straightforward; frank.",
+        "synonyms": [
+          "frank",
+          "direct",
+          "forthright"
+        ],
+        "antonyms": [
+          "evasive",
+          "insincere"
+        ],
+        "example_sentence": "The governor offered a candid assessment of inflation risks during the monetary policy briefing."
+      },
+      {
+        "word": "MITIGATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make less severe, serious, or painful.",
+        "synonyms": [
+          "alleviate",
+          "attenuate",
+          "lessen"
+        ],
+        "antonyms": [
+          "aggravate",
+          "intensify"
+        ],
+        "example_sentence": "Targeted fiscal measures were deployed to mitigate the adverse impact of rising import costs."
+      },
+      {
+        "word": "PRAGMATIC",
+        "part_of_speech": "Adjective",
+        "meaning": "Dealing with things sensibly and realistically based on practical rather than theoretical considerations.",
+        "synonyms": [
+          "realistic",
+          "practical",
+          "sensible"
+        ],
+        "antonyms": [
+          "idealistic",
+          "impractical"
+        ],
+        "example_sentence": "Policymakers adopted a pragmatic approach to balance industrial growth with environmental standards."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A blessing in disguise",
+        "meaning": "An apparent misfortune that eventually turns out to be good.",
+        "example_sentence": "Missing the early morning flight proved to be a blessing in disguise when all subsequent flights were delayed for safety."
+      },
+      {
+        "idiom": "Read between the lines",
+        "meaning": "To understand the hidden meaning or underlying intent of something written or spoken.",
+        "example_sentence": "Investors had to read between the lines of the central bank's statement to gauge the future path of interest rates."
+      },
+      {
+        "idiom": "Spanner in the works",
+        "meaning": "An event or action that disrupts a plan or process.",
+        "example_sentence": "The sudden surge in raw material prices threw a spanner in the company's annual production budget."
+      },
+      {
+        "idiom": "Turn a blind eye",
+        "meaning": "To pretend not to notice or ignore something unwelcome.",
+        "example_sentence": "Authorities cannot afford to turn a blind eye to illegal wildlife trafficking."
+      },
+      {
+        "idiom": "Back to the drawing board",
+        "meaning": "An instruction to start planning something again because the previous attempt failed.",
+        "example_sentence": "When the initial prototype failed the stress tests, the engineering team had to go back to the drawing board."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Registrar General and Census Commissioner of India",
+        "bullets": [
+          "Functions under the Ministry of Home Affairs, Government of India.",
+          "Responsible for conducting the decennial Census of India and administering the Registration of Births and Deaths Act, 1969.",
+          "Headquartered in New Delhi."
+        ]
+      },
+      {
+        "title": "Statue of Unity",
+        "bullets": [
+          "World's tallest statue, standing at 182 meters, located in Kevadia, Gujarat.",
+          "Dedicated to Sardar Vallabhbhai Patel, sculpted by Ram V. Sutar.",
+          "Overlooks the Sardar Sarovar Dam on the Narmada River."
+        ]
+      },
+      {
+        "title": "Federal Open Market Committee (FOMC)",
+        "bullets": [
+          "The monetary policymaking arm of the U.S. Federal Reserve System.",
+          "Responsible for open market operations and setting the federal funds rate.",
+          "Consists of 12 voting members, including the Board of Governors and regional Fed presidents."
+        ]
+      },
+      {
+        "title": "Maharatna Public Sector Undertakings in India",
+        "bullets": [
+          "Maharatna status grants enhanced financial and operational autonomy to CPSEs.",
+          "Criteria include substantial average annual net worth, net profit, and global market presence.",
+          "Coal India Limited is one of the prominent Maharatna central public sector enterprises."
+        ]
+      },
+      {
+        "title": "National Tiger Conservation Authority (NTCA)",
+        "bullets": [
+          "A statutory body established under the Wildlife (Protection) Amendment Act of 2006.",
+          "Operates under the Ministry of Environment, Forest and Climate Change.",
+          "Provides overarching oversight for Project Tiger implementation across various tiger reserves in India."
+        ]
+      }
+    ]
   }
 ]

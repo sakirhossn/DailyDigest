@@ -1,6 +1,5 @@
 {
   "vocab": [
-    "EPITOME",
     "PRUDENT",
     "SCINTILLATING",
     "SPURIOUS",
@@ -59,11 +58,10 @@
     "SURFEIT",
     "SANCTIMONIOUS",
     "TORPID",
-    "ALACRITY"
+    "ALACRITY",
+    "EPHEMERAL"
   ],
   "idiom": [
-    "A bone of contention",
-    "To read the writing on the wall",
     "Spick and span",
     "Through thick and thin",
     "Beat around the bush",
@@ -121,14 +119,11 @@
     "To weather the storm",
     "Through the grapevine",
     "Burn bridges",
-    "Take with a pinch of salt"
+    "Take with a pinch of salt",
+    "Spanner in the works",
+    "Turn a blind eye"
   ],
   "gk_booster": [
-    "Directorate General of Training (DGT) and Vocational Framework",
-    "International Development Association (IDA) - World Bank Group",
-    "Ministry of Textiles and Export Promotion Councils",
-    "World Bank Group Composition",
-    "Industrial Training Institutes (ITIs) in India",
     "Kambala Traditional Sport",
     "Mysuru Dasara (Nada Habba)",
     "Representation of the People Act (RPA), 1951 - Section 8",
@@ -183,6 +178,11 @@
     "Code on Social Security, 2020",
     "Article 215 of the Indian Constitution",
     "Singareni Collieries Company Limited (SCCL)",
-    "Department of Investment and Public Asset Management (DIPAM)"
+    "Department of Investment and Public Asset Management (DIPAM)",
+    "Registrar General and Census Commissioner of India",
+    "Statue of Unity",
+    "Federal Open Market Committee (FOMC)",
+    "Maharatna Public Sector Undertakings in India",
+    "National Tiger Conservation Authority (NTCA)"
   ]
 }
