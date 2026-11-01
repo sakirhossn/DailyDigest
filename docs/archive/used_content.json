@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "PRUDENT",
-    "SCINTILLATING",
-    "SPURIOUS",
-    "IMPETUS",
     "CONTRITE",
     "PROGNOSTICATE",
     "STRIDENT",
@@ -59,12 +55,13 @@
     "SANCTIMONIOUS",
     "TORPID",
     "ALACRITY",
-    "EPHEMERAL"
+    "EPHEMERAL",
+    "ABERRATION",
+    "SAGACIOUS",
+    "INCIPIENT",
+    "CAPITULATE"
   ],
   "idiom": [
-    "Spick and span",
-    "Through thick and thin",
-    "Beat around the bush",
     "Cry over spilt milk",
     "Bite your tongue",
     "Under a cloud",
@@ -121,14 +118,12 @@
     "Burn bridges",
     "Take with a pinch of salt",
     "Spanner in the works",
-    "Turn a blind eye"
+    "Turn a blind eye",
+    "Throw down the gauntlet",
+    "Put the cart before the horse",
+    "Run the gauntlet"
   ],
   "gk_booster": [
-    "Kambala Traditional Sport",
-    "Mysuru Dasara (Nada Habba)",
-    "Representation of the People Act (RPA), 1951 - Section 8",
-    "Constitutional Adjudication of Inter-State Disputes (Article 131 & 263)",
-    "India Semiconductor Mission (ISM) & Dholera SIR",
     "India-UAE Comprehensive Economic Partnership Agreement (CEPA)",
     "Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985",
     "New Zealand Capital and Currency",
@@ -183,6 +178,11 @@
     "Statue of Unity",
     "Federal Open Market Committee (FOMC)",
     "Maharatna Public Sector Undertakings in India",
-    "National Tiger Conservation Authority (NTCA)"
+    "National Tiger Conservation Authority (NTCA)",
+    "Finance Commission of India (Article 280)",
+    "Central Vigilance Commission (CVC)",
+    "Section 69A of Information Technology Act, 2000",
+    "The World Bank Group & Poverty Thresholds",
+    "Indian Air Force Command Structure"
   ]
 }

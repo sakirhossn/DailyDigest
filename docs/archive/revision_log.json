@@ -8025,5 +8025,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "01 November 2026",
+    "vocab_words": [
+      {
+        "word": "ABERRATION",
+        "part_of_speech": "Noun",
+        "meaning": "A departure from what is normal, usual, or expected, typically one that is unwelcome.",
+        "synonyms": [
+          "anomaly",
+          "deviation",
+          "irregularity"
+        ],
+        "antonyms": [
+          "normality",
+          "conformity"
+        ],
+        "example_sentence": "The sudden contraction in core sector output was treated as a temporary aberration by central bank analysts."
+      },
+      {
+        "word": "COGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Clear, logical, and convincing in argument or reasoning.",
+        "synonyms": [
+          "compelling",
+          "persuasive",
+          "lucid"
+        ],
+        "antonyms": [
+          "unconvincing",
+          "muddled"
+        ],
+        "example_sentence": "The Finance Ministry presented cogent evidence demonstrating that robust tax buoyancy enabled the advance devolution."
+      },
+      {
+        "word": "SAGACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having or showing keen mental discernment, sound judgment, and farsighted wisdom.",
+        "synonyms": [
+          "astute",
+          "shrewd",
+          "discerning"
+        ],
+        "antonyms": [
+          "foolish",
+          "naive"
+        ],
+        "example_sentence": "The chief economic adviser's sagacious warnings about global trade fragmentation prompted domestic policy recalibrations."
+      },
+      {
+        "word": "INCIPIENT",
+        "part_of_speech": "Adjective",
+        "meaning": "In an initial stage; beginning to develop or become apparent.",
+        "synonyms": [
+          "nascent",
+          "embryonic",
+          "burgeoning"
+        ],
+        "antonyms": [
+          "mature",
+          "established"
+        ],
+        "example_sentence": "Early monetary intervention is crucial to nip incipient inflationary pressures before wages adjust."
+      },
+      {
+        "word": "CAPITULATE",
+        "part_of_speech": "Verb",
+        "meaning": "To cease resisting an opponent or an unwelcome demand; to surrender.",
+        "synonyms": [
+          "yield",
+          "succumb",
+          "relinquish"
+        ],
+        "antonyms": [
+          "resist",
+          "withstand"
+        ],
+        "example_sentence": "Regulators refused to capitulate to commercial lobbying that sought dilution of the new prudential norms."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Throw down the gauntlet",
+        "meaning": "To issue a challenge or provocation to someone.",
+        "example_sentence": "By announcing ambitious indigenisation targets, the Air Chief threw down the gauntlet to private defence manufacturers."
+      },
+      {
+        "idiom": "Put the cart before the horse",
+        "meaning": "To reverse the proper chronological order or priority of things.",
+        "example_sentence": "Borrowing heavily before ensuring durable revenue streams is simply putting the cart before the horse."
+      },
+      {
+        "idiom": "Run the gauntlet",
+        "meaning": "To undergo a severe ordeal, criticism, or series of difficulties.",
+        "example_sentence": "The contentious legislative reform had to run the gauntlet of joint parliamentary committee hearings."
+      },
+      {
+        "idiom": "Beat around the bush",
+        "meaning": "To discuss a matter without addressing the main, crucial point directly.",
+        "example_sentence": "The monetary panel refused to beat around the bush and directly addressed the liquidity shortfall in the interbank market."
+      },
+      {
+        "idiom": "Back to the drawing board",
+        "meaning": "To start a project over again because an earlier attempt failed or proved ineffective.",
+        "example_sentence": "When initial bilateral tariff negotiations stalled, the commerce team went back to the drawing board to restructure the product basket."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Finance Commission of India (Article 280)",
+        "bullets": [
+          "Constitutional Body: Constituted by the President of India every five years or earlier under Article 280 of the Constitution.",
+          "Composition: Consists of a Chairman and four other members appointed by the President, with qualifications determined by the Finance Commission Act, 1951.",
+          "Core Mandate: Recommends the vertical distribution of net tax proceeds between Union and States, horizontal distribution among states, and principles governing Grants-in-Aid under Article 275."
+        ]
+      },
+      {
+        "title": "Central Vigilance Commission (CVC)",
+        "bullets": [
+          "Origin & Mandate: Set up on the recommendations of the Santhanam Committee (1964) and accorded statutory status via the CVC Act, 2003.",
+          "Composition: Consists of a Central Vigilance Commissioner (Chairperson) and not more than two Vigilance Commissioners.",
+          "Appointment: Appointed by the President on the recommendation of a three-member committee consisting of the Prime Minister, the Minister of Home Affairs, and the Leader of the Opposition in Lok Sabha."
+        ]
+      },
+      {
+        "title": "Section 69A of Information Technology Act, 2000",
+        "bullets": [
+          "Legal Authority: Empowers the Central Government to block public access to any online information through computer resources.",
+          "Grounds of Restriction: Sovereignty, integrity, and defence of India, security of the State, friendly relations with foreign states, public order, or preventing incitement to cognizable offences relating to these.",
+          "Governing Rules: Executed under the Information Technology (Procedure and Safeguards for Blocking for Access of Information by Public) Rules, 2009; designated nodal officer issues orders reviewed by a statutory oversight committee."
+        ]
+      },
+      {
+        "title": "The World Bank Group & Poverty Thresholds",
+        "bullets": [
+          "Headquarters & Foundation: Established alongside the IMF at the Bretton Woods Conference in 1944; headquartered in Washington, D.C.",
+          "Five Institutions: Comprises IBRD, IDA, IFC, MIGA, and ICSID (India is a member of all except ICSID).",
+          "Poverty Metrics: International Extreme Poverty Line is set at $2.15 per day, Lower-Middle-Income Line at $3.65/day to $4.20/day, and Upper-Middle-Income Line at $6.85/day (2017 PPP terms)."
+        ]
+      },
+      {
+        "title": "Indian Air Force Command Structure",
+        "bullets": [
+          "Operational Commands: IAF operates five operational commands (Western at New Delhi, Eastern at Shillong, Central at Prayagraj, South Western at Gandhinagar, Southern at Thiruvananthapuram).",
+          "Functional Commands: Operates two functional commands\u2014Training Command (Bengaluru) and Maintenance Command (Nagpur).",
+          "Supreme Commander: Under Article 53(2) of the Indian Constitution, the President of India is the Supreme Commander of the Armed Forces."
+        ]
+      }
+    ]
   }
 ]
