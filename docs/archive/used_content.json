@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "CONTRITE",
-    "PROGNOSTICATE",
-    "STRIDENT",
-    "RECIPROCITY",
     "PRAGMATIC",
     "CONSOLIDATE",
     "DIVERGENT",
@@ -59,13 +55,13 @@
     "ABERRATION",
     "SAGACIOUS",
     "INCIPIENT",
-    "CAPITULATE"
+    "CAPITULATE",
+    "FASTIDIOUS",
+    "MUNIFICENT",
+    "PEJORATIVE",
+    "TREPIDATION"
   ],
   "idiom": [
-    "Cry over spilt milk",
-    "Bite your tongue",
-    "Under a cloud",
-    "Across the board",
     "To toe the line",
     "To throw down the gauntlet",
     "Steer clear of",
@@ -121,14 +117,13 @@
     "Turn a blind eye",
     "Throw down the gauntlet",
     "Put the cart before the horse",
-    "Run the gauntlet"
+    "Run the gauntlet",
+    "Between Scylla and Charybdis",
+    "Gift of the gab",
+    "Throw cold water on",
+    "To bell the cat"
   ],
   "gk_booster": [
-    "India-UAE Comprehensive Economic Partnership Agreement (CEPA)",
-    "Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985",
-    "New Zealand Capital and Currency",
-    "Panchayati Raj System & Constitutional Provisions",
-    "RoDTEP Scheme Framework",
     "Rights of Persons with Disabilities Act, 2016",
     "India-United States 2+2 Ministerial Dialogue",
     "Food Safety and Standards Authority of India (FSSAI)",
@@ -183,6 +178,11 @@
     "Central Vigilance Commission (CVC)",
     "Section 69A of Information Technology Act, 2000",
     "The World Bank Group & Poverty Thresholds",
-    "Indian Air Force Command Structure"
+    "Indian Air Force Command Structure",
+    "Goods and Services Tax (GST) Council (Article 279A)",
+    "Special Additional Excise Duty (SAED) / Windfall Profit Tax",
+    "IMD Classification of Cyclonic Disturbances",
+    "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST)",
+    "Shey Phoksundo National Park & Dolpa District"
   ]
 }

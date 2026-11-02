@@ -8174,5 +8174,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "02 November 2026",
+    "vocab_words": [
+      {
+        "word": "FASTIDIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Very attentive to and concerned about accuracy, detail, and cleanliness; difficult to please.",
+        "synonyms": [
+          "meticulous",
+          "scrupulous",
+          "punctilious"
+        ],
+        "antonyms": [
+          "careless",
+          "sloppy",
+          "negligent"
+        ],
+        "example_sentence": "The bank auditor was fastidious in checking ledger reconciliation entries to ensure complete compliance."
+      },
+      {
+        "word": "MUNIFICENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Characterized by great generosity; displaying lavish or bountiful charity.",
+        "synonyms": [
+          "bountiful",
+          "magnanimous",
+          "beneficent"
+        ],
+        "antonyms": [
+          "parsimonious",
+          "miserly",
+          "niggardly"
+        ],
+        "example_sentence": "The industrialist made a munificent endowment to establish a premier agricultural research laboratory."
+      },
+      {
+        "word": "INTRANSIGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Unwilling or refusing to change one's views, compromise, or agree.",
+        "synonyms": [
+          "uncompromising",
+          "resolute",
+          "obdurate"
+        ],
+        "antonyms": [
+          "pliant",
+          "amenable",
+          "flexible"
+        ],
+        "example_sentence": "Despite repeated mediation attempts by the labour tribunal, the union leaders remained intransigent on their bonus demands."
+      },
+      {
+        "word": "PEJORATIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Expressing contempt, disapproval, or belittling intent.",
+        "synonyms": [
+          "derogatory",
+          "disparaging",
+          "deprecatory"
+        ],
+        "antonyms": [
+          "laudatory",
+          "complimentary",
+          "approbatory"
+        ],
+        "example_sentence": "The panel cautioned that using pejorative language against marginal communities violates civil conduct guidelines."
+      },
+      {
+        "word": "TREPIDATION",
+        "part_of_speech": "Noun",
+        "meaning": "A feeling of fear, agitation, or dread about something that may happen.",
+        "synonyms": [
+          "apprehension",
+          "consternation",
+          "dread"
+        ],
+        "antonyms": [
+          "equanimity",
+          "assurance",
+          "composure"
+        ],
+        "example_sentence": "Coastal villagers watched the darkening storm surge with genuine trepidation as the cyclone drew nearer."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Between Scylla and Charybdis",
+        "meaning": "Having to choose between two equally perilous or unwelcome alternatives.",
+        "example_sentence": "Faced with soaring inflation and sluggish industrial output, the central bank was trapped between Scylla and Charybdis."
+      },
+      {
+        "idiom": "Apple of discord",
+        "meaning": "A subject of dispute, contention, or rivalry among parties.",
+        "example_sentence": "The allocation of inter-state river waters became the primary apple of discord during the regional council deliberations."
+      },
+      {
+        "idiom": "Gift of the gab",
+        "meaning": "The ability to speak easily, persuasively, and eloquently.",
+        "example_sentence": "Armed with the gift of the gab, the young advocate swayed the jury with an impassioned closing argument."
+      },
+      {
+        "idiom": "Throw cold water on",
+        "meaning": "To discourage, dismiss, or dampen enthusiasm for an idea or proposal.",
+        "example_sentence": "The finance director threw cold water on the team's extravagant marketing expansion plan."
+      },
+      {
+        "idiom": "To bell the cat",
+        "meaning": "To undertake a dangerous, hazardous, or challenging task on behalf of a group.",
+        "example_sentence": "Everyone agreed the corporate management was corrupt, but nobody volunteered to bell the cat and notify the regulator."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Goods and Services Tax (GST) Council (Article 279A)",
+        "bullets": [
+          "Constitutional Body established under Article 279A following the 101st Constitutional Amendment Act, 2016.",
+          "Chaired by the Union Finance Minister, with Union Minister of State for Finance and state Finance Ministers as members.",
+          "Decisions are taken by a 75% weighted majority; the Central Government holds one-third (33.33%) voting weight, while all States collectively hold two-thirds (66.67%)."
+        ]
+      },
+      {
+        "title": "Special Additional Excise Duty (SAED) / Windfall Profit Tax",
+        "bullets": [
+          "Introduced by India on July 1, 2022, on crude oil production and exports of petrol, diesel, and ATF under the Central Excise Act.",
+          "Aimed at absorbing supernormal profits earned by domestic refineries profiting from high international refining margins ('crack spreads').",
+          "The rates are reviewed on a fortnightly basis depending on the trailing two-week averages of international benchmark fuel prices."
+        ]
+      },
+      {
+        "title": "IMD Classification of Cyclonic Disturbances",
+        "bullets": [
+          "Deep Depression: 28\u201333 knots (52\u201361 km/h); Cyclonic Storm: 34\u201347 knots (62\u201388 km/h).",
+          "Severe Cyclonic Storm (SCS): 48\u201363 knots (89\u2013117 km/h); Very Severe Cyclonic Storm (VSCS): 64\u201389 knots (118\u2013166 km/h).",
+          "Extremely Severe Cyclonic Storm (ESCS): 90\u2013119 knots (167\u2013221 km/h); Super Cyclonic Storm (SuCS): \u2265120 knots (\u2265222 km/h)."
+        ]
+      },
+      {
+        "title": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST)",
+        "bullets": [
+          "Located in Thiruvananthapuram, Kerala; declared an Institute of National Importance under the Department of Science and Technology (DST) via an Act of Parliament in 1980.",
+          "Specializes in advanced biomedical engineering, biomaterials development, and specialized neuro-cardiac clinical research.",
+          "Pioneered the development of India's first indigenous artificial heart valve ('Chitra Valve') and blood bag systems."
+        ]
+      },
+      {
+        "title": "Shey Phoksundo National Park & Dolpa District",
+        "bullets": [
+          "Largest national park in Nepal, covering 3,555 sq km in the Trans-Himalayan region across Dolpa and Mugu districts.",
+          "Houses the famous oligotrophic Phoksundo Lake (declared a Ramsar site in 2007) and preserves endangered Himalayan fauna including the snow leopard and blue sheep.",
+          "Dolpa is physically the largest district of Nepal, bordered by Tibet (China) to the north."
+        ]
+      }
+    ]
   }
 ]
