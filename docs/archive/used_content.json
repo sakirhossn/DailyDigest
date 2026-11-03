@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "PRAGMATIC",
-    "CONSOLIDATE",
-    "DIVERGENT",
-    "AMELIORATE",
     "SCRUTINIZE",
     "UBIQUITOUS",
     "CAPRICIOUS",
@@ -59,7 +55,11 @@
     "FASTIDIOUS",
     "MUNIFICENT",
     "PEJORATIVE",
-    "TREPIDATION"
+    "TREPIDATION",
+    "MANDATORY",
+    "DISCREPANCY",
+    "SCRUTINY",
+    "RESURGENCE"
   ],
   "idiom": [
     "To toe the line",
@@ -124,11 +124,6 @@
     "To bell the cat"
   ],
   "gk_booster": [
-    "Rights of Persons with Disabilities Act, 2016",
-    "India-United States 2+2 Ministerial Dialogue",
-    "Food Safety and Standards Authority of India (FSSAI)",
-    "PM-KUSUM Scheme Architecture",
-    "Securities and Exchange Board of India (SEBI)",
     "Indian Computer Emergency Response Team (CERT-In)",
     "National Policy for Rare Diseases (NPRD) 2021",
     "Index of Eight Core Industries (ICI)",
@@ -183,6 +178,11 @@
     "Special Additional Excise Duty (SAED) / Windfall Profit Tax",
     "IMD Classification of Cyclonic Disturbances",
     "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST)",
-    "Shey Phoksundo National Park & Dolpa District"
+    "Shey Phoksundo National Park & Dolpa District",
+    "Urban Cooperative Banks (UCBs) in India",
+    "Goods and Services Tax (GST) Council",
+    "El Nino Southern Oscillation (ENSO)",
+    "Special Additional Excise Duty (SAED)",
+    "United Nations General Assembly (UNGA)"
   ]
 }

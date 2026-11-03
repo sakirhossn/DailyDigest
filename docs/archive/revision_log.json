@@ -8328,5 +8328,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "03 November 2026",
+    "vocab_words": [
+      {
+        "word": "MANDATORY",
+        "part_of_speech": "Adjective",
+        "meaning": "Required by law or rules; compulsory.",
+        "synonyms": [
+          "compulsory",
+          "obligatory",
+          "imperative"
+        ],
+        "antonyms": [
+          "optional",
+          "voluntary"
+        ],
+        "example_sentence": "Adherence to the new MSCARO audit rules has been made mandatory for all aspiring cooperative banks."
+      },
+      {
+        "word": "DISCREPANCY",
+        "part_of_speech": "Noun",
+        "meaning": "An illogical or unexplainable difference between two or more things that should be the same.",
+        "synonyms": [
+          "inconsistency",
+          "variance",
+          "divergence"
+        ],
+        "antonyms": [
+          "conformity",
+          "consistency"
+        ],
+        "example_sentence": "The opposition alleged severe financial discrepancies in the asset valuation reports."
+      },
+      {
+        "word": "MITIGATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make less severe, serious, or painful.",
+        "synonyms": [
+          "alleviate",
+          "lessen",
+          "reduce"
+        ],
+        "antonyms": [
+          "aggravate",
+          "intensify"
+        ],
+        "example_sentence": "Civic bodies introduced awareness programs to mitigate the adverse health impacts of extreme weather events."
+      },
+      {
+        "word": "SCRUTINY",
+        "part_of_speech": "Noun",
+        "meaning": "Critical observation or examination.",
+        "synonyms": [
+          "inspection",
+          "surveillance",
+          "analysis"
+        ],
+        "antonyms": [
+          "glance",
+          "sketch"
+        ],
+        "example_sentence": "The banking sector came under intense regulatory scrutiny following the introduction of revised licensing guidelines."
+      },
+      {
+        "word": "RESURGENCE",
+        "part_of_speech": "Noun",
+        "meaning": "An increase or revival after a period of little activity, popularity, or occurrence.",
+        "synonyms": [
+          "revival",
+          "renaissance",
+          "comeback"
+        ],
+        "antonyms": [
+          "decline",
+          "collapse"
+        ],
+        "example_sentence": "The economy witnessed a sharp resurgence in tax revenues backed by strong festive consumer demand."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A storm in a teacup",
+        "meaning": "A great fuss or commotion over a small, trivial matter.",
+        "example_sentence": "Politicians arguing over minor procedures often turns out to be nothing more than a storm in a teacup."
+      },
+      {
+        "idiom": "Read between the lines",
+        "meaning": "To understand the hidden meaning or underlying intent of something written or said.",
+        "example_sentence": "Financial analysts had to read between the lines of the monetary policy statement to gauge future interest rate trajectories."
+      },
+      {
+        "idiom": "Back to the drawing board",
+        "meaning": "An instruction to start planning something all over again because the previous attempt failed.",
+        "example_sentence": "When the initial valuation model was rejected, the committee had to go back to the drawing board."
+      },
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work or study late into the night.",
+        "example_sentence": "Aspirants must burn the midnight oil if they wish to clear competitive examinations with top ranks."
+      },
+      {
+        "idiom": "Spill the beans",
+        "meaning": "To reveal a secret, usually unintentionally or prematurely.",
+        "example_sentence": "The whistleblower threatened to spill the beans regarding the corporate governance irregularities."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Urban Cooperative Banks (UCBs) in India",
+        "bullets": [
+          "Referred to loosely as cooperative banks in urban and semi-urban areas, originally registered under Cooperative Societies Acts.",
+          "Regulated jointly by the Reserve Bank of India (banking regulation) and State/Central Registrars of Cooperative Societies (registration and management).",
+          "Brought under stricter RBI oversight through amendments to the Banking Regulation Act in 2020."
+        ]
+      },
+      {
+        "title": "Goods and Services Tax (GST) Council",
+        "bullets": [
+          "Constitutional body established under Article 279A of the Indian Constitution.",
+          "Chaired by the Union Minister of Finance, with state finance ministers as members.",
+          "Responsible for making recommendations on GST rates, exemptions, thresholds, and administrative rules."
+        ]
+      },
+      {
+        "title": "El Nino Southern Oscillation (ENSO)",
+        "bullets": [
+          "A coupled ocean-atmosphere phenomenon spanning the tropical Pacific Ocean.",
+          "Consists of El Nino (warm phase) and La Nina (cool phase), with a neutral phase in between.",
+          "Directly influences monsoon rainfall distribution and agricultural output across the Indian subcontinent."
+        ]
+      },
+      {
+        "title": "Special Additional Excise Duty (SAED)",
+        "bullets": [
+          "Also widely known as a windfall tax, levied by governments on unexpected profits accrued by domestic crude oil producers and fuel exporters.",
+          "Revised fortnightly in India based on international crude oil price fluctuations and domestic refinery margins.",
+          "Aimed at ensuring domestic availability of petroleum products at reasonable prices."
+        ]
+      },
+      {
+        "title": "United Nations General Assembly (UNGA)",
+        "bullets": [
+          "The primary deliberative, policymaking, and representative organ of the United Nations.",
+          "Comprises all 193 member states of the United Nations, maintaining equal voting rights (one member, one vote).",
+          "Headquartered in New York City, USA; passes resolutions that carry significant international moral and legal weight."
+        ]
+      }
+    ]
   }
 ]
