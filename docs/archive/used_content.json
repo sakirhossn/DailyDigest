@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "SCRUTINIZE",
-    "UBIQUITOUS",
-    "CAPRICIOUS",
-    "EQUANIMITY",
     "OBVIATE",
     "PERFIDIOUS",
     "RESILIENT",
@@ -59,14 +55,13 @@
     "MANDATORY",
     "DISCREPANCY",
     "SCRUTINY",
-    "RESURGENCE"
+    "RESURGENCE",
+    "MALLABLE",
+    "PRUDENT",
+    "AMELIORATE",
+    "EPITOME"
   ],
   "idiom": [
-    "To toe the line",
-    "To throw down the gauntlet",
-    "Steer clear of",
-    "Under the weather",
-    "Get the ball rolling",
     "Read between the lines",
     "Back to the drawing board",
     "On the same page",
@@ -121,14 +116,14 @@
     "Between Scylla and Charybdis",
     "Gift of the gab",
     "Throw cold water on",
-    "To bell the cat"
+    "To bell the cat",
+    "To clear the decks",
+    "A drop in the ocean",
+    "To grease the wheels",
+    "On thin ice",
+    "Through thick and thin"
   ],
   "gk_booster": [
-    "Indian Computer Emergency Response Team (CERT-In)",
-    "National Policy for Rare Diseases (NPRD) 2021",
-    "Index of Eight Core Industries (ICI)",
-    "Tenth Schedule of the Indian Constitution",
-    "United Nations Security Council (UNSC) Architecture",
     "Strait of Hormuz: Geographic and Strategic Significance",
     "National Organ and Tissue Transplant Organisation (NOTTO)",
     "Monetary Policy Committee (MPC) Statutory Framework",
@@ -183,6 +178,11 @@
     "Goods and Services Tax (GST) Council",
     "El Nino Southern Oscillation (ENSO)",
     "Special Additional Excise Duty (SAED)",
-    "United Nations General Assembly (UNGA)"
+    "United Nations General Assembly (UNGA)",
+    "Goods and Services Tax (GST) Framework in India",
+    "Urban Cooperative Banks (UCBs)",
+    "Prakasam Barrage and Krishna River",
+    "Viability Gap Funding (VGF)",
+    "NMDC Limited (National Mineral Development Corporation)"
   ]
 }
