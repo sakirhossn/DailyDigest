@@ -8630,5 +8630,157 @@
         ]
       }
     ]
+  },
+  {
+    "date": "05 November 2026",
+    "vocab_words": [
+      {
+        "word": "PALLIATIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Serving to relieve or soothe something without dealing with the root cause.",
+        "synonyms": [
+          "alleviating",
+          "mitigating",
+          "soothing"
+        ],
+        "antonyms": [
+          "aggravating",
+          "intensifying"
+        ],
+        "example_sentence": "The government announced palliative measures to cushion the impact of inflation on vulnerable households."
+      },
+      {
+        "word": "OBFUSCATE",
+        "part_of_speech": "Verb",
+        "meaning": "To render obscure, unclear, or unintelligible.",
+        "synonyms": [
+          "confuse",
+          "blur",
+          "muddle"
+        ],
+        "antonyms": [
+          "clarify",
+          "illuminate",
+          "explain"
+        ],
+        "example_sentence": "Critics argued that the complex tax jargon served only to obfuscate the core policy changes."
+      },
+      {
+        "word": "LARGESSE",
+        "part_of_speech": "Noun",
+        "meaning": "Generosity in bestowed money or gifts upon others.",
+        "synonyms": [
+          "munificence",
+          "bounty",
+          "largeness"
+        ],
+        "antonyms": [
+          "stinginess",
+          "parsimony"
+        ],
+        "example_sentence": "The corporate foundation distributed its financial largesse to support rural skill development."
+      },
+      {
+        "word": "RECALCITRANT",
+        "part_of_speech": "Adjective",
+        "meaning": "Having an uncooperative attitude toward authority or discipline.",
+        "synonyms": [
+          "refractory",
+          "defiant",
+          "intractable"
+        ],
+        "antonyms": [
+          "compliant",
+          "amenable",
+          "docile"
+        ],
+        "example_sentence": "The regulatory body imposed strict penalties on recalcitrant firms failing to comply with environmental norms."
+      },
+      {
+        "word": "EXCORIATE",
+        "part_of_speech": "Verb",
+        "meaning": "To criticize severely; to express harsh disapproval.",
+        "synonyms": [
+          "condemn",
+          "censure",
+          "denounce"
+        ],
+        "antonyms": [
+          "praise",
+          "commend",
+          "laud"
+        ],
+        "example_sentence": "Financial analysts did not hesitate to excoriate the mismanagement that led to massive asset write-downs."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Read between the lines",
+        "meaning": "To understand the hidden meaning or underlying intent behind a statement or document.",
+        "example_sentence": "A careful reading of the central bank's quarterly report allows markets to read between the lines regarding future rate cuts."
+      },
+      {
+        "idiom": "Bark up the wrong tree",
+        "meaning": "To pursue a mistaken line of inquiry or direct one's efforts in the wrong direction.",
+        "example_sentence": "Investigators realized they were barking up the wrong tree when forensic audits cleared the primary suspect."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To work excessively hard or exhaust oneself by overworking.",
+        "example_sentence": "Aspirants preparing for competitive exams often burn the candle at both ends to complete the expansive syllabus."
+      },
+      {
+        "idiom": "Cost an arm and a leg",
+        "meaning": "To be extremely expensive.",
+        "example_sentence": "Importing high-end battery storage systems can cost an arm and a leg without adequate government subsidies."
+      },
+      {
+        "idiom": "Hit the nail on the head",
+        "meaning": "To describe or identify a problem or situation with absolute precision.",
+        "example_sentence": "The economic editor hit the nail on the head by highlighting the persistent prosperity gap despite poverty reduction."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Ministry of Statistics and Programme Implementation (MoSPI)",
+        "bullets": [
+          "Responsible for the formulation of national statistical policies and conducting large-scale sample surveys.",
+          "Headquartered in New Delhi.",
+          "Oversees the National Statistical Office (NSO), which compiles key indicators like GDP and IIP."
+        ]
+      },
+      {
+        "title": "Critical Minerals and the Energy Transition",
+        "bullets": [
+          "Includes essential elements such as lithium, cobalt, nickel, and rare earth elements.",
+          "Vital for manufacturing electric vehicle (EV) batteries, wind turbines, and solar panels.",
+          "India's critical mineral mission aims to secure domestic value chains and reduce import reliance."
+        ]
+      },
+      {
+        "title": "Constitutional Provisions on Legislative Power (Article 246)",
+        "bullets": [
+          "Outlines the division of powers between the Union and States through the Seventh Schedule.",
+          "Contains the Union List, State List, and Concurrent List.",
+          "Ensures cooperative federalism while delineating legislative domains."
+        ]
+      },
+      {
+        "title": "Central Bureau of Investigation (CBI)",
+        "bullets": [
+          "Established in 1963 by a resolution of the Ministry of Home Affairs, later transferred to the Ministry of Personnel, Public Grievances and Pensions.",
+          "Derives its investigative legal authority from the Delhi Special Police Establishment Act, 1946.",
+          "Headquartered in New Delhi, headed by a Director."
+        ]
+      },
+      {
+        "title": "Pumped Storage Plants (PSP) in Hydro Energy",
+        "bullets": [
+          "Acts as a giant water battery storing electricity by pumping water from a lower reservoir to an upper reservoir during low-demand periods.",
+          "Releases water to generate electricity via turbines during peak demand hours.",
+          "Crucial for balancing grid fluctuations caused by intermittent renewable sources like solar and wind."
+        ]
+      }
+    ]
   }
 ]

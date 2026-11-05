@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "OBVIATE",
-    "PERFIDIOUS",
-    "RESILIENT",
-    "EXPEDITE",
     "SCRUPULOUS",
     "TACITURN",
     "VOCIFEROUS",
@@ -59,11 +55,13 @@
     "MALLABLE",
     "PRUDENT",
     "AMELIORATE",
-    "EPITOME"
+    "EPITOME",
+    "PALLIATIVE",
+    "LARGESSE",
+    "RECALCITRANT",
+    "EXCORIATE"
   ],
   "idiom": [
-    "Read between the lines",
-    "Back to the drawing board",
     "On the same page",
     "At the drop of a hat",
     "Call it a day",
@@ -121,14 +119,11 @@
     "A drop in the ocean",
     "To grease the wheels",
     "On thin ice",
-    "Through thick and thin"
+    "Through thick and thin",
+    "Bark up the wrong tree",
+    "Cost an arm and a leg"
   ],
   "gk_booster": [
-    "Strait of Hormuz: Geographic and Strategic Significance",
-    "National Organ and Tissue Transplant Organisation (NOTTO)",
-    "Monetary Policy Committee (MPC) Statutory Framework",
-    "Purchasing Managers' Index (PMI) Methodology",
-    "Minor Forest Produce (MFP) & TRIFED Institutional Architecture",
     "El Ni\u00f1o-Southern Oscillation (ENSO) System",
     "Directorate of Revenue Intelligence (DRI)",
     "Periodic Labour Force Survey (PLFS) Framework",
@@ -183,6 +178,11 @@
     "Urban Cooperative Banks (UCBs)",
     "Prakasam Barrage and Krishna River",
     "Viability Gap Funding (VGF)",
-    "NMDC Limited (National Mineral Development Corporation)"
+    "NMDC Limited (National Mineral Development Corporation)",
+    "Ministry of Statistics and Programme Implementation (MoSPI)",
+    "Critical Minerals and the Energy Transition",
+    "Constitutional Provisions on Legislative Power (Article 246)",
+    "Central Bureau of Investigation (CBI)",
+    "Pumped Storage Plants (PSP) in Hydro Energy"
   ]
 }
