@@ -1,7 +1,5 @@
 {
   "vocab": [
-    "SCRUPULOUS",
-    "TACITURN",
     "VOCIFEROUS",
     "INCHOATE",
     "ESCHEW",
@@ -59,12 +57,11 @@
     "PALLIATIVE",
     "LARGESSE",
     "RECALCITRANT",
-    "EXCORIATE"
+    "EXCORIATE",
+    "PUNITIVE",
+    "GREGARIOUS"
   ],
   "idiom": [
-    "On the same page",
-    "At the drop of a hat",
-    "Call it a day",
     "Barking up the wrong tree",
     "A double-edged sword",
     "Break the ice",
@@ -121,14 +118,12 @@
     "On thin ice",
     "Through thick and thin",
     "Bark up the wrong tree",
-    "Cost an arm and a leg"
+    "Cost an arm and a leg",
+    "Beat around the bush",
+    "Salt of the earth",
+    "Blessing in disguise"
   ],
   "gk_booster": [
-    "El Ni\u00f1o-Southern Oscillation (ENSO) System",
-    "Directorate of Revenue Intelligence (DRI)",
-    "Periodic Labour Force Survey (PLFS) Framework",
-    "Constitutional Safeguards of the Election Commission (Article 324)",
-    "Kharai Camels of Kutch",
     "IMD Tropical Cyclone Classification System",
     "Ethanol Blended Petrol (EBP) Programme",
     "Agriculture Infrastructure Fund (AIF)",
@@ -183,6 +178,11 @@
     "Critical Minerals and the Energy Transition",
     "Constitutional Provisions on Legislative Power (Article 246)",
     "Central Bureau of Investigation (CBI)",
-    "Pumped Storage Plants (PSP) in Hydro Energy"
+    "Pumped Storage Plants (PSP) in Hydro Energy",
+    "Supreme Court Original Jurisdiction (Article 131)",
+    "National Bank for Agriculture and Rural Development (NABARD)",
+    "Strait of Hormuz Geopolitical Significance",
+    "Constitutional Provision on Concurrent List (Schedule VII)",
+    "Bond Yields and Interest Rate Dynamics"
   ]
 }

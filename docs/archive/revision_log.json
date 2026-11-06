@@ -8782,5 +8782,158 @@
         ]
       }
     ]
+  },
+  {
+    "date": "06 November 2026",
+    "vocab_words": [
+      {
+        "word": "PUNITIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Inflicting or intended as punishment.",
+        "synonyms": [
+          "penal",
+          "disciplinary",
+          "corrective"
+        ],
+        "antonyms": [
+          "rewarding",
+          "compensatory"
+        ],
+        "example_sentence": "The regulatory body imposed punitive fines on the institution for violating safety compliance standards."
+      },
+      {
+        "word": "LACONIC",
+        "part_of_speech": "Adjective",
+        "meaning": "(Of a person, speech, or style of writing) using very few words.",
+        "synonyms": [
+          "concise",
+          "succinct",
+          "brief"
+        ],
+        "antonyms": [
+          "verbose",
+          "loquacious",
+          "wordy"
+        ],
+        "example_sentence": "His laconic response during the parliamentary inquiry left many journalists guessing about his exact stance."
+      },
+      {
+        "word": "OBFUSCATE",
+        "part_of_speech": "Verb",
+        "meaning": "Render obscure, unclear, or unintelligible.",
+        "synonyms": [
+          "confuse",
+          "blur",
+          "muddle"
+        ],
+        "antonyms": [
+          "clarify",
+          "elucidate",
+          "explain"
+        ],
+        "example_sentence": "The accused attempted to obfuscate the financial audit trail by creating multiple shell companies."
+      },
+      {
+        "word": "GREGARIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "(Of a person) fond of company; sociable.",
+        "synonyms": [
+          "sociable",
+          "outgoing",
+          "convivial"
+        ],
+        "antonyms": [
+          "unsociable",
+          "reclusive",
+          "introverted"
+        ],
+        "example_sentence": "Known for his gregarious nature, the minister easily connected with voters during the grassroots campaign."
+      },
+      {
+        "word": "MITIGATE",
+        "part_of_speech": "Verb",
+        "meaning": "Make less severe, serious, or painful.",
+        "synonyms": [
+          "alleviate",
+          "reduce",
+          "diminish"
+        ],
+        "antonyms": [
+          "aggravate",
+          "intensify",
+          "worsen"
+        ],
+        "example_sentence": "Effective watershed management projects help mitigate the adverse impacts of prolonged drought."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Beat around the bush",
+        "meaning": "To avoid speaking directly about a topic or to procrastinate instead of addressing the core issue.",
+        "example_sentence": "Instead of beating around the bush during the interview, the bureaucrat answered every policy question directly."
+      },
+      {
+        "idiom": "Salt of the earth",
+        "meaning": "A very good, honest, and reliable person or group of people.",
+        "example_sentence": "Farmers and rural laborers who sustain food security are often described as the salt of the earth."
+      },
+      {
+        "idiom": "Blessing in disguise",
+        "meaning": "An apparent misfortune that eventually results in something good happening later.",
+        "example_sentence": "Missing the early morning connecting flight proved to be a blessing in disguise as it saved them from a major traffic accident."
+      },
+      {
+        "idiom": "Break the ice",
+        "meaning": "To do or say something to relieve tension or get conversation started in a tense gathering.",
+        "example_sentence": "The chairperson told an engaging anecdote at the beginning of the conference to break the ice among delegates."
+      },
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work or study late into the night.",
+        "example_sentence": "Aspirants preparing for competitive exams often burn the midnight oil to cover vast UPSC syllabi."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Supreme Court Original Jurisdiction (Article 131)",
+        "bullets": [
+          "Enshrined under Article 131 of the Indian Constitution.",
+          "Grants the Supreme Court exclusive authority to adjudicate disputes between the Government of India and one or more States.",
+          "Does not extend to disputes arising out of a treaty, covenant, or agreement entered into before the commencement of the Constitution."
+        ]
+      },
+      {
+        "title": "National Bank for Agriculture and Rural Development (NABARD)",
+        "bullets": [
+          "Established on 12 July 1982 based on the recommendations of the B. Sivaraman Committee.",
+          "Headquartered in Mumbai, Maharashtra.",
+          "Operates as an apex regulatory body for overall licensing and supervision of Regional Rural Banks (RRBs) and Cooperative Banks in India."
+        ]
+      },
+      {
+        "title": "Strait of Hormuz Geopolitical Significance",
+        "bullets": [
+          "A crucial maritime choke point located between Oman and Iran.",
+          "Connects the Persian Gulf with the Gulf of Oman and the Arabian Sea.",
+          "Vital for global energy transit, carrying a significant percentage of the world's petroleum petroleum liquids."
+        ]
+      },
+      {
+        "title": "Constitutional Provision on Concurrent List (Schedule VII)",
+        "bullets": [
+          "The Seventh Schedule of the Constitution of India contains three legislative lists: Union List, State List, and Concurrent List.",
+          "The Concurrent List includes subjects on which both Parliament and State Legislatures can make laws (e.g., Education, Forests).",
+          "Adopted from the Constitution of Australia."
+        ]
+      },
+      {
+        "title": "Bond Yields and Interest Rate Dynamics",
+        "bullets": [
+          "Bond yield represents the return an investor realizes on a bond.",
+          "There is an inverse relationship between bond prices and bond yields in secondary debt markets.",
+          "Central bank interest rate hikes typically push secondary bond yields higher, impacting commercial bank treasury portfolios."
+        ]
+      }
+    ]
   }
 ]
