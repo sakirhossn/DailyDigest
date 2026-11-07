@@ -8935,5 +8935,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "07 November 2026",
+    "vocab_words": [
+      {
+        "word": "PALLIATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a disease or its symptoms less severe without removing the basic cause; to lessen the seriousness of an offense.",
+        "synonyms": [
+          "alleviate",
+          "mitigate",
+          "assuage"
+        ],
+        "antonyms": [
+          "aggravate",
+          "intensify"
+        ],
+        "example_sentence": "The new administrative guidelines were designed to palliate the hardships faced by small business owners."
+      },
+      {
+        "word": "OBDURATE",
+        "part_of_speech": "Adjective",
+        "meaning": "Stubbornly refusing to change one's opinion or course of action.",
+        "synonyms": [
+          "obstinate",
+          "adamant",
+          "intransigent"
+        ],
+        "antonyms": [
+          "compliant",
+          "amenable"
+        ],
+        "example_sentence": "Despite repeated appeals from regulators, the firm remained obdurate regarding its compliance policies."
+      },
+      {
+        "word": "ESCHEW",
+        "part_of_speech": "Verb",
+        "meaning": "To deliberately avoid using or abstain from something.",
+        "synonyms": [
+          "forswear",
+          "shun",
+          "relinquish"
+        ],
+        "antonyms": [
+          "embrace",
+          "adopt"
+        ],
+        "example_sentence": "Modern economic strategies require policymakers to eschew outdated protectionist measures."
+      },
+      {
+        "word": "TACITURN",
+        "part_of_speech": "Adjective",
+        "meaning": "Reserved or uncommunicative in speech; saying little.",
+        "synonyms": [
+          "reticent",
+          "laconic",
+          "reserved"
+        ],
+        "antonyms": [
+          "loquacious",
+          "talkative"
+        ],
+        "example_sentence": "The usually taciturn chief executive offered surprising details during the quarterly investor call."
+      },
+      {
+        "word": "ENERVATE",
+        "part_of_speech": "Verb",
+        "meaning": "To cause someone to feel drained of energy; to weaken mentally or morally.",
+        "synonyms": [
+          "exhaust",
+          "debilitate",
+          "fatigue"
+        ],
+        "antonyms": [
+          "invigorate",
+          "energize"
+        ],
+        "example_sentence": "Continuous market volatility can enervate even the most experienced portfolio managers."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A bone of contention",
+        "meaning": "A subject or matter over which there is continuing disagreement or argument.",
+        "example_sentence": "The sharing of river water remains a major bone of contention between the neighboring states."
+      },
+      {
+        "idiom": "Cut the gordian knot",
+        "meaning": "To solve a notoriously complex problem in a bold, decisive, and unorthodox manner.",
+        "example_sentence": "The committee managed to cut the gordian knot by proposing an entirely digital clearance window."
+      },
+      {
+        "idiom": "Spill the beans",
+        "meaning": "To reveal a secret, usually unintentionally or prematurely.",
+        "example_sentence": "An anonymous insider spilled the beans about the upcoming monetary policy revisions."
+      },
+      {
+        "idiom": "Play devil's advocate",
+        "meaning": "To express an opinion that one does not necessarily hold, in order to provoke debate and test the validity of an argument.",
+        "example_sentence": "During the strategy review, she played devil's advocate to expose potential risks in the new project."
+      },
+      {
+        "idiom": "Miss the boat",
+        "meaning": "To fail to take advantage of an opportunity because of slowness or hesitation.",
+        "example_sentence": "Investors who failed to diversify early ended up missing the boat on the renewable energy rally."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Essential Commodities Act, 1955",
+        "bullets": [
+          "Enacted to control the production, supply, and distribution of essential commodities to maintain fair prices.",
+          "Administered by the Ministry of Consumer Affairs, Food and Public Distribution.",
+          "Allows central and state governments to fix stock limits during periods of abnormal price spikes."
+        ]
+      },
+      {
+        "title": "Mines and Minerals (Development and Regulation) Act - MMDR Act",
+        "bullets": [
+          "The primary legislation governing the mining sector in India, enacted in 1957.",
+          "Amended recently to introduce private sector participation in deep-seated critical mineral exploration.",
+          "Regulates the granting of mining leases and prospecting licenses across states."
+        ]
+      },
+      {
+        "title": "Air Quality Index (AQI) in India",
+        "bullets": [
+          "Launched in 2014 under the Swachh Bharat Abhiyan by the Ministry of Environment, Forest and Climate Change.",
+          "Tracks eight major pollutants including PM2.5, PM10, Nitrogen Dioxide, Sulfur Dioxide, Carbon Monoxide, Ozone, Ammonia, and Lead.",
+          "Calculated and monitored primarily by the Central Pollution Control Board (CPCB)."
+        ]
+      },
+      {
+        "title": "SATAT Initiative for Compressed Biogas",
+        "bullets": [
+          "Stands for 'Sustainable Alternative Towards Affordable Transportation', launched in October 2018.",
+          "Aimed at setting up Compressed Biogas (CBG) production plants and making it available for market use in automotive fuels.",
+          "Implemented by the Ministry of Petroleum and Natural Gas in partnership with public sector oil marketing companies."
+        ]
+      },
+      {
+        "title": "National Payments Corporation of India (NPCI)",
+        "bullets": [
+          "An umbrella organization for operating retail payments and settlement systems in India.",
+          "Established in 2008 under the provisions of the Payment and Settlement Systems Act, 2007.",
+          "Promoted by the Reserve Bank of India and the Indian Banks' Association (IBA)."
+        ]
+      }
+    ]
   }
 ]

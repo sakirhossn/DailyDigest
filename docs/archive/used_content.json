@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "VOCIFEROUS",
-    "INCHOATE",
-    "ESCHEW",
     "CANDID",
     "METICULOUS",
     "MITIGATE",
@@ -59,12 +56,12 @@
     "RECALCITRANT",
     "EXCORIATE",
     "PUNITIVE",
-    "GREGARIOUS"
+    "GREGARIOUS",
+    "OBDURATE",
+    "TACITURN",
+    "ENERVATE"
   ],
   "idiom": [
-    "Barking up the wrong tree",
-    "A double-edged sword",
-    "Break the ice",
     "Burn the midnight oil",
     "Once in a blue moon",
     "Take with a grain of salt",
@@ -121,14 +118,12 @@
     "Cost an arm and a leg",
     "Beat around the bush",
     "Salt of the earth",
-    "Blessing in disguise"
+    "Blessing in disguise",
+    "A bone of contention",
+    "Cut the gordian knot",
+    "Miss the boat"
   ],
   "gk_booster": [
-    "IMD Tropical Cyclone Classification System",
-    "Ethanol Blended Petrol (EBP) Programme",
-    "Agriculture Infrastructure Fund (AIF)",
-    "74th Constitutional Amendment Act, 1992",
-    "Tropical Cyclone Classification by IMD",
     "Tunnel Boring Machine (TBM) Technology",
     "State Finance Commission (SFC)",
     "Fiscal Responsibility and Budget Management (FRBM) Act, 2003",
@@ -183,6 +178,11 @@
     "National Bank for Agriculture and Rural Development (NABARD)",
     "Strait of Hormuz Geopolitical Significance",
     "Constitutional Provision on Concurrent List (Schedule VII)",
-    "Bond Yields and Interest Rate Dynamics"
+    "Bond Yields and Interest Rate Dynamics",
+    "Essential Commodities Act, 1955",
+    "Mines and Minerals (Development and Regulation) Act - MMDR Act",
+    "Air Quality Index (AQI) in India",
+    "SATAT Initiative for Compressed Biogas",
+    "National Payments Corporation of India (NPCI)"
   ]
 }
