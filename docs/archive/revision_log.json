@@ -9084,5 +9084,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "08 November 2026",
+    "vocab_words": [
+      {
+        "word": "EQUIVOCAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Open to more than one interpretation; ambiguous or uncertain.",
+        "synonyms": [
+          "ambiguous",
+          "evasive",
+          "cryptic"
+        ],
+        "antonyms": [
+          "unequivocal",
+          "clear",
+          "explicit"
+        ],
+        "example_sentence": "The central bank governor gave an equivocal response regarding future interest rate hikes."
+      },
+      {
+        "word": "INTRANSIGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Unwilling or refusing to change one's views or to agree about something.",
+        "synonyms": [
+          "uncompromising",
+          "inflexible",
+          "resolute"
+        ],
+        "antonyms": [
+          "compliant",
+          "pliable",
+          "accommodating"
+        ],
+        "example_sentence": "The trade negotiations stalled due to the intransigent stance taken by both delegations."
+      },
+      {
+        "word": "PERSPICACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having a ready insight into and understanding of things; perceptive.",
+        "synonyms": [
+          "discerning",
+          "astute",
+          "shrewd"
+        ],
+        "antonyms": [
+          "obtuse",
+          "ignorant",
+          "short-sighted"
+        ],
+        "example_sentence": "Her perspicacious analysis of agrarian inflation trends earned wide praise from economists."
+      },
+      {
+        "word": "PELLUCID",
+        "part_of_speech": "Adjective",
+        "meaning": "Translucently clear; easily understood.",
+        "synonyms": [
+          "lucid",
+          "transparent",
+          "crystalline"
+        ],
+        "antonyms": [
+          "opaque",
+          "murky",
+          "confusing"
+        ],
+        "example_sentence": "The High Court delivered a pellucid judgment clarifying constitutional gender rights."
+      },
+      {
+        "word": "LACONIC",
+        "part_of_speech": "Adjective",
+        "meaning": "Using very few words; concise to the point of seeming rude or mysterious.",
+        "synonyms": [
+          "terse",
+          "succinct",
+          "pithy"
+        ],
+        "antonyms": [
+          "verbose",
+          "loquacious",
+          "prolix"
+        ],
+        "example_sentence": "His laconic reply at the press briefing left reporters guessing the ministry's final decision."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To face a difficult or unpleasant situation with courage and fortitude.",
+        "example_sentence": "Faced with soaring food inflation, the board decided to bite the bullet and rationalise product sizes."
+      },
+      {
+        "idiom": "Fly off the handle",
+        "meaning": "To suddenly lose one's temper.",
+        "example_sentence": "The chairman cautioned delegates not to fly off the handle during contentious boardroom discussions."
+      },
+      {
+        "idiom": "Read between the lines",
+        "meaning": "To discover a meaning that is implied rather than stated explicitly.",
+        "example_sentence": "Market analysts read between the lines of the monetary statement to anticipate monetary easing."
+      },
+      {
+        "idiom": "Break the ice",
+        "meaning": "To overcome initial shyness or hostility in a social or diplomatic situation.",
+        "example_sentence": "The informal bilateral dinner helped break the ice between the two trade negotiators."
+      },
+      {
+        "idiom": "Spill the beans",
+        "meaning": "To disclose a secret prematurely or inadvertently.",
+        "example_sentence": "An anonymous insider spilled the beans regarding the impending corporate restructuring."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Bharatiya Nyaya Sanhita (BNS), 2023",
+        "bullets": [
+          "Enacted to repeal and replace the colonial Indian Penal Code (IPC), 1860, coming into nationwide effect on 1 July 2024.",
+          "Contains 358 sections compared to the 511 sections of the erstwhile IPC, consolidating offences against women and children in Chapter V.",
+          "Introduces community service as an official form of penal punishment for minor offences."
+        ]
+      },
+      {
+        "title": "Section 26(2) of the Reserve Bank of India (RBI) Act, 1934",
+        "bullets": [
+          "Empowers the Central Government to declare that any series of banknotes of any denomination shall cease to be legal tender, based on the recommendation of the Central Board of the RBI.",
+          "The Supreme Court of India upheld the constitutional validity of the 2016 demonetisation notification under Section 26(2) by a 4:1 majority in Vivek Narayan Sharma v. Union of India (2023).",
+          "The sole dissenting opinion was delivered by Justice B.V. Nagarathna, who noted that large-scale demonetisation ought to occur via plenary legislation."
+        ]
+      },
+      {
+        "title": "Northeast Monsoon (Retreating Monsoon) in India",
+        "bullets": [
+          "Occurs predominantly from October to December, driven by high-pressure building over Central Asia and the sub-Himalayan belt.",
+          "Serves as the primary rainy season for the Coromandel Coast, contributing nearly 50% to 60% of Tamil Nadu's annual precipitation.",
+          "Winds travel over the Bay of Bengal, picking up moisture before striking the coastal belts of Tamil Nadu, Rayalaseema, and coastal Andhra Pradesh."
+        ]
+      },
+      {
+        "title": "Agricultural and Processed Food Products Export Development Authority (APEDA)",
+        "bullets": [
+          "Established by the Government of India under the APEDA Act passed by Parliament in December 1985; headquartered in New Delhi.",
+          "Functions under the administrative purview of the Ministry of Commerce and Industry.",
+          "Entrusted with monitoring imports and promoting exports of scheduled products, including cereals, non-basmati rice, alcoholic beverages, and meat."
+        ]
+      },
+      {
+        "title": "Dandakaranya Plateau and Indravati River",
+        "bullets": [
+          "Dandakaranya is a physiographic plateau region covering parts of Chhattisgarh (Bastar division), Odisha, and Andhra Pradesh.",
+          "The Indravati River originates in the Eastern Ghats in Kalahandi, Odisha, flows westward through Bastar, and joins the Godavari River at Bhadrakali.",
+          "Famous for the Chitrakote Falls on the Indravati River, commonly known as the 'Niagara of India' due to its wide horseshoe shape during peak monsoon."
+        ]
+      }
+    ]
   }
 ]

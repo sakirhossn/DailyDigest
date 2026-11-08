@@ -1,6 +1,5 @@
 {
   "vocab": [
-    "CANDID",
     "METICULOUS",
     "MITIGATE",
     "LUCID",
@@ -59,12 +58,10 @@
     "GREGARIOUS",
     "OBDURATE",
     "TACITURN",
-    "ENERVATE"
+    "ENERVATE",
+    "EQUIVOCAL"
   ],
   "idiom": [
-    "Burn the midnight oil",
-    "Once in a blue moon",
-    "Take with a grain of salt",
     "Throw in the towel",
     "To break the ice",
     "A blessing in disguise",
@@ -121,14 +118,12 @@
     "Blessing in disguise",
     "A bone of contention",
     "Cut the gordian knot",
-    "Miss the boat"
+    "Miss the boat",
+    "Fly off the handle",
+    "Read between the lines",
+    "Break the ice"
   ],
   "gk_booster": [
-    "Tunnel Boring Machine (TBM) Technology",
-    "State Finance Commission (SFC)",
-    "Fiscal Responsibility and Budget Management (FRBM) Act, 2003",
-    "Periodic Labour Force Survey (PLFS) Institutional Framework",
-    "IndusInd Bank: Establishment and Headquarters",
     "Free On Board (FOB) vs. Landed Cost in Trade",
     "State Election Commission (Article 243K)",
     "Ways and Means Advances (WMA) Scheme",
@@ -183,6 +178,11 @@
     "Mines and Minerals (Development and Regulation) Act - MMDR Act",
     "Air Quality Index (AQI) in India",
     "SATAT Initiative for Compressed Biogas",
-    "National Payments Corporation of India (NPCI)"
+    "National Payments Corporation of India (NPCI)",
+    "Bharatiya Nyaya Sanhita (BNS), 2023",
+    "Section 26(2) of the Reserve Bank of India (RBI) Act, 1934",
+    "Northeast Monsoon (Retreating Monsoon) in India",
+    "Agricultural and Processed Food Products Export Development Authority (APEDA)",
+    "Dandakaranya Plateau and Indravati River"
   ]
 }
