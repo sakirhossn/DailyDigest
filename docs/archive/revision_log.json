@@ -9238,5 +9238,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "09 November 2026",
+    "vocab_words": [
+      {
+        "word": "DELETERIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Causing harm or damage.",
+        "synonyms": [
+          "detrimental",
+          "harmful",
+          "pernicious"
+        ],
+        "antonyms": [
+          "beneficial",
+          "advantageous",
+          "salubrious"
+        ],
+        "example_sentence": "Unchecked inflationary pressures can have a deleterious effect on household savings and consumer spending."
+      },
+      {
+        "word": "ESCHEW",
+        "part_of_speech": "Verb",
+        "meaning": "To deliberately avoid using or abstain from something.",
+        "synonyms": [
+          "abjure",
+          "shun",
+          "renounce"
+        ],
+        "antonyms": [
+          "embrace",
+          "adopt",
+          "pursue"
+        ],
+        "example_sentence": "Policymakers must eschew short-term populist measures to ensure long-term fiscal consolidation."
+      },
+      {
+        "word": "OBVIATE",
+        "part_of_speech": "Verb",
+        "meaning": "To remove or anticipate a need or difficulty; to make unnecessary.",
+        "synonyms": [
+          "preclude",
+          "prevent",
+          "forestall"
+        ],
+        "antonyms": [
+          "necessitate",
+          "promote",
+          "induce"
+        ],
+        "example_sentence": "Implementing automated stock declarations helps obviate artificial shortages in the agricultural commodity market."
+      },
+      {
+        "word": "PROLIFERATE",
+        "part_of_speech": "Verb",
+        "meaning": "To increase rapidly in number; to multiply.",
+        "synonyms": [
+          "burgeon",
+          "procreate",
+          "escalate"
+        ],
+        "antonyms": [
+          "decrease",
+          "dwindle",
+          "contract"
+        ],
+        "example_sentence": "Digital payment platforms continue to proliferate across semi-urban and rural trade fairs in India."
+      },
+      {
+        "word": "OSCILLATE",
+        "part_of_speech": "Verb",
+        "meaning": "To move or swing back and forth at a regular speed; to vacillate between extremes.",
+        "synonyms": [
+          "fluctuate",
+          "vacillate",
+          "swing"
+        ],
+        "antonyms": [
+          "remain steady",
+          "stabilize",
+          "stagnate"
+        ],
+        "example_sentence": "Global crude oil prices tend to oscillate sharply in response to geopolitical tensions in the Middle East."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove bad feelings, doubts, or tension by talking openly.",
+        "example_sentence": "Diplomatic talks helped to clear the air between the trading partners regarding maritime freight regulations."
+      },
+      {
+        "idiom": "A slippery slope",
+        "meaning": "A course of action that is difficult to stop once begun and leads to serious negative consequences.",
+        "example_sentence": "Allowing unchecked hoarding of essential food commodities can prove to be a slippery slope for retail inflation."
+      },
+      {
+        "idiom": "By and large",
+        "meaning": "On the whole; considering everything.",
+        "example_sentence": "By and large, rural households allocate a significant majority of their monthly spending toward food items."
+      },
+      {
+        "idiom": "Cut to the chase",
+        "meaning": "To get to the point without wasting time on preliminaries.",
+        "example_sentence": "The finance minister cut to the chase during the briefing on forex reserves and central bank intervention."
+      },
+      {
+        "idiom": "Under the radar",
+        "meaning": "Not attracting attention; largely unnoticed.",
+        "example_sentence": "Several small-scale digital trade initiatives operate under the radar before expanding into national programs."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Foreign Exchange Reserves in India",
+        "bullets": [
+          "Maintained and managed by the Reserve Bank of India under the Reserve Bank of India Act, 1934.",
+          "Consists of Foreign Currency Assets (FCAs), Gold, SDRs, and IMF Reserve Tranche Position.",
+          "Crucial economic indicator used to assess external sector stability and country's import cover."
+        ]
+      },
+      {
+        "title": "Strait of Hormuz Geopolitical Corridor",
+        "bullets": [
+          "A vital maritime choke point connecting the Persian Gulf with the Gulf of Oman and the Arabian Sea.",
+          "Bordered by Oman (Musandam exclave) on the south and Iran on the north.",
+          "Handles a major portion of global petroleum and liquefied natural gas (LNG) transit shipments."
+        ]
+      },
+      {
+        "title": "Rampur Bushahr and Himachal Pradesh Heritage",
+        "bullets": [
+          "Rampur Bushahr was a historic hill state situated on the banks of the Sutlej River in Himachal Pradesh.",
+          "Famous for hosting the ancient annual international Lavi Fair, rooted in historic trade ties with Tibet.",
+          "Capital of Himachal Pradesh: Shimla (Summer), Dharamshala (Winter)."
+        ]
+      },
+      {
+        "title": "National Bank for Agriculture and Rural Development (NABARD) Surveys",
+        "bullets": [
+          "Established on July 12, 1982, based on the recommendations of the B. Sivaraman Committee.",
+          "Apex development financial institution in India for agriculture and rural development.",
+          "Headquarters: Mumbai, Maharashtra; responsible for periodic rural financial and consumption pattern surveys."
+        ]
+      },
+      {
+        "title": "Ministry of Corporate Affairs (MCA)",
+        "bullets": [
+          "Governs corporate affairs in India primarily through the Companies Act, 2013 and Limited Liability Partnership Act, 2008.",
+          "Responsible for administering laws relating to companies, LLPs, and professional bodies like ICAI, ICSI, and ICAI(cost).",
+          "Plays a key role in monitoring youth skilling and internship frameworks like the PM Internship Scheme."
+        ]
+      }
+    ]
   }
 ]

@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "METICULOUS",
-    "MITIGATE",
-    "LUCID",
-    "COGENT",
     "RETICENT",
     "INTRANSIGENT",
     "SALUBRIOUS",
@@ -59,11 +55,13 @@
     "OBDURATE",
     "TACITURN",
     "ENERVATE",
-    "EQUIVOCAL"
+    "EQUIVOCAL",
+    "DELETERIOUS",
+    "ESCHEW",
+    "OBVIATE",
+    "OSCILLATE"
   ],
   "idiom": [
-    "Throw in the towel",
-    "To break the ice",
     "A blessing in disguise",
     "To miss the boat",
     "Apple of discord",
@@ -121,14 +119,11 @@
     "Miss the boat",
     "Fly off the handle",
     "Read between the lines",
-    "Break the ice"
+    "Break the ice",
+    "A slippery slope",
+    "Under the radar"
   ],
   "gk_booster": [
-    "Free On Board (FOB) vs. Landed Cost in Trade",
-    "State Election Commission (Article 243K)",
-    "Ways and Means Advances (WMA) Scheme",
-    "Representation of the People Act, 1950 (RPA 1950)",
-    "National Disaster Response Force (NDRF)",
     "Securities Transaction Tax (STT)",
     "Article 293 of the Indian Constitution (Borrowing by States)",
     "National Statistical Office (NSO)",
@@ -183,6 +178,11 @@
     "Section 26(2) of the Reserve Bank of India (RBI) Act, 1934",
     "Northeast Monsoon (Retreating Monsoon) in India",
     "Agricultural and Processed Food Products Export Development Authority (APEDA)",
-    "Dandakaranya Plateau and Indravati River"
+    "Dandakaranya Plateau and Indravati River",
+    "Foreign Exchange Reserves in India",
+    "Strait of Hormuz Geopolitical Corridor",
+    "Rampur Bushahr and Himachal Pradesh Heritage",
+    "National Bank for Agriculture and Rural Development (NABARD) Surveys",
+    "Ministry of Corporate Affairs (MCA)"
   ]
 }
