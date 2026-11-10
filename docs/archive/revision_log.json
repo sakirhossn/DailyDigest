@@ -9392,5 +9392,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "10 November 2026",
+    "vocab_words": [
+      {
+        "word": "PREVARICATE",
+        "part_of_speech": "Verb",
+        "meaning": "To speak or act in an evasive way; to avoid telling the plain truth.",
+        "synonyms": [
+          "equivocate",
+          "quibble",
+          "hedge"
+        ],
+        "antonyms": [
+          "confront",
+          "clarify"
+        ],
+        "example_sentence": "During the regulatory hearing, the executive continued to prevaricate rather than admit the financial discrepancies."
+      },
+      {
+        "word": "INGENUOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Innocent, unsuspecting, and candid; free from deceit or cunning.",
+        "synonyms": [
+          "naive",
+          "guileless",
+          "artless"
+        ],
+        "antonyms": [
+          "deceitful",
+          "shrewd"
+        ],
+        "example_sentence": "His ingenuous explanation convinced the committee that the breach was an honest mistake rather than intentional fraud."
+      },
+      {
+        "word": "INDEFATIGABLE",
+        "part_of_speech": "Adjective",
+        "meaning": "Persisting tirelessly; incapable of being fatigued.",
+        "synonyms": [
+          "unflagging",
+          "tireless",
+          "unwearied"
+        ],
+        "antonyms": [
+          "lethargic",
+          "indolent"
+        ],
+        "example_sentence": "The ministry's legal team showed indefatigable resolve in compiling evidence for the anti-dumping probe."
+      },
+      {
+        "word": "CALUMNY",
+        "part_of_speech": "Noun",
+        "meaning": "The making of false and defamatory statements in order to damage someone's reputation.",
+        "synonyms": [
+          "slander",
+          "libel",
+          "vilification"
+        ],
+        "antonyms": [
+          "acclaim",
+          "vindication"
+        ],
+        "example_sentence": "The diplomat denounced the accusations as malicious calumny aimed at derailing the bilateral negotiations."
+      },
+      {
+        "word": "TRENCHANT",
+        "part_of_speech": "Adjective",
+        "meaning": "Vigorous, sharp, and incisive in expression or style.",
+        "synonyms": [
+          "incisive",
+          "penetrating",
+          "pungent"
+        ],
+        "antonyms": [
+          "vague",
+          "feeble"
+        ],
+        "example_sentence": "The governor delivered a trenchant critique of unchecked fiscal expansion during the monetary summit."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To endure a painful or difficult situation that cannot be avoided.",
+        "example_sentence": "Facing rising debt costs, the central bank had to bite the bullet and raise benchmark interest rates."
+      },
+      {
+        "idiom": "A clean bill of health",
+        "meaning": "A formal statement or indication that something or someone is in good condition, sound, or operating legally.",
+        "example_sentence": "After rigorous inspection, the auditor gave the bank's non-performing asset accounts a clean bill of health."
+      },
+      {
+        "idiom": "Burn the midnight oil",
+        "meaning": "To work or study late into the night.",
+        "example_sentence": "The trade negotiators burned the midnight oil to finalize the terms of the bilateral tariff pact before the deadline."
+      },
+      {
+        "idiom": "Steer clear of",
+        "meaning": "To avoid someone or something that seems unpleasant, dangerous, or likely to cause problems.",
+        "example_sentence": "Investors chose to steer clear of emerging-market equities following sudden spikes in geopolitical tensions."
+      },
+      {
+        "idiom": "Face the music",
+        "meaning": "To accept unpleasant consequences or criticism for one's actions.",
+        "example_sentence": "With the anti-dumping findings published, importers will have to face the music and pay the revised countervailing tariffs."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Directorate General of Trade Remedies (DGTR)",
+        "bullets": [
+          "Established as an integrated single-window agency under the Department of Commerce in 2018 (merging DGAD and DG Safeguards).",
+          "Headquartered in New Delhi, it conducts investigations under the Customs Tariff Act, 1975, and WTO agreements.",
+          "Recommends anti-dumping duties, countervailing measures (subsidies), and safeguard duties; final duty imposition is notified by the Department of Revenue, Ministry of Finance."
+        ]
+      },
+      {
+        "title": "Nutrient Based Subsidy (NBS) Scheme",
+        "bullets": [
+          "Introduced in April 2010 by the Department of Fertilizers, Ministry of Chemicals and Fertilizers.",
+          "Governs non-urea fertilizers containing Nitrogen (N), Phosphate (P), Potash (K), and Sulphur (S), with annual/biannual subsidy rates fixed per kilogram of nutrient.",
+          "Aims to promote balanced fertilizer application, improve soil health, and limit excessive reliance on urea."
+        ]
+      },
+      {
+        "title": "Foreign Currency Non-Resident (Bank) [FCNR(B)] Accounts",
+        "bullets": [
+          "Permits Non-Resident Indians (NRIs) and Overseas Citizens of India (OCIs) to maintain term deposits in designated foreign currencies (e.g., USD, EUR, GBP, JPY).",
+          "The exchange risk is borne by the accepting bank, shielding the depositor from rupee fluctuation risks.",
+          "Tenure ranges from 1 year to 5 years, and interest income earned in these accounts is exempt from Indian income tax."
+        ]
+      },
+      {
+        "title": "Special Drawing Rights (SDRs)",
+        "bullets": [
+          "Created by the International Monetary Fund (IMF) in 1969 as a supplementary international reserve asset (often termed 'paper gold').",
+          "Value is based on a basket of five major currencies: US Dollar, Euro, Chinese Renminbi, Japanese Yen, and British Pound.",
+          "Forms an integral component of India's official foreign exchange reserves alongside foreign currency assets, gold, and reserve tranche."
+        ]
+      },
+      {
+        "title": "Food Safety and Standards Authority of India (FSSAI)",
+        "bullets": [
+          "Constituted as a statutory body under the Food Safety and Standards Act, 2006, under the administrative purview of the Ministry of Health and Family Welfare.",
+          "Headquartered in New Delhi, it sets science-based standards for food articles and regulates manufacture, storage, distribution, and sale.",
+          "Empowers designated Food Safety Officers and state commissioners to issue improvement notices, suspension orders, and product recalls for non-compliant establishments."
+        ]
+      }
+    ]
   }
 ]

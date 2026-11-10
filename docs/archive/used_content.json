@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "RETICENT",
-    "INTRANSIGENT",
-    "SALUBRIOUS",
-    "PELLUCID",
-    "ABROGATE",
     "VILIFY",
     "EXACERBATE",
     "OBFUSCATE",
@@ -59,12 +54,14 @@
     "DELETERIOUS",
     "ESCHEW",
     "OBVIATE",
-    "OSCILLATE"
+    "OSCILLATE",
+    "PREVARICATE",
+    "INGENUOUS",
+    "INDEFATIGABLE",
+    "CALUMNY",
+    "TRENCHANT"
   ],
   "idiom": [
-    "A blessing in disguise",
-    "To miss the boat",
-    "Apple of discord",
     "Feather one's nest",
     "In the nick of time",
     "At loggerheads",
@@ -121,14 +118,12 @@
     "Read between the lines",
     "Break the ice",
     "A slippery slope",
-    "Under the radar"
+    "Under the radar",
+    "A clean bill of health",
+    "Burn the midnight oil",
+    "Steer clear of"
   ],
   "gk_booster": [
-    "Securities Transaction Tax (STT)",
-    "Article 293 of the Indian Constitution (Borrowing by States)",
-    "National Statistical Office (NSO)",
-    "Panchayati Raj Constitutional Framework (73rd Amendment)",
-    "Consolidated Sinking Fund (CSF)",
     "WMO/ESCAP Panel on Tropical Cyclones (PTC)",
     "Code on Social Security, 2020",
     "Article 215 of the Indian Constitution",
@@ -183,6 +178,11 @@
     "Strait of Hormuz Geopolitical Corridor",
     "Rampur Bushahr and Himachal Pradesh Heritage",
     "National Bank for Agriculture and Rural Development (NABARD) Surveys",
-    "Ministry of Corporate Affairs (MCA)"
+    "Ministry of Corporate Affairs (MCA)",
+    "Directorate General of Trade Remedies (DGTR)",
+    "Nutrient Based Subsidy (NBS) Scheme",
+    "Foreign Currency Non-Resident (Bank) [FCNR(B)] Accounts",
+    "Special Drawing Rights (SDRs)",
+    "Food Safety and Standards Authority of India (FSSAI)"
   ]
 }
