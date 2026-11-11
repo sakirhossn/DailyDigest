@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "VILIFY",
-    "EXACERBATE",
-    "OBFUSCATE",
-    "LACONIC",
-    "PALLIATE",
     "DUBIOUS",
     "PROLIFERATE",
     "TACIT",
@@ -59,12 +54,14 @@
     "INGENUOUS",
     "INDEFATIGABLE",
     "CALUMNY",
-    "TRENCHANT"
+    "TRENCHANT",
+    "INSIDIOUS",
+    "COGNIZANT",
+    "PROLIFERATION",
+    "STRIDENCY",
+    "PERUSE"
   ],
   "idiom": [
-    "Feather one's nest",
-    "In the nick of time",
-    "At loggerheads",
     "To clip someone's wings",
     "A dime a dozen",
     "Face the music",
@@ -121,14 +118,12 @@
     "Under the radar",
     "A clean bill of health",
     "Burn the midnight oil",
-    "Steer clear of"
+    "Steer clear of",
+    "Leave no stone unturned",
+    "Weather the storm",
+    "Call a spade a spade"
   ],
   "gk_booster": [
-    "WMO/ESCAP Panel on Tropical Cyclones (PTC)",
-    "Code on Social Security, 2020",
-    "Article 215 of the Indian Constitution",
-    "Singareni Collieries Company Limited (SCCL)",
-    "Department of Investment and Public Asset Management (DIPAM)",
     "Registrar General and Census Commissioner of India",
     "Statue of Unity",
     "Federal Open Market Committee (FOMC)",
@@ -183,6 +178,11 @@
     "Nutrient Based Subsidy (NBS) Scheme",
     "Foreign Currency Non-Resident (Bank) [FCNR(B)] Accounts",
     "Special Drawing Rights (SDRs)",
-    "Food Safety and Standards Authority of India (FSSAI)"
+    "Food Safety and Standards Authority of India (FSSAI)",
+    "Central Water Commission (CWC)",
+    "Fertilizer Sector Regulatory Architecture in India",
+    "Major Port Authorities Act, 2021",
+    "Foreign Exchange Management Act (FEMA), 1999",
+    "Konkan Railway Corporation Limited (KRCL)"
   ]
 }

@@ -9541,5 +9541,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "11 November 2026",
+    "vocab_words": [
+      {
+        "word": "INSIDIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Proceeding in a gradual, subtle way, but with harmful or destructive effects.",
+        "synonyms": [
+          "pernicious",
+          "treacherous",
+          "subtle"
+        ],
+        "antonyms": [
+          "innocuous",
+          "benign"
+        ],
+        "example_sentence": "The insidious depletion of ground aquifers often goes unnoticed until crop yields begin to collapse."
+      },
+      {
+        "word": "COGNIZANT",
+        "part_of_speech": "Adjective",
+        "meaning": "Having knowledge, awareness, or realization of a particular matter.",
+        "synonyms": [
+          "apprised",
+          "conscious",
+          "mindful"
+        ],
+        "antonyms": [
+          "oblivious",
+          "unaware"
+        ],
+        "example_sentence": "Central banks must remain cognizant of exchange rate volatility when determining benchmark policy rates."
+      },
+      {
+        "word": "PROLIFERATION",
+        "part_of_speech": "Noun",
+        "meaning": "Rapid increase in the number or amount of something.",
+        "synonyms": [
+          "burgeoning",
+          "escalation",
+          "multiplication"
+        ],
+        "antonyms": [
+          "depletion",
+          "attrition"
+        ],
+        "example_sentence": "The rapid proliferation of automated container ports has transformed global freight logistics."
+      },
+      {
+        "word": "STRIDENCY",
+        "part_of_speech": "Noun",
+        "meaning": "The quality of being loud, harsh, or forcefully assertive in style or opinion.",
+        "synonyms": [
+          "clamor",
+          "vociferousness",
+          "sharpness"
+        ],
+        "antonyms": [
+          "mildness",
+          "moderation"
+        ],
+        "example_sentence": "Diplomats worked to lower the stridency of rhetoric surrounding cross-border trade tariffs."
+      },
+      {
+        "word": "PERUSE",
+        "part_of_speech": "Verb",
+        "meaning": "To read or examine something, either carefully or in a leisurely manner.",
+        "synonyms": [
+          "scrutinize",
+          "inspect",
+          "audit"
+        ],
+        "antonyms": [
+          "glance",
+          "overlook"
+        ],
+        "example_sentence": "Financial analysts perused the Reserve Bank's statistical bulletin to ascertain commercial credit demand."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "At loggerheads",
+        "meaning": "Engaged in a stubborn disagreement, conflict, or dispute.",
+        "example_sentence": "The trading partners remained at loggerheads over non-tariff regulatory barriers."
+      },
+      {
+        "idiom": "Leave no stone unturned",
+        "meaning": "To try every possible course of action in order to achieve something.",
+        "example_sentence": "The government left no stone unturned to secure adequate fertilizer imports prior to the sowing season."
+      },
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To endure a painful or difficult situation that is unavoidable with courage.",
+        "example_sentence": "Import-dependent economies must bite the bullet and accelerate renewable infrastructure despite heavy upfront costs."
+      },
+      {
+        "idiom": "Weather the storm",
+        "meaning": "To successfully survive or get through a period of extreme difficulty or crisis.",
+        "example_sentence": "With robust forex reserves, India managed to weather the storm of foreign institutional capital outflows."
+      },
+      {
+        "idiom": "Call a spade a spade",
+        "meaning": "To speak frankly and directly about something, even if it is unpleasant.",
+        "example_sentence": "The auditor called a spade a spade when reporting the fiscal mismatch in municipal balance sheets."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Central Water Commission (CWC)",
+        "bullets": [
+          "Established in 1945 on the advice of Dr. B.R. Ambedkar as the Central Waterways, Irrigation and Navigation Commission (CWINC).",
+          "Apex technical organization under the Ministry of Jal Shakti, functioning as an attached office headquartered in New Delhi.",
+          "Entrusted with initiating, coordinating, and managing schemes for water resource control, conservation, and utilization for flood mitigation, irrigation, and hydropower."
+        ]
+      },
+      {
+        "title": "Fertilizer Sector Regulatory Architecture in India",
+        "bullets": [
+          "Fertilizers are classified as Essential Commodities under the Essential Commodities Act (ECA), 1955, administered by the Department of Fertilizers.",
+          "Urea operates under statutory price control, whereas Phosphatic and Potassic (P&K) fertilizers fall under the decontrolled Nutrient Based Subsidy (NBS) regime initiated in 2010.",
+          "100% of indigenous and imported agricultural urea is coated with neem oil to retard nitrogen release and prevent industrial diversion."
+        ]
+      },
+      {
+        "title": "Major Port Authorities Act, 2021",
+        "bullets": [
+          "Replaced the Major Port Trusts Act, 1963, granting enhanced operational autonomy to 11 of the 12 Major Ports in India.",
+          "Abolished the Tariff Authority for Major Ports (TAMP), allowing port management boards to set tariff guidelines based on market dynamics.",
+          "India contains 12 Major Ports governed centrally, alongside approximately 200 notified Non-Major Ports governed by State Maritime Boards under the concurrent list."
+        ]
+      },
+      {
+        "title": "Foreign Exchange Management Act (FEMA), 1999",
+        "bullets": [
+          "Replaced the stringent Foreign Exchange Regulation Act (FERA), 1973, shifting the paradigm from 'regulation and criminalization' to 'management and civil facilitation'.",
+          "Classifies international transactions into Current Account (generally unrestricted) and Capital Account (regulated under specific RBI guidelines).",
+          "The Enforcement Directorate (ED) serves as the investigative agency responsible for enforcing FEMA compliance and penalizing civil infractions."
+        ]
+      },
+      {
+        "title": "Konkan Railway Corporation Limited (KRCL)",
+        "bullets": [
+          "Constructed along the rugged Sahyadri mountain range between Roha (Maharashtra) and Thokur (Karnataka), spanning 741 kilometers.",
+          "Incorporated as a public sector undertaking in 1990 under pioneer civil engineer E. Sreedharan, featuring the iconic Karbude Tunnel and Panval Nadi viaduct.",
+          "Operates as a multi-state joint venture between the Ministry of Railways and the state governments of Maharashtra, Goa, Karnataka, and Kerala."
+        ]
+      }
+    ]
   }
 ]
