@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "DUBIOUS",
-    "PROLIFERATE",
-    "TACIT",
-    "AUDACIOUS",
-    "PAGAN",
     "PERTINENT",
     "SURREPTITIOUS",
     "GARRULOUS",
@@ -59,13 +54,14 @@
     "COGNIZANT",
     "PROLIFERATION",
     "STRIDENCY",
-    "PERUSE"
+    "PERUSE",
+    "PUNCTILIOUS",
+    "ABEYANCE",
+    "PERVICACIOUS",
+    "TEMERITY",
+    "INTRANSIGENT"
   ],
   "idiom": [
-    "To clip someone's wings",
-    "A dime a dozen",
-    "Face the music",
-    "Hit the nail on the head",
     "See eye to eye",
     "Spill the beans",
     "Cut the Gordian knot",
@@ -121,14 +117,13 @@
     "Steer clear of",
     "Leave no stone unturned",
     "Weather the storm",
-    "Call a spade a spade"
+    "Call a spade a spade",
+    "To steal a march on",
+    "Keep one's ear to the ground",
+    "A Pyrrhic victory",
+    "Take the bull by the horns"
   ],
   "gk_booster": [
-    "Registrar General and Census Commissioner of India",
-    "Statue of Unity",
-    "Federal Open Market Committee (FOMC)",
-    "Maharatna Public Sector Undertakings in India",
-    "National Tiger Conservation Authority (NTCA)",
     "Finance Commission of India (Article 280)",
     "Central Vigilance Commission (CVC)",
     "Section 69A of Information Technology Act, 2000",
@@ -183,6 +178,11 @@
     "Fertilizer Sector Regulatory Architecture in India",
     "Major Port Authorities Act, 2021",
     "Foreign Exchange Management Act (FEMA), 1999",
-    "Konkan Railway Corporation Limited (KRCL)"
+    "Konkan Railway Corporation Limited (KRCL)",
+    "National Food Security Act (NFSA), 2013",
+    "Assisted Reproductive Technology (Regulation) Act, 2021",
+    "Rabi Cropping Season in India",
+    "Confederation of Indian Industry (CII)",
+    "Credit Rating Agencies Regulation in India"
   ]
 }

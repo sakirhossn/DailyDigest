@@ -9690,5 +9690,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "12 November 2026",
+    "vocab_words": [
+      {
+        "word": "PUNCTILIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Showing great attention to detail or correct behavior.",
+        "synonyms": [
+          "meticulous",
+          "scrupulous",
+          "fastidious"
+        ],
+        "antonyms": [
+          "careless",
+          "slapdash"
+        ],
+        "example_sentence": "The statutory auditors maintained a punctilious review of the state government's escrow accounts."
+      },
+      {
+        "word": "ABEYANCE",
+        "part_of_speech": "Noun",
+        "meaning": "A state of temporary disuse or suspension.",
+        "synonyms": [
+          "dormancy",
+          "suspension",
+          "latency"
+        ],
+        "antonyms": [
+          "continuation",
+          "resumption"
+        ],
+        "example_sentence": "The infrastructure expansion projects were held in abeyance pending final clearance from the environmental ministry."
+      },
+      {
+        "word": "PERVICACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Stubbornly persistent or willful in opinion or action.",
+        "synonyms": [
+          "tenacious",
+          "headstrong",
+          "pertinacious"
+        ],
+        "antonyms": [
+          "pliant",
+          "docile"
+        ],
+        "example_sentence": "Despite global monetary tightening, India showed pervicacious economic resilience through domestic demand."
+      },
+      {
+        "word": "TEMERITY",
+        "part_of_speech": "Noun",
+        "meaning": "Excessive confidence or boldness; audacity.",
+        "synonyms": [
+          "audacity",
+          "effrontery",
+          "presumption"
+        ],
+        "antonyms": [
+          "diffidence",
+          "modesty"
+        ],
+        "example_sentence": "Unlicensed medical centers lacked the authority yet had the temerity to bypass statutory health regulations."
+      },
+      {
+        "word": "INTRANSIGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Refusing to compromise or change one's views.",
+        "synonyms": [
+          "uncompromising",
+          "inflexible",
+          "unyielding"
+        ],
+        "antonyms": [
+          "flexible",
+          "accommodating"
+        ],
+        "example_sentence": "Regulatory bodies remained intransigent on enforcing safety mandates for food distribution trucks."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To steal a march on",
+        "meaning": "To gain an advantage over a competitor by acting secretly or before they do.",
+        "example_sentence": "The state government enacted investor-friendly laws to steal a march on neighboring industrial hubs."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To exhaust one's resources or health by working late into the night and starting early in the morning.",
+        "example_sentence": "Policy framers burned the candle at both ends to finalize the fiscal targets before the mid-year review."
+      },
+      {
+        "idiom": "Keep one's ear to the ground",
+        "meaning": "To pay close attention to present developments and upcoming trends.",
+        "example_sentence": "Central bankers keep their ear to the ground to monitor subtle shifts in crude oil pricing and retail inflation."
+      },
+      {
+        "idiom": "A Pyrrhic victory",
+        "meaning": "A victory that inflicts such devastating damage that it is tantamount to defeat.",
+        "example_sentence": "Achieving short-term revenue goals at the expense of depleting water reservoirs would be a Pyrrhic victory for agriculture."
+      },
+      {
+        "idiom": "Take the bull by the horns",
+        "meaning": "To deal decisively and directly with a difficult or dangerous situation.",
+        "example_sentence": "The municipal corporation took the bull by the horns by mandating real-time GPS tracking for grain supply vehicles."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "National Food Security Act (NFSA), 2013",
+        "bullets": [
+          "Enacted on September 12, 2013, to provide food and nutritional security by ensuring access to adequate quantity of quality food at affordable prices.",
+          "Covers up to 75% of rural and 50% of urban population under Targeted Public Distribution System (TPDS).",
+          "Entitles beneficiaries under Priority Households to 5 kg of foodgrains per person per month at subsidized prices of \u20b93/kg for rice, \u20b92/kg for wheat, and \u20b91/kg for coarse grains."
+        ]
+      },
+      {
+        "title": "Assisted Reproductive Technology (Regulation) Act, 2021",
+        "bullets": [
+          "Provides for the regulation and supervision of ART clinics and ART banks to prevent misuse and ensure ethical practice.",
+          "Establishes National Board and State Boards to lay down code of conduct and minimum standards of equipment and manpower.",
+          "Sets upper age limits for ART procedures: 50 years for women and 55 years for men."
+        ]
+      },
+      {
+        "title": "Rabi Cropping Season in India",
+        "bullets": [
+          "Sowing starts in winter from October to December, and harvesting takes place in spring from April to June.",
+          "Major Rabi crops include wheat, barley, gram, peas, mustard, and rapeseed.",
+          "Rabi crops depend significantly on sub-soil moisture and winter rainfall brought by Western Disturbances."
+        ]
+      },
+      {
+        "title": "Confederation of Indian Industry (CII)",
+        "bullets": [
+          "Non-governmental, non-profit, industry-led and industry-managed organization founded in 1895.",
+          "Headquartered in New Delhi, it plays a proactive role in India's development process through policy advocacy.",
+          "Partners with state and central governments to organize flagship summits like the Partnership Summit."
+        ]
+      },
+      {
+        "title": "Credit Rating Agencies Regulation in India",
+        "bullets": [
+          "Credit Rating Agencies (CRAs) assess the creditworthiness of corporate and government debt securities.",
+          "Regulated primarily by SEBI under the SEBI (Credit Rating Agencies) Regulations, 1999.",
+          "Major CRAs registered in India include CRISIL, ICRA, CARE, and India Ratings and Research."
+        ]
+      }
+    ]
   }
 ]
