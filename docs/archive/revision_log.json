@@ -9839,5 +9839,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "13 November 2026",
+    "vocab_words": [
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make something bad or unsatisfactory better.",
+        "synonyms": [
+          "improve",
+          "mitigate",
+          "enhance"
+        ],
+        "antonyms": [
+          "worsen",
+          "exacerbate"
+        ],
+        "example_sentence": "The government launched targeted interventions to ameliorate the distress caused by soaring food inflation."
+      },
+      {
+        "word": "CIRCUMSPECT",
+        "part_of_speech": "Adjective",
+        "meaning": "Wary and unwilling to take risks; chary.",
+        "synonyms": [
+          "cautious",
+          "vigilant",
+          "prudent"
+        ],
+        "antonyms": [
+          "reckless",
+          "rash"
+        ],
+        "example_sentence": "Investors remained circumspect following the unexpected breach of the inflation target."
+      },
+      {
+        "word": "EPHEMERAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Lasting for a very short time.",
+        "synonyms": [
+          "fleeting",
+          "transitory",
+          "momentary"
+        ],
+        "antonyms": [
+          "permanent",
+          "enduring"
+        ],
+        "example_sentence": "Economists noted that the recent fiscal cushion might prove to be ephemeral in the second half of the fiscal year."
+      },
+      {
+        "word": "SALUBRIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Health-giving; pleasant, clean, and wholesome.",
+        "synonyms": [
+          "beneficial",
+          "wholesome",
+          "healthful"
+        ],
+        "antonyms": [
+          "insalubrious",
+          "unhealthy"
+        ],
+        "example_sentence": "Urban greening projects like Bharat Vann are intended to restore a salubrious environment to expanding cities."
+      },
+      {
+        "word": "TACIT",
+        "part_of_speech": "Adjective",
+        "meaning": "Understood or implied without being stated directly.",
+        "synonyms": [
+          "implicit",
+          "unstated",
+          "understood"
+        ],
+        "antonyms": [
+          "explicit",
+          "expressed"
+        ],
+        "example_sentence": "There was a tacit understanding among policymakers regarding the need for strict fiscal discipline."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "At loggerheads",
+        "meaning": "In stubborn dispute or disagreement.",
+        "example_sentence": "The negotiating parties remained at loggerheads over the implementation of the new trade regulations."
+      },
+      {
+        "idiom": "To weather the storm",
+        "meaning": "To successfully survive a difficult period or crisis.",
+        "example_sentence": "Robust domestic demand helped the Indian economy weather the storm of global energy price volatility."
+      },
+      {
+        "idiom": "A double-edged sword",
+        "meaning": "A situation or course of action that has both favorable and unfavorable consequences.",
+        "example_sentence": "Rapid economic growth can be a double-edged sword if it outpaces ecological carrying capacity."
+      },
+      {
+        "idiom": "To muddy the waters",
+        "meaning": "To make a situation confusing or unclear.",
+        "example_sentence": "Conflicting reports regarding reservoir levels only served to muddy the waters for agricultural planners."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To work excessively hard or overextend oneself physically and mentally.",
+        "example_sentence": "Administrators had to burn the candle at both ends to finalize the state infrastructure framework on schedule."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Consumer Price Index (CPI) and Inflation Measurement in India",
+        "bullets": [
+          "CPI in India is compiled and published monthly by the National Statistical Office (NSO) under the Ministry of Statistics and Programme Implementation (MoSPI).",
+          "The base year for the current CPI series is 2012.",
+          "The Reserve Bank of India utilizes CPI-Combined as its primary gauge for inflation targeting."
+        ]
+      },
+      {
+        "title": "Credit Rating Agencies and Moody's",
+        "bullets": [
+          "Moody's Investors Service is an American credit rating agency founded in 1909 by John Moody.",
+          "Along with S&P and Fitch, Moody's forms part of the 'Big Three' credit rating agencies globally.",
+          "Sovereign ratings assigned by these agencies influence foreign institutional investments and sovereign borrowing costs."
+        ]
+      },
+      {
+        "title": "Vande Bharat Express Project",
+        "bullets": [
+          "Vande Bharat Express is an indigenous, semi-high-speed, self-propelled trainset introduced under the 'Make in India' initiative.",
+          "The trains are capable of operating at speeds up to 160-180 km/h.",
+          "They feature advanced passenger amenities including automatic doors, GPS-based passenger information systems, and onboard Wi-Fi."
+        ]
+      },
+      {
+        "title": "Escrow Account Mechanism in Finance",
+        "bullets": [
+          "An escrow account is a temporary financial instrument held by a third-party neutral entity during a transaction or contractual agreement.",
+          "It safeguards both buyers and sellers by ensuring funds are only released when pre-defined conditions are successfully met.",
+          "Frequently utilized in real estate, mergers and acquisitions, and infrastructure project financing."
+        ]
+      },
+      {
+        "title": "Monetary Policy Committee (MPC) Statutory Framework",
+        "bullets": [
+          "Constituted under Section 45ZB of the Reserve Bank of India Act, 1934.",
+          "Comprises six members: three officials from the RBI and three external members appointed by the Central Government.",
+          "Tasked with determining the policy repo rate required to achieve the inflation target."
+        ]
+      }
+    ]
   }
 ]

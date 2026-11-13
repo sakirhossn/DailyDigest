@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "PERTINENT",
-    "SURREPTITIOUS",
-    "GARRULOUS",
     "IMPECUNIOUS",
     "RECONDITE",
     "EQUIVOCATE",
@@ -59,12 +56,12 @@
     "ABEYANCE",
     "PERVICACIOUS",
     "TEMERITY",
-    "INTRANSIGENT"
+    "INTRANSIGENT",
+    "CIRCUMSPECT",
+    "SALUBRIOUS",
+    "TACIT"
   ],
   "idiom": [
-    "See eye to eye",
-    "Spill the beans",
-    "Cut the Gordian knot",
     "Bite the bullet",
     "Burn the candle at both ends",
     "Jump on the bandwagon",
@@ -121,14 +118,12 @@
     "To steal a march on",
     "Keep one's ear to the ground",
     "A Pyrrhic victory",
-    "Take the bull by the horns"
+    "Take the bull by the horns",
+    "At loggerheads",
+    "A double-edged sword",
+    "To muddy the waters"
   ],
   "gk_booster": [
-    "Finance Commission of India (Article 280)",
-    "Central Vigilance Commission (CVC)",
-    "Section 69A of Information Technology Act, 2000",
-    "The World Bank Group & Poverty Thresholds",
-    "Indian Air Force Command Structure",
     "Goods and Services Tax (GST) Council (Article 279A)",
     "Special Additional Excise Duty (SAED) / Windfall Profit Tax",
     "IMD Classification of Cyclonic Disturbances",
@@ -183,6 +178,11 @@
     "Assisted Reproductive Technology (Regulation) Act, 2021",
     "Rabi Cropping Season in India",
     "Confederation of Indian Industry (CII)",
-    "Credit Rating Agencies Regulation in India"
+    "Credit Rating Agencies Regulation in India",
+    "Consumer Price Index (CPI) and Inflation Measurement in India",
+    "Credit Rating Agencies and Moody's",
+    "Vande Bharat Express Project",
+    "Escrow Account Mechanism in Finance",
+    "Monetary Policy Committee (MPC) Statutory Framework"
   ]
 }
