@@ -1,7 +1,5 @@
 {
   "vocab": [
-    "IMPECUNIOUS",
-    "RECONDITE",
     "EQUIVOCATE",
     "TENACIOUS",
     "PROCLIVITY",
@@ -59,11 +57,11 @@
     "INTRANSIGENT",
     "CIRCUMSPECT",
     "SALUBRIOUS",
-    "TACIT"
+    "TACIT",
+    "CACOPHONY",
+    "MITIGATE"
   ],
   "idiom": [
-    "Bite the bullet",
-    "Burn the candle at both ends",
     "Jump on the bandwagon",
     "A storm in a teacup",
     "By and large",
@@ -121,14 +119,11 @@
     "Take the bull by the horns",
     "At loggerheads",
     "A double-edged sword",
-    "To muddy the waters"
+    "To muddy the waters",
+    "Spill the beans",
+    "Hit the nail on the head"
   ],
   "gk_booster": [
-    "Goods and Services Tax (GST) Council (Article 279A)",
-    "Special Additional Excise Duty (SAED) / Windfall Profit Tax",
-    "IMD Classification of Cyclonic Disturbances",
-    "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST)",
-    "Shey Phoksundo National Park & Dolpa District",
     "Urban Cooperative Banks (UCBs) in India",
     "Goods and Services Tax (GST) Council",
     "El Nino Southern Oscillation (ENSO)",
@@ -183,6 +178,11 @@
     "Credit Rating Agencies and Moody's",
     "Vande Bharat Express Project",
     "Escrow Account Mechanism in Finance",
-    "Monetary Policy Committee (MPC) Statutory Framework"
+    "Monetary Policy Committee (MPC) Statutory Framework",
+    "Comptroller and Auditor General of India (CAG)",
+    "Kaziranga National Park",
+    "Consumer Price Index (CPI) in India",
+    "International Monetary Fund (IMF)",
+    "United States Commission on International Religious Freedom (USCIRF)"
   ]
 }

@@ -9988,5 +9988,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "14 November 2026",
+    "vocab_words": [
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make something bad or unsatisfactory better.",
+        "synonyms": [
+          "improve",
+          "mitigate",
+          "enhance"
+        ],
+        "antonyms": [
+          "worsen",
+          "aggravate",
+          "deteriorate"
+        ],
+        "example_sentence": "The government launched targeted welfare schemes to ameliorate the living conditions of marginalized communities."
+      },
+      {
+        "word": "CACOPHONY",
+        "part_of_speech": "Noun",
+        "meaning": "A harsh, discordant mixture of sounds.",
+        "synonyms": [
+          "din",
+          "clamor",
+          "discord"
+        ],
+        "antonyms": [
+          "harmony",
+          "silence",
+          "euphony"
+        ],
+        "example_sentence": "The chaotic traffic outside the market created an unbearable cacophony during peak hours."
+      },
+      {
+        "word": "EPHEMERAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Lasting for a very short time.",
+        "synonyms": [
+          "transitory",
+          "fleeting",
+          "evanescent"
+        ],
+        "antonyms": [
+          "permanent",
+          "enduring",
+          "perpetual"
+        ],
+        "example_sentence": "Stock market gains driven purely by speculative frenzy often prove to be ephemeral."
+      },
+      {
+        "word": "MITIGATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make less severe, serious, or painful.",
+        "synonyms": [
+          "alleviate",
+          "lessen",
+          "reduce"
+        ],
+        "antonyms": [
+          "intensify",
+          "augment",
+          "exacerbate"
+        ],
+        "example_sentence": "Afforestation drives are essential to mitigate the adverse impacts of rapid industrial pollution."
+      },
+      {
+        "word": "PRUDENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Acting with or showing care and thought for the future.",
+        "synonyms": [
+          "judicious",
+          "sagacious",
+          "wise"
+        ],
+        "antonyms": [
+          "reckless",
+          "impulsive",
+          "foolish"
+        ],
+        "example_sentence": "Financial regulators always advise banks to maintain prudent capital buffers against unforeseen economic shocks."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A double-edged sword",
+        "meaning": "A situation or course of action that has both favorable and unfavorable consequences.",
+        "example_sentence": "Rapid artificial intelligence automation can be a double-edged sword, boosting productivity while displacing traditional jobs."
+      },
+      {
+        "idiom": "Spill the beans",
+        "meaning": "To reveal secret information unintentionally or prematurely.",
+        "example_sentence": "The whistleblower threatened to spill the beans regarding corporate corruption if executive management failed to step down."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To work excessively hard or exhaust oneself by overworking.",
+        "example_sentence": "Civil services aspirants often burn the candle at both ends during the final months before the preliminary examination."
+      },
+      {
+        "idiom": "Hit the nail on the head",
+        "meaning": "To find or express the exact truth about a situation.",
+        "example_sentence": "The economic analyst hit the nail on the head when explaining the root cause of persistent domestic inflation."
+      },
+      {
+        "idiom": "Jump on the bandwagon",
+        "meaning": "To join a popular activity or trend simply because it has become fashionable.",
+        "example_sentence": "Many retail investors rushed to jump on the bandwagon during the recent technology stock market rally."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Comptroller and Auditor General of India (CAG)",
+        "bullets": [
+          "Established under Article 148 of the Constitution, functioning as the head of the Indian Audit and Accounts Department.",
+          "Appointed by the President of India by warrant under his hand and seal for a term of 6 years or up to 65 years of age.",
+          "Acts as an agent of Parliament and conducts financial audits of all receipts and expenditure of the Government of India and State Governments."
+        ]
+      },
+      {
+        "title": "Kaziranga National Park",
+        "bullets": [
+          "Located in the State of Assam, spanning across the floodplains of the Brahmaputra River.",
+          "Declared a UNESCO World Heritage Site in 1985 and recognized as an Important Bird Area by BirdLife International.",
+          "World's largest natural habitat for the endangered Great Indian One-Horned Rhinoceros, alongside significant tiger and elephant populations."
+        ]
+      },
+      {
+        "title": "Consumer Price Index (CPI) in India",
+        "bullets": [
+          "Compiled and published monthly by the National Statistical Office (NSO) under the Ministry of Statistics and Programme Implementation (MoSPI).",
+          "Measures changes in the price level of a market basket of consumer goods and services purchased by households.",
+          "Serves as the primary anchor index for inflation targeting by the Monetary Policy Committee (MPC) of the RBI."
+        ]
+      },
+      {
+        "title": "International Monetary Fund (IMF)",
+        "bullets": [
+          "Headquartered in Washington, D.C., United States, founded in 1944 at the Bretton Woods Conference.",
+          "Primary objective includes fostering global monetary cooperation, securing financial stability, facilitating international trade, and reducing poverty.",
+          "Issues an international reserve asset known as Special Drawing Rights (SDRs) to member countries."
+        ]
+      },
+      {
+        "title": "United States Commission on International Religious Freedom (USCIRF)",
+        "bullets": [
+          "Established as an independent, bipartisan U.S. federal government commission by the International Religious Freedom Act of 1998.",
+          "Mandated to monitor the universal right to freedom of religion or belief abroad and make policy recommendations to the President and Congress.",
+          "Operates independently from the U.S. State Department, though its reports often influence international diplomatic discourse."
+        ]
+      }
+    ]
   }
 ]
