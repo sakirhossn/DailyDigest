@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "EQUIVOCATE",
-    "TENACIOUS",
-    "PROCLIVITY",
-    "PERSPICACIOUS",
     "INVIDIOUS",
     "SURFEIT",
     "SANCTIMONIOUS",
@@ -59,12 +55,13 @@
     "SALUBRIOUS",
     "TACIT",
     "CACOPHONY",
-    "MITIGATE"
+    "MITIGATE",
+    "EXACERBATE",
+    "PRAGMATIC",
+    "ANOMALY",
+    "INEQUITY"
   ],
   "idiom": [
-    "Jump on the bandwagon",
-    "A storm in a teacup",
-    "By and large",
     "Cut to the chase",
     "Play devil's advocate",
     "To clear the air",
@@ -121,13 +118,12 @@
     "A double-edged sword",
     "To muddy the waters",
     "Spill the beans",
-    "Hit the nail on the head"
+    "Hit the nail on the head",
+    "To draw a blank",
+    "To rock the boat",
+    "To read between the lines"
   ],
   "gk_booster": [
-    "Urban Cooperative Banks (UCBs) in India",
-    "Goods and Services Tax (GST) Council",
-    "El Nino Southern Oscillation (ENSO)",
-    "Special Additional Excise Duty (SAED)",
     "United Nations General Assembly (UNGA)",
     "Goods and Services Tax (GST) Framework in India",
     "Urban Cooperative Banks (UCBs)",
@@ -183,6 +179,10 @@
     "Kaziranga National Park",
     "Consumer Price Index (CPI) in India",
     "International Monetary Fund (IMF)",
-    "United States Commission on International Religious Freedom (USCIRF)"
+    "United States Commission on International Religious Freedom (USCIRF)",
+    "Comptroller and Auditor General (CAG) of India",
+    "Consumer Price Index (CPI) and Inflation Targeting in India",
+    "Iron Ore Reserves and Production in India",
+    "Liberalised Remittance Scheme (LRS)"
   ]
 }

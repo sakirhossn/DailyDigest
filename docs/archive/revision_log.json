@@ -10142,5 +10142,164 @@
         ]
       }
     ]
+  },
+  {
+    "date": "15 November 2026",
+    "vocab_words": [
+      {
+        "word": "EXACERBATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a problem, bad situation, or negative feeling worse.",
+        "synonyms": [
+          "aggravate",
+          "worsen",
+          "compound",
+          "intensify"
+        ],
+        "antonyms": [
+          "alleviate",
+          "mitigate",
+          "assuage"
+        ],
+        "example_sentence": "Uncontrolled fuel price hikes can exacerbate inflationary pressures across the domestic economy."
+      },
+      {
+        "word": "PRAGMATIC",
+        "part_of_speech": "Adjective",
+        "meaning": "Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.",
+        "synonyms": [
+          "realistic",
+          "practical",
+          "sensible",
+          "down-to-earth"
+        ],
+        "antonyms": [
+          "idealistic",
+          "impractical",
+          "unrealistic"
+        ],
+        "example_sentence": "Policymakers adopted a pragmatic approach to balance economic growth with fiscal discipline."
+      },
+      {
+        "word": "ANOMALY",
+        "part_of_speech": "Noun",
+        "meaning": "Something that deviates from what is standard, normal, or expected.",
+        "synonyms": [
+          "irregularity",
+          "abnormality",
+          "deviation",
+          "outlier"
+        ],
+        "antonyms": [
+          "normality",
+          "conformity",
+          "standard"
+        ],
+        "example_sentence": "The sudden dip in quarterly retail sales was viewed as a statistical anomaly rather than a structural trend."
+      },
+      {
+        "word": "INEQUITY",
+        "part_of_speech": "Noun",
+        "meaning": "Lack of fairness or justice; unfair circumstances or treatment.",
+        "synonyms": [
+          "unfairness",
+          "injustice",
+          "imbalance",
+          "disparity"
+        ],
+        "antonyms": [
+          "fairness",
+          "justice",
+          "equity"
+        ],
+        "example_sentence": "Economic reforms must address regional inequity to ensure inclusive growth across all states."
+      },
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make something bad or unsatisfactory better.",
+        "synonyms": [
+          "improve",
+          "ameliorate",
+          "enhance",
+          "ameliorate"
+        ],
+        "antonyms": [
+          "worsen",
+          "damage",
+          "impair"
+        ],
+        "example_sentence": "Targeted welfare schemes are designed to ameliorate living standards in rural areas."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To draw a blank",
+        "meaning": "To fail to find something or obtain a result; to be unable to remember something.",
+        "example_sentence": "When questioned about the discrepancies in the audit report, the official drew a blank."
+      },
+      {
+        "idiom": "A drop in the ocean",
+        "meaning": "A very small amount compared with what is needed or expected.",
+        "example_sentence": "The financial relief package was merely a drop in the ocean compared to the massive infrastructure losses."
+      },
+      {
+        "idiom": "To rock the boat",
+        "meaning": "To upset a stable situation or cause trouble when things are running smoothly.",
+        "example_sentence": "Junior bureaucrats are often reluctant to rock the boat by questioning established procedures."
+      },
+      {
+        "idiom": "A clean slate",
+        "meaning": "A state of having a fresh start or no record of past mistakes or debts.",
+        "example_sentence": "The debt restructuring plan gave the struggling enterprise a clean slate to rebuild its operations."
+      },
+      {
+        "idiom": "To read between the lines",
+        "meaning": "To understand the hidden meaning or underlying intent of something written or spoken.",
+        "example_sentence": "Investors had to read between the lines of the central bank governor's speech to gauge future interest rate cuts."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Comptroller and Auditor General (CAG) of India",
+        "bullets": [
+          "Governed by Article 148 to 151 of the Indian Constitution.",
+          "Appointed by the President of India by warrant under his hand and seal.",
+          "Holds office for a term of 6 years or until attaining the age of 65 years, whichever is earlier."
+        ]
+      },
+      {
+        "title": "Consumer Price Index (CPI) and Inflation Targeting in India",
+        "bullets": [
+          "CPI (Combined) is released monthly by the National Statistical Office (NSO) under the Ministry of Statistics and Programme Implementation (MoSPI).",
+          "The Monetary Policy Committee (MPC) targets retail inflation based on CPI, aiming for a 4% target with a +/- 2% band.",
+          "Base year for the current CPI series is 2012."
+        ]
+      },
+      {
+        "title": "International Monetary Fund (IMF)",
+        "bullets": [
+          "Established in 1944 at the United Nations Monetary and Financial Conference in Bretton Woods, USA.",
+          "Headquarters: Washington, D.C., United States.",
+          "Publishes flagship reports including the World Economic Outlook and Global Financial Stability Report."
+        ]
+      },
+      {
+        "title": "Iron Ore Reserves and Production in India",
+        "bullets": [
+          "India possesses some of the largest iron ore reserves globally, predominantly comprising hematite and magnetite ores.",
+          "Major producing states include Odisha, Chhattisgarh, Jharkhand, Karnataka, and Goa.",
+          "Hematite is the highest-grade iron ore variety extensively utilized in commercial steel production."
+        ]
+      },
+      {
+        "title": "Liberalised Remittance Scheme (LRS)",
+        "bullets": [
+          "Introduced by the Reserve Bank of India in 2004 under the Foreign Exchange Management Act (FEMA), 1999.",
+          "Permits resident individuals to remit up to a specified USD threshold per financial year for permitted current or capital account transactions.",
+          "Helps manage capital outflows and foreign exchange reserves stability."
+        ]
+      }
+    ]
   }
 ]
