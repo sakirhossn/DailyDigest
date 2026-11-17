@@ -10301,5 +10301,158 @@
         ]
       }
     ]
+  },
+  {
+    "date": "17 November 2026",
+    "vocab_words": [
+      {
+        "word": "PALLIATIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Serving to relieve or soothe symptoms or difficulties without dealing with the root cause.",
+        "synonyms": [
+          "alleviative",
+          "soothing",
+          "mitigative"
+        ],
+        "antonyms": [
+          "aggravating",
+          "provocative"
+        ],
+        "example_sentence": "The government introduced palliative measures to ease the immediate pain of high inflation."
+      },
+      {
+        "word": "OBDURATE",
+        "part_of_speech": "Adjective",
+        "meaning": "Stubbornly refusing to change one's opinion or course of action.",
+        "synonyms": [
+          "obstinate",
+          "adamant",
+          "intractable"
+        ],
+        "antonyms": [
+          "compliant",
+          "yielding",
+          "amenable"
+        ],
+        "example_sentence": "Despite repeated warnings from economists, the administration remained obdurate regarding the subsidy structure."
+      },
+      {
+        "word": "LACONIC",
+        "part_of_speech": "Adjective",
+        "meaning": "Using very few words; brief and concise to the point of mystery or bluntness.",
+        "synonyms": [
+          "concise",
+          "succinct",
+          "pithy"
+        ],
+        "antonyms": [
+          "loquacious",
+          "verbose",
+          "wordy"
+        ],
+        "example_sentence": "The Prime Minister issued a laconic statement addressing the diplomatic stalemate."
+      },
+      {
+        "word": "EPHEMERAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Lasting for a very short time; transient.",
+        "synonyms": [
+          "transitory",
+          "fleeting",
+          "momentary"
+        ],
+        "antonyms": [
+          "perennial",
+          "permanent",
+          "enduring"
+        ],
+        "example_sentence": "Market analysts noted that the recent dip in crude oil prices was merely ephemeral."
+      },
+      {
+        "word": "ALACRITY",
+        "part_of_speech": "Noun",
+        "meaning": "Brisk and cheerful readiness or promptness.",
+        "synonyms": [
+          "eagerness",
+          "celerity",
+          "enthusiasm"
+        ],
+        "antonyms": [
+          "apathy",
+          "sloth",
+          "reluctance"
+        ],
+        "example_sentence": "The administrative machinery executed the disaster relief protocols with remarkable alacrity."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove bad feelings, doubts, or confusion between people through open discussion.",
+        "example_sentence": "The bilateral talks helped clear the air between the neighboring nations regarding trade tariffs."
+      },
+      {
+        "idiom": "A tall order",
+        "meaning": "A task or goal that is difficult to achieve or accomplish.",
+        "example_sentence": "Achieving double-digit GDP growth while keeping inflation in check is a tall order for policymakers."
+      },
+      {
+        "idiom": "Walking a tightrope",
+        "meaning": "In a very delicate or risky situation where a single misstep can cause disaster.",
+        "example_sentence": "The central bank is walking a tightrope between supporting economic growth and controlling soaring inflation."
+      },
+      {
+        "idiom": "On thin ice",
+        "meaning": "In a risky or precarious position.",
+        "example_sentence": "Any laxity in fiscal deficit targets will place the government's credit rating on thin ice."
+      },
+      {
+        "idiom": "Swan song",
+        "meaning": "The final performance, activity, or appearance of a person before retirement or death.",
+        "example_sentence": "This policy review is widely seen as the outgoing governor's swan song before completing his tenure."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Wholesale Price Index (WPI) in India",
+        "bullets": [
+          "Measures the average change in prices of goods sold in the wholesale market prior to retail distribution.",
+          "Compiled and published weekly/monthly by the Office of Economic Adviser, Ministry of Commerce and Industry.",
+          "Does not track services inflation; covers primary articles, manufactured products, and fuel & power."
+        ]
+      },
+      {
+        "title": "Contempt of Courts Act, 1971",
+        "bullets": [
+          "Statute that classifies contempt into civil contempt (willful disobedience of court orders) and criminal contempt.",
+          "Criminal contempt covers actions that scandalize the court or prejudice judicial proceedings.",
+          "Supreme Court (Article 129) and High Courts (Article 215) possess inherent constitutional powers to punish for contempt."
+        ]
+      },
+      {
+        "title": "ASEAN (Association of Southeast Asian Nations)",
+        "bullets": [
+          "Founded on August 8, 1967, through the signing of the Bangkok Declaration by five original member nations.",
+          "Headquarters: Jakarta, Indonesia.",
+          "Comprises 10 Southeast Asian member states; India is a dialogue partner and active participant in the East Asia Summit."
+        ]
+      },
+      {
+        "title": "Windfall Tax in Public Finance",
+        "bullets": [
+          "A higher tax levied by governments on specific industries or companies when economic circumstances yield sudden, extraordinary profits.",
+          "Frequently applied to domestic crude oil producers and refiners when international energy prices spike unexpectedly.",
+          "Aims to capture excess economic rents to fund welfare measures or absorb high consumer energy burdens."
+        ]
+      },
+      {
+        "title": "Quad (Quadrilateral Security Dialogue)",
+        "bullets": [
+          "Strategic security dialogue between Australia, India, Japan, and the United States.",
+          "Originally conceptualized in 2007 by Japanese PM Shinzo Abe, revived in 2017 for a free and open Indo-Pacific.",
+          "Focuses on maritime security, humanitarian assistance, disaster relief, and critical emerging technologies."
+        ]
+      }
+    ]
   }
 ]

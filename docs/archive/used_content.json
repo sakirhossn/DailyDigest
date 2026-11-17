@@ -1,6 +1,5 @@
 {
   "vocab": [
-    "INVIDIOUS",
     "SURFEIT",
     "SANCTIMONIOUS",
     "TORPID",
@@ -59,11 +58,10 @@
     "EXACERBATE",
     "PRAGMATIC",
     "ANOMALY",
-    "INEQUITY"
+    "INEQUITY",
+    "LACONIC"
   ],
   "idiom": [
-    "Cut to the chase",
-    "Play devil's advocate",
     "To clear the air",
     "A tall order",
     "To show one's true colors",
@@ -121,14 +119,11 @@
     "Hit the nail on the head",
     "To draw a blank",
     "To rock the boat",
-    "To read between the lines"
+    "To read between the lines",
+    "Walking a tightrope",
+    "Swan song"
   ],
   "gk_booster": [
-    "United Nations General Assembly (UNGA)",
-    "Goods and Services Tax (GST) Framework in India",
-    "Urban Cooperative Banks (UCBs)",
-    "Prakasam Barrage and Krishna River",
-    "Viability Gap Funding (VGF)",
     "NMDC Limited (National Mineral Development Corporation)",
     "Ministry of Statistics and Programme Implementation (MoSPI)",
     "Critical Minerals and the Energy Transition",
@@ -183,6 +178,11 @@
     "Comptroller and Auditor General (CAG) of India",
     "Consumer Price Index (CPI) and Inflation Targeting in India",
     "Iron Ore Reserves and Production in India",
-    "Liberalised Remittance Scheme (LRS)"
+    "Liberalised Remittance Scheme (LRS)",
+    "Wholesale Price Index (WPI) in India",
+    "Contempt of Courts Act, 1971",
+    "ASEAN (Association of Southeast Asian Nations)",
+    "Windfall Tax in Public Finance",
+    "Quad (Quadrilateral Security Dialogue)"
   ]
 }
