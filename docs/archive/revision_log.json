@@ -10454,5 +10454,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "17 November 2026",
+    "vocab_words": [
+      {
+        "word": "VINDICATE",
+        "part_of_speech": "Verb",
+        "meaning": "To clear someone of blame or suspicion; to show or prove to be right, reasonable, or justified.",
+        "synonyms": [
+          "exonerate",
+          "absolve",
+          "substantiate"
+        ],
+        "antonyms": [
+          "incriminate",
+          "convict"
+        ],
+        "example_sentence": "The recent export data vindicated the ministry's decision to support high-value engineering goods manufacturing."
+      },
+      {
+        "word": "RECIDIVISM",
+        "part_of_speech": "Noun",
+        "meaning": "The tendency of a convicted criminal to reoffend or relapse into a previous undesirable behavior.",
+        "synonyms": [
+          "relapse",
+          "backsliding",
+          "reversion"
+        ],
+        "antonyms": [
+          "rehabilitation",
+          "reform"
+        ],
+        "example_sentence": "Digital lending platforms face severe scrutiny over debt recovery recidivism despite multiple regulatory cautions."
+      },
+      {
+        "word": "FASTIDIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Very attentive to and concerned about accuracy, detail, cleanliness, or propriety.",
+        "synonyms": [
+          "meticulous",
+          "scrupulous",
+          "punctilious"
+        ],
+        "antonyms": [
+          "careless",
+          "negligent"
+        ],
+        "example_sentence": "Central banks maintain fastidious oversight when verifying foreign institutional investments and foreign exchange balances."
+      },
+      {
+        "word": "CAPRICIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Given to sudden and unaccountable changes of mood or behavior; unpredictable.",
+        "synonyms": [
+          "fickle",
+          "volatile",
+          "arbitrary"
+        ],
+        "antonyms": [
+          "steadfast",
+          "predictable"
+        ],
+        "example_sentence": "Investors pivoted away from capricious tech equities toward stable sovereign debt and emerging market indices."
+      },
+      {
+        "word": "BELLIGERENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Hostile, aggressive, and eager to fight; engaged in a war or conflict.",
+        "synonyms": [
+          "combative",
+          "pugnacious",
+          "truculent"
+        ],
+        "antonyms": [
+          "pacific",
+          "conciliatory"
+        ],
+        "example_sentence": "The trade representative condemned the belligerent tariff escalation adopted by the trading partner."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Through thick and thin",
+        "meaning": "Under all conditions, regardless of difficult problems or adverse circumstances.",
+        "example_sentence": "Long-term institutional investors supported domestic capital markets through thick and thin during global downturns."
+      },
+      {
+        "idiom": "Bite the bullet",
+        "meaning": "To face an inevitable grim situation with courage and fortitude.",
+        "example_sentence": "The fiscal authorities had to bite the bullet and raise fuel export duties to secure domestic refining reserves."
+      },
+      {
+        "idiom": "Beat around the bush",
+        "meaning": "To discuss a matter without addressing the core point directly.",
+        "example_sentence": "The parliamentary panel warned the tech executives not to beat around the bush regarding digital service outages."
+      },
+      {
+        "idiom": "Burn bridges",
+        "meaning": "To permanently sever connections or destroy the possibility of returning to a previous state.",
+        "example_sentence": "By terminating vendor agreements unilaterally, the fintech firm burned bridges with key credit institutions."
+      },
+      {
+        "idiom": "Barking up the wrong tree",
+        "meaning": "Pursuing a mistaken line of thought or accusing the wrong entity.",
+        "example_sentence": "Blaming domestic consumer demand for the trade deficit was barking up the wrong tree given global commodity spikes."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Poverty Estimation Methodologies in India (Tendulkar & Rangarajan Panels)",
+        "bullets": [
+          "Suresh Tendulkar Committee (2009) moved away from calorie-intake norms to uniform consumption baskets across rural/urban areas using Mixed Reference Periods (MRP).",
+          "C. Rangarajan Committee (2014) recommended poverty thresholds based on daily per-capita spending: \u20b932 for rural and \u20b947 for urban areas.",
+          "NITI Aayog now releases the National Multidimensional Poverty Index (MPI) based on 12 indicators across Health, Education, and Standard of Living."
+        ]
+      },
+      {
+        "title": "Indian Computer Emergency Response Team (CERT-In)",
+        "bullets": [
+          "Designated under Section 70B of the Information Technology (IT) Act, 2000 as the national agency for cyber incident response.",
+          "Operates under the Ministry of Electronics and Information Technology (MeitY) with headquarters in New Delhi.",
+          "Cybersecurity directives issued in 2022 mandate critical entities to report specified cyber incidents to CERT-In within 6 hours."
+        ]
+      },
+      {
+        "title": "Special Additional Excise Duty (SAED) & Divisible Pool Dynamics",
+        "bullets": [
+          "SAED is an excise duty surcharge levied on crude oil production and transport fuel exports under the Central Excise Act, 1944.",
+          "Under Article 270 of the Constitution, revenue collected via specific cesses and surcharges is not mandatorily shared with States unless provided by Parliament.",
+          "Recommendations of the 15th Finance Commission set the horizontal tax devolution to states at 41% of the central divisible pool."
+        ]
+      },
+      {
+        "title": "National Steel Policy (NSP) 2017 & Indian Mineral Resources",
+        "bullets": [
+          "The National Steel Policy 2017 envisions achieving 300 Million Tonnes (MT) of crude steel capacity and 255 MT of production by 2030-31.",
+          "India's per capita steel consumption target under NSP 2017 is slated to reach 160 kg by 2030-31.",
+          "Hematite and Magnetite are the two primary iron ores mined in India; Hematite accounts for roughly 79% of total iron ore geological reserves."
+        ]
+      },
+      {
+        "title": "Foreign Portfolio Investors (FPI) Regulatory Architecture",
+        "bullets": [
+          "FPIs represent foreign entities investing in Indian secondary securities markets without acquiring direct management control.",
+          "Investments below 10% of a company's paid-up equity capital are categorized as FPI; holdings exceeding 10% are reclassified as Foreign Direct Investment (FDI).",
+          "Designated Depository Participants (DDPs) registered with SEBI are responsible for scrutinizing and granting registration to incoming FPIs."
+        ]
+      }
+    ]
   }
 ]
