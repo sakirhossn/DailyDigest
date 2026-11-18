@@ -10603,5 +10603,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "18 November 2026",
+    "vocab_words": [
+      {
+        "word": "EQUIVOCAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Open to more than one interpretation; ambiguous or deliberately misleading.",
+        "synonyms": [
+          "ambiguous",
+          "evasive",
+          "indeterminate"
+        ],
+        "antonyms": [
+          "unequivocal",
+          "explicit",
+          "lucid"
+        ],
+        "example_sentence": "The central bank governor offered an equivocal statement regarding future benchmark interest rate trajectories."
+      },
+      {
+        "word": "OBSEQUIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Obedient or attentive to an excessive or servile degree.",
+        "synonyms": [
+          "sycophantic",
+          "fawning",
+          "subservient"
+        ],
+        "antonyms": [
+          "assertive",
+          "imperious",
+          "domineering"
+        ],
+        "example_sentence": "Regulatory officials must exercise independent oversight rather than displaying obsequious deference toward large corporate conglomerates."
+      },
+      {
+        "word": "PUSILLANIMOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Showing a lack of courage or determination; timid.",
+        "synonyms": [
+          "craven",
+          "cowardly",
+          "spineless"
+        ],
+        "antonyms": [
+          "valiant",
+          "intrepid",
+          "audacious"
+        ],
+        "example_sentence": "The supervisory board was criticized for its pusillanimous response in failing to penalize errant non-banking financial entities."
+      },
+      {
+        "word": "ALACRITY",
+        "part_of_speech": "Noun",
+        "meaning": "Brisk and cheerful readiness or promptness in response.",
+        "synonyms": [
+          "promptitude",
+          "eagerness",
+          "celerity"
+        ],
+        "antonyms": [
+          "apathy",
+          "lethargy",
+          "reluctance"
+        ],
+        "example_sentence": "The National Disaster Response Force deployed teams with commendable alacrity to mitigate cyclone-induced flooding."
+      },
+      {
+        "word": "INCHOATE",
+        "part_of_speech": "Adjective",
+        "meaning": "Just begun and so not fully formed or developed; rudimentary.",
+        "synonyms": [
+          "rudimentary",
+          "nascent",
+          "embryonic"
+        ],
+        "antonyms": [
+          "mature",
+          "consummate",
+          "developed"
+        ],
+        "example_sentence": "Without empirical data backing the survey, the ministry dismissed the analyst's macroeconomic projections as inchoate."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Face the music",
+        "meaning": "To accept unpleasant consequences or criticism for one's actions.",
+        "example_sentence": "After the illicit loan distribution syndicate was unmasked, the rogue digital lending operators had to face the music in court."
+      },
+      {
+        "idiom": "Burn bridges",
+        "meaning": "To destroy one's relationships or avenues of return permanently.",
+        "example_sentence": "By publicly violating contract terms and defaulting on bond payments, the promoter burned his bridges with institutional lenders."
+      },
+      {
+        "idiom": "Once in a blue moon",
+        "meaning": "Happening very rarely.",
+        "example_sentence": "Such immense monthly Foreign Portfolio Investor inflows occur only once in a blue moon during global market recalibrations."
+      },
+      {
+        "idiom": "Through thick and thin",
+        "meaning": "Under all conditions, regardless of extreme difficulties or adversity.",
+        "example_sentence": "Long-term value investors maintain disciplined equity exposures through thick and thin rather than chasing temporary speculative spikes."
+      },
+      {
+        "idiom": "Throw in the towel",
+        "meaning": "To admit defeat or surrender in the face of insurmountable odds.",
+        "example_sentence": "Despite mounting capital deficits and raw material shortages, the domestic manufacturer refused to throw in the towel."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "National Disaster Response Fund (NDRF) Architecture",
+        "bullets": [
+          "Established under Section 46 of the Disaster Management Act, 2005, managed by the Central Government for meeting expenses during emergency relief, rescue, and rehabilitation.",
+          "Placed in the Public Account of India under 'reserve funds not bearing interest'; funds do not require an annual parliamentary appropriation lapse at year-end.",
+          "Audited annually by the Comptroller and Auditor General (CAG) of India, supplementing State Disaster Response Funds (SDRF) when calamities exceed state budgetary capacity."
+        ]
+      },
+      {
+        "title": "Kerch Strait & Black Sea Maritime Geography",
+        "bullets": [
+          "Connects the Sea of Azov in the north to the Black Sea in the south; flanked by Crimea's Kerch Peninsula and Russia's Taman Peninsula.",
+          "Spanned by the 19 km Kerch Bridge (Crimean Bridge), the longest bridge built by the Russian Federation, serving both road and railway connectivity.",
+          "The Sea of Azov, bordered by Ukraine and Russia, is universally acknowledged as the shallowest inland sea in the world with a maximum depth of approximately 14 metres."
+        ]
+      },
+      {
+        "title": "Seismic Hazard Zoning of India (IS 1893:2016)",
+        "bullets": [
+          "The Bureau of Indian Standards (BIS) categorizes the Indian landmass into four seismic zones: Zone II (Low), Zone III (Moderate), Zone IV (Severe), and Zone V (Very Severe). Note that Zone I was eliminated in 2002.",
+          "Zone V accounts for the highest risk zone (Zone Factor 0.36) and encompasses the entire North-East India, parts of Jammu & Kashmir, Ladakh, Himachal Pradesh, Uttarakhand (including Chamoli), Rann of Kutch (Gujarat), and the Andaman & Nicobar Islands.",
+          "The Himalayan seismic hazard is driven by the active north-northeast convergence of the Indian tectonic plate against the Eurasian plate at a rate of 40\u201350 mm per year."
+        ]
+      },
+      {
+        "title": "RBI Regulatory Framework for Digital Lending (2022)",
+        "bullets": [
+          "Mandates that loan disbursals and repayments must execute strictly between bank accounts of the borrower and the regulated entity (RE) without pass-through via third-party escrow pools.",
+          "Requires regulated entities to provide borrowers with a standardized Key Fact Statement (KFS) disclosing the all-inclusive Annual Percentage Rate (APR), recovery mechanisms, and cooling-off periods.",
+          "Prohibits predatory practices such as accessing mobile phone resources (biometrics, contacts, media files) without explicit consent, curbing data exploitation."
+        ]
+      },
+      {
+        "title": "SAMADHAN Doctrine on Left-Wing Extremism (LWE)",
+        "bullets": [
+          "Introduced by the Ministry of Home Affairs in 2017 to provide an integrated operational framework to counter Maoist insurgency.",
+          "Stands for: S - Smart Leadership, A - Aggressive Strategy, M - Motivation and Training, A - Actionable Intelligence, D - Dashboard Based KPIs, H - Harnessing Technology, A - Action plan for each theatre, N - No access to financing.",
+          "Complemented by the Security Related Expenditure (SRE) scheme and Special Infrastructure Scheme (SIS) to strengthen police stations across affected districts."
+        ]
+      }
+    ]
   }
 ]

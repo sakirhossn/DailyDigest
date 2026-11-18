@@ -1,9 +1,5 @@
 {
   "vocab": [
-    "EPHEMERAL",
-    "ABERRATION",
-    "SAGACIOUS",
-    "INCIPIENT",
     "CAPITULATE",
     "FASTIDIOUS",
     "MUNIFICENT",
@@ -59,12 +55,13 @@
     "VINDICATE",
     "RECIDIVISM",
     "CAPRICIOUS",
-    "BELLIGERENT"
+    "BELLIGERENT",
+    "OBSEQUIOUS",
+    "PUSILLANIMOUS",
+    "ALACRITY",
+    "INCHOATE"
   ],
   "idiom": [
-    "To show one's true colors",
-    "Currying favour",
-    "Leaving no stone unturned",
     "To steer clear of",
     "A clean slate",
     "To call the shots",
@@ -121,14 +118,12 @@
     "Walking a tightrope",
     "Swan song",
     "Bite the bullet",
-    "Barking up the wrong tree"
+    "Barking up the wrong tree",
+    "Face the music",
+    "Once in a blue moon",
+    "Throw in the towel"
   ],
   "gk_booster": [
-    "Pumped Storage Plants (PSP) in Hydro Energy",
-    "Supreme Court Original Jurisdiction (Article 131)",
-    "National Bank for Agriculture and Rural Development (NABARD)",
-    "Strait of Hormuz Geopolitical Significance",
-    "Constitutional Provision on Concurrent List (Schedule VII)",
     "Bond Yields and Interest Rate Dynamics",
     "Essential Commodities Act, 1955",
     "Mines and Minerals (Development and Regulation) Act - MMDR Act",
@@ -183,6 +178,11 @@
     "Indian Computer Emergency Response Team (CERT-In)",
     "Special Additional Excise Duty (SAED) & Divisible Pool Dynamics",
     "National Steel Policy (NSP) 2017 & Indian Mineral Resources",
-    "Foreign Portfolio Investors (FPI) Regulatory Architecture"
+    "Foreign Portfolio Investors (FPI) Regulatory Architecture",
+    "National Disaster Response Fund (NDRF) Architecture",
+    "Kerch Strait & Black Sea Maritime Geography",
+    "Seismic Hazard Zoning of India (IS 1893:2016)",
+    "RBI Regulatory Framework for Digital Lending (2022)",
+    "SAMADHAN Doctrine on Left-Wing Extremism (LWE)"
   ]
 }
