@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "CAPITULATE",
-    "FASTIDIOUS",
-    "MUNIFICENT",
     "PEJORATIVE",
     "TREPIDATION",
     "MANDATORY",
@@ -59,13 +56,12 @@
     "OBSEQUIOUS",
     "PUSILLANIMOUS",
     "ALACRITY",
-    "INCHOATE"
+    "INCHOATE",
+    "SPURIOUS",
+    "VITUPERATE",
+    "EQUANIMITY"
   ],
   "idiom": [
-    "To steer clear of",
-    "A clean slate",
-    "To call the shots",
-    "At a snail's pace",
     "To weather the storm",
     "Through the grapevine",
     "Burn bridges",
@@ -121,14 +117,13 @@
     "Barking up the wrong tree",
     "Face the music",
     "Once in a blue moon",
-    "Throw in the towel"
+    "Throw in the towel",
+    "To clear the air",
+    "To rest on one's laurels",
+    "To grease someone's palm",
+    "Back to the drawing board"
   ],
   "gk_booster": [
-    "Bond Yields and Interest Rate Dynamics",
-    "Essential Commodities Act, 1955",
-    "Mines and Minerals (Development and Regulation) Act - MMDR Act",
-    "Air Quality Index (AQI) in India",
-    "SATAT Initiative for Compressed Biogas",
     "National Payments Corporation of India (NPCI)",
     "Bharatiya Nyaya Sanhita (BNS), 2023",
     "Section 26(2) of the Reserve Bank of India (RBI) Act, 1934",
@@ -183,6 +178,11 @@
     "Kerch Strait & Black Sea Maritime Geography",
     "Seismic Hazard Zoning of India (IS 1893:2016)",
     "RBI Regulatory Framework for Digital Lending (2022)",
-    "SAMADHAN Doctrine on Left-Wing Extremism (LWE)"
+    "SAMADHAN Doctrine on Left-Wing Extremism (LWE)",
+    "Archaeological Survey of India (ASI)",
+    "India Meteorological Department (IMD)",
+    "National Informatics Centre (NIC)",
+    "Jal Jeevan Mission",
+    "Directive Principles of State Policy (DPSP)"
   ]
 }

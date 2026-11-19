@@ -10757,5 +10757,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "19 November 2026",
+    "vocab_words": [
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make something bad or unsatisfactory better.",
+        "synonyms": [
+          "improve",
+          "mitigate",
+          "amend"
+        ],
+        "antonyms": [
+          "worsen",
+          "aggravate",
+          "impair"
+        ],
+        "example_sentence": "The government introduced targeted welfare programs to ameliorate the living conditions of rural households."
+      },
+      {
+        "word": "SPURIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Not being what it purports to be; false or fake.",
+        "synonyms": [
+          "bogus",
+          "fraudulent",
+          "counterfeit"
+        ],
+        "antonyms": [
+          "authentic",
+          "genuine",
+          "valid"
+        ],
+        "example_sentence": "Regulatory bodies clamp down strictly on firms distributing spurious financial products and misleading data."
+      },
+      {
+        "word": "VITUPERATE",
+        "part_of_speech": "Verb",
+        "meaning": "To blame or insult someone with strong or violent language.",
+        "synonyms": [
+          "berate",
+          "revile",
+          "condemn"
+        ],
+        "antonyms": [
+          "praise",
+          "commend",
+          "extol"
+        ],
+        "example_sentence": "Instead of engaging in constructive policy debate, political rivals often resort to bitter vituperation."
+      },
+      {
+        "word": "TACITURN",
+        "part_of_speech": "Adjective",
+        "meaning": "Reserved or uncommunicative in speech; saying little.",
+        "synonyms": [
+          "reticent",
+          "laconic",
+          "reserved"
+        ],
+        "antonyms": [
+          "loquacious",
+          "talkative",
+          "voluble"
+        ],
+        "example_sentence": "The senior bureaucrat remained taciturn during the parliamentary inquiry regarding the budget deficit."
+      },
+      {
+        "word": "EQUANIMITY",
+        "part_of_speech": "Noun",
+        "meaning": "Mental calmness, composure, and evenness of temper, especially in a difficult situation.",
+        "synonyms": [
+          "aplomb",
+          "sangfroid",
+          "tranquility"
+        ],
+        "antonyms": [
+          "agitation",
+          "panic",
+          "perturbation"
+        ],
+        "example_sentence": "The diplomat handled the tense international crisis with remarkable equanimity."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove bad feelings, doubts, or tension between people by discussing a problem openly.",
+        "example_sentence": "The committee members held a closed-door meeting to clear the air regarding conflicting departmental allocations."
+      },
+      {
+        "idiom": "A drop in the ocean",
+        "meaning": "A very small amount compared with what is needed or expected.",
+        "example_sentence": "The initial relief grant announced for flood victims was merely a drop in the ocean."
+      },
+      {
+        "idiom": "To rest on one's laurels",
+        "meaning": "To be satisfied with what one has already achieved and stop trying to do anything more.",
+        "example_sentence": "After winning global recognition, the tech startup could not afford to rest on its laurels in a competitive market."
+      },
+      {
+        "idiom": "To grease someone's palm",
+        "meaning": "To bribe someone.",
+        "example_sentence": "Stringent anti-corruption laws ensure that attempts to grease the palm of state officials meet severe penal consequences."
+      },
+      {
+        "idiom": "Back to the drawing board",
+        "meaning": "An instruction to start planning a new project because the previous one failed.",
+        "example_sentence": "When the pilot project failed initial safety audits, engineers had to go back to the drawing board."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Archaeological Survey of India (ASI)",
+        "bullets": [
+          "Founded in 1861 by Alexander Cunningham during the British Raj.",
+          "Functions as an attached office under the Ministry of Culture, Government of India.",
+          "Responsible for archaeological research and the protection of cultural monuments of national importance under the Ancient Monuments and Archaeological Sites and Remains Act, 1958."
+        ]
+      },
+      {
+        "title": "India Meteorological Department (IMD)",
+        "bullets": [
+          "Established in 1875, functioning under the Ministry of Earth Sciences, Government of India.",
+          "Headquarters: New Delhi.",
+          "Principal agency responsible for meteorological observations, weather forecasting, and seismology in India."
+        ]
+      },
+      {
+        "title": "National Informatics Centre (NIC)",
+        "bullets": [
+          "Established in 1976 under the Ministry of Electronics and Information Technology (MeitY).",
+          "Provides technology-driven solutions to central and state governments, powering key digital portals like VAHAN and digital governance infrastructure.",
+          "Headquarters: New Delhi."
+        ]
+      },
+      {
+        "title": "Jal Jeevan Mission",
+        "bullets": [
+          "Launched in 2019, implemented by the Department of Drinking Water and Sanitation under the Ministry of Jal Shakti.",
+          "Aims to provide functional household tap connections (FHTC) to every rural household in India.",
+          "Operates on a community-led approach with extensive focus on water quality surveillance."
+        ]
+      },
+      {
+        "title": "Directive Principles of State Policy (DPSP)",
+        "bullets": [
+          "Enshrined in Part IV (Articles 36\u201351) of the Indian Constitution, borrowed from the Irish Constitution.",
+          "Non-justiciable in nature, serving as fundamental guidelines for framing laws and governance policies.",
+          "Aims to establish a social and economic democracy in the country."
+        ]
+      }
+    ]
   }
 ]
