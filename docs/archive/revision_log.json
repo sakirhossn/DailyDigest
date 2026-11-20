@@ -10911,5 +10911,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "20 November 2026",
+    "vocab_words": [
+      {
+        "word": "TRUCULENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Eager or quick to argue or fight; aggressively defiant.",
+        "synonyms": [
+          "bellicose",
+          "pugnacious",
+          "combative"
+        ],
+        "antonyms": [
+          "amiable",
+          "conciliatory",
+          "peaceable"
+        ],
+        "example_sentence": "The trade delegation adopted a truculent posture during the bilateral tariff negotiations."
+      },
+      {
+        "word": "FASTIDIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Very attentive to and concerned about accuracy and detail.",
+        "synonyms": [
+          "meticulous",
+          "scrupulous",
+          "exacting"
+        ],
+        "antonyms": [
+          "careless",
+          "lax",
+          "negligent"
+        ],
+        "example_sentence": "The central bank auditor maintained a fastidious review of the lender's non-performing assets."
+      },
+      {
+        "word": "EPHEMERAL",
+        "part_of_speech": "Adjective",
+        "meaning": "Lasting for a very short time; transitory.",
+        "synonyms": [
+          "transient",
+          "fleeting",
+          "evanescent"
+        ],
+        "antonyms": [
+          "permanent",
+          "enduring",
+          "perpetual"
+        ],
+        "example_sentence": "Economists cautioned that the export rally might prove ephemeral without sustained structural reforms."
+      },
+      {
+        "word": "ASSIDUOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Showing great care, attention, and persistent effort.",
+        "synonyms": [
+          "diligent",
+          "industrious",
+          "sedulous"
+        ],
+        "antonyms": [
+          "indolent",
+          "lazy",
+          "slothful"
+        ],
+        "example_sentence": "Thanks to assiduous field investigations by federal agents, the international syndicate was apprehended."
+      },
+      {
+        "word": "SAGACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having or showing keen mental discernment and good judgment.",
+        "synonyms": [
+          "shrewd",
+          "astute",
+          "perspicacious"
+        ],
+        "antonyms": [
+          "foolish",
+          "naive",
+          "shortsighted"
+        ],
+        "example_sentence": "The bench offered a sagacious interpretation of statutory limits governing personal laws."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Through thick and thin",
+        "meaning": "Under all conditions, no matter how challenging or difficult circumstances become.",
+        "example_sentence": "The two neighboring countries remained committed to their mutual defense pact through thick and thin."
+      },
+      {
+        "idiom": "Bolt from the blue",
+        "meaning": "A sudden, unexpected event or piece of news that comes without warning.",
+        "example_sentence": "The sudden revision in policy interest rates came as a bolt from the blue to market participants."
+      },
+      {
+        "idiom": "Burn the candle at both ends",
+        "meaning": "To exhaust oneself by working excessively hard early in the morning and late at night.",
+        "example_sentence": "Civil service aspirants often burn the candle at both ends in the final months before the preliminary exam."
+      },
+      {
+        "idiom": "See eye to eye",
+        "meaning": "To agree fully with someone on an issue.",
+        "example_sentence": "The riparian states failed to see eye to eye on the water release formulas during drought seasons."
+      },
+      {
+        "idiom": "Cost an arm and a leg",
+        "meaning": "To be extremely expensive.",
+        "example_sentence": "Imported crude shipments can cost an arm and a leg when global supply lines face sudden bottlenecks."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Cauvery River System & Interstate River Water Disputes Act",
+        "bullets": [
+          "Originates at Talakaveri in the Brahmagiri range of the Western Ghats (Kodagu district, Karnataka) and empties into the Bay of Bengal at Poompuhar, Tamil Nadu.",
+          "Major tributaries include Harangi, Hemavati, Shimsha, Arkavathi (left bank) and Lakshmantirtha, Kabini, Bhavani, Noyyal, Amaravati (right bank).",
+          "Inter-State River Water Disputes Act, 1956 was enacted under Article 262; it excludes Supreme Court jurisdiction over tribunal awards once finalized under the Act."
+        ]
+      },
+      {
+        "title": "Narcotics Control Bureau (NCB)",
+        "bullets": [
+          "Established on 17 March 1986 under the provisions of the Narcotic Drugs and Psychotropic Substances Act, 1985.",
+          "Headquartered in New Delhi, it functions as the national nodal agency under the Ministry of Home Affairs for coordinating anti-narcotics enforcement.",
+          "Implements India's obligations under the UN Single Convention on Narcotic Drugs (1961) and UN Convention Against Illicit Traffic in Narcotic Drugs (1988)."
+        ]
+      },
+      {
+        "title": "Supreme Court Central Empowered Committee (CEC)",
+        "bullets": [
+          "Originally constituted by the Supreme Court in May 2002 to monitor compliance with court orders on forestry, wildlife, and environmental conservation.",
+          "Restructured by the Ministry of Environment, Forest and Climate Change (MoEFCC) into a permanent statutory oversight body under the Environment (Protection) Act, 1986 in 2023.",
+          "Comprises a chairperson, member secretary, and three expert members with expertise in forestry and environment."
+        ]
+      },
+      {
+        "title": "National Bank for Financing Infrastructure and Development (NaBFID)",
+        "bullets": [
+          "Set up under the National Bank for Financing Infrastructure and Development Act, 2021 as a specialized Development Financial Institution (DFI).",
+          "Regulated and supervised by the Reserve Bank of India as an All India Financial Institution (AIFI), alongside NABARD, NHB, EXIM Bank, and SIDBI.",
+          "Headquartered in Mumbai, it focuses on long-term non-recourse debt financing for infrastructure projects listed in the National Infrastructure Pipeline (NIP)."
+        ]
+      },
+      {
+        "title": "Sapinda Relationship in Indian Family Law",
+        "bullets": [
+          "Defined under Section 3(f) of the Hindu Marriage Act, 1955: extends up to the third generation in the line of ascent through the mother, and the fifth generation through the father.",
+          "Section 5(v) of the Act stipulates that parties must not be 'sapindas' of each other unless a recognized custom permits such union.",
+          "A marriage solemnized in violation of sapinda rules without custom is null and void ab initio under Section 11 of the Act."
+        ]
+      }
+    ]
   }
 ]

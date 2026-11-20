@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "PEJORATIVE",
-    "TREPIDATION",
-    "MANDATORY",
-    "DISCREPANCY",
-    "SCRUTINY",
     "RESURGENCE",
     "MALLABLE",
     "PRUDENT",
@@ -59,12 +54,14 @@
     "INCHOATE",
     "SPURIOUS",
     "VITUPERATE",
-    "EQUANIMITY"
+    "EQUANIMITY",
+    "TRUCULENT",
+    "FASTIDIOUS",
+    "EPHEMERAL",
+    "ASSIDUOUS",
+    "SAGACIOUS"
   ],
   "idiom": [
-    "To weather the storm",
-    "Through the grapevine",
-    "Burn bridges",
     "Take with a pinch of salt",
     "Spanner in the works",
     "Turn a blind eye",
@@ -121,14 +118,12 @@
     "To clear the air",
     "To rest on one's laurels",
     "To grease someone's palm",
-    "Back to the drawing board"
+    "Back to the drawing board",
+    "Bolt from the blue",
+    "Burn the candle at both ends",
+    "See eye to eye"
   ],
   "gk_booster": [
-    "National Payments Corporation of India (NPCI)",
-    "Bharatiya Nyaya Sanhita (BNS), 2023",
-    "Section 26(2) of the Reserve Bank of India (RBI) Act, 1934",
-    "Northeast Monsoon (Retreating Monsoon) in India",
-    "Agricultural and Processed Food Products Export Development Authority (APEDA)",
     "Dandakaranya Plateau and Indravati River",
     "Foreign Exchange Reserves in India",
     "Strait of Hormuz Geopolitical Corridor",
@@ -183,6 +178,11 @@
     "India Meteorological Department (IMD)",
     "National Informatics Centre (NIC)",
     "Jal Jeevan Mission",
-    "Directive Principles of State Policy (DPSP)"
+    "Directive Principles of State Policy (DPSP)",
+    "Cauvery River System & Interstate River Water Disputes Act",
+    "Narcotics Control Bureau (NCB)",
+    "Supreme Court Central Empowered Committee (CEC)",
+    "National Bank for Financing Infrastructure and Development (NaBFID)",
+    "Sapinda Relationship in Indian Family Law"
   ]
 }
