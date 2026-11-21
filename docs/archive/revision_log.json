@@ -11065,5 +11065,163 @@
         ]
       }
     ]
+  },
+  {
+    "date": "21 November 2026",
+    "vocab_words": [
+      {
+        "word": "PERSPICACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having a ready insight into and understanding of things; sharp and discerning.",
+        "synonyms": [
+          "astute",
+          "perceptive",
+          "discerning",
+          "penetrating"
+        ],
+        "antonyms": [
+          "obtuse",
+          "foolish",
+          "shortsighted"
+        ],
+        "example_sentence": "The perspicacious analyst anticipated the macroeconomic shift before the quarterly earnings were published."
+      },
+      {
+        "word": "ESCHEW",
+        "part_of_speech": "Verb",
+        "meaning": "Deliberately avoid using; abstain from.",
+        "synonyms": [
+          "shun",
+          "renounce",
+          "avoid",
+          "forgo"
+        ],
+        "antonyms": [
+          "embrace",
+          "adopt",
+          "pursue"
+        ],
+        "example_sentence": "Central banks must eschew overly restrictive policies to avoid stifling post-pandemic recovery."
+      },
+      {
+        "word": "ENERVATE",
+        "part_of_speech": "Verb",
+        "meaning": "Cause (someone or something) to feel drained of energy; weaken.",
+        "synonyms": [
+          "exhaust",
+          "fatigue",
+          "debilitate",
+          "paralyze"
+        ],
+        "antonyms": [
+          "invigorate",
+          "energize",
+          "strengthen"
+        ],
+        "example_sentence": "The prolonged supply chain bottlenecks threatened to enervate the manufacturing sector."
+      },
+      {
+        "word": "OSCILLATE",
+        "part_of_speech": "Verb",
+        "meaning": "Move or swing back and forth at a regular speed, or waver between extremes.",
+        "synonyms": [
+          "fluctuate",
+          "vacillate",
+          "swing",
+          "sway"
+        ],
+        "antonyms": [
+          "stabilize",
+          "remain steady"
+        ],
+        "example_sentence": "Crude oil prices continue to oscillate wildly amidst mounting West Asian geopolitical tensions."
+      },
+      {
+        "word": "PARSIMONY",
+        "part_of_speech": "Noun",
+        "meaning": "Extreme unwillingness to spend money or use resources; frugality.",
+        "synonyms": [
+          "frugality",
+          "thrift",
+          "stinginess",
+          "penuriousness"
+        ],
+        "antonyms": [
+          "extravagance",
+          "generosity",
+          "profligacy"
+        ],
+        "example_sentence": "Fiscal parsimony helped the government maintain its capital expenditure targets despite global headwinds."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To clear the decks",
+        "meaning": "To prepare a situation or area for action, removing all obstacles or unwanted items.",
+        "example_sentence": "The regulatory authority moved swiftly to clear the decks for commercial coal mine auctions."
+      },
+      {
+        "idiom": "A slippery slope",
+        "meaning": "An idea or course of action which will lead to something unacceptable, wrong, or disastrous.",
+        "example_sentence": "Relaxing food safety enforcement standards is a slippery slope that endangers public health."
+      },
+      {
+        "idiom": "To weather the storm",
+        "meaning": "To survive a difficult period or crisis successfully.",
+        "example_sentence": "Diversifying crude import origins enabled domestic refiners to weather the storm of Middle Eastern disruptions."
+      },
+      {
+        "idiom": "Cutting corners",
+        "meaning": "Doing something perfunctorily to save time or money, often compromising quality or safety.",
+        "example_sentence": "Eateries caught with severe sanitation lapses were penalized for cutting corners on hygiene."
+      },
+      {
+        "idiom": "In the pipeline",
+        "meaning": "In the process of being planned, developed, or prepared.",
+        "example_sentence": "Several comprehensive pension reforms and systematic withdrawal options are currently in the pipeline."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Index of Core Industries (ICI) in India",
+        "bullets": [
+          "Comprises eight core sector industries: Coal, Crude Oil, Natural Gas, Refinery Products, Fertilizers, Steel, Cement, and Electricity.",
+          "Refinery products have the highest weightage among the eight core industries in the ICI basket.",
+          "Compiled and released monthly by the Office of the Economic Adviser, Department for Promotion of Industry and Internal Trade (DPIIT)."
+        ]
+      },
+      {
+        "title": "Employees' Provident Fund Organisation (EPFO)",
+        "bullets": [
+          "Statutory body established under the Employees' Provident Funds and Miscellaneous Provisions Act of 1952.",
+          "Functions under the administrative control of the Ministry of Labour and Employment, Government of India.",
+          "Administers mandatory provident fund, pension scheme, and insurance scheme for workforce participants in the organized sector."
+        ]
+      },
+      {
+        "title": "Organization of the Petroleum Exporting Countries (OPEC)",
+        "bullets": [
+          "Founded in Baghdad in September 1960 by five founding members: Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela.",
+          "Headquarters moved to Vienna, Austria, in 1965.",
+          "Aims to coordinate and unify petroleum policies among member nations and secure fair and stable prices for petroleum producers."
+        ]
+      },
+      {
+        "title": "Food Safety and Standards Authority of India (FSSAI)",
+        "bullets": [
+          "Statutory autonomous body established under the Food Safety and Standards Act, 2006.",
+          "Headquartered in New Delhi, operating under the Ministry of Health and Family Welfare.",
+          "Responsible for protecting and promoting public health through regulation and supervision of food safety standards across India."
+        ]
+      },
+      {
+        "title": "India Meteorological Department (IMD)",
+        "bullets": [
+          "Established in 1875, it is the national meteorological service of the country and the principal agency in all matters relating to meteorology.",
+          "Operates under the Ministry of Earth Sciences, Government of India, with headquarters in New Delhi.",
+          "Responsible for meteorological observations, weather forecasting, and seismological tracking in the South Asian region."
+        ]
+      }
+    ]
   }
 ]

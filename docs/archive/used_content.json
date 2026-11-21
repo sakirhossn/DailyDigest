@@ -1,7 +1,5 @@
 {
   "vocab": [
-    "RESURGENCE",
-    "MALLABLE",
     "PRUDENT",
     "AMELIORATE",
     "EPITOME",
@@ -59,12 +57,11 @@
     "FASTIDIOUS",
     "EPHEMERAL",
     "ASSIDUOUS",
-    "SAGACIOUS"
+    "SAGACIOUS",
+    "PERSPICACIOUS",
+    "PARSIMONY"
   ],
   "idiom": [
-    "Take with a pinch of salt",
-    "Spanner in the works",
-    "Turn a blind eye",
     "Throw down the gauntlet",
     "Put the cart before the horse",
     "Run the gauntlet",
@@ -121,12 +118,12 @@
     "Back to the drawing board",
     "Bolt from the blue",
     "Burn the candle at both ends",
-    "See eye to eye"
+    "See eye to eye",
+    "To weather the storm",
+    "Cutting corners",
+    "In the pipeline"
   ],
   "gk_booster": [
-    "Dandakaranya Plateau and Indravati River",
-    "Foreign Exchange Reserves in India",
-    "Strait of Hormuz Geopolitical Corridor",
     "Rampur Bushahr and Himachal Pradesh Heritage",
     "National Bank for Agriculture and Rural Development (NABARD) Surveys",
     "Ministry of Corporate Affairs (MCA)",
@@ -183,6 +180,9 @@
     "Narcotics Control Bureau (NCB)",
     "Supreme Court Central Empowered Committee (CEC)",
     "National Bank for Financing Infrastructure and Development (NaBFID)",
-    "Sapinda Relationship in Indian Family Law"
+    "Sapinda Relationship in Indian Family Law",
+    "Index of Core Industries (ICI) in India",
+    "Employees' Provident Fund Organisation (EPFO)",
+    "Organization of the Petroleum Exporting Countries (OPEC)"
   ]
 }
