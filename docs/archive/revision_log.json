@@ -11223,5 +11223,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "22 November 2026",
+    "vocab_words": [
+      {
+        "word": "EXACERBATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a problem, bad situation, or negative feeling worse.",
+        "synonyms": [
+          "aggravate",
+          "worsen",
+          "compound"
+        ],
+        "antonyms": [
+          "ameliorate",
+          "mitigate",
+          "alleviate"
+        ],
+        "example_sentence": "Geopolitical tensions in West Asia could exacerbate supply chain vulnerabilities."
+      },
+      {
+        "word": "LUCID",
+        "part_of_speech": "Adjective",
+        "meaning": "Expressed clearly; easy to understand.",
+        "synonyms": [
+          "coherent",
+          "articulate",
+          "comprehensible"
+        ],
+        "antonyms": [
+          "obscure",
+          "ambiguous",
+          "confused"
+        ],
+        "example_sentence": "The expert provided a lucid explanation of capital market structures during the lecture."
+      },
+      {
+        "word": "MITIGATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make less severe, serious, or painful.",
+        "synonyms": [
+          "attenuate",
+          "lessen",
+          "soften"
+        ],
+        "antonyms": [
+          "intensify",
+          "aggravate",
+          "augment"
+        ],
+        "example_sentence": "Policy interventions are necessary to mitigate the risks associated with market volatility."
+      },
+      {
+        "word": "TENACIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Tending to keep a firm hold of something; clinging tenaciously to a goal or principle.",
+        "synonyms": [
+          "resolute",
+          "persistent",
+          "dogged"
+        ],
+        "antonyms": [
+          "yielding",
+          "vacillating",
+          "inconstant"
+        ],
+        "example_sentence": "Her tenacious pursuit of excellence earned her top honors in the civil services exam."
+      },
+      {
+        "word": "PROLIFERATE",
+        "part_of_speech": "Verb",
+        "meaning": "To increase rapidly in number; multiply.",
+        "synonyms": [
+          "burgeon",
+          "propagate",
+          "escalate"
+        ],
+        "antonyms": [
+          "dwindle",
+          "decrease",
+          "shrink"
+        ],
+        "example_sentence": "Digital fintech startups continue to proliferate across urban and semi-urban tiers."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To miss the boat",
+        "meaning": "To miss an opportunity to do something by being slow to act.",
+        "example_sentence": "Investors who delayed understanding green energy policies missed the boat on lucrative sovereign bonds."
+      },
+      {
+        "idiom": "A drop in the ocean",
+        "meaning": "A very small amount compared with what is needed or expected.",
+        "example_sentence": "The initial relief fund was just a drop in the ocean compared to the actual economic loss."
+      },
+      {
+        "idiom": "Spanner in the works",
+        "meaning": "An event or action that disrupts a plan or process.",
+        "example_sentence": "Unforeseen supply chain bottlenecks threw a spanner in the works for the manufacturing sector."
+      },
+      {
+        "idiom": "Through thick and thin",
+        "meaning": "Under all circumstances, no matter how difficult.",
+        "example_sentence": "The democratic institution stood firm through thick and thin to preserve citizen rights."
+      },
+      {
+        "idiom": "Up in the air",
+        "meaning": "Not yet decided; uncertain.",
+        "example_sentence": "The exact timeline for the judicial successor appointment remains up in the air."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Index of Eight Core Industries in India",
+        "bullets": [
+          "Comprises 8 core sectors: Coal, Crude Oil, Natural Gas, Refinery Products, Fertilizers, Steel, Cement, and Electricity.",
+          "Calculated and published monthly by the Office of the Economic Adviser, Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry.",
+          "Has a combined weight of 40.27% in the Index of Industrial Production (IIP)."
+        ]
+      },
+      {
+        "title": "Constitutional Provisions for High Court Judges",
+        "bullets": [
+          "Judges of High Courts are appointed by the President of India under Article 217.",
+          "The retirement age for High Court judges is 62 years (unlike Supreme Court judges who retire at 65).",
+          "Transfer of High Court judges is carried out by the President after consultation with the Chief Justice of India under Article 222."
+        ]
+      },
+      {
+        "title": "Organization of the Petroleum Exporting Countries (OPEC)",
+        "bullets": [
+          "Established in Baghdad, Iraq, in September 1960 by founding members Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela.",
+          "Headquartered in Vienna, Austria, since 1965.",
+          "Aims to coordinate and unify petroleum policies among member countries to secure fair and stable prices for petroleum producers."
+        ]
+      },
+      {
+        "title": "State Election Commission in India",
+        "bullets": [
+          "Constitutional body created under Article 243K of the Indian Constitution.",
+          "Responsible for superintending, directing, and controlling the preparation of electoral rolls and conducting elections to Panchayats and Municipalities.",
+          "The State Election Commissioner is appointed by the Governor of the State."
+        ]
+      },
+      {
+        "title": "Commercial Coal Mining and Auctions in India",
+        "bullets": [
+          "Commercial mining allows private entities to mine coal for commercial sale rather than captive consumption alone.",
+          "Regulated under the Coal Mines (Special Provisions) Act and mines are auctioned transparently via online platforms.",
+          "Aimed at reducing import dependency and accelerating domestic coal production."
+        ]
+      }
+    ]
   }
 ]

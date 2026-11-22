@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "PRUDENT",
-    "AMELIORATE",
-    "EPITOME",
     "PALLIATIVE",
     "LARGESSE",
     "RECALCITRANT",
@@ -59,12 +56,12 @@
     "ASSIDUOUS",
     "SAGACIOUS",
     "PERSPICACIOUS",
-    "PARSIMONY"
+    "PARSIMONY",
+    "LUCID",
+    "TENACIOUS",
+    "PROLIFERATE"
   ],
   "idiom": [
-    "Throw down the gauntlet",
-    "Put the cart before the horse",
-    "Run the gauntlet",
     "Between Scylla and Charybdis",
     "Gift of the gab",
     "Throw cold water on",
@@ -121,13 +118,12 @@
     "See eye to eye",
     "To weather the storm",
     "Cutting corners",
-    "In the pipeline"
+    "In the pipeline",
+    "To miss the boat",
+    "Spanner in the works",
+    "Up in the air"
   ],
   "gk_booster": [
-    "Rampur Bushahr and Himachal Pradesh Heritage",
-    "National Bank for Agriculture and Rural Development (NABARD) Surveys",
-    "Ministry of Corporate Affairs (MCA)",
-    "Directorate General of Trade Remedies (DGTR)",
     "Nutrient Based Subsidy (NBS) Scheme",
     "Foreign Currency Non-Resident (Bank) [FCNR(B)] Accounts",
     "Special Drawing Rights (SDRs)",
@@ -183,6 +179,10 @@
     "Sapinda Relationship in Indian Family Law",
     "Index of Core Industries (ICI) in India",
     "Employees' Provident Fund Organisation (EPFO)",
-    "Organization of the Petroleum Exporting Countries (OPEC)"
+    "Organization of the Petroleum Exporting Countries (OPEC)",
+    "Index of Eight Core Industries in India",
+    "Constitutional Provisions for High Court Judges",
+    "State Election Commission in India",
+    "Commercial Coal Mining and Auctions in India"
   ]
 }
