@@ -1,7 +1,5 @@
 {
   "vocab": [
-    "PALLIATIVE",
-    "LARGESSE",
     "RECALCITRANT",
     "EXCORIATE",
     "PUNITIVE",
@@ -59,14 +57,11 @@
     "PARSIMONY",
     "LUCID",
     "TENACIOUS",
-    "PROLIFERATE"
+    "PROLIFERATE",
+    "SPATE",
+    "SURREPTITIOUS"
   ],
   "idiom": [
-    "Between Scylla and Charybdis",
-    "Gift of the gab",
-    "Throw cold water on",
-    "To bell the cat",
-    "To clear the decks",
     "A drop in the ocean",
     "To grease the wheels",
     "On thin ice",
@@ -121,13 +116,14 @@
     "In the pipeline",
     "To miss the boat",
     "Spanner in the works",
-    "Up in the air"
+    "Up in the air",
+    "To move the goalposts",
+    "A storm in a teacup",
+    "To break the ice",
+    "To burn bridges",
+    "Under a cloud"
   ],
   "gk_booster": [
-    "Nutrient Based Subsidy (NBS) Scheme",
-    "Foreign Currency Non-Resident (Bank) [FCNR(B)] Accounts",
-    "Special Drawing Rights (SDRs)",
-    "Food Safety and Standards Authority of India (FSSAI)",
     "Central Water Commission (CWC)",
     "Fertilizer Sector Regulatory Architecture in India",
     "Major Port Authorities Act, 2021",
@@ -183,6 +179,10 @@
     "Index of Eight Core Industries in India",
     "Constitutional Provisions for High Court Judges",
     "State Election Commission in India",
-    "Commercial Coal Mining and Auctions in India"
+    "Commercial Coal Mining and Auctions in India",
+    "Article 324 and the Election Commission of India",
+    "El Ni\u00f1o and Southern Oscillation (ENSO)",
+    "Metro Rail Governing Framework in India",
+    "India-Nepal Treaty of Peace and Friendship (1950)"
   ]
 }

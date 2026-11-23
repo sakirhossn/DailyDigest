@@ -11377,5 +11377,157 @@
         ]
       }
     ]
+  },
+  {
+    "date": "23 November 2026",
+    "vocab_words": [
+      {
+        "word": "PALLIATIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Relieving pain or mitigating a problem without dealing with the underlying cause.",
+        "synonyms": [
+          "alleviative",
+          "soothing",
+          "therapeutic"
+        ],
+        "antonyms": [
+          "aggravating",
+          "provocative"
+        ],
+        "example_sentence": "The government introduced palliative measures to cushion the blow of rising food inflation on vulnerable households."
+      },
+      {
+        "word": "INTRANSIGENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Unwilling or refusing to change one's views or to agree about something.",
+        "synonyms": [
+          "unyielding",
+          "obstinate",
+          "refractory"
+        ],
+        "antonyms": [
+          "compliant",
+          "flexible",
+          "yielding"
+        ],
+        "example_sentence": "Negotiations stalled because both factions remained intransigent regarding territorial concessions."
+      },
+      {
+        "word": "SPATE",
+        "part_of_speech": "Noun",
+        "meaning": "A large number of similar things coming in quick succession.",
+        "synonyms": [
+          "flood",
+          "rush",
+          "series"
+        ],
+        "antonyms": [
+          "dearth",
+          "scarcity"
+        ],
+        "example_sentence": "A sudden spate of legal challenges forced the administrative bodies to review their land acquisition protocols."
+      },
+      {
+        "word": "SURREPTITIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Kept secret, especially because it would not be approved of.",
+        "synonyms": [
+          "covert",
+          "clandestine",
+          "stealthy"
+        ],
+        "antonyms": [
+          "overt",
+          "manifest",
+          "transparent"
+        ],
+        "example_sentence": "Investigators uncovered surreptitious financial transactions linked to illegal commercial encroachments."
+      },
+      {
+        "word": "EXCORIATE",
+        "part_of_speech": "Verb",
+        "meaning": "To criticize severely or express harsh disapproval of.",
+        "synonyms": [
+          "condemn",
+          "denounce",
+          "rebuke"
+        ],
+        "antonyms": [
+          "praise",
+          "commend",
+          "laud"
+        ],
+        "example_sentence": "Economic analysts did not hesitate to excoriate corporate bodies for demanding unsustainable fiscal concessions."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To move the goalposts",
+        "meaning": "To change the rules or criteria while an activity is taking place, making it harder to succeed.",
+        "example_sentence": "Business leaders complained that regulatory authorities kept moving the goalposts regarding compliance norms."
+      },
+      {
+        "idiom": "A storm in a teacup",
+        "meaning": "A great fuss or commotion over a trivial matter or minor issue.",
+        "example_sentence": "The minor disagreement between coalition allies turned out to be nothing more than a storm in a teacup."
+      },
+      {
+        "idiom": "To break the ice",
+        "meaning": "To do or say something to relieve tension or awkwardness in a social or professional setting.",
+        "example_sentence": "The visiting diplomat used a lighthearted remark about local weather to break the ice during bilateral talks."
+      },
+      {
+        "idiom": "To burn bridges",
+        "meaning": "To destroy one's relationships, connections, or past opportunities permanently.",
+        "example_sentence": "By publicly attacking his former colleagues, the politician risked burning bridges with essential allies."
+      },
+      {
+        "idiom": "Under a cloud",
+        "meaning": "Under suspicion or under circumstances that bring disgrace or discredit.",
+        "example_sentence": "Several administrative officers resigned while under a cloud of alleged financial misconduct."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Article 324 and the Election Commission of India",
+        "bullets": [
+          "Established under Article 324 of the Constitution, the ECI is a permanent and independent body.",
+          "Responsible for administering Lok Sabha, Rajya Sabha, State Legislative Assembly, and Presidential/Vice-Presidential elections.",
+          "Chief Election Commissioner and Election Commissioners are appointed by the President with tenure provisions of 6 years or up to 65 years of age."
+        ]
+      },
+      {
+        "title": "El Ni\u00f1o and Southern Oscillation (ENSO)",
+        "bullets": [
+          "Refers to the periodic warming of sea surface temperatures across the central and east-central Equatorial Pacific.",
+          "Directly impacts global atmospheric circulation, frequently weakening the Indian summer monsoon and causing agricultural droughts.",
+          "Monitored extensively by global meteorological agencies using indicators like the Southern Oscillation Index (SOI)."
+        ]
+      },
+      {
+        "title": "Metro Rail Governing Framework in India",
+        "bullets": [
+          "Metro rail projects are typically implemented through Special Purpose Vehicles (SPVs) formed as joint ventures between Central and State governments.",
+          "Regulated primarily under the Metro Railways (Operation and Maintenance) Act, 2002.",
+          "Funding models combine equity contributions, bilateral/multilateral international loans, and Transit-Oriented Development (TOD) revenues."
+        ]
+      },
+      {
+        "title": "Consumer Price Index (CPI) in India",
+        "bullets": [
+          "Measures changes in the price level of a weighted average market basket of consumer goods and services purchased by households.",
+          "Computed and published by the National Statistical Office (NSO) on a monthly basis.",
+          "Serves as the primary benchmark for the Reserve Bank of India (RBI) in formulating monetary policy and inflation targeting."
+        ]
+      },
+      {
+        "title": "India-Nepal Treaty of Peace and Friendship (1950)",
+        "bullets": [
+          "Signed on July 31, 1950, establishing a close strategic and economic relationship between the two neighbouring sovereign nations.",
+          "Permits free movement of citizens across the international border without passports or visas.",
+          "Provides reciprocal treatment to Indian and Nepalese citizens in economic, residential, and employment privileges."
+        ]
+      }
+    ]
   }
 ]
