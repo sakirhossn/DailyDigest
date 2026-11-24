@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "RECALCITRANT",
-    "EXCORIATE",
-    "PUNITIVE",
     "GREGARIOUS",
     "OBDURATE",
     "TACITURN",
@@ -59,12 +56,12 @@
     "TENACIOUS",
     "PROLIFERATE",
     "SPATE",
-    "SURREPTITIOUS"
+    "SURREPTITIOUS",
+    "VEXATIOUS",
+    "AUGMENT",
+    "EXPEDIENT"
   ],
   "idiom": [
-    "A drop in the ocean",
-    "To grease the wheels",
-    "On thin ice",
     "Through thick and thin",
     "Bark up the wrong tree",
     "Cost an arm and a leg",
@@ -121,14 +118,12 @@
     "A storm in a teacup",
     "To break the ice",
     "To burn bridges",
-    "Under a cloud"
+    "Under a cloud",
+    "To burn the midnight oil",
+    "At the eleventh hour",
+    "Steal a march on"
   ],
   "gk_booster": [
-    "Central Water Commission (CWC)",
-    "Fertilizer Sector Regulatory Architecture in India",
-    "Major Port Authorities Act, 2021",
-    "Foreign Exchange Management Act (FEMA), 1999",
-    "Konkan Railway Corporation Limited (KRCL)",
     "National Food Security Act (NFSA), 2013",
     "Assisted Reproductive Technology (Regulation) Act, 2021",
     "Rabi Cropping Season in India",
@@ -183,6 +178,11 @@
     "Article 324 and the Election Commission of India",
     "El Ni\u00f1o and Southern Oscillation (ENSO)",
     "Metro Rail Governing Framework in India",
-    "India-Nepal Treaty of Peace and Friendship (1950)"
+    "India-Nepal Treaty of Peace and Friendship (1950)",
+    "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "Nutrient Based Subsidy (NBS) Scheme",
+    "Purchasing Managers' Index (PMI)",
+    "Juvenile Justice (Care and Protection of Children) Act, 2015",
+    "International Film Festival of India (IFFI)"
   ]
 }

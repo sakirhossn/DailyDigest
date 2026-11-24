@@ -11529,5 +11529,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "24 November 2026",
+    "vocab_words": [
+      {
+        "word": "VEXATIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Causing distress, annoyance, or worry; often used legally to describe actions brought without sufficient grounds.",
+        "synonyms": [
+          "troublesome",
+          "galling",
+          "irksome"
+        ],
+        "antonyms": [
+          "soothing",
+          "pleasing"
+        ],
+        "example_sentence": "Frequent shifts in tariff classifications without prior notice created a vexatious environment for import businesses."
+      },
+      {
+        "word": "AUGMENT",
+        "part_of_speech": "Verb",
+        "meaning": "To make something greater or more effective by adding to it.",
+        "synonyms": [
+          "amplify",
+          "expand",
+          "bolster"
+        ],
+        "antonyms": [
+          "diminish",
+          "curtail"
+        ],
+        "example_sentence": "The ministry proposed to augment the budgetary allocation for the rural credit guarantee scheme."
+      },
+      {
+        "word": "EXPEDIENT",
+        "part_of_speech": "Adjective",
+        "meaning": "Action taken for immediate benefit or convenience, though not necessarily moral or ideal in the long run.",
+        "synonyms": [
+          "pragmatic",
+          "advantageous",
+          "utilitarian"
+        ],
+        "antonyms": [
+          "inexpedient",
+          "unwise"
+        ],
+        "example_sentence": "Subsidizing fertilizer prices was seen as a politically expedient measure to insulate farmers from international volatility."
+      },
+      {
+        "word": "INSIDIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Proceeding in a subtle or gradual way with harmful or dangerous consequences.",
+        "synonyms": [
+          "stealthy",
+          "subversive",
+          "treacherous"
+        ],
+        "antonyms": [
+          "straightforward",
+          "harmless"
+        ],
+        "example_sentence": "Protein-led food inflation exerts an insidious toll on household nutrition levels over time."
+      },
+      {
+        "word": "TACITURN",
+        "part_of_speech": "Adjective",
+        "meaning": "Reserved or uncommunicative in speech; saying little.",
+        "synonyms": [
+          "reticent",
+          "uncommunicative",
+          "reserved"
+        ],
+        "antonyms": [
+          "loquacious",
+          "garrulous"
+        ],
+        "example_sentence": "The central bank official remained taciturn regarding the precise timing of the prospective interest rate cut."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To burn the midnight oil",
+        "meaning": "To work or study late into the night.",
+        "example_sentence": "Lawmakers burned the midnight oil to finalize the draft of the foreign trade agreement before the summit."
+      },
+      {
+        "idiom": "At the eleventh hour",
+        "meaning": "At the latest possible moment before a deadline or decisive event.",
+        "example_sentence": "The government reached a compromise on bulk import tariffs at the eleventh hour."
+      },
+      {
+        "idiom": "Through thick and thin",
+        "meaning": "Under all circumstances, no matter how difficult or unfavorable.",
+        "example_sentence": "The state bank supported micro-entrepreneurs through thick and thin by maintaining liquidity buffers."
+      },
+      {
+        "idiom": "Beat around the bush",
+        "meaning": "To discuss a topic indirectly without coming to the main point.",
+        "example_sentence": "The economic panel did not beat around the bush and directly addressed the rising non-performing assets."
+      },
+      {
+        "idiom": "Steal a march on",
+        "meaning": "To gain an advantage over a competitor by acting secretly or ahead of time.",
+        "example_sentence": "Domestic software firms stole a march on international rivals by rapidly deploying localized AI tools."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Pradhan Mantri MUDRA Yojana (PMMY)",
+        "bullets": [
+          "Launched on April 8, 2015, under the Ministry of Finance to provide non-collateralized micro-loans up to \u20b910 lakh to non-corporate micro/small enterprises.",
+          "Loans are extended by Commercial Banks, RRBs, Small Finance Banks, MFIs, and NBFCs, with guarantee coverage provided by NCGTC.",
+          "Categorized into Shishu (up to \u20b950,000), Kishore (above \u20b950,000 to \u20b95 lakh), and Tarun (above \u20b95 lakh to \u20b910 lakh)."
+        ]
+      },
+      {
+        "title": "Nutrient Based Subsidy (NBS) Scheme",
+        "bullets": [
+          "Implemented by the Department of Fertilizers, Ministry of Chemicals & Fertilizers, effective from April 1, 2010.",
+          "Applies to P&K (Phosphatic and Potassic) fertilizers where a fixed annual/bi-annual subsidy per kg is announced for Nitrogen (N), Phosphate (P), Potash (K), and Sulphur (S).",
+          "Urea remains outside NBS and continues under statutory MRP administration."
+        ]
+      },
+      {
+        "title": "Purchasing Managers' Index (PMI)",
+        "bullets": [
+          "An economic indicator derived from monthly surveys of private sector companies assessing business activity, new orders, employment, and prices.",
+          "A reading above 50 indicates expansion relative to the previous month, below 50 indicates contraction, and exactly 50 represents no change.",
+          "In India, Flash and Final PMI figures for Manufacturing and Services are compiled by S&P Global / HSBC."
+        ]
+      },
+      {
+        "title": "Juvenile Justice (Care and Protection of Children) Act, 2015",
+        "bullets": [
+          "Enacted to replace the Juvenile Justice Act, 2000, aligning Indian law with the UN Convention on the Rights of the Child.",
+          "Mandates the constitution of a Juvenile Justice Board (JJB) comprising a Judicial Magistrate First Class and two social workers in every district.",
+          "Section 15 permits preliminary assessment by the JJB for heinous offences alleged to be committed by children between 16 and 18 years of age."
+        ]
+      },
+      {
+        "title": "International Film Festival of India (IFFI)",
+        "bullets": [
+          "Established in 1952, it is conducted annually in Goa under the aegis of the National Film Development Corporation (NFDC) and Ministry of Information and Broadcasting.",
+          "The highest award conferred at IFFI is the 'Golden Peacock' for Best Film, carrying a trophy and cash prize.",
+          "Recognized by FIAPF (International Federation of Film Producers Associations) as a competitive feature film festival."
+        ]
+      }
+    ]
   }
 ]
