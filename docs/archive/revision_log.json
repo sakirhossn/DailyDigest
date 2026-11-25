@@ -11678,5 +11678,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "25 November 2026",
+    "vocab_words": [
+      {
+        "word": "MAUDLIN",
+        "part_of_speech": "Adjective",
+        "meaning": "Self-pityingly or tearfully sentimental, often through drunkenness.",
+        "synonyms": [
+          "sentimental",
+          "overemotional",
+          "teary"
+        ],
+        "antonyms": [
+          "pragmatic",
+          "unsentimental",
+          "stoic"
+        ],
+        "example_sentence": "His maudlin reminiscing during the conference disrupted the serious tone of the debate."
+      },
+      {
+        "word": "OBDURATE",
+        "part_of_speech": "Adjective",
+        "meaning": "Stubbornly refusing to change one's opinion or course of action.",
+        "synonyms": [
+          "obstinate",
+          "intransigent",
+          "adamant"
+        ],
+        "antonyms": [
+          "amenable",
+          "compliant",
+          "flexible"
+        ],
+        "example_sentence": "The trade negotiators remained obdurate on agricultural tariff lines despite weeks of intensive lobbying."
+      },
+      {
+        "word": "RECALCITRANT",
+        "part_of_speech": "Adjective",
+        "meaning": "Having an uncooperative attitude toward authority or discipline.",
+        "synonyms": [
+          "defiant",
+          "refractory",
+          "disobedient"
+        ],
+        "antonyms": [
+          "compliant",
+          "obedient",
+          "tractable"
+        ],
+        "example_sentence": "The government imposed stricter compliance penalties on recalcitrant firms evading environmental norms."
+      },
+      {
+        "word": "SURREPTITIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Kept secret, especially because it would not be approved of.",
+        "synonyms": [
+          "stealthy",
+          "clandestine",
+          "furtive"
+        ],
+        "antonyms": [
+          "manifest",
+          "open",
+          "transparent"
+        ],
+        "example_sentence": "The investigation uncovered a surreptitious attempt to divert public funds through shell entities."
+      },
+      {
+        "word": "LACUNA",
+        "part_of_speech": "Noun",
+        "meaning": "An unfilled space or interval; a gap or missing part in a book or document.",
+        "synonyms": [
+          "vacuum",
+          "hiatus",
+          "omission"
+        ],
+        "antonyms": [
+          "continuity",
+          "completion",
+          "plenitude"
+        ],
+        "example_sentence": "Legal experts pointed out a major lacuna in the current regulatory framework governing digital assets."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A bone of contention",
+        "meaning": "A subject or matter about which there is ongoing disagreement.",
+        "example_sentence": "The allocation of municipal funds has become a major bone of contention between the opposition and the ruling council."
+      },
+      {
+        "idiom": "To clear the decks",
+        "meaning": "To clear away clutter or prepare oneself for action by removing obstacles.",
+        "example_sentence": "The finance ministry cleared the decks for the upcoming fiscal review by finalizing pending subsidy audits."
+      },
+      {
+        "idiom": "Fish in troubled waters",
+        "meaning": "To try to gain an advantage from a difficult or confused situation.",
+        "example_sentence": "Speculators attempted to fish in troubled waters during the sudden currency fluctuation."
+      },
+      {
+        "idiom": "Leap in the dark",
+        "meaning": "An act whose outcome is completely uncertain or risky.",
+        "example_sentence": "Implementing the new administrative model without pilot testing felt like a dangerous leap in the dark."
+      },
+      {
+        "idiom": "On thin ice",
+        "meaning": "In a risky or precarious position.",
+        "example_sentence": "The corporation was skating on thin ice after missing multiple regulatory filing deadlines."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "State Development Loans (SDLs)",
+        "bullets": [
+          "Issued by state governments in India to finance their fiscal deficits and developmental expenditure.",
+          "Conducted via auctions managed by the Reserve Bank of India (RBI) through the E-Kuber platform.",
+          "Considered sovereign-equivalent safety instruments carrying attractive yields compared to central government securities."
+        ]
+      },
+      {
+        "title": "John Doe Orders in Indian Law",
+        "bullets": [
+          "Also known as Ashok Kumar orders, originating from English common law traditions.",
+          "An ex-parte interim injunction issued against anonymous entities to prevent large-scale piracy, copyright violation, or public property damage.",
+          "Enforced widely by High Courts in intellectual property infringement and digital censorship suits."
+        ]
+      },
+      {
+        "title": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+        "bullets": [
+          "A comprehensive central legislation enacted to mandate financial maintenance for parents and senior citizens by children or relatives.",
+          "Establishes Maintenance Tribunals headed by Sub-Divisional Officers for speedy adjudication.",
+          "Includes provisions where property transfers made by senior citizens can be declared void if the transferee neglects basic physical and financial needs."
+        ]
+      },
+      {
+        "title": "Customs Act, 1962 and Customs Tariff Act, 1975",
+        "bullets": [
+          "The primary legislative statutes governing import and export duties, anti-dumping measures, and tariff classifications in India.",
+          "Administered by the Central Board of Indirect Taxes and Customs (CBIC) under the Ministry of Finance.",
+          "Incorporates Harmonized System of Nomenclature (HSN) codes for international commodity classification."
+        ]
+      },
+      {
+        "title": "Fertilizer Subsidy Regime in India",
+        "bullets": [
+          "Managed predominantly through the Nutrient Based Subsidy (NBS) scheme and fixed maximum retail price (MRP) controls for urea.",
+          "Aims to ensure affordable nutrient availability to farmers despite global price volatility.",
+          "Directly impacts the fiscal deficit of the Union Government through allocations managed by the Department of Fertilizers."
+        ]
+      }
+    ]
   }
 ]
