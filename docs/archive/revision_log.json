@@ -11832,5 +11832,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "26 November 2026",
+    "vocab_words": [
+      {
+        "word": "OSTENSIBLE",
+        "part_of_speech": "Adjective",
+        "meaning": "Stated or appearing to be true, but not necessarily so; professed.",
+        "synonyms": [
+          "apparent",
+          "seeming",
+          "professed"
+        ],
+        "antonyms": [
+          "actual",
+          "genuine",
+          "real"
+        ],
+        "example_sentence": "The ostensible purpose of the meeting was trade expansion, though regulatory compliance dominated the discussion."
+      },
+      {
+        "word": "AMELIORATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make a bad or unsatisfactory situation better; improve.",
+        "synonyms": [
+          "mitigate",
+          "alleviate",
+          "enhance"
+        ],
+        "antonyms": [
+          "aggravate",
+          "exacerbate",
+          "worsen"
+        ],
+        "example_sentence": "Duty-free imports of raw sugar were permitted to ameliorate domestic supply shortages."
+      },
+      {
+        "word": "ADUMBRATE",
+        "part_of_speech": "Verb",
+        "meaning": "To outline or sketch faintly; to foreshadow or represent partially.",
+        "synonyms": [
+          "foreshadow",
+          "delineate",
+          "intimate"
+        ],
+        "antonyms": [
+          "obscure",
+          "conceal",
+          "detail"
+        ],
+        "example_sentence": "The RBI Bulletin adumbrated potential structural shifts in food inflation trends over the next quarter."
+      },
+      {
+        "word": "PROCLIVITY",
+        "part_of_speech": "Noun",
+        "meaning": "A natural inclination or tendency to choose or do something regularly.",
+        "synonyms": [
+          "penchant",
+          "propensity",
+          "predisposition"
+        ],
+        "antonyms": [
+          "aversion",
+          "disinclination",
+          "antipathy"
+        ],
+        "example_sentence": "Investors showed a strong proclivity toward low-risk sovereign debt instruments amid market volatility."
+      },
+      {
+        "word": "PEREMPTORY",
+        "part_of_speech": "Adjective",
+        "meaning": "Insisting on immediate attention or obedience; leaving no opportunity for refusal.",
+        "synonyms": [
+          "imperious",
+          "dogmatic",
+          "unconditional"
+        ],
+        "antonyms": [
+          "submissive",
+          "lenient",
+          "tentative"
+        ],
+        "example_sentence": "The court issued a peremptory order directing the civic agency to restore public infrastructure immediately."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "Hit the nail on the head",
+        "meaning": "To describe or identify the exact cause of a problem or situation correctly.",
+        "example_sentence": "The economic analyst hit the nail on the head by identifying supply chain bottlenecks as the primary cause of food inflation."
+      },
+      {
+        "idiom": "Through thick and thin",
+        "meaning": "Under all circumstances, supporting someone regardless of hardships.",
+        "example_sentence": "State institutions must protect fundamental rights through thick and thin to maintain public trust."
+      },
+      {
+        "idiom": "Call it a day",
+        "meaning": "To stop working on a task or project for the rest of the working period.",
+        "example_sentence": "After concluding negotiations on the trade agreement, the delegates decided to call it a day."
+      },
+      {
+        "idiom": "Turn over a new leaf",
+        "meaning": "To make a fresh start or adopt a better course of conduct.",
+        "example_sentence": "The state administration promised to turn over a new leaf regarding public grievance redressal mechanisms."
+      },
+      {
+        "idiom": "Keep at arm's length",
+        "meaning": "To maintain distance and avoid close association or familiarity.",
+        "example_sentence": "Financial regulators must keep commercial lobbies at arm's length to ensure objective policymaking."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Domestic Systemically Important Banks (D-SIBs) Framework",
+        "bullets": [
+          "Introduced by the RBI in 2014, requiring evaluation of banks based on size, interconnectedness, lack of substitutability, and complexity.",
+          "D-SIBs are placed in five buckets; higher buckets demand additional Common Equity Tier 1 (CET1) capital requirements.",
+          "Currently, State Bank of India (SBI), HDFC Bank, and ICICI Bank are designated as India's D-SIBs."
+        ]
+      },
+      {
+        "title": "Border Roads Organisation (BRO)",
+        "bullets": [
+          "Established on May 7, 1960, under the executive control of the Ministry of Defence to develop and maintain road networks in border areas.",
+          "Headquartered in New Delhi, BRO operates major overseas construction projects such as Project Dantak in Bhutan.",
+          "Motto: 'Sramena Sarvam Sadhyam' (Everything is achievable through hard work)."
+        ]
+      },
+      {
+        "title": "Article 25 of the Indian Constitution",
+        "bullets": [
+          "Guarantees freedom of conscience and the right to freely profess, practise, and propagate religion to all persons in India.",
+          "Subject to public order, morality, and health, as well as other provisions of Part III of the Constitution.",
+          "Empowers the State to regulate secular activities associated with religious practices and provide for social welfare and reform."
+        ]
+      },
+      {
+        "title": "PM-POSHAN Scheme (Mid-Day Meal Scheme)",
+        "bullets": [
+          "Originally launched in 1995 as the National Programme of Nutritional Support to Primary Education, renamed PM-POSHAN in 2021.",
+          "Covers eligible school children studying in Classes I to VIII in government and government-aided schools.",
+          "Nodal Ministry: Ministry of Education, funded on a joint sharing basis between Central and State governments."
+        ]
+      },
+      {
+        "title": "Service Producer Price Index (PPI)",
+        "bullets": [
+          "Measures the average change in selling prices received by domestic service producers for their output.",
+          "Compiled by the Office of the Economic Adviser (OEA), Department for Promotion of Industry and Internal Trade (DPIIT).",
+          "Serves as a critical deflator for calculating National Accounts Statistics and GDP growth in the service sector."
+        ]
+      }
+    ]
   }
 ]

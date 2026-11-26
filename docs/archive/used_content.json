@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "ENERVATE",
-    "EQUIVOCAL",
-    "DELETERIOUS",
-    "ESCHEW",
-    "OBVIATE",
     "OSCILLATE",
     "PREVARICATE",
     "INGENUOUS",
@@ -59,13 +54,14 @@
     "EXPEDIENT",
     "MAUDLIN",
     "RECALCITRANT",
-    "LACUNA"
+    "LACUNA",
+    "OSTENSIBLE",
+    "AMELIORATE",
+    "ADUMBRATE",
+    "PROCLIVITY",
+    "PEREMPTORY"
   ],
   "idiom": [
-    "Salt of the earth",
-    "Blessing in disguise",
-    "A bone of contention",
-    "Cut the gordian knot",
     "Miss the boat",
     "Fly off the handle",
     "Read between the lines",
@@ -121,14 +117,13 @@
     "To clear the decks",
     "Fish in troubled waters",
     "Leap in the dark",
-    "On thin ice"
+    "On thin ice",
+    "Through thick and thin",
+    "Call it a day",
+    "Turn over a new leaf",
+    "Keep at arm's length"
   ],
   "gk_booster": [
-    "Consumer Price Index (CPI) and Inflation Measurement in India",
-    "Credit Rating Agencies and Moody's",
-    "Vande Bharat Express Project",
-    "Escrow Account Mechanism in Finance",
-    "Monetary Policy Committee (MPC) Statutory Framework",
     "Comptroller and Auditor General of India (CAG)",
     "Kaziranga National Park",
     "Consumer Price Index (CPI) in India",
@@ -183,6 +178,11 @@
     "John Doe Orders in Indian Law",
     "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
     "Customs Act, 1962 and Customs Tariff Act, 1975",
-    "Fertilizer Subsidy Regime in India"
+    "Fertilizer Subsidy Regime in India",
+    "Domestic Systemically Important Banks (D-SIBs) Framework",
+    "Border Roads Organisation (BRO)",
+    "Article 25 of the Indian Constitution",
+    "PM-POSHAN Scheme (Mid-Day Meal Scheme)",
+    "Service Producer Price Index (PPI)"
   ]
 }
