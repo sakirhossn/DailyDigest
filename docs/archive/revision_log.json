@@ -11986,5 +11986,159 @@
         ]
       }
     ]
+  },
+  {
+    "date": "27 November 2026",
+    "vocab_words": [
+      {
+        "word": "PERNICIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Having a harmful effect, especially in a gradual or subtle way.",
+        "synonyms": [
+          "deleterious",
+          "detrimental",
+          "nocuous"
+        ],
+        "antonyms": [
+          "beneficial",
+          "salubrious",
+          "advantageous"
+        ],
+        "example_sentence": "Unchecked inflation exerts a pernicious influence on the purchasing power of fixed-income households."
+      },
+      {
+        "word": "ESCHEW",
+        "part_of_speech": "Verb",
+        "meaning": "Deliberately avoid using; abstain from.",
+        "synonyms": [
+          "renounce",
+          "abjure",
+          "shun"
+        ],
+        "antonyms": [
+          "embrace",
+          "adopt",
+          "pursue"
+        ],
+        "example_sentence": "Trade analysts advised policymakers to eschew hasty agreements when facing sudden external tariff shifts."
+      },
+      {
+        "word": "RECALCITRANCE",
+        "part_of_speech": "Noun",
+        "meaning": "Stubborn cooperation or resistance to authority.",
+        "synonyms": [
+          "defiance",
+          "intransigence",
+          "obstinacy"
+        ],
+        "antonyms": [
+          "compliance",
+          "docility",
+          "amenability"
+        ],
+        "example_sentence": "Administrative friction often arises due to institutional recalcitrance during policy overhauls."
+      },
+      {
+        "word": "EPITOME",
+        "part_of_speech": "Noun",
+        "meaning": "A person or thing that is a perfect example of a particular quality or type.",
+        "synonyms": [
+          "personification",
+          "embodiment",
+          "archetype"
+        ],
+        "antonyms": [
+          "antithesis",
+          "flaw",
+          "reversal"
+        ],
+        "example_sentence": "The constitutional provision for legislative councils serves as the epitome of bicameral representation at the state level."
+      },
+      {
+        "word": "ANODYNE",
+        "part_of_speech": "Adjective",
+        "meaning": "Not likely to provoke dissent or offense; inoffensive, often soothing.",
+        "synonyms": [
+          "bland",
+          "inoffensive",
+          "innocuous"
+        ],
+        "antonyms": [
+          "provocative",
+          "inflammatory",
+          "controversial"
+        ],
+        "example_sentence": "The committee presented an anodyne report that avoided addressing the core structural deficits."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "A slippery slope",
+        "meaning": "An idea or course of action which will lead to something unacceptable, wrong, or disastrous.",
+        "example_sentence": "Implementing perpetual cash transfers without ex ante fiscal appraisal can prove to be a slippery slope for public finances."
+      },
+      {
+        "idiom": "To weather the storm",
+        "meaning": "To survive or successfully deal with a difficult situation or period.",
+        "example_sentence": "Strong macroeconomic fundamentals help emerging markets weather the storm of global capital outflows."
+      },
+      {
+        "idiom": "Pedal to the metal",
+        "meaning": "To go as fast as possible; to operate with maximum speed and energy.",
+        "example_sentence": "With the deadline approaching, the administration kept the pedal to the metal to finalize electoral rolls."
+      },
+      {
+        "idiom": "Tip of the iceberg",
+        "meaning": "A small visible part of a much larger, complex, and unseen problem.",
+        "example_sentence": "The recent drop in monthly net FDI is merely the tip of the iceberg regarding global liquidity adjustments."
+      },
+      {
+        "idiom": "Writing on the wall",
+        "meaning": "An event or clear sign that shows that failure or disaster is imminent.",
+        "example_sentence": "Persistently high retail inflation above the upper tolerance limit was the writing on the wall for monetary tightness."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Flexible Inflation Targeting (FIT) in India",
+        "bullets": [
+          "Introduced in 2016 following recommendations of the Urjit Patel Committee.",
+          "Statutorily anchored under Section 45ZA of the Reserve Bank of India Act, 1934.",
+          "Target consumer price inflation (CPI-Combined) is fixed at 4% with a tolerance band of +/- 2%."
+        ]
+      },
+      {
+        "title": "State Legislative Council (Vidhan Parishad)",
+        "bullets": [
+          "Governed under Article 169 and Article 171 of the Indian Constitution.",
+          "It is the upper house of a bicameral state legislature and is a permanent body not subject to dissolution.",
+          "One-third of its members are elected by electorates consisting of graduates residing in the state."
+        ]
+      },
+      {
+        "title": "Foreign Direct Investment (FDI) Regulation in India",
+        "bullets": [
+          "Regulated primarily under the Foreign Exchange Management Act (FEMA) of 1999.",
+          "Inflows and outflows are monitored and compiled by the Reserve Bank of India (RBI) and DPIIT.",
+          "Classified into automatic route and government approval route depending on the sector."
+        ]
+      },
+      {
+        "title": "National Food Security Act (NFSA), 2013",
+        "bullets": [
+          "Provides legal entitlement to subsidized food grains to up to 75% of the rural population and 50% of the urban population.",
+          "Distributes food grains at highly subsidized rates through the Targeted Public Distribution System (TPDS).",
+          "Includes special provisions for nutritional support to pregnant women, lactating mothers, and children."
+        ]
+      },
+      {
+        "title": "Office of the United States Trade Representative (USTR)",
+        "bullets": [
+          "An agency of the United States federal government responsible for developing and recommending trade policy.",
+          "Cabinet-level agency directly reporting to the President of the United States.",
+          "Responsible for conducting trade negotiations and administering Section 301 investigations."
+        ]
+      }
+    ]
   }
 ]

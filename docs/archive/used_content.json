@@ -1,10 +1,5 @@
 {
   "vocab": [
-    "OSCILLATE",
-    "PREVARICATE",
-    "INGENUOUS",
-    "INDEFATIGABLE",
-    "CALUMNY",
     "TRENCHANT",
     "INSIDIOUS",
     "COGNIZANT",
@@ -59,12 +54,14 @@
     "AMELIORATE",
     "ADUMBRATE",
     "PROCLIVITY",
-    "PEREMPTORY"
+    "PEREMPTORY",
+    "PERNICIOUS",
+    "ESCHEW",
+    "RECALCITRANCE",
+    "EPITOME",
+    "ANODYNE"
   ],
   "idiom": [
-    "Miss the boat",
-    "Fly off the handle",
-    "Read between the lines",
     "Break the ice",
     "A slippery slope",
     "Under the radar",
@@ -121,14 +118,12 @@
     "Through thick and thin",
     "Call it a day",
     "Turn over a new leaf",
-    "Keep at arm's length"
+    "Keep at arm's length",
+    "Pedal to the metal",
+    "Tip of the iceberg",
+    "Writing on the wall"
   ],
   "gk_booster": [
-    "Comptroller and Auditor General of India (CAG)",
-    "Kaziranga National Park",
-    "Consumer Price Index (CPI) in India",
-    "International Monetary Fund (IMF)",
-    "United States Commission on International Religious Freedom (USCIRF)",
     "Comptroller and Auditor General (CAG) of India",
     "Consumer Price Index (CPI) and Inflation Targeting in India",
     "Iron Ore Reserves and Production in India",
@@ -183,6 +178,11 @@
     "Border Roads Organisation (BRO)",
     "Article 25 of the Indian Constitution",
     "PM-POSHAN Scheme (Mid-Day Meal Scheme)",
-    "Service Producer Price Index (PPI)"
+    "Service Producer Price Index (PPI)",
+    "Flexible Inflation Targeting (FIT) in India",
+    "State Legislative Council (Vidhan Parishad)",
+    "Foreign Direct Investment (FDI) Regulation in India",
+    "National Food Security Act (NFSA), 2013",
+    "Office of the United States Trade Representative (USTR)"
   ]
 }
