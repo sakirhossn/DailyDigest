@@ -1,8 +1,5 @@
 {
   "vocab": [
-    "TRENCHANT",
-    "INSIDIOUS",
-    "COGNIZANT",
     "PROLIFERATION",
     "STRIDENCY",
     "PERUSE",
@@ -59,11 +56,12 @@
     "ESCHEW",
     "RECALCITRANCE",
     "EPITOME",
-    "ANODYNE"
+    "ANODYNE",
+    "DELETERIOUS",
+    "DISCONCERTING",
+    "PALLIATIVE"
   ],
   "idiom": [
-    "Break the ice",
-    "A slippery slope",
     "Under the radar",
     "A clean bill of health",
     "Burn the midnight oil",
@@ -121,14 +119,11 @@
     "Keep at arm's length",
     "Pedal to the metal",
     "Tip of the iceberg",
-    "Writing on the wall"
+    "Writing on the wall",
+    "On the horizon",
+    "The acid test"
   ],
   "gk_booster": [
-    "Comptroller and Auditor General (CAG) of India",
-    "Consumer Price Index (CPI) and Inflation Targeting in India",
-    "Iron Ore Reserves and Production in India",
-    "Liberalised Remittance Scheme (LRS)",
-    "Wholesale Price Index (WPI) in India",
     "Contempt of Courts Act, 1971",
     "ASEAN (Association of Southeast Asian Nations)",
     "Windfall Tax in Public Finance",
@@ -183,6 +178,11 @@
     "State Legislative Council (Vidhan Parishad)",
     "Foreign Direct Investment (FDI) Regulation in India",
     "National Food Security Act (NFSA), 2013",
-    "Office of the United States Trade Representative (USTR)"
+    "Office of the United States Trade Representative (USTR)",
+    "Cash Reserve Ratio (CRR) in Indian Banking",
+    "Food Safety and Standards Authority of India (FSSAI)",
+    "Indian Naval Academy (INA), Ezhimala",
+    "Consumer Price Index (CPI) Inflation in India",
+    "Bilateral Trade Agreements"
   ]
 }

@@ -12140,5 +12140,154 @@
         ]
       }
     ]
+  },
+  {
+    "date": "28 November 2026",
+    "vocab_words": [
+      {
+        "word": "DELETERIOUS",
+        "part_of_speech": "Adjective",
+        "meaning": "Causing harm or damage.",
+        "synonyms": [
+          "detrimental",
+          "harmful",
+          "pernicious"
+        ],
+        "antonyms": [
+          "beneficial",
+          "salubrious"
+        ],
+        "example_sentence": "Unchecked carbon emissions have a deleterious impact on global biodiversity."
+      },
+      {
+        "word": "MITIGATE",
+        "part_of_speech": "Verb",
+        "meaning": "To make less severe, serious, or painful.",
+        "synonyms": [
+          "alleviate",
+          "lessen",
+          "assuage"
+        ],
+        "antonyms": [
+          "aggravate",
+          "intensify"
+        ],
+        "example_sentence": "The central bank adopted expansionary monetary tools to mitigate sudden liquidity squeezes."
+      },
+      {
+        "word": "DISCONCERTING",
+        "part_of_speech": "Adjective",
+        "meaning": "Causing one to feel unsettled or confused.",
+        "synonyms": [
+          "unsettling",
+          "disturbing",
+          "alarming"
+        ],
+        "antonyms": [
+          "comforting",
+          "reassuring"
+        ],
+        "example_sentence": "The sudden spike in core consumer inflation figures proved disconcerting for market analysts."
+      },
+      {
+        "word": "PALLIATIVE",
+        "part_of_speech": "Adjective",
+        "meaning": "Relieving pain or mitigating a problem without dealing with the underlying cause.",
+        "synonyms": [
+          "therapeutic",
+          "soothing",
+          "temporary"
+        ],
+        "antonyms": [
+          "curative",
+          "permanent"
+        ],
+        "example_sentence": "Short-term cash transfers often serve as palliative measures rather than structural economic fixes."
+      },
+      {
+        "word": "CIRCUMSPECT",
+        "part_of_speech": "Adjective",
+        "meaning": "Wary and unwilling to take risks; cautious.",
+        "synonyms": [
+          "prudent",
+          "cautious",
+          "vigilant"
+        ],
+        "antonyms": [
+          "rash",
+          "reckless"
+        ],
+        "example_sentence": "Trade negotiators remained circumspect while evaluating the revised tariff frameworks."
+      }
+    ],
+    "idioms_of_the_day": [
+      {
+        "idiom": "To clear the air",
+        "meaning": "To remove bad feelings, doubts, or tension through open discussion.",
+        "example_sentence": "The multilateral trade summit helped clear the air between conflicting member states."
+      },
+      {
+        "idiom": "A double-edged sword",
+        "meaning": "Something that has both favorable and unfavorable consequences.",
+        "example_sentence": "Rapid digital financial expansion can be a double-edged sword if cybersecurity measures lag behind."
+      },
+      {
+        "idiom": "On the horizon",
+        "meaning": "Just becoming apparent or likely to happen in the near future.",
+        "example_sentence": "New regulatory frameworks for AI-driven banking algorithms are visible on the horizon."
+      },
+      {
+        "idiom": "To rock the boat",
+        "meaning": "To cause trouble, upset a stable situation, or disrupt the status quo.",
+        "example_sentence": "Policy makers were careful not to rock the boat during delicate fiscal consolidation phases."
+      },
+      {
+        "idiom": "The acid test",
+        "meaning": "A definitive trial or conclusive proof of the value or quality of something.",
+        "example_sentence": "Managing high food inflation while sustaining growth serves as the acid test for modern monetary policy."
+      }
+    ],
+    "static_gk_boosters": [
+      {
+        "title": "Cash Reserve Ratio (CRR) in Indian Banking",
+        "bullets": [
+          "Mandated under Section 42(1) of the Reserve Bank of India Act, 1934.",
+          "Commercial banks must maintain a specified percentage of their Net Demand and Time Liabilities (NDTL) with the RBI.",
+          "Does not earn any interest for the scheduled commercial banks."
+        ]
+      },
+      {
+        "title": "Food Safety and Standards Authority of India (FSSAI)",
+        "bullets": [
+          "Established under the Food Safety and Standards Act, 2006.",
+          "Functions under the administrative purview of the Ministry of Health and Family Welfare.",
+          "Headquartered in New Delhi."
+        ]
+      },
+      {
+        "title": "Indian Naval Academy (INA), Ezhimala",
+        "bullets": [
+          "Asia's largest naval academy, situated in the Kannur district of Kerala.",
+          "Commissioned to impart comprehensive professional training to naval cadets.",
+          "Nestled between the Kavvayi backwaters and the Arabian Sea."
+        ]
+      },
+      {
+        "title": "Consumer Price Index (CPI) Inflation in India",
+        "bullets": [
+          "Measures retail inflation by collecting price data for a basket of goods and services consumed by retail households.",
+          "Compiled and published monthly by the National Statistical Office (NSO), MoSPI.",
+          "The primary index utilized by the RBI for its flexible inflation targeting mandate."
+        ]
+      },
+      {
+        "title": "Bilateral Trade Agreements",
+        "bullets": [
+          "International treaties between two countries aiming to liberalize trade restrictions and customs duties.",
+          "Designed to expand market access and enhance economic cooperation.",
+          "Governed internationally under World Trade Organization (WTO) provisions and regional trade pact frameworks."
+        ]
+      }
+    ]
   }
 ]
